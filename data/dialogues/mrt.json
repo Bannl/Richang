@@ -1,0 +1,313 @@
+{
+  "situation": "mrt",
+  "exchanges": [
+    {
+      "enemy": {
+        "zh": "你好，我可以幫你。",
+        "pinyin": "nǐ hǎo wǒ kě yǐ bāng nǐ",
+        "en": "Hello, I can help you.",
+        "fr": "Bonjour, je peux vous aider."
+      },
+      "player": {
+        "zh": "謝謝，我要買悠遊卡。",
+        "pinyin": "xiè xie wǒ yào mǎi yōu yóu kǎ",
+        "en": "Thanks, I'd like to buy an EasyCard.",
+        "fr": "Merci, je voudrais acheter une carte EasyCard."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要一個還是兩個？",
+        "pinyin": "nǐ yào yí gè hái shi liǎng gè",
+        "en": "Do you want one or two?",
+        "fr": "Vous en voulez un ou deux ?"
+      },
+      "player": {
+        "zh": "一個就好，謝謝。",
+        "pinyin": "yí gè jiù hǎo xiè xie",
+        "en": "One is fine, thanks.",
+        "fr": "Un seul suffit, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你也要去台北車站嗎？",
+        "pinyin": "nǐ yě yào qù tái běi chē zhàn ma",
+        "en": "Are you also going to Taipei Main Station?",
+        "fr": "Vous allez aussi à la gare de Taipei ?"
+      },
+      "player": {
+        "zh": "對，我要去那裡。",
+        "pinyin": "duì wǒ yào qù nà lǐ",
+        "en": "Yes, I'm going there.",
+        "fr": "Oui, j'y vais."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "這是去台北車站的捷運。",
+        "pinyin": "zhè shì qù tái běi chē zhàn de jié yùn",
+        "en": "This is the MRT to Taipei Main Station.",
+        "fr": "C'est le métro pour la gare de Taipei."
+      },
+      "player": {
+        "zh": "真的嗎？謝謝你。",
+        "pinyin": "zhēn de ma xiè xie nǐ",
+        "en": "Really? Thank you.",
+        "fr": "Vraiment ? Merci beaucoup."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "到台北車站有五站。",
+        "pinyin": "dào tái běi chē zhàn yǒu wǔ zhàn",
+        "en": "It's five stops to Taipei Main Station.",
+        "fr": "Il y a cinq arrêts jusqu'à la gare de Taipei."
+      },
+      "player": {
+        "zh": "好，我知道了，謝謝。",
+        "pinyin": "hǎo wǒ zhī dào le xiè xie",
+        "en": "OK, got it, thanks.",
+        "fr": "D'accord, je sais, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "現在人很多。",
+        "pinyin": "xiàn zài rén hěn duō",
+        "en": "There are a lot of people right now.",
+        "fr": "Il y a beaucoup de monde en ce moment."
+      },
+      "player": {
+        "zh": "對，大家都要上班。",
+        "pinyin": "duì dà jiā dōu yào shàng bān",
+        "en": "Yeah, everyone's going to work.",
+        "fr": "Oui, tout le monde va au travail."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "不好意思，這是台北車站嗎？",
+        "pinyin": "bù hǎo yì si zhè shì tái běi chē zhàn ma",
+        "en": "Excuse me, is this Taipei Main Station?",
+        "fr": "Excusez-moi, c'est la gare de Taipei ?"
+      },
+      "player": {
+        "zh": "對，是台北車站。",
+        "pinyin": "duì shì tái běi chē zhàn",
+        "en": "Yes, it's Taipei Main Station.",
+        "fr": "Oui, c'est la gare de Taipei."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "現在幾點？",
+        "pinyin": "xiàn zài jǐ diǎn",
+        "en": "What time is it now?",
+        "fr": "Quelle heure est-il ?"
+      },
+      "player": {
+        "zh": "現在是三點。",
+        "pinyin": "xiàn zài shì sān diǎn",
+        "en": "It's three o'clock now.",
+        "fr": "Il est trois heures."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你的悠遊卡沒錢了，要加值嗎？",
+        "pinyin": "nǐ de yōu yóu kǎ méi qián le yào jiā zhí ma",
+        "en": "Your EasyCard is out of money, want to top it up?",
+        "fr": "Votre carte EasyCard n'a plus d'argent, vous voulez la recharger ?"
+      },
+      "player": {
+        "zh": "好，幫我加值五百塊。",
+        "pinyin": "hǎo bāng wǒ jiā zhí wǔ bǎi kuài",
+        "en": "OK, please top up 500 NT for me.",
+        "fr": "D'accord, rechargez-la de cinq cents dollars taïwanais."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要去動物園嗎？",
+        "pinyin": "nǐ yào qù dòng wù yuán ma",
+        "en": "Are you going to the zoo?",
+        "fr": "Vous allez au zoo ?"
+      },
+      "player": {
+        "zh": "對啊，這台捷運有到嗎？",
+        "pinyin": "duì a zhè tái jié yùn yǒu dào ma",
+        "en": "Yeah, does this MRT go there?",
+        "fr": "Oui, ce métro y va ?"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "有，可以直接到，不用轉車。",
+        "pinyin": "yǒu kě yǐ zhí jiē dào bú yòng zhuǎn chē",
+        "en": "Yes, you can get there directly, no need to transfer.",
+        "fr": "Oui, vous pouvez y aller directement, pas besoin de changer."
+      },
+      "player": {
+        "zh": "太好了，謝謝你。",
+        "pinyin": "tài hǎo le xiè xie nǐ",
+        "en": "Great, thank you.",
+        "fr": "Super, merci beaucoup."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "去淡水要在這裡轉車。",
+        "pinyin": "qù dàn shuǐ yào zài zhè lǐ zhuǎn chē",
+        "en": "To go to Danshui, transfer here.",
+        "fr": "Pour aller à Danshui, il faut changer ici."
+      },
+      "player": {
+        "zh": "了解，要坐到哪一站？",
+        "pinyin": "liǎo jiě yào zuò dào nǎ yí zhàn",
+        "en": "Got it, which stop do I ride to?",
+        "fr": "D'accord, je descends à quel arrêt ?"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要找幾號出口？",
+        "pinyin": "nǐ yào zhǎo jǐ hào chū kǒu",
+        "en": "Which exit number are you looking for?",
+        "fr": "Vous cherchez quelle sortie ?"
+      },
+      "player": {
+        "zh": "我要找二號出口。",
+        "pinyin": "wǒ yào zhǎo èr hào chū kǒu",
+        "en": "I'm looking for exit two.",
+        "fr": "Je cherche la sortie deux."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "出口在右邊，不是左邊。",
+        "pinyin": "chū kǒu zài yòu biān bú shì zuǒ biān",
+        "en": "The exit is on the right, not the left.",
+        "fr": "La sortie est à droite, pas à gauche."
+      },
+      "player": {
+        "zh": "啊，我走錯了。",
+        "pinyin": "a wǒ zǒu cuò le",
+        "en": "Oh, I went the wrong way.",
+        "fr": "Ah, je me suis trompé de côté."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "車來了，我們上車吧。",
+        "pinyin": "chē lái le wǒ men shàng chē ba",
+        "en": "The train's here, let's get on.",
+        "fr": "Le train arrive, on monte."
+      },
+      "player": {
+        "zh": "好，先讓別人下車。",
+        "pinyin": "hǎo xiān ràng bié rén xià chē",
+        "en": "OK, let's let others get off first.",
+        "fr": "D'accord, on laisse d'abord descendre les autres."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "捷運快到了，別急。",
+        "pinyin": "jié yùn kuài dào le bié jí",
+        "en": "The MRT is almost here, don't rush.",
+        "fr": "Le métro arrive bientôt, ne vous pressez pas."
+      },
+      "player": {
+        "zh": "沒問題，我不急。",
+        "pinyin": "méi wèn tí wǒ bù jí",
+        "en": "No problem, I'm not in a rush.",
+        "fr": "Pas de souci, je ne suis pas pressé."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "末班車十二點開。",
+        "pinyin": "mò bān chē shí èr diǎn kāi",
+        "en": "The last train leaves at midnight.",
+        "fr": "Le dernier métro part à minuit."
+      },
+      "player": {
+        "zh": "好，我要快一點。",
+        "pinyin": "hǎo wǒ yào kuài yì diǎn",
+        "en": "OK, I need to hurry a bit.",
+        "fr": "D'accord, je dois me dépêcher un peu."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "裡面好擠，小心一點。",
+        "pinyin": "lǐ miàn hǎo jǐ xiǎo xīn yì diǎn",
+        "en": "It's really crowded inside, be careful.",
+        "fr": "C'est très serré à l'intérieur, faites attention."
+      },
+      "player": {
+        "zh": "嗯，謝謝你的提醒。",
+        "pinyin": "èn xiè xie nǐ de tí xǐng",
+        "en": "Yeah, thanks for the reminder.",
+        "fr": "Oui, merci de me le rappeler."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你在找什麼嗎？",
+        "pinyin": "nǐ zài zhǎo shén me ma",
+        "en": "Are you looking for something?",
+        "fr": "Vous cherchez quelque chose ?"
+      },
+      "player": {
+        "zh": "我的悠遊卡不見了。",
+        "pinyin": "wǒ de yōu yóu kǎ bú jiàn le",
+        "en": "My EasyCard is missing.",
+        "fr": "Ma carte EasyCard a disparu."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "東西不見可以問員工。",
+        "pinyin": "dōng xi bú jiàn kě yǐ wèn yuán gōng",
+        "en": "If something's missing, you can ask an employee.",
+        "fr": "Si quelque chose a disparu, demandez à un employé."
+      },
+      "player": {
+        "zh": "好，我現在去問。",
+        "pinyin": "hǎo wǒ xiàn zài qù wèn",
+        "en": "OK, I'll go ask now.",
+        "fr": "D'accord, j'y vais demander tout de suite."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你看，是不是這個？",
+        "pinyin": "nǐ kàn shì bú shì zhè ge",
+        "en": "Look, is it this one?",
+        "fr": "Regardez, c'est celle-ci ?"
+      },
+      "player": {
+        "zh": "對，就是它，太感謝了！",
+        "pinyin": "duì jiù shì tā tài gǎn xiè le",
+        "en": "Yes, that's it, thank you so much!",
+        "fr": "Oui, c'est elle, merci infiniment !"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "慢走，路上小心。",
+        "pinyin": "màn zǒu lù shàng xiǎo xīn",
+        "en": "Take care, be safe on your way.",
+        "fr": "Au revoir, faites attention sur la route."
+      },
+      "player": {
+        "zh": "謝謝，再見！",
+        "pinyin": "xiè xie zài jiàn",
+        "en": "Thanks, bye!",
+        "fr": "Merci, au revoir !"
+      }
+    }
+  ]
+}

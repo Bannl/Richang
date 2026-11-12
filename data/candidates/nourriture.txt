@@ -1,0 +1,157 @@
+# tier5
+飲料	boisson
+奶茶	thé au lait
+外帶	à emporter
+內用	sur place
+菜單	menu
+點餐	commander
+買單	l'addition
+食物	nourriture
+餓	avoir faim
+飽	rassasié
+酒	alcool
+紅茶	thé noir
+綠茶	thé vert
+豆腐	tofu
+炒飯	riz sauté
+炒麵	nouilles sautées
+泡麵	nouilles instantanées
+包子	brioche farcie
+蛋糕	gâteau
+餅乾	biscuit
+巧克力	chocolat
+冰淇淋	glace
+西瓜	pastèque
+香蕉	banane
+蘋果	pomme
+芒果	mangue
+鳳梨	ananas
+去冰	sans glaçons
+半糖	demi-sucre
+大杯	grand format
+# tier6
+少冰	peu de glaçons
+微糖	peu sucré
+無糖	sans sucre
+中杯	format moyen
+加辣	avec piment
+外送	livraison
+味道	goût
+好喝	bon (boisson)
+渴	avoir soif
+甜點	dessert
+零食	snacks
+美食	bonne cuisine
+料理	cuisine, plat
+口味	saveur
+新鮮	frais
+糖	sucre
+鹽	sel
+醬油	sauce soja
+油	huile
+煮	cuire, bouillir
+炒	faire sauter
+炸	frire
+烤	griller, rôtir
+做菜	cuisiner
+白飯	riz blanc
+麵線	vermicelles de blé
+湯麵	nouilles en soupe
+饅頭	pain vapeur
+海鮮	fruits de mer
+雞排	escalope frite
+鹹酥雞	poulet frit croustillant
+臭豆腐	tofu puant
+小籠包	raviolis vapeur
+滷味	mijoté sauce soja
+豆花	pudding de tofu
+蚵仔煎	omelette aux huîtres
+米粉	vermicelles de riz
+稀飯	bouillie de riz
+三明治	sandwich
+漢堡	hamburger
+薯條	frites
+披薩	pizza
+壽司	sushi
+咖哩	curry
+義大利麵	pâtes
+牛排	steak
+素食	végétarien
+宵夜	en-cas nocturne
+訂位	réserver une table
+請客	inviter, offrir
+乾杯	santé !
+自助餐	buffet, cafétéria
+吃到飽	à volonté
+可樂	coca
+烏龍茶	thé oolong
+拿鐵	latte
+開水	eau bouillie
+礦泉水	eau minérale
+珍珠	perles de tapioca
+吐司	pain de mie
+布丁	flan
+優格	yaourt
+起司	fromage
+奶油	beurre
+糖果	bonbon
+番茄	tomate
+馬鈴薯	pomme de terre
+地瓜	patate douce
+高麗菜	chou
+洋蔥	oignon
+葡萄	raisin
+草莓	fraise
+橘子	mandarine
+檸檬	citron
+芭樂	goyave
+蝦子	crevette
+鴨	canard
+排骨	côte de porc
+雞腿	cuisse de poulet
+香腸	saucisse
+生魚片	sashimi
+螃蟹	crabe
+辣椒	piment
+蒜頭	ail
+薑	gingembre
+蔥	ciboule
+蒸	à la vapeur
+煎	poêler
+切	couper
+盤子	assiette
+湯匙	cuillère
+叉子	fourchette
+吸管	paille
+燙	brûlant
+烤肉	barbecue
+# extra5
+點心	collation, dim sum
+下午茶	goûter
+難吃	mauvais (goût)
+鍋貼	raviolis grillés
+湯圓	boulettes riz gluant
+汽水	soda
+紅酒	vin rouge
+玉米	maïs
+# extra6
+木瓜	papaye
+香菇	shiitake
+紅蘿蔔	carotte
+油膩	gras
+清淡	léger, fade
+醋	vinaigre
+胡椒	poivre
+火腿	jambon
+羊肉	mouton
+沙拉	salade
+餐具	couverts
+蜂蜜	miel
+鳳梨酥	gâteau ananas
+剉冰	glace pilée
+粥	congee
+柳丁	orange
+粽子	zongzi
+蔥油餅	galette ciboule
+冬瓜茶	thé de courge
+泡菜	kimchi, pickles

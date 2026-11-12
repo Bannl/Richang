@@ -1,0 +1,313 @@
+{
+  "situation": "weather",
+  "exchanges": [
+    {
+      "enemy": {
+        "zh": "今天天氣很熱。",
+        "pinyin": "jīn tiān tiān qì hěn rè",
+        "en": "Today's weather is so hot.",
+        "fr": "Il fait très chaud aujourd'hui."
+      },
+      "player": {
+        "zh": "對，今天真的很熱。",
+        "pinyin": "duì jīn tiān zhēn de hěn rè",
+        "en": "Right, it's really hot today.",
+        "fr": "Oui, il fait vraiment chaud aujourd'hui."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你喜歡台灣的天氣嗎？",
+        "pinyin": "nǐ xǐ huān tái wān de tiān qì ma",
+        "en": "Do you like Taiwan’s weather?",
+        "fr": "Tu aimes le climat de Taïwan ?"
+      },
+      "player": {
+        "zh": "我喜歡，但是很熱。",
+        "pinyin": "wǒ xǐ huān dàn shì hěn rè",
+        "en": "I like it, but it's hot.",
+        "fr": "J'aime bien, mais il fait chaud."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你覺得會下雨嗎？",
+        "pinyin": "nǐ jué de huì xià yǔ ma",
+        "en": "Do you think it will rain?",
+        "fr": "Tu penses qu'il va pleuvoir ?"
+      },
+      "player": {
+        "zh": "我覺得應該會下雨。",
+        "pinyin": "wǒ jué de yīng gāi huì xià yǔ",
+        "en": "I think it probably will.",
+        "fr": "Je pense que ça va sûrement pleuvoir."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "颱風要來了。",
+        "pinyin": "tái fēng yào lái le",
+        "en": "A typhoon is coming.",
+        "fr": "Un typhon arrive."
+      },
+      "player": {
+        "zh": "真的嗎？我要準備一下。",
+        "pinyin": "zhēn de ma wǒ yào zhǔn bèi yí xià",
+        "en": "Really? I should get ready.",
+        "fr": "Vraiment ? Je vais me préparer."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "現在在下雨，你要去哪裡？",
+        "pinyin": "xiàn zài zài xià yǔ nǐ yào qù nǎ lǐ",
+        "en": "It's raining right now, where are you headed?",
+        "fr": "Il pleut en ce moment, tu vas où ?"
+      },
+      "player": {
+        "zh": "我要去學校。",
+        "pinyin": "wǒ yào qù xué xiào",
+        "en": "I'm going to school.",
+        "fr": "Je vais à l'école."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "怎麼又下雨了？",
+        "pinyin": "zěn me yòu xià yǔ le",
+        "en": "Why is it raining again?",
+        "fr": "Pourquoi est-ce qu'il pleut encore ?"
+      },
+      "player": {
+        "zh": "這個星期常常下雨。",
+        "pinyin": "zhè ge xīng qí cháng cháng xià yǔ",
+        "en": "It rains often this week.",
+        "fr": "Il pleut souvent cette semaine."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "天氣真的很好！",
+        "pinyin": "tiān qì zhēn de hěn hǎo",
+        "en": "The weather is really nice today!",
+        "fr": "Il fait vraiment beau aujourd'hui !"
+      },
+      "player": {
+        "zh": "對，很舒服。",
+        "pinyin": "duì hěn shū fú",
+        "en": "Right, it's really pleasant.",
+        "fr": "Oui, c'est très agréable."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "現在很熱，你要喝水嗎？",
+        "pinyin": "xiàn zài hěn rè nǐ yào hē shuǐ ma",
+        "en": "It’s hot right now, do you want some water?",
+        "fr": "Il fait chaud, tu veux de l'eau ?"
+      },
+      "player": {
+        "zh": "好，我要喝水，謝謝。",
+        "pinyin": "hǎo wǒ yào hē shuǐ xiè xie",
+        "en": "Yes, I'd like some water, thanks.",
+        "fr": "Oui, je veux bien de l'eau, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "外面在下雨，你要記得帶雨傘。",
+        "pinyin": "wài miàn zài xià yǔ nǐ yào jì de dài yǔ sǎn",
+        "en": "It's raining outside, remember to bring an umbrella.",
+        "fr": "Il pleut dehors, pense à prendre un parapluie."
+      },
+      "player": {
+        "zh": "沒問題，我去拿雨傘。",
+        "pinyin": "méi wèn tí wǒ qù ná yǔ sǎn",
+        "en": "No problem, I'll go get my umbrella.",
+        "fr": "Pas de problème, je vais chercher mon parapluie."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "台灣夏天很潮濕，你習慣嗎？",
+        "pinyin": "tái wān xià tiān hěn cháo shī nǐ xí guàn ma",
+        "en": "Taiwan's summer is very humid, are you used to it?",
+        "fr": "L'été à Taïwan est très humide, tu t'y habitues ?"
+      },
+      "player": {
+        "zh": "還好，可是有點悶熱。",
+        "pinyin": "hái hǎo kě shì yǒu diǎn mēn rè",
+        "en": "It's okay, but it's a bit muggy.",
+        "fr": "Ça va, mais c'est un peu étouffant."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "颱風假！今天不用上班。",
+        "pinyin": "tái fēng jià jīn tiān bú yòng shàng bān",
+        "en": "Typhoon day off! No work today.",
+        "fr": "Congé typhon ! Pas de travail aujourd'hui."
+      },
+      "player": {
+        "zh": "太棒了，我可以在家休息。",
+        "pinyin": "tài bàng le wǒ kě yǐ zài jiā xiū xi",
+        "en": "Great, I can rest at home.",
+        "fr": "Génial, je peux me reposer à la maison."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "寒流來了，明天會很冷。",
+        "pinyin": "hán liú lái le míng tiān huì hěn lěng",
+        "en": "A cold wave is coming, it'll be very cold tomorrow.",
+        "fr": "Une vague de froid arrive, il fera très froid demain."
+      },
+      "player": {
+        "zh": "聽起來很冷，我要多穿外套。",
+        "pinyin": "tīng qǐ lái hěn lěng wǒ yào duō chuān wài tào",
+        "en": "That sounds cold, I'll wear an extra jacket.",
+        "fr": "Ça a l'air froid, je vais mettre une veste en plus."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "房間怎麼這麼熱？要開冷氣嗎？",
+        "pinyin": "fáng jiān zěn me zhè me rè yào kāi lěng qì ma",
+        "en": "Why is the room so hot? Should we turn on the AC?",
+        "fr": "Pourquoi la pièce est si chaude ? On allume la clim ?"
+      },
+      "player": {
+        "zh": "好啊，麻煩你開冷氣。",
+        "pinyin": "hǎo a má fan nǐ kāi lěng qì",
+        "en": "Sure, please turn on the AC.",
+        "fr": "D'accord, allume la clim s'il te plaît."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "下午可能會打雷，要小心一點。",
+        "pinyin": "xià wǔ kě néng huì dǎ léi yào xiǎo xīn yì diǎn",
+        "en": "It might thunder this afternoon, be a bit careful.",
+        "fr": "Il pourrait y avoir du tonnerre cet après-midi, fais attention."
+      },
+      "player": {
+        "zh": "謝謝你提醒我，我會小心。",
+        "pinyin": "xiè xie nǐ tí xǐng wǒ wǒ huì xiǎo xīn",
+        "en": "Thanks for the reminder, I'll be careful.",
+        "fr": "Merci de me le rappeler, je ferai attention."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你們法國冬天也這麼冷嗎？",
+        "pinyin": "nǐ men fà guó dōng tiān yě zhè me lěng ma",
+        "en": "Is winter in France this cold too?",
+        "fr": "L'hiver en France est aussi froid que ça ?"
+      },
+      "player": {
+        "zh": "沒有，法國冬天比較舒服。",
+        "pinyin": "méi yǒu fà guó dōng tiān bǐ jiào shū fú",
+        "en": "No, winter in France is more pleasant.",
+        "fr": "Non, l'hiver en France est plus agréable."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "雨停了，你看，還有彩虹！",
+        "pinyin": "yǔ tíng le nǐ kàn hái yǒu cǎi hóng",
+        "en": "The rain stopped, look, there’s even a rainbow!",
+        "fr": "La pluie s'est arrêtée, regarde, il y a même un arc-en-ciel !"
+      },
+      "player": {
+        "zh": "哇，好漂亮的彩虹！",
+        "pinyin": "wā hǎo piào liàng de cǎi hóng",
+        "en": "Wow, what a beautiful rainbow!",
+        "fr": "Waouh, quel bel arc-en-ciel !"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "最近一直下雨，都是蚊子。",
+        "pinyin": "zuì jìn yì zhí xià yǔ dōu shì wén zi",
+        "en": "It's been raining nonstop lately, there are mosquitoes everywhere.",
+        "fr": "Il n'arrête pas de pleuvoir ces derniers temps, il y a plein de moustiques."
+      },
+      "player": {
+        "zh": "真的假的，我家也有蚊子。",
+        "pinyin": "zhēn de jiǎ de wǒ jiā yě yǒu wén zi",
+        "en": "No way, I have mosquitoes at home too.",
+        "fr": "Sérieux, j'ai aussi des moustiques chez moi."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "明天天氣預報說會出太陽。",
+        "pinyin": "míng tiān tiān qì yù bào shuō huì chū tài yáng",
+        "en": "The forecast says it'll be sunny tomorrow.",
+        "fr": "La météo dit qu'il fera soleil demain."
+      },
+      "player": {
+        "zh": "太好了，我想去公園散步。",
+        "pinyin": "tài hǎo le wǒ xiǎng qù gōng yuán sàn bù",
+        "en": "Great, I want to go for a walk in the park.",
+        "fr": "Super, j'ai envie d'aller me promener au parc."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "開冷氣的水電費很貴耶。",
+        "pinyin": "kāi lěng qì de shuǐ diàn fèi hěn guì ye",
+        "en": "The utility bill from the AC is really expensive.",
+        "fr": "La facture d'eau et d'électricité de la clim est vraiment chère."
+      },
+      "player": {
+        "zh": "沒錯，夏天的帳單都很高。",
+        "pinyin": "méi cuò xià tiān de zhàng dān dōu hěn gāo",
+        "en": "Exactly, the bills are always high in summer.",
+        "fr": "Exact, les factures sont toujours élevées en été."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "今天風很大，你會冷嗎？",
+        "pinyin": "jīn tiān fēng hěn dà nǐ huì lěng ma",
+        "en": "It’s very windy today, are you cold?",
+        "fr": "Il y a beaucoup de vent aujourd'hui, tu as froid ?"
+      },
+      "player": {
+        "zh": "不會，可是風真的很大。",
+        "pinyin": "bú huì kě shì fēng zhēn de hěn dà",
+        "en": "No, but the wind is really strong.",
+        "fr": "Non, mais il y a vraiment beaucoup de vent."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "這個星期都是陰天，好無聊。",
+        "pinyin": "zhè ge xīng qí dōu shì yīn tiān hǎo wú liáo",
+        "en": "It's been cloudy all week, so boring.",
+        "fr": "C'est nuageux toute la semaine, c'est lassant."
+      },
+      "player": {
+        "zh": "是啊，我比較喜歡晴天。",
+        "pinyin": "shì a wǒ bǐ jiào xǐ huān qíng tiān",
+        "en": "Yeah, I prefer sunny days.",
+        "fr": "Ouais, je préfère les journées ensoleillées."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "明天氣溫會變冷，記得多穿點。",
+        "pinyin": "míng tiān qì wēn huì biàn lěng jì de duō chuān diǎn",
+        "en": "It's going to get cold tomorrow, remember to dress warmer.",
+        "fr": "Il va faire plus froid demain, pense à t'habiller plus chaudement."
+      },
+      "player": {
+        "zh": "好，謝謝你的提醒。",
+        "pinyin": "hǎo xiè xie nǐ de tí xǐng",
+        "en": "OK, thanks for the heads-up.",
+        "fr": "D'accord, merci de me prévenir."
+      }
+    }
+  ]
+}

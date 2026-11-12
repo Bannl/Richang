@@ -1,0 +1,313 @@
+{
+  "situation": "night-market",
+  "exchanges": [
+    {
+      "enemy": {
+        "zh": "你好，你想吃什麼？",
+        "pinyin": "nǐ hǎo nǐ xiǎng chī shén me",
+        "en": "Hi, what do you want to eat?",
+        "fr": "Salut, qu'est-ce que tu veux manger ?"
+      },
+      "player": {
+        "zh": "我要麵，謝謝老闆。",
+        "pinyin": "wǒ yào miàn xiè xie lǎo bǎn",
+        "en": "I'll have noodles, thanks boss!",
+        "fr": "Je prends des nouilles, merci patron !"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要幾個？",
+        "pinyin": "nǐ yào jǐ ge",
+        "en": "How many do you want?",
+        "fr": "Combien en veux-tu ?"
+      },
+      "player": {
+        "zh": "我要三個，謝謝。",
+        "pinyin": "wǒ yào sān ge xiè xie",
+        "en": "I'll take three, thanks.",
+        "fr": "J'en prends trois, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "要不要辣？",
+        "pinyin": "yào bú yào là",
+        "en": "Spicy or not?",
+        "fr": "Épicé ou pas ?"
+      },
+      "player": {
+        "zh": "不要辣，謝謝。",
+        "pinyin": "bú yào là xiè xie",
+        "en": "Not spicy, thanks.",
+        "fr": "Pas épicé, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "一個五十元。",
+        "pinyin": "yí ge wǔ shí yuán",
+        "en": "That's fifty NT dollars each.",
+        "fr": "C'est cinquante dollars taïwanais chacun."
+      },
+      "player": {
+        "zh": "好，我要兩個。",
+        "pinyin": "hǎo wǒ yào liǎng ge",
+        "en": "Okay, I'll take two.",
+        "fr": "D'accord, j'en prends deux."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "這個很好吃！",
+        "pinyin": "zhè ge hěn hǎo chī",
+        "en": "This one is really delicious!",
+        "fr": "Celui-là est vraiment délicieux !"
+      },
+      "player": {
+        "zh": "真的嗎？那我要買。",
+        "pinyin": "zhēn de ma nà wǒ yào mǎi",
+        "en": "Really? Then I'll get some.",
+        "fr": "Vraiment ? Alors j'en prends."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "來，你試試看。",
+        "pinyin": "lái nǐ shì shi kàn",
+        "en": "Here, give it a try.",
+        "fr": "Tiens, goûte donc."
+      },
+      "player": {
+        "zh": "好吃！我喜歡。",
+        "pinyin": "hǎo chī wǒ xǐ huan",
+        "en": "Delicious! I like it.",
+        "fr": "Délicieux ! J'adore."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "人很多，你要等。",
+        "pinyin": "rén hěn duō nǐ yào děng",
+        "en": "It's busy, you'll have to wait.",
+        "fr": "Il y a du monde, il va falloir attendre."
+      },
+      "player": {
+        "zh": "沒問題，我可以等。",
+        "pinyin": "méi wèn tí wǒ kě yǐ děng",
+        "en": "No problem, I can wait.",
+        "fr": "Pas de problème, je peux attendre."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要甜的還是鹹的？",
+        "pinyin": "nǐ yào tián de hái shi xián de",
+        "en": "Do you want it sweet or salty?",
+        "fr": "Tu le veux sucré ou salé ?"
+      },
+      "player": {
+        "zh": "我要鹹的，不要甜的。",
+        "pinyin": "wǒ yào xián de bú yào tián de",
+        "en": "I want salty, not sweet.",
+        "fr": "Je le veux salé, pas sucré."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "內用還是外帶？",
+        "pinyin": "nèi yòng hái shi wài dài",
+        "en": "For here or to go?",
+        "fr": "Sur place ou à emporter ?"
+      },
+      "player": {
+        "zh": "外帶，謝謝。",
+        "pinyin": "wài dài xiè xie",
+        "en": "To go, thanks.",
+        "fr": "À emporter, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "不好意思，要等比較久。",
+        "pinyin": "bù hǎo yì si yào děng bǐ jiào jiǔ",
+        "en": "Sorry, you'll have to wait a bit longer.",
+        "fr": "Désolé, il faudra attendre un peu plus longtemps."
+      },
+      "player": {
+        "zh": "沒關係，我不急。",
+        "pinyin": "méi guān xi wǒ bù jí",
+        "en": "No worries, I'm not in a hurry.",
+        "fr": "Pas de souci, je ne suis pas pressé."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "可以刷卡，也可以用現金。",
+        "pinyin": "kě yǐ shuā kǎ yě kě yǐ yòng xiàn jīn",
+        "en": "You can pay by card, or with cash.",
+        "fr": "Tu peux payer par carte, ou en liquide."
+      },
+      "player": {
+        "zh": "我要用現金。",
+        "pinyin": "wǒ yào yòng xiàn jīn",
+        "en": "I'll pay with cash.",
+        "fr": "Je vais payer en liquide."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "臭豆腐要不要試試看？",
+        "pinyin": "chòu dòu fu yào bú yào shì shi kàn",
+        "en": "Want to try some stinky tofu?",
+        "fr": "Tu veux essayer le tofu puant ?"
+      },
+      "player": {
+        "zh": "好啊，聽說很好吃。",
+        "pinyin": "hǎo a tīng shuō hěn hǎo chī",
+        "en": "Sure, I heard it's really good.",
+        "fr": "D'accord, il paraît que c'est très bon."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "一份一百，很划算。",
+        "pinyin": "yí fèn yì bǎi hěn huá suàn",
+        "en": "One portion is a hundred, it's a good deal.",
+        "fr": "Une portion, c'est cent, c'est une bonne affaire."
+      },
+      "player": {
+        "zh": "老闆，可以打折嗎？",
+        "pinyin": "lǎo bǎn kě yǐ dǎ zhé ma",
+        "en": "Boss, can you give me a discount?",
+        "fr": "Patron, tu peux me faire une réduction ?"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "不行啦，已經很便宜了！",
+        "pinyin": "bù xíng la yǐ jīng hěn pián yi le",
+        "en": "No way, it's already really cheap!",
+        "fr": "Pas question, c'est déjà très bon marché !"
+      },
+      "player": {
+        "zh": "哈哈，好吧，謝謝老闆。",
+        "pinyin": "hā ha hǎo ba xiè xie lǎo bǎn",
+        "en": "Haha, okay then, thanks boss.",
+        "fr": "Haha, d'accord, merci patron."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "需要袋子嗎？",
+        "pinyin": "xū yào dài zi ma",
+        "en": "Do you need a bag?",
+        "fr": "Tu as besoin d'un sac ?"
+      },
+      "player": {
+        "zh": "要，一個袋子就好。",
+        "pinyin": "yào yí ge dài zi jiù hǎo",
+        "en": "Yes, just one bag is fine.",
+        "fr": "Oui, juste un sac, ça suffit."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要買很多耶！",
+        "pinyin": "nǐ yào mǎi hěn duō ye",
+        "en": "You're buying a lot!",
+        "fr": "Tu en achètes beaucoup !"
+      },
+      "player": {
+        "zh": "對啊，朋友也想吃。",
+        "pinyin": "duì a péng yǒu yě xiǎng chī",
+        "en": "Yeah, my friends want some too.",
+        "fr": "Ouais, mes amis en veulent aussi."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "找你五十元。",
+        "pinyin": "zhǎo nǐ wǔ shí yuán",
+        "en": "Here's fifty back in change.",
+        "fr": "Voici cinquante de monnaie."
+      },
+      "player": {
+        "zh": "謝謝，不用找了。",
+        "pinyin": "xiè xie bú yòng zhǎo le",
+        "en": "Thanks, keep the change.",
+        "fr": "Merci, garde la monnaie."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "也可以買豆花。",
+        "pinyin": "yě kě yǐ mǎi dòu huā",
+        "en": "You can also get tofu pudding.",
+        "fr": "Tu peux aussi prendre du tofu sucré."
+      },
+      "player": {
+        "zh": "好啊，我也要一碗。",
+        "pinyin": "hǎo a wǒ yě yào yì wǎn",
+        "en": "Good idea, I'll have a bowl too.",
+        "fr": "Bonne idée, j'en veux un bol aussi."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你吃得很開心耶！",
+        "pinyin": "nǐ chī de hěn kāi xīn ye",
+        "en": "You look like you're really enjoying it!",
+        "fr": "On dirait que tu te régales !"
+      },
+      "player": {
+        "zh": "對啊，超好吃的！",
+        "pinyin": "duì a chāo hǎo chī de",
+        "en": "Yeah, it's super good!",
+        "fr": "Ouais, c'est trop bon !"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "裡面有蔥，可以嗎？",
+        "pinyin": "lǐ miàn yǒu cōng kě yǐ ma",
+        "en": "There's scallion in it, is that okay?",
+        "fr": "Il y a de la ciboule dedans, ça va ?"
+      },
+      "player": {
+        "zh": "可以，我什麼都吃。",
+        "pinyin": "kě yǐ wǒ shén me dōu chī",
+        "en": "Sure, I eat everything.",
+        "fr": "Oui, je mange de tout."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "好吃的話，要再來喔！",
+        "pinyin": "hǎo chī de huà yào zài lái o",
+        "en": "If it's good, come back again!",
+        "fr": "Si c'est bon, reviens nous voir !"
+      },
+      "player": {
+        "zh": "一定會，下次見！",
+        "pinyin": "yí dìng huì xià cì jiàn",
+        "en": "Definitely, see you next time!",
+        "fr": "Bien sûr, à la prochaine !"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "慢走，路上小心喔！",
+        "pinyin": "màn zǒu lù shang xiǎo xīn o",
+        "en": "Take care, be safe out there!",
+        "fr": "Au revoir, fais attention sur la route !"
+      },
+      "player": {
+        "zh": "謝謝老闆，再見！",
+        "pinyin": "xiè xie lǎo bǎn zài jiàn",
+        "en": "Thanks boss, bye!",
+        "fr": "Merci patron, au revoir !"
+      }
+    }
+  ]
+}

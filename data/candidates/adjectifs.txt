@@ -1,0 +1,201 @@
+# tier5
+快樂	heureux
+壞	mauvais, cassé
+一樣	pareil
+錯	faux, erroné
+不錯	pas mal
+遠	loin
+近	proche
+短	court
+矮	petit (taille)
+低	bas
+重	lourd
+輕	léger
+舊	vieux, usé
+真	vrai
+假	faux
+棒	génial
+厲害	fort, doué
+差	médiocre
+爛	nul, pourri
+笨	bête
+討厭	détestable
+煩	agaçant
+餓	affamé
+飽	rassasié
+滿意	satisfait
+幸福	heureux, comblé
+失望	déçu
+傷心	triste
+可惜	dommage
+可怕	effrayant
+嚴重	grave
+複雜	compliqué
+清楚	clair
+正常	normal
+普通	ordinaire
+不同	différent
+好笑	drôle
+有用	utile
+顏色	couleur
+紅	rouge
+藍	bleu
+綠	vert
+黃	jaune
+黑	noir
+白	blanc
+# tier6
+辛苦	pénible
+美	beau
+醜	laid
+滿	plein
+空	vide
+夠	assez, suffisant
+久	long (durée)
+急	pressé, urgent
+吵	bruyant
+亂	en désordre
+暗	sombre
+新鮮	frais
+濕	mouillé
+乾	sec
+軟	mou
+硬	dur
+破	cassé, troué
+強	fort, puissant
+弱	faible
+好喝	bon (boisson)
+好用	pratique
+難吃	mauvais (goût)
+難看	moche
+有效	efficace
+糟糕	catastrophique
+慘	terrible
+恐怖	horrible
+噁心	dégoûtant
+誇張	exagéré
+尷尬	gênant
+丟臉	honteux
+無奈	résigné, impuissant
+可憐	pitoyable
+痛苦	douloureux
+難受	mal à l'aise
+寂寞	esseulé
+孤單	solitaire
+害羞	timide
+驚訝	surpris
+興奮	excité
+滿足	comblé
+放心	rassuré
+爽	jouissif, super
+不爽	mécontent
+讚	super
+酷	cool
+完美	parfait
+優秀	excellent
+專業	professionnel
+熟	cuit, familier
+流利	courant (langue)
+正確	correct
+明顯	évident
+仔細	minutieux
+細心	attentif
+粗心	étourdi
+嚴格	strict
+誠實	honnête
+勇敢	courageux
+懶	paresseux
+友善	amical
+親切	aimable
+熱情	chaleureux
+善良	bon, gentil
+大方	généreux
+小氣	radin
+自私	égoïste
+自信	confiant
+幽默	humoristique
+搞笑	rigolo
+活潑	vif, enjoué
+開朗	gai, ouvert
+外向	extraverti
+內向	introverti
+樂觀	optimiste
+冷靜	calme
+兇	féroce, méchant
+傻	niais
+瘋	fou
+幼稚	puéril
+成熟	mûr
+好奇	curieux
+浪漫	romantique
+窮	pauvre
+自由	libre
+流行	à la mode
+熱門	populaire
+傳統	traditionnel
+溫暖	chaud, chaleureux
+涼	frais (température)
+燙	brûlant
+濃	fort, concentré
+淡	léger, fade
+油膩	gras
+渴	assoiffé
+睏	somnolent
+醉	ivre
+閒	oisif, libre
+大聲	fort (voix)
+擠	bondé
+整齊	bien rangé
+厚	épais
+薄	fin, mince
+寬	large
+窄	étroit
+深	profond
+圓	rond
+直	droit
+彎	courbé
+緊	serré
+紫	violet
+粉紅	rose
+橘	orange
+灰	gris
+咖啡色	marron
+# extra5
+有錢	riche
+感動	ému
+順利	sans encombre
+溫柔	doux, tendre
+客氣	poli, courtois
+乖	sage (enfant)
+好聽	agréable (son)
+幸運	chanceux
+倒楣	malchanceux
+沒用	inutile
+熟悉	familier
+標準	standard
+# extra6
+小心	prudent
+老實	franc, honnête
+意外	inattendu
+美麗	beau, magnifique
+精彩	formidable
+愉快	plaisant
+安心	tranquille
+詳細	détaillé
+專心	concentré
+體貼	attentionné
+驕傲	fier
+嚴肅	sérieux
+囉嗦	casse-pieds
+積極	positif, actif
+公平	équitable
+合理	raisonnable
+單純	simple, naïf
+主要	principal
+一般	général, ordinaire
+高級	haut de gamme
+現代	moderne
+小聲	bas (voix)
+淺	peu profond
+粗	gros, épais
+細	fin, mince

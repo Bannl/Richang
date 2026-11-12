@@ -1,0 +1,104 @@
+# tier5
+結帳	payer (caisse)
+超商	supérette
+特價	prix promo
+優惠	offre spéciale
+折扣	remise
+買一送一	1 acheté 1 offert
+會員	membre
+提款機	distributeur (DAB)
+領錢	retirer (argent)
+轉帳	virement
+帳戶	compte bancaire
+房租	loyer
+水電費	eau et électricité
+繳費	payer une facture
+網購	achat en ligne
+外送	livraison (repas)
+宅配	livraison à domicile
+取貨	retirer un colis
+退貨	retourner un article
+尺寸	taille
+禮物	cadeau
+總共	au total
+台幣	dollar taïwanais
+加值	recharger (carte)
+划算	avantageux
+# tier6
+店	boutique
+櫃檯	comptoir
+逛街	faire les boutiques
+商品	article
+訂單	commande
+付款	paiement
+費用	frais
+排隊	faire la queue
+載具	support e-facture
+錢包	portefeuille
+押金	caution
+換貨	échanger (article)
+退款	remboursement
+運費	frais de port
+免運	port gratuit
+存款	dépôt bancaire
+金額	montant
+餘額	solde
+付現	payer comptant
+二手	d'occasion
+試穿	essayer (vêtement)
+保固	garantie
+匯率	taux de change
+換錢	changer de l'argent
+營業時間	heures d'ouverture
+鈔票	billet
+硬幣	pièce (monnaie)
+品牌	marque
+品質	qualité
+包裹	colis
+寄	envoyer (poste)
+辦	souscrire / faire
+門號	numéro mobile
+手續費	frais de dossier
+管理費	charges (immeuble)
+電話費	facture téléphone
+客服	service client
+提款卡	carte de retrait
+缺貨	en rupture
+下單	passer commande
+集點	cumuler points
+殺價	marchander
+大賣場	hypermarché
+店家	commerçant
+產品	produit
+伴手禮	cadeau-souvenir
+匯款	envoi d'argent
+貨到付款	contre-remboursement
+開戶	ouvrir un compte
+公休	fermeture hebdo
+藥妝店	parapharmacie
+美金	dollar américain
+稅	taxe / impôt
+簽名	signer
+優惠券	bon de réduction
+# extra5
+半價	moitié prix
+原價	prix normal
+省錢	économiser
+點數	points fidélité
+到貨	arrivage
+贈品	cadeau offert
+方案	forfait
+消費	dépenser
+# extra6
+行動支付	paiement mobile
+存摺	livret bancaire
+促銷	promotion
+購物中心	centre commercial
+合約	contrat
+收費	payant
+條碼	code-barres
+統編	numéro fiscal
+服務費	frais de service
+租	louer
+斤	jin (600 g)
+歐元	euro

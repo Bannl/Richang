@@ -1,0 +1,259 @@
+# tier5
+愛	aimer
+講	parler, dire
+變	changer
+怕	avoir peur
+回家	rentrer
+出去	sortir
+回來	revenir
+感覺	sentir, ressentir
+以為	croire (à tort)
+認為	penser que
+發生	se produire
+幫忙	aider
+聊天	bavarder
+見面	se voir
+打電話	téléphoner
+傳	envoyer (message)
+接	aller chercher
+陪	accompagner
+約	donner rendez-vous
+留	rester, laisser
+確定	être sûr
+注意	faire attention
+小心	être prudent
+放心	être rassuré
+關心	se soucier de
+照顧	prendre soin
+習慣	être habitué
+適合	convenir
+討厭	détester
+同意	être d'accord
+答應	promettre, accepter
+接受	accepter
+拒絕	refuser
+回答	répondre
+解釋	expliquer
+建議	suggérer
+提醒	rappeler
+開玩笑	plaisanter
+猜	deviner
+願意	vouloir bien
+繼續	continuer
+結束	finir
+完成	terminer
+變成	devenir
+得到	obtenir
+遇到	rencontrer
+離開	quitter
+邀請	inviter
+掉	tomber, perdre
+加	ajouter
+打開	ouvrir
+分享	partager
+拍照	photographier
+唱歌	chanter
+聽說	entendre dire
+影響	influencer
+出現	apparaître
+考慮	réfléchir à
+選擇	choisir
+期待	avoir hâte
+# tier6
+敢	oser
+放棄	abandonner
+成功	réussir
+失敗	échouer
+贏	gagner
+輸	perdre (jeu)
+幫助	aider
+講話	parler
+聊	bavarder
+談	discuter
+進來	entrer (ici)
+出來	sortir (vers ici)
+過來	venir ici
+回去	retourner
+進去	entrer (là-bas)
+收到	recevoir
+通知	informer
+取消	annuler
+訂	réserver
+預約	prendre rendez-vous
+查	vérifier, consulter
+算	calculer, compter
+改	modifier
+改變	changer
+成為	devenir
+當	être, servir de
+計畫	planifier
+使用	utiliser
+利用	profiter de
+提供	fournir
+表示	exprimer, signifier
+說明	expliquer
+溝通	communiquer
+碰面	se retrouver
+打招呼	saluer
+拜訪	rendre visite
+錯過	rater, manquer
+碰到	tomber sur
+避免	éviter
+保持	maintenir
+嚇	effrayer
+假裝	faire semblant
+靠近	s'approcher
+體驗	expérimenter
+想要	vouloir
+反對	s'opposer
+支持	soutenir
+鼓勵	encourager
+安慰	consoler
+保護	protéger
+救	sauver
+在乎	se soucier de
+介意	voir un inconvénient
+道歉	s'excuser
+抱怨	se plaindre
+稱讚	complimenter
+罵	gronder, insulter
+吵架	se disputer
+打架	se battre
+騙	tromper
+說謊	mentir
+偷	voler
+搶	arracher, voler
+感到	ressentir
+感動	être ému
+想念	manquer (qqn)
+想到	penser à
+明白	comprendre
+理解	comprendre
+曉得	savoir
+誤會	mal comprendre
+懷疑	douter
+記住	retenir
+後悔	regretter
+羨慕	envier
+享受	profiter de
+忍	supporter
+受不了	ne pas supporter
+堅持	persister
+適應	s'adapter
+消失	disparaître
+不見	avoir disparu
+增加	augmenter
+減少	diminuer
+重複	répéter
+停止	arrêter
+比賽	concourir
+負責	être responsable
+管	s'occuper de
+要求	exiger
+保證	garantir
+值得	valoir la peine
+屬於	appartenir à
+交換	échanger
+慶祝	fêter
+祝	souhaiter
+活	vivre
+養	élever
+挑	choisir, trier
+看起來	avoir l'air
+欠	devoir (argent)
+浪費	gaspiller
+失去	perdre
+剩	rester (reste)
+缺	manquer de
+跳舞	danser
+畫畫	dessiner
+逛	flâner
+拍	photographier, tapoter
+趕	se dépêcher
+來不及	trop tard
+逃	fuir
+躲	se cacher
+藏	cacher
+追	poursuivre
+靠	s'appuyer
+躺	s'allonger
+醒	se réveiller
+動	bouger
+推	pousser
+拉	tirer
+按	appuyer
+抓	attraper
+摸	toucher
+碰	toucher, heurter
+撞	heurter
+親	embrasser
+抱	enlacer
+微笑	sourire
+點頭	hocher la tête
+咬	mordre
+餵	nourrir
+撿	ramasser
+掛	accrocher
+貼	coller
+插	insérer, brancher
+拆	démonter, déballer
+裝	installer, emballer
+翻	retourner, feuilleter
+抬	soulever
+吹	souffler
+剪	couper (ciseaux)
+擦	essuyer
+敲	frapper (porte)
+指	montrer du doigt
+倒	tomber, verser
+摔	tomber, casser
+滑	glisser, scroller
+爬	grimper
+鎖	verrouiller
+# extra5
+加入	rejoindre
+表達	exprimer
+代表	représenter
+熟悉	être familier
+見	voir (qqn)
+唱	chanter
+喊	crier
+聞	sentir (odeur)
+包括	inclure
+造成	causer
+超過	dépasser
+合作	coopérer
+配合	collaborer
+想像	imaginer
+批評	critiquer
+# extra6
+表演	jouer (spectacle)
+錄影	filmer
+分開	séparer
+欺負	maltraiter
+舉辦	organiser
+商量	se concerter
+承認	admettre
+舉	lever
+踢	frapper du pied
+踩	marcher sur
+提	porter, mentionner
+尊重	respecter
+禁止	interdire
+搞	faire, bricoler
+轉	tourner
+來得及	avoir le temps
+追劇	suivre des séries
+放鬆	se détendre
+代替	remplacer
+打擾	déranger
+參觀	visiter
+猶豫	hésiter
+允許	permettre
+證明	prouver
+控制	contrôler
+達到	atteindre
+贊成	approuver
+恨	haïr
+殺	tuer
+搖	secouer

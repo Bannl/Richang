@@ -1,0 +1,245 @@
+AVERT  #19 一起 : pinyin yi4 qi3 ≠ CEDICT yi1 qi3
+AVERT  #68 喜歡 : pinyin xi3 huan1 ≠ CEDICT xi3 huan5
+AVERT  #78 朋友 : pinyin peng2 you3 ≠ CEDICT peng2 you5
+AVERT  #97 對不起 : pinyin dui4 bu4 qi3 ≠ CEDICT dui4 bu5 qi3
+AVERT  #112 一下 : pinyin yi2 xia4 ≠ CEDICT yi1 xia4
+AVERT  #113 一點 : pinyin yi4 dian3 ≠ CEDICT yi1 dian3
+AVERT  #123 那裡 : pinyin na4 li3 ≠ CEDICT na4 li5
+AVERT  #129 星期 : pinyin xing1 qi2 ≠ CEDICT xing1 qi1
+AVERT  #135 時候 : pinyin shi2 hou4 ≠ CEDICT shi2 hou5
+AVERT  #158 漂亮 : pinyin piao4 liang4 ≠ CEDICT piao4 liang5
+AVERT  #159 便宜 : pinyin pian2 yi2 ≠ CEDICT bian4 yi2 | pian2 yi5
+AVERT  #165 小姐 : pinyin xiao3 jie3 ≠ CEDICT xiao3 jie5
+AVERT  #185 多少錢 : absent de CEDICT
+AVERT  #189 衣服 : pinyin yi1 fu2 ≠ CEDICT yi1 fu5
+AVERT  #192 學生 : pinyin xue2 sheng1 ≠ CEDICT xue2 sheng5
+AVERT  #198 不客氣 : pinyin bu2 ke4 qi4 ≠ CEDICT bu4 ke4 qi5
+AVERT  #203 一定 : pinyin yi2 ding4 ≠ CEDICT yi1 ding4
+AVERT  #210 不過 : pinyin bu2 guo4 ≠ CEDICT bu4 guo4
+AVERT  #215 剛剛 : pinyin gang1 gang1 ≠ CEDICT gang1 gang5
+AVERT  #217 有時候 : pinyin you3 shi2 hou4 ≠ CEDICT you3 shi2 hou5
+AVERT  #224 一直 : pinyin yi4 zhi2 ≠ CEDICT yi1 zhi2
+AVERT  #230 別人 : pinyin bie2 ren2 ≠ CEDICT bie2 ren5
+AVERT  #246 星期一 : pinyin xing1 qi2 yi1 ≠ CEDICT xing1 qi1 yi1
+AVERT  #247 星期天 : pinyin xing1 qi2 tian1 ≠ CEDICT xing1 qi1 tian1
+AVERT  #294 舒服 : pinyin shu1 fu2 ≠ CEDICT shu1 fu5
+AVERT  #295 危險 : pinyin wei2 xian3 ≠ CEDICT wei1 xian3
+AVERT  #357 窗戶 : pinyin chuang1 hu4 ≠ CEDICT chuang1 hu5
+AVERT  #376 眼睛 : pinyin yan3 jing1 ≠ CEDICT yan3 jing5
+AVERT  #385 太陽 : pinyin tai4 yang2 ≠ CEDICT tai4 yang5
+AVERT  #394 好的 : absent de CEDICT
+AVERT  #407 差不多 : pinyin cha4 bu4 duo1 ≠ CEDICT cha4 bu5 duo1
+AVERT  #410 不但 : pinyin bu2 dan4 ≠ CEDICT bu4 dan4
+AVERT  #425 一會兒 : pinyin yi2 hui4 er5 ≠ CEDICT yi1 hui4 r5
+AVERT  #426 上個月 : pinyin shang4 ge5 yue4 ≠ CEDICT shang4 ge4 yue4
+AVERT  #427 下個月 : pinyin xia4 ge5 yue4 ≠ CEDICT xia4 ge4 yue4
+AVERT  #481 聰明 : pinyin cong1 ming2 ≠ CEDICT cong1 ming5
+AVERT  #493 熱鬧 : pinyin re4 nao4 ≠ CEDICT re4 nao5
+AVERT  #505 男朋友 : pinyin nan2 peng2 you3 ≠ CEDICT nan2 peng2 you5
+AVERT  #506 女朋友 : pinyin nu:3 peng2 you3 ≠ CEDICT nu:3 peng2 you5
+AVERT  #513 滷肉飯 : absent de CEDICT
+AVERT  #519 手搖飲 : absent de CEDICT
+AVERT  #536 打折 : exemple sans le mot : 這件打八折。
+AVERT  #578 咳嗽 : pinyin ke2 sou4 ≠ CEDICT ke2 sou5
+AVERT  #596 辛苦了 : absent de CEDICT
+AVERT  #600 等一下 : pinyin deng3 yi2 xia4 ≠ CEDICT deng3 yi1 xia4
+AVERT  #611 一樣 : pinyin yi2 yang4 ≠ CEDICT yi1 yang4
+AVERT  #638 這次 : absent de CEDICT
+AVERT  #644 待會 : pinyin dai1 hui4 ≠ CEDICT dai1 hui5
+AVERT  #648 一半 : pinyin yi2 ban4 ≠ CEDICT yi1 ban4
+AVERT  #649 日期 : pinyin ri4 qi2 ≠ CEDICT ri4 qi1
+AVERT  #657 回來 : pinyin hui2 lai2 ≠ CEDICT hui2 lai5
+AVERT  #676 照顧 : pinyin zhao4 gu4 ≠ CEDICT zhao4 gu5
+AVERT  #681 答應 : pinyin da1 ying4 ≠ CEDICT da1 ying5
+AVERT  #710 期待 : pinyin qi2 dai4 ≠ CEDICT qi1 dai4
+AVERT  #714 不錯 : pinyin bu2 cuo4 ≠ CEDICT bu4 cuo4
+AVERT  #764 關係 : pinyin guan1 xi4 ≠ CEDICT guan1 xi5
+AVERT  #771 阿嬤 : pinyin a1 ma4 ≠ CEDICT a1 ma1
+AVERT  #774 台灣人 : absent de CEDICT
+AVERT  #775 法國人 : pinyin fa4 guo2 ren2 ≠ CEDICT fa3 guo2 ren2
+AVERT  #778 大人 : pinyin da4 ren2 ≠ CEDICT da4 ren5
+AVERT  #807 半糖 : absent de CEDICT
+AVERT  #808 大杯 : absent de CEDICT
+AVERT  #809 點心 : pinyin dian3 xin1 ≠ CEDICT dian3 xin5
+AVERT  #813 左邊 : pinyin zuo3 bian1 ≠ CEDICT zuo3 bian5
+AVERT  #814 右邊 : pinyin you4 bian1 ≠ CEDICT you4 bian5
+AVERT  #816 後面 : pinyin hou4 mian4 ≠ CEDICT hou4 mian5
+AVERT  #827 塞車 : pinyin se4 che1 ≠ CEDICT sai1 che1
+AVERT  #834 直走 : absent de CEDICT
+AVERT  #840 法國 : pinyin fa4 guo2 ≠ CEDICT fa3 guo2
+AVERT  #846 買一送一 : pinyin mai3 yi2 song4 yi1 ≠ CEDICT mai3 yi1 song4 yi1
+AVERT  #849 領錢 : absent de CEDICT
+AVERT  #850 轉帳 : absent de CEDICT
+AVERT  #853 水電費 : absent de CEDICT
+AVERT  #858 取貨 : absent de CEDICT
+AVERT  #860 尺寸 : pinyin chi3 cun4 ≠ CEDICT chi3 cun5
+AVERT  #882 洗髮精 : pinyin xi3 fa3 jing1 ≠ CEDICT xi3 fa4 jing1
+AVERT  #884 垃圾車 : pinyin le4 se4 che1 ≠ CEDICT la1 ji1 che1
+AVERT  #885 倒垃圾 : absent de CEDICT
+AVERT  #888 洗衣服 : absent de CEDICT
+AVERT  #913 訊息 : pinyin xun4 xi2 ≠ CEDICT xun4 xi1
+AVERT  #919 下載 : pinyin xia4 zai4 ≠ CEDICT xia4 zai3
+AVERT  #930 健保卡 : absent de CEDICT
+AVERT  #936 流鼻水 : absent de CEDICT
+AVERT  #940 頭髮 : pinyin tou2 fa3 ≠ CEDICT tou2 fa5
+AVERT  #979 鄉下 : pinyin xiang1 xia4 ≠ CEDICT xiang1 xia5
+AVERT  #980 涼快 : pinyin liang2 kuai4 ≠ CEDICT liang2 kuai5
+AVERT  #983 對啊 : absent de CEDICT
+AVERT  #984 好啊 : absent de CEDICT
+AVERT  #993 不用了 : absent de CEDICT
+AVERT  #997 好吧 : absent de CEDICT
+AVERT  #999 真的假的 : absent de CEDICT
+AVERT  #1000 不會吧 : absent de CEDICT
+AVERT  #1004 不用 : pinyin bu2 yong4 ≠ CEDICT bu4 yong4
+AVERT  #1025 一些 : pinyin yi4 xie1 ≠ CEDICT yi1 xie1
+AVERT  #1030 起來 : pinyin qi3 lai2 ≠ CEDICT qi3 lai5 | qi5 lai5
+AVERT  #1037 那邊 : pinyin na4 bian1 ≠ CEDICT na4 bian5
+AVERT  #1049 連假 : absent de CEDICT
+AVERT  #1053 星期幾 : pinyin xing1 qi2 ji3 ≠ CEDICT xing1 qi1 ji3
+AVERT  #1057 第一次 : pinyin di4 yi2 ci4 ≠ CEDICT di4 yi1 ci4
+AVERT  #1064 一輩子 : pinyin yi2 bei4 zi5 ≠ CEDICT yi1 bei4 zi5
+AVERT  #1089 回去 : pinyin hui2 qu4 ≠ CEDICT hui2 qu5
+AVERT  #1110 打招呼 : pinyin da3 zhao1 hu1 ≠ CEDICT da3 zhao1 hu5
+AVERT  #1127 在乎 : pinyin zai4 hu1 ≠ CEDICT zai4 hu5
+AVERT  #1142 明白 : pinyin ming2 bai2 ≠ CEDICT ming2 bai5
+AVERT  #1147 記住 : pinyin ji4 zhu4 ≠ CEDICT ji4 zhu5
+AVERT  #1156 不見 : pinyin bu2 jian4 ≠ CEDICT bu4 jian4
+AVERT  #1174 看起來 : pinyin kan4 qi3 lai2 ≠ CEDICT kan4 qi3 lai5
+AVERT  #1185 來不及 : pinyin lai2 bu4 ji2 ≠ CEDICT lai2 bu5 ji2
+AVERT  #1203 微笑 : pinyin wei2 xiao4 ≠ CEDICT wei1 xiao4
+AVERT  #1293 活潑 : pinyin huo2 po1 ≠ CEDICT huo2 po5
+AVERT  #1336 老實 : pinyin lao3 shi2 ≠ CEDICT lao3 shi5
+AVERT  #1387 外送員 : absent de CEDICT
+AVERT  #1404 師傅 : pinyin shi1 fu4 ≠ CEDICT shi1 fu5
+AVERT  #1406 少冰 : absent de CEDICT
+AVERT  #1407 微糖 : absent de CEDICT
+AVERT  #1409 中杯 : absent de CEDICT
+AVERT  #1411 味道 : pinyin wei4 dao4 ≠ CEDICT wei4 dao5
+AVERT  #1437 蚵仔煎 : pinyin e2 zai3 jian1 ≠ CEDICT e2 zi3 jian1
+AVERT  #1445 咖哩 : pinyin ga1 li3 ≠ CEDICT ka1 li3
+AVERT  #1470 高麗菜 : pinyin gao1 li4 cai4 ≠ CEDICT gao1 li2 cai4 | gao1li4cai4
+AVERT  #1472 葡萄 : pinyin pu2 tao2 ≠ CEDICT pu2 tao5
+AVERT  #1511 月台 : absent de CEDICT
+AVERT  #1513 台鐵 : absent de CEDICT
+AVERT  #1534 位置 : pinyin wei4 zhi4 ≠ CEDICT wei4 zhi5
+AVERT  #1540 公車站 : absent de CEDICT
+AVERT  #1597 換貨 : absent de CEDICT
+AVERT  #1600 免運 : absent de CEDICT
+AVERT  #1614 品質 : pinyin pin3 zhi2 ≠ CEDICT pin3 zhi4
+AVERT  #1621 電話費 : absent de CEDICT
+AVERT  #1626 集點 : absent de CEDICT
+AVERT  #1679 晾衣服 : absent de CEDICT
+AVERT  #1682 洗衣精 : absent de CEDICT
+AVERT  #1683 垃圾袋 : absent de CEDICT
+AVERT  #1698 微波爐 : pinyin wei2 bo1 lu2 ≠ CEDICT wei1 bo1 lu2
+AVERT  #1700 瓦斯爐 : absent de CEDICT
+AVERT  #1703 烘衣機 : absent de CEDICT
+AVERT  #1724 熱水壺 : absent de CEDICT
+AVERT  #1738 法文 : pinyin fa4 wen2 ≠ CEDICT fa3 wen2
+AVERT  #1753 延期 : pinyin yan2 qi2 ≠ CEDICT yan2 qi1
+AVERT  #1754 到期 : pinyin dao4 qi2 ≠ CEDICT dao4 qi1
+AVERT  #1755 移民署 : absent de CEDICT
+AVERT  #1767 語言交換 : absent de CEDICT
+AVERT  #1781 當機 : pinyin dang1 ji1 ≠ CEDICT dang4 ji1
+AVERT  #1790 學期 : pinyin xue2 qi2 ≠ CEDICT xue2 qi1
+AVERT  #1798 資料夾 : pinyin zi1 liao4 jia2 ≠ CEDICT zi1 liao4 jia1
+AVERT  #1803 特休 : absent de CEDICT
+AVERT  #1841 流血 : pinyin liu2 xie3 ≠ CEDICT liu2 xue4
+AVERT  #1843 痠痛 : absent de CEDICT
+AVERT  #1846 跌倒 : pinyin die2 dao3 ≠ CEDICT die1 dao3
+AVERT  #1863 指甲 : pinyin zhi3 jia3 ≠ CEDICT zhi3 jia5
+AVERT  #1905 颱風假 : absent de CEDICT
+AVERT  #1955 氣候變遷 : absent de CEDICT
+AVERT  #1961 不會 : pinyin bu2 hui4 ≠ CEDICT bu4 hui4
+AVERT  #1966 好久不見 : pinyin hao3 jiu3 bu2 jian4 ≠ CEDICT hao3 jiu3 bu5 jian4
+AVERT  #1969 是喔 : absent de CEDICT
+AVERT  #1970 這樣喔 : absent de CEDICT
+AVERT  #1973 都可以 : absent de CEDICT
+AVERT  #1974 沒差 : absent de CEDICT
+AVERT  #1975 好啦 : absent de CEDICT
+AVERT  #1982 慘了 : absent de CEDICT
+AVERT  #1984 哎呀 : pinyin ai1 ya5 ≠ CEDICT ai1 ya1
+AVERT  #1986 哇塞 : pinyin wa1 sai4 ≠ CEDICT wa1 sai1
+AVERT  #1992 一路順風 : pinyin yi2 lu4 shun4 feng1 ≠ CEDICT yi1 lu4 shun4 feng1
+AVERT  #1997 說不定 : pinyin shuo1 bu2 ding4 ≠ CEDICT shuo1 bu5 ding4
+AVERT  #1998 不一定 : pinyin bu4 yi2 ding4 ≠ CEDICT bu4 yi1 ding4
+AVERT  #1999 太棒了 : absent de CEDICT
+AVERT  #2000 路上小心 : absent de CEDICT
+AVERT  sens principal en double (2) : savoir
+AVERT  sens principal en double (2) : arriver
+AVERT  sens principal en double (2) : aimer
+AVERT  sens principal en double (2) : mais
+AVERT  sens principal en double (3) : si (condition)
+AVERT  sens principal en double (3) : seulement
+AVERT  sens principal en double (2) : un peu
+AVERT  sens principal en double (3) : peut-être
+AVERT  sens principal en double (2) : là-bas
+AVERT  sens principal en double (3) : semaine
+AVERT  sens principal en double (2) : minute
+AVERT  sens principal en double (2) : heure (durée)
+AVERT  sens principal en double (2) : marcher
+AVERT  sens principal en double (2) : utiliser
+AVERT  sens principal en double (3) : aider
+AVERT  sens principal en double (2) : chaud
+AVERT  sens principal en double (2) : enfant
+AVERT  sens principal en double (2) : en fait
+AVERT  sens principal en double (2) : souvent
+AVERT  sens principal en double (2) : parfois
+AVERT  sens principal en double (2) : tout à l'heure
+AVERT  sens principal en double (2) : parler
+AVERT  sens principal en double (2) : recevoir
+AVERT  sens principal en double (2) : sortir
+AVERT  sens principal en double (2) : courir
+AVERT  sens principal en double (3) : beau
+AVERT  sens principal en double (2) : épouse
+AVERT  sens principal en double (2) : homme
+AVERT  sens principal en double (2) : femme
+AVERT  sens principal en double (3) : payer
+AVERT  sens principal en double (2) : facture
+AVERT  sens principal en double (2) : sac
+AVERT  sens principal en double (2) : devoirs
+AVERT  sens principal en double (2) : d'accord
+AVERT  sens principal en double (3) : presque
+AVERT  sens principal en double (2) : sinon
+AVERT  sens principal en double (2) : un instant
+AVERT  sens principal en double (2) : avenir
+AVERT  sens principal en double (2) : d'habitude
+AVERT  sens principal en double (2) : naître
+AVERT  sens principal en double (3) : choisir
+AVERT  sens principal en double (2) : échanger
+AVERT  sens principal en double (2) : déménager
+AVERT  sens principal en double (2) : vérifier
+AVERT  sens principal en double (2) : avoir peur
+AVERT  sens principal en double (2) : triste
+AVERT  sens principal en double (2) : jeune
+AVERT  sens principal en double (2) : pratique
+AVERT  sens principal en double (2) : glace
+AVERT  sens principal en double (2) : économiser
+AVERT  sens principal en double (2) : cours
+AVERT  sens principal en double (2) : changer
+AVERT  sens principal en double (2) : bavarder
+AVERT  sens principal en double (2) : se soucier de
+AVERT  sens principal en double (2) : expliquer
+AVERT  sens principal en double (2) : devenir
+AVERT  sens principal en double (2) : inviter
+AVERT  sens principal en double (3) : tomber
+AVERT  sens principal en double (2) : léger
+AVERT  sens principal en double (3) : génial
+AVERT  sens principal en double (2) : bête
+AVERT  sens principal en double (2) : satisfait
+AVERT  sens principal en double (2) : à côté
+AVERT  sens principal en double (2) : faire un virement
+AVERT  sens principal en double (4) : comprendre
+AVERT  sens principal en double (2) : être malade
+AVERT  sens principal en double (2) : peu importe
+AVERT  sens principal en double (2) : super
+AVERT  sens principal en double (2) : retourner
+AVERT  sens principal en double (2) : profiter de
+AVERT  sens principal en double (2) : toucher
+AVERT  sens principal en double (2) : installer
+AVERT  sens principal en double (2) : frais
+AVERT  sens principal en double (2) : sec
+AVERT  sens principal en double (2) : fort
+AVERT  sens principal en double (2) : honnête
+AVERT  sens principal en double (2) : canard
+AVERT  sens principal en double (2) : ranger

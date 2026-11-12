@@ -1,0 +1,93 @@
+{
+  "situation": "landlord",
+  "exchanges": [
+    {
+      "enemy":  { "zh": "你好，歡迎你來看房子。", "pinyin": "nǐ hǎo huān yíng nǐ lái kàn fáng zi", "en": "Hi, welcome, come take a look at the apartment.", "fr": "Bonjour, bienvenue, venez voir l'appartement." },
+      "player": { "zh": "謝謝，這個房子很漂亮。", "pinyin": "xiè xie zhè ge fáng zi hěn piào liang", "en": "Thanks, this apartment is very nice.", "fr": "Merci, cet appartement est très joli." }
+    },
+    {
+      "enemy":  { "zh": "這是房間，你覺得怎麼樣？", "pinyin": "zhè shì fáng jiān nǐ jué de zěn me yàng", "en": "This is the bedroom, what do you think?", "fr": "Voici la chambre, qu'en pensez-vous ?" },
+      "player": { "zh": "房間不大，但是很乾淨。", "pinyin": "fáng jiān bú dà dàn shì hěn gān jìng", "en": "The room isn't big, but it's very clean.", "fr": "La chambre n'est pas grande, mais elle est très propre." }
+    },
+    {
+      "enemy":  { "zh": "房間有桌子和椅子。", "pinyin": "fáng jiān yǒu zhuō zi hàn yǐ zi", "en": "The room has a table and a chair.", "fr": "La chambre a une table et une chaise." },
+      "player": { "zh": "很好，我喜歡這個房間。", "pinyin": "hěn hǎo wǒ xǐ huān zhè ge fáng jiān", "en": "Great, I like this room.", "fr": "Très bien, j'aime bien cette chambre." }
+    },
+    {
+      "enemy":  { "zh": "廁所在哪裡？", "pinyin": "cè suǒ zài nǎ lǐ", "en": "Where's the bathroom?", "fr": "Où sont les toilettes ?" },
+      "player": { "zh": "廁所在那裡，很乾淨。", "pinyin": "cè suǒ zài nà lǐ hěn gān jìng", "en": "The bathroom's over there, very clean.", "fr": "Les toilettes sont là-bas, très propres." }
+    },
+    {
+      "enemy":  { "zh": "你要現在住，還是明天住？", "pinyin": "nǐ yào xiàn zài zhù hái shi míng tiān zhù", "en": "Do you want to move in now, or tomorrow?", "fr": "Vous voulez emménager maintenant, ou demain ?" },
+      "player": { "zh": "我明天來，可以嗎？", "pinyin": "wǒ míng tiān lái kě yǐ ma", "en": "I'll come tomorrow, is that OK?", "fr": "Je viendrai demain, est-ce possible ?" }
+    },
+    {
+      "enemy":  { "zh": "這個房子一個月八千塊。", "pinyin": "zhè ge fáng zi yí ge yuè bā qiān kuài", "en": "This apartment is eight thousand a month.", "fr": "Cet appartement coûte huit mille par mois." },
+      "player": { "zh": "好，八千塊我可以。", "pinyin": "hǎo bā qiān kuài wǒ kě yǐ", "en": "OK, eight thousand works for me.", "fr": "D'accord, huit mille, ça me va." }
+    },
+    {
+      "enemy":  { "zh": "你要用現金還是刷卡？", "pinyin": "nǐ yào yòng xiàn jīn hái shi shuā kǎ", "en": "Cash or card?", "fr": "Vous payez en liquide ou par carte ?" },
+      "player": { "zh": "我要用現金付錢。", "pinyin": "wǒ yào yòng xiàn jīn fù qián", "en": "I'll pay in cash.", "fr": "Je vais payer en liquide." }
+    },
+    {
+      "enemy":  { "zh": "這是鑰匙，門在這裡。", "pinyin": "zhè shì yào shi mén zài zhè lǐ", "en": "Here's the key, the door is here.", "fr": "Voici la clé, la porte est ici." },
+      "player": { "zh": "謝謝你，房子真的很好。", "pinyin": "xiè xie nǐ fáng zi zhēn de hěn hǎo", "en": "Thank you, the apartment is really nice.", "fr": "Merci, l'appartement est vraiment bien." }
+    },
+    {
+      "enemy":  { "zh": "這是合約，簽名就可以。", "pinyin": "zhè shì hé yuē qiān míng jiù kě yǐ", "en": "This is the contract, just sign it.", "fr": "Voici le contrat, il suffit de signer." },
+      "player": { "zh": "好，我看一下合約。", "pinyin": "hǎo wǒ kàn yí xià hé yuē", "en": "OK, let me look at the contract.", "fr": "D'accord, je jette un œil au contrat." }
+    },
+    {
+      "enemy":  { "zh": "押金是一個月的房租。", "pinyin": "yā jīn shì yí ge yuè de fáng zū", "en": "The deposit is one month's rent.", "fr": "La caution correspond à un mois de loyer." },
+      "player": { "zh": "了解，押金我可以付。", "pinyin": "liǎo jiě yā jīn wǒ kě yǐ fù", "en": "Got it, I can pay the deposit.", "fr": "Compris, je peux payer la caution." }
+    },
+    {
+      "enemy":  { "zh": "房租要每個月一號付。", "pinyin": "fáng zū yào měi ge yuè yí hào fù", "en": "Rent is due on the first of every month.", "fr": "Le loyer se paie le premier de chaque mois." },
+      "player": { "zh": "沒問題，我會準時付錢。", "pinyin": "méi wèn tí wǒ huì zhǔn shí fù qián", "en": "No problem, I'll pay on time.", "fr": "Pas de problème, je paierai à temps." }
+    },
+    {
+      "enemy":  { "zh": "水電費要自己付。", "pinyin": "shuǐ diàn fèi yào zì jǐ fù", "en": "You pay the water and electricity bill yourself.", "fr": "La facture d'eau et d'électricité, c'est à vous de la payer." },
+      "player": { "zh": "好的，大概多少錢？", "pinyin": "hǎo de dà gài duō shao qián", "en": "OK, about how much?", "fr": "D'accord, environ combien ?" }
+    },
+    {
+      "enemy":  { "zh": "住得習慣嗎？", "pinyin": "zhù de xí guàn ma", "en": "Settling in OK?", "fr": "Vous vous habituez bien ?" },
+      "player": { "zh": "還可以，可是冷氣壞掉了。", "pinyin": "hái kě yǐ kě shì lěng qì huài diào le", "en": "Pretty good, but the AC is broken.", "fr": "Ça va, mais la clim est en panne." }
+    },
+    {
+      "enemy":  { "zh": "好，我明天找人修理。", "pinyin": "hǎo wǒ míng tiān zhǎo rén xiū lǐ", "en": "OK, I'll get someone to fix it tomorrow.", "fr": "D'accord, je ferai venir quelqu'un demain pour réparer ça." },
+      "player": { "zh": "謝謝房東，你人真好。", "pinyin": "xiè xie fáng dōng nǐ rén zhēn hǎo", "en": "Thanks landlord, you're really kind.", "fr": "Merci, vous êtes vraiment sympa." }
+    },
+    {
+      "enemy":  { "zh": "熱水器也壞了，我知道。", "pinyin": "rè shuǐ qì yě huài le wǒ zhī dào", "en": "The water heater is broken too, I know.", "fr": "Le chauffe-eau est cassé aussi, je sais." },
+      "player": { "zh": "對啊，沒有熱水洗澡。", "pinyin": "duì a méi yǒu rè shuǐ xǐ zǎo", "en": "Yeah, there's no hot water to shower.", "fr": "Oui, il n'y a pas d'eau chaude pour se doucher." }
+    },
+    {
+      "enemy":  { "zh": "我會叫人來檢查。", "pinyin": "wǒ huì jiào rén lái jiǎn chá", "en": "I'll have someone come check it.", "fr": "Je vais faire venir quelqu'un pour vérifier." },
+      "player": { "zh": "太好了，麻煩你了。", "pinyin": "tài hǎo le má fan nǐ le", "en": "Great, thanks for taking care of it.", "fr": "Super, merci de vous en occuper." }
+    },
+    {
+      "enemy":  { "zh": "搬進來以前要先打掃。", "pinyin": "bān jìn lái yǐ qián yào xiān dǎ sǎo", "en": "Clean up before you move in.", "fr": "Il faut faire le ménage avant d'emménager." },
+      "player": { "zh": "好，我會打掃乾淨。", "pinyin": "hǎo wǒ huì dǎ sǎo gān jìng", "en": "OK, I'll clean it thoroughly.", "fr": "D'accord, je vais bien nettoyer." }
+    },
+    {
+      "enemy":  { "zh": "房子裡面不可以養寵物。", "pinyin": "fáng zi lǐ miàn bù kě yǐ yǎng chǒng wù", "en": "No pets allowed in the apartment.", "fr": "Vous ne pouvez pas avoir d'animaux dans l'appartement." },
+      "player": { "zh": "沒關係，我沒有寵物。", "pinyin": "méi guān xi wǒ méi yǒu chǒng wù", "en": "That's fine, I don't have pets.", "fr": "Pas de souci, je n'ai pas d'animaux." }
+    },
+    {
+      "enemy":  { "zh": "晚上十點以後要安靜。", "pinyin": "wǎn shang shí diǎn yǐ hòu yào ān jìng", "en": "Keep it quiet after 10pm.", "fr": "Il faut être silencieux après vingt-deux heures." },
+      "player": { "zh": "了解，我不會吵到別人。", "pinyin": "liǎo jiě wǒ bú huì chǎo dào bié rén", "en": "Got it, I won't disturb anyone.", "fr": "Compris, je ne dérangerai personne." }
+    },
+    {
+      "enemy":  { "zh": "垃圾車晚上七點會來。", "pinyin": "lè sè chē wǎn shang qī diǎn huì lái", "en": "The garbage truck comes at 7pm.", "fr": "Le camion-poubelle passe à dix-neuf heures." },
+      "player": { "zh": "好，我會記得倒垃圾。", "pinyin": "hǎo wǒ huì jì de dào lè sè", "en": "OK, I'll remember to take out the trash.", "fr": "D'accord, je penserai à sortir les poubelles." }
+    },
+    {
+      "enemy":  { "zh": "有問題可以打電話給我。", "pinyin": "yǒu wèn tí kě yǐ dǎ diàn huà gěi wǒ", "en": "If there's a problem, call me.", "fr": "S'il y a un problème, appelez-moi." },
+      "player": { "zh": "好的，謝謝你的幫忙。", "pinyin": "hǎo de xiè xie nǐ de bāng máng", "en": "OK, thanks for your help.", "fr": "D'accord, merci pour votre aide." }
+    },
+    {
+      "enemy":  { "zh": "祝你住得開心，加油！", "pinyin": "zhù nǐ zhù de kāi xīn jiā yóu", "en": "Hope you enjoy living here, good luck!", "fr": "J'espère que vous vous plairez ici, bon courage !" },
+      "player": { "zh": "謝謝房東，我會的！", "pinyin": "xiè xie fáng dōng wǒ huì de", "en": "Thanks landlord, I will!", "fr": "Merci, ce sera le cas !" }
+    }
+  ]
+}

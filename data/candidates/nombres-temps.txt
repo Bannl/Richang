@@ -1,0 +1,73 @@
+# tier5
+之前	avant
+之後	après
+歲	ans (âge)
+萬	dix mille
+禮拜	semaine
+下次	prochaine fois
+上次	dernière fois
+這次	cette fois
+每次	chaque fois
+前天	avant-hier
+後天	après-demain
+久	longtemps
+多久	combien de temps
+待會	tout à l'heure
+最後	dernier, finalement
+通常	d'habitude
+分	minute
+一半	moitié
+日期	date
+半夜	milieu de nuit
+# tier6
+假日	jour de congé
+過年	Nouvel An chinois
+整天	toute la journée
+白天	journée, jour
+改天	un autre jour
+號碼	numéro
+凌晨	petit matin
+偶爾	parfois
+連假	long week-end
+月底	fin du mois
+年底	fin d'année
+週	semaine
+星期幾	quel jour
+鐘頭	heure (durée)
+數字	chiffre, nombre
+第	préfixe ordinal
+第一次	première fois
+當時	à l'époque
+同時	en même temps
+隔天	le lendemain
+當天	ce jour-là
+接下來	ensuite
+將來	avenir
+一輩子	toute la vie
+天天	tous les jours
+平日	jour de semaine
+傍晚	tombée du soir
+今晚	ce soir
+農曆	calendrier lunaire
+中秋節	Fête mi-automne
+春節	Fête du printemps
+端午節	Fête bateaux-dragons
+跨年	réveillon Nouvel An
+民國	calendrier ROC
+時差	décalage horaire
+# extra5
+年紀	âge
+日子	jours, vie
+隨時	à tout moment
+一陣子	un moment
+億	cent millions
+月初	début du mois
+# extra6
+倍	fois (multiple)
+百分之	pour cent
+節日	jour de fête
+除夕	veille Nouvel An
+西元	calendrier grégorien
+深夜	tard la nuit
+聖誕節	Noël
+暑假	vacances d'été

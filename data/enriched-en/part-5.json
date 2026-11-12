@@ -1,0 +1,2174 @@
+[
+  {
+    "rank": 1001,
+    "hanzi": "反正",
+    "en": [
+      "anyway",
+      "in any case"
+    ],
+    "exampleEn": "I'm not going anyway."
+  },
+  {
+    "rank": 1002,
+    "hanzi": "卻",
+    "en": [
+      "however",
+      "yet"
+    ],
+    "noteEn": "placed after the subject, never at the start of the sentence",
+    "exampleEn": "He worked hard, yet he failed."
+  },
+  {
+    "rank": 1003,
+    "hanzi": "只是",
+    "en": [
+      "just",
+      "only",
+      "simply"
+    ],
+    "exampleEn": "I'm just asking."
+  },
+  {
+    "rank": 1004,
+    "hanzi": "不用",
+    "en": [
+      "no need to",
+      "don't need to"
+    ],
+    "exampleEn": "You don't need to worry."
+  },
+  {
+    "rank": 1005,
+    "hanzi": "蠻",
+    "en": [
+      "rather",
+      "quite"
+    ],
+    "noteEn": "colloquial, similar to 挺/還; common in Taiwanese Mandarin",
+    "exampleEn": "This is pretty good."
+  },
+  {
+    "rank": 1006,
+    "hanzi": "原來",
+    "en": [
+      "it turns out",
+      "actually"
+    ],
+    "noteEn": "expresses a sudden realization; also an adj. meaning 'original'",
+    "exampleEn": "Oh, so you were here!"
+  },
+  {
+    "rank": 1007,
+    "hanzi": "本來",
+    "en": [
+      "originally",
+      "at first"
+    ],
+    "exampleEn": "I originally wanted to go."
+  },
+  {
+    "rank": 1008,
+    "hanzi": "終於",
+    "en": [
+      "finally",
+      "at last"
+    ],
+    "exampleEn": "We finally arrived."
+  },
+  {
+    "rank": 1009,
+    "hanzi": "至少",
+    "en": [
+      "at least"
+    ],
+    "exampleEn": "At least give me a call."
+  },
+  {
+    "rank": 1010,
+    "hanzi": "夠",
+    "en": [
+      "enough",
+      "sufficient"
+    ],
+    "noteEn": "can also work as an adverb before an adjective, e.g. 夠好 'good enough'",
+    "exampleEn": "Is that enough?"
+  },
+  {
+    "rank": 1011,
+    "hanzi": "連",
+    "en": [
+      "even"
+    ],
+    "noteEn": "used with 都 or 也 in the pattern 連…都/也",
+    "exampleEn": "Even children understand."
+  },
+  {
+    "rank": 1012,
+    "hanzi": "趕快",
+    "en": [
+      "quickly",
+      "hurry up"
+    ],
+    "exampleEn": "Hurry up and get going."
+  },
+  {
+    "rank": 1013,
+    "hanzi": "而已",
+    "en": [
+      "that's all",
+      "just"
+    ],
+    "noteEn": "always sentence-final, often paired with 只是",
+    "exampleEn": "I was just saying that, that's all."
+  },
+  {
+    "rank": 1014,
+    "hanzi": "不管",
+    "en": [
+      "no matter",
+      "regardless of"
+    ],
+    "exampleEn": "It doesn't matter whether you go or not."
+  },
+  {
+    "rank": 1015,
+    "hanzi": "例如",
+    "en": [
+      "for example"
+    ],
+    "exampleEn": "For example, apples and bananas."
+  },
+  {
+    "rank": 1016,
+    "hanzi": "往",
+    "en": [
+      "towards",
+      "in the direction of"
+    ],
+    "exampleEn": "He walks forward."
+  },
+  {
+    "rank": 1017,
+    "hanzi": "離",
+    "en": [
+      "from (distance)",
+      "away from"
+    ],
+    "noteEn": "indicates distance or a gap between two points, not movement",
+    "exampleEn": "My house is close to school."
+  },
+  {
+    "rank": 1018,
+    "hanzi": "雙",
+    "en": [
+      "pair of"
+    ],
+    "noteEn": "for objects that come in pairs, like shoes or chopsticks",
+    "exampleEn": "A pair of shoes."
+  },
+  {
+    "rank": 1019,
+    "hanzi": "份",
+    "en": [
+      "portion of",
+      "copy of"
+    ],
+    "exampleEn": "A copy of the newspaper."
+  },
+  {
+    "rank": 1020,
+    "hanzi": "台",
+    "en": [
+      "classifier for machines/devices"
+    ],
+    "exampleEn": "A computer."
+  },
+  {
+    "rank": 1021,
+    "hanzi": "顆",
+    "en": [
+      "classifier for small round objects"
+    ],
+    "exampleEn": "An apple."
+  },
+  {
+    "rank": 1022,
+    "hanzi": "間",
+    "en": [
+      "classifier for rooms/buildings"
+    ],
+    "exampleEn": "A room."
+  },
+  {
+    "rank": 1023,
+    "hanzi": "支",
+    "en": [
+      "classifier for long thin objects"
+    ],
+    "exampleEn": "I bought a pen."
+  },
+  {
+    "rank": 1024,
+    "hanzi": "超",
+    "en": [
+      "super",
+      "really"
+    ],
+    "noteEn": "colloquial intensifier, very common in Taiwanese Mandarin",
+    "exampleEn": "This restaurant is really good."
+  },
+  {
+    "rank": 1025,
+    "hanzi": "一些",
+    "en": [
+      "some",
+      "a few"
+    ],
+    "exampleEn": "I have a few questions."
+  },
+  {
+    "rank": 1026,
+    "hanzi": "完全",
+    "en": [
+      "completely",
+      "totally"
+    ],
+    "exampleEn": "I completely agree."
+  },
+  {
+    "rank": 1027,
+    "hanzi": "直接",
+    "en": [
+      "directly"
+    ],
+    "exampleEn": "Just say it directly."
+  },
+  {
+    "rank": 1028,
+    "hanzi": "根本",
+    "en": [
+      "not at all",
+      "fundamentally"
+    ],
+    "exampleEn": "I have absolutely no idea."
+  },
+  {
+    "rank": 1029,
+    "hanzi": "耶",
+    "en": [
+      "exclamatory particle (Taiwan)"
+    ],
+    "noteEn": "marks surprise or enthusiasm at the end of a sentence",
+    "exampleEn": "We won, wow!"
+  },
+  {
+    "rank": 1030,
+    "hanzi": "起來",
+    "en": [
+      "start to (inchoative)",
+      "begin to"
+    ],
+    "exampleEn": "He started laughing."
+  },
+  {
+    "rank": 1031,
+    "hanzi": "差點",
+    "en": [
+      "almost",
+      "nearly"
+    ],
+    "exampleEn": "I almost forgot."
+  },
+  {
+    "rank": 1032,
+    "hanzi": "剛好",
+    "en": [
+      "as it happens",
+      "exactly"
+    ],
+    "exampleEn": "As it happens, I need to go too."
+  },
+  {
+    "rank": 1033,
+    "hanzi": "絕對",
+    "en": [
+      "absolutely"
+    ],
+    "exampleEn": "This is absolutely true."
+  },
+  {
+    "rank": 1034,
+    "hanzi": "趟",
+    "en": [
+      "classifier for a trip"
+    ],
+    "exampleEn": "I'm making a quick trip to the hospital."
+  },
+  {
+    "rank": 1035,
+    "hanzi": "輛",
+    "en": [
+      "classifier for vehicles"
+    ],
+    "exampleEn": "A car."
+  },
+  {
+    "rank": 1036,
+    "hanzi": "那麼",
+    "en": [
+      "so",
+      "that (much)"
+    ],
+    "exampleEn": "Don't be so nervous."
+  },
+  {
+    "rank": 1037,
+    "hanzi": "那邊",
+    "en": [
+      "over there"
+    ],
+    "exampleEn": "The stuff is over there."
+  },
+  {
+    "rank": 1038,
+    "hanzi": "幹嘛",
+    "en": [
+      "what are you doing",
+      "why on earth"
+    ],
+    "noteEn": "colloquial, spoken register",
+    "exampleEn": "What are you doing?"
+  },
+  {
+    "rank": 1039,
+    "hanzi": "全部",
+    "en": [
+      "all",
+      "the whole lot"
+    ],
+    "exampleEn": "It's all mine."
+  },
+  {
+    "rank": 1040,
+    "hanzi": "對方",
+    "en": [
+      "the other party",
+      "the other person"
+    ],
+    "exampleEn": "You have to respect the other person."
+  },
+  {
+    "rank": 1041,
+    "hanzi": "假日",
+    "en": [
+      "day off",
+      "holiday"
+    ],
+    "exampleEn": "On my days off, I like to go hiking."
+  },
+  {
+    "rank": 1042,
+    "hanzi": "過年",
+    "en": [
+      "celebrate Lunar New Year"
+    ],
+    "exampleEn": "We're going home for Lunar New Year."
+  },
+  {
+    "rank": 1043,
+    "hanzi": "整天",
+    "en": [
+      "all day",
+      "the whole day"
+    ],
+    "exampleEn": "He sleeps all day long."
+  },
+  {
+    "rank": 1044,
+    "hanzi": "白天",
+    "en": [
+      "daytime",
+      "during the day"
+    ],
+    "exampleEn": "It's hotter during the day."
+  },
+  {
+    "rank": 1045,
+    "hanzi": "改天",
+    "en": [
+      "some other day",
+      "another time"
+    ],
+    "exampleEn": "Let's make plans another day."
+  },
+  {
+    "rank": 1046,
+    "hanzi": "號碼",
+    "en": [
+      "number"
+    ],
+    "exampleEn": "Give me your number."
+  },
+  {
+    "rank": 1047,
+    "hanzi": "凌晨",
+    "en": [
+      "the small hours",
+      "before dawn"
+    ],
+    "noteEn": "from midnight until dawn, before around 6am",
+    "exampleEn": "I go to bed at three in the morning."
+  },
+  {
+    "rank": 1048,
+    "hanzi": "偶爾",
+    "en": [
+      "occasionally",
+      "sometimes"
+    ],
+    "exampleEn": "I exercise once in a while."
+  },
+  {
+    "rank": 1049,
+    "hanzi": "連假",
+    "en": [
+      "long weekend",
+      "consecutive holidays"
+    ],
+    "exampleEn": "Where are you going for the long weekend?"
+  },
+  {
+    "rank": 1050,
+    "hanzi": "月底",
+    "en": [
+      "end of the month"
+    ],
+    "exampleEn": "Salary gets paid at the end of the month."
+  },
+  {
+    "rank": 1051,
+    "hanzi": "年底",
+    "en": [
+      "end of the year"
+    ],
+    "exampleEn": "The end of the year is really busy."
+  },
+  {
+    "rank": 1052,
+    "hanzi": "週",
+    "en": [
+      "week"
+    ],
+    "exampleEn": "See you next week."
+  },
+  {
+    "rank": 1053,
+    "hanzi": "星期幾",
+    "en": [
+      "what day of the week"
+    ],
+    "noteEn": "Taiwan pronunciation: xīng qí (not xīng qī)",
+    "exampleEn": "What day of the week is it today?"
+  },
+  {
+    "rank": 1054,
+    "hanzi": "鐘頭",
+    "en": [
+      "hour (duration)"
+    ],
+    "exampleEn": "I waited for an hour."
+  },
+  {
+    "rank": 1055,
+    "hanzi": "數字",
+    "en": [
+      "number",
+      "figure"
+    ],
+    "exampleEn": "This number is very large."
+  },
+  {
+    "rank": 1056,
+    "hanzi": "第",
+    "en": [
+      "ordinal prefix (-th)"
+    ],
+    "noteEn": "forms ordinal numbers: 第一 'first', 第二 'second'…",
+    "exampleEn": "This is the first lesson."
+  },
+  {
+    "rank": 1057,
+    "hanzi": "第一次",
+    "en": [
+      "first time"
+    ],
+    "exampleEn": "This is the first time I've come here."
+  },
+  {
+    "rank": 1058,
+    "hanzi": "當時",
+    "en": [
+      "at that time",
+      "back then"
+    ],
+    "exampleEn": "Back then, I was still young."
+  },
+  {
+    "rank": 1059,
+    "hanzi": "同時",
+    "en": [
+      "at the same time",
+      "simultaneously"
+    ],
+    "exampleEn": "We arrived at the same time."
+  },
+  {
+    "rank": 1060,
+    "hanzi": "隔天",
+    "en": [
+      "the next day",
+      "the following day"
+    ],
+    "exampleEn": "He left the next day."
+  },
+  {
+    "rank": 1061,
+    "hanzi": "當天",
+    "en": [
+      "that same day",
+      "the very day"
+    ],
+    "exampleEn": "The weather was nice that day."
+  },
+  {
+    "rank": 1062,
+    "hanzi": "接下來",
+    "en": [
+      "next",
+      "after that"
+    ],
+    "exampleEn": "What do we do next?"
+  },
+  {
+    "rank": 1063,
+    "hanzi": "將來",
+    "en": [
+      "future",
+      "in the future"
+    ],
+    "exampleEn": "In the future, I want to be a teacher."
+  },
+  {
+    "rank": 1064,
+    "hanzi": "一輩子",
+    "en": [
+      "a lifetime",
+      "one's whole life"
+    ],
+    "exampleEn": "I'll love you for my whole life."
+  },
+  {
+    "rank": 1065,
+    "hanzi": "天天",
+    "en": [
+      "every day"
+    ],
+    "exampleEn": "He exercises every day."
+  },
+  {
+    "rank": 1066,
+    "hanzi": "平日",
+    "en": [
+      "weekday"
+    ],
+    "exampleEn": "There's less traffic on weekdays."
+  },
+  {
+    "rank": 1067,
+    "hanzi": "傍晚",
+    "en": [
+      "dusk",
+      "early evening"
+    ],
+    "exampleEn": "It gets cooler around dusk."
+  },
+  {
+    "rank": 1068,
+    "hanzi": "今晚",
+    "en": [
+      "tonight"
+    ],
+    "exampleEn": "What should we eat tonight?"
+  },
+  {
+    "rank": 1069,
+    "hanzi": "農曆",
+    "en": [
+      "lunar calendar"
+    ],
+    "exampleEn": "Today is the first day of the lunar month."
+  },
+  {
+    "rank": 1070,
+    "hanzi": "中秋節",
+    "en": [
+      "Mid-Autumn Festival"
+    ],
+    "exampleEn": "We eat mooncakes for the Mid-Autumn Festival."
+  },
+  {
+    "rank": 1071,
+    "hanzi": "春節",
+    "en": [
+      "Spring Festival",
+      "Chinese New Year"
+    ],
+    "exampleEn": "Happy Chinese New Year!"
+  },
+  {
+    "rank": 1072,
+    "hanzi": "端午節",
+    "en": [
+      "Dragon Boat Festival"
+    ],
+    "exampleEn": "We eat zongzi for the Dragon Boat Festival."
+  },
+  {
+    "rank": 1073,
+    "hanzi": "跨年",
+    "en": [
+      "celebrate New Year's Eve",
+      "ring in the New Year"
+    ],
+    "exampleEn": "We're ringing in the New Year together."
+  },
+  {
+    "rank": 1074,
+    "hanzi": "民國",
+    "en": [
+      "Republic of China calendar"
+    ],
+    "noteEn": "Taiwan's official calendar; year 1 = 1912 CE",
+    "exampleEn": "What year of the Republic is it this year?"
+  },
+  {
+    "rank": 1075,
+    "hanzi": "時差",
+    "en": [
+      "time difference",
+      "jet lag"
+    ],
+    "exampleEn": "I'm still adjusting to the jet lag."
+  },
+  {
+    "rank": 1076,
+    "hanzi": "敢",
+    "en": [
+      "dare"
+    ],
+    "exampleEn": "I don't dare say it."
+  },
+  {
+    "rank": 1077,
+    "hanzi": "放棄",
+    "en": [
+      "give up",
+      "abandon"
+    ],
+    "exampleEn": "Don't give up!"
+  },
+  {
+    "rank": 1078,
+    "hanzi": "成功",
+    "en": [
+      "succeed"
+    ],
+    "exampleEn": "We did it!"
+  },
+  {
+    "rank": 1079,
+    "hanzi": "失敗",
+    "en": [
+      "fail"
+    ],
+    "exampleEn": "The plan failed this time."
+  },
+  {
+    "rank": 1080,
+    "hanzi": "贏",
+    "en": [
+      "win"
+    ],
+    "exampleEn": "We won the match."
+  },
+  {
+    "rank": 1081,
+    "hanzi": "輸",
+    "en": [
+      "lose (a game)"
+    ],
+    "exampleEn": "I lost this round."
+  },
+  {
+    "rank": 1082,
+    "hanzi": "幫助",
+    "en": [
+      "help",
+      "assist"
+    ],
+    "exampleEn": "He helped me move house."
+  },
+  {
+    "rank": 1083,
+    "hanzi": "講話",
+    "en": [
+      "speak",
+      "talk"
+    ],
+    "exampleEn": "Please keep your voice down."
+  },
+  {
+    "rank": 1084,
+    "hanzi": "聊",
+    "en": [
+      "chat"
+    ],
+    "exampleEn": "We chatted for a long time."
+  },
+  {
+    "rank": 1085,
+    "hanzi": "談",
+    "en": [
+      "discuss",
+      "talk about"
+    ],
+    "exampleEn": "Let's talk about it for a moment."
+  },
+  {
+    "rank": 1086,
+    "hanzi": "進來",
+    "en": [
+      "come in"
+    ],
+    "exampleEn": "Please come in and have a seat."
+  },
+  {
+    "rank": 1087,
+    "hanzi": "出來",
+    "en": [
+      "come out"
+    ],
+    "exampleEn": "Can you come out for a bit?"
+  },
+  {
+    "rank": 1088,
+    "hanzi": "過來",
+    "en": [
+      "come over",
+      "come here"
+    ],
+    "exampleEn": "Come here quickly!"
+  },
+  {
+    "rank": 1089,
+    "hanzi": "回去",
+    "en": [
+      "go back",
+      "return"
+    ],
+    "exampleEn": "I'm heading back now."
+  },
+  {
+    "rank": 1090,
+    "hanzi": "進去",
+    "en": [
+      "go in",
+      "enter"
+    ],
+    "exampleEn": "Let's go in and take a look."
+  },
+  {
+    "rank": 1091,
+    "hanzi": "收到",
+    "en": [
+      "receive"
+    ],
+    "exampleEn": "I received your letter."
+  },
+  {
+    "rank": 1092,
+    "hanzi": "通知",
+    "en": [
+      "notify",
+      "inform"
+    ],
+    "exampleEn": "The school notifies the parents."
+  },
+  {
+    "rank": 1093,
+    "hanzi": "取消",
+    "en": [
+      "cancel"
+    ],
+    "exampleEn": "The flight got cancelled."
+  },
+  {
+    "rank": 1094,
+    "hanzi": "訂",
+    "en": [
+      "book",
+      "reserve"
+    ],
+    "exampleEn": "I booked two tickets."
+  },
+  {
+    "rank": 1095,
+    "hanzi": "預約",
+    "en": [
+      "make an appointment",
+      "book (a reservation)"
+    ],
+    "exampleEn": "I want to make a dentist appointment."
+  },
+  {
+    "rank": 1096,
+    "hanzi": "查",
+    "en": [
+      "look up",
+      "check"
+    ],
+    "exampleEn": "I looked up some information online."
+  },
+  {
+    "rank": 1097,
+    "hanzi": "算",
+    "en": [
+      "calculate",
+      "count"
+    ],
+    "exampleEn": "Help me work this out."
+  },
+  {
+    "rank": 1098,
+    "hanzi": "改",
+    "en": [
+      "modify",
+      "change"
+    ],
+    "exampleEn": "I want to change the time."
+  },
+  {
+    "rank": 1099,
+    "hanzi": "改變",
+    "en": [
+      "change",
+      "alter"
+    ],
+    "exampleEn": "He changed his mind."
+  },
+  {
+    "rank": 1100,
+    "hanzi": "成為",
+    "en": [
+      "become"
+    ],
+    "exampleEn": "She became a doctor."
+  },
+  {
+    "rank": 1101,
+    "hanzi": "當",
+    "en": [
+      "work as",
+      "serve as"
+    ],
+    "noteEn": "當 + profession = to work as that profession",
+    "exampleEn": "He's been working as a teacher for ten years."
+  },
+  {
+    "rank": 1102,
+    "hanzi": "計畫",
+    "en": [
+      "plan"
+    ],
+    "noteEn": "also used as a noun meaning a plan or a project",
+    "exampleEn": "We're planning to go to Japan."
+  },
+  {
+    "rank": 1103,
+    "hanzi": "使用",
+    "en": [
+      "use"
+    ],
+    "exampleEn": "Please use Chinese."
+  },
+  {
+    "rank": 1104,
+    "hanzi": "利用",
+    "en": [
+      "make use of",
+      "take advantage of"
+    ],
+    "exampleEn": "Make good use of your time to study."
+  },
+  {
+    "rank": 1105,
+    "hanzi": "提供",
+    "en": [
+      "provide",
+      "offer"
+    ],
+    "exampleEn": "The hotel provides breakfast."
+  },
+  {
+    "rank": 1106,
+    "hanzi": "表示",
+    "en": [
+      "express",
+      "indicate"
+    ],
+    "exampleEn": "He indicated that he agreed."
+  },
+  {
+    "rank": 1107,
+    "hanzi": "說明",
+    "en": [
+      "explain"
+    ],
+    "exampleEn": "Please explain a little."
+  },
+  {
+    "rank": 1108,
+    "hanzi": "溝通",
+    "en": [
+      "communicate"
+    ],
+    "exampleEn": "We need to communicate."
+  },
+  {
+    "rank": 1109,
+    "hanzi": "碰面",
+    "en": [
+      "meet up"
+    ],
+    "exampleEn": "What time should we meet up?"
+  },
+  {
+    "rank": 1110,
+    "hanzi": "打招呼",
+    "en": [
+      "greet",
+      "say hello"
+    ],
+    "exampleEn": "He said hello to me."
+  },
+  {
+    "rank": 1111,
+    "hanzi": "拜訪",
+    "en": [
+      "visit (someone)"
+    ],
+    "exampleEn": "I'm going to visit a friend."
+  },
+  {
+    "rank": 1112,
+    "hanzi": "錯過",
+    "en": [
+      "miss (an opportunity)"
+    ],
+    "exampleEn": "I missed the bus."
+  },
+  {
+    "rank": 1113,
+    "hanzi": "碰到",
+    "en": [
+      "run into",
+      "come across"
+    ],
+    "exampleEn": "I ran into an old classmate."
+  },
+  {
+    "rank": 1114,
+    "hanzi": "避免",
+    "en": [
+      "avoid"
+    ],
+    "exampleEn": "Avoid conflict as much as possible."
+  },
+  {
+    "rank": 1115,
+    "hanzi": "保持",
+    "en": [
+      "maintain",
+      "keep"
+    ],
+    "exampleEn": "Please keep quiet."
+  },
+  {
+    "rank": 1116,
+    "hanzi": "嚇",
+    "en": [
+      "scare",
+      "frighten"
+    ],
+    "exampleEn": "You scared me."
+  },
+  {
+    "rank": 1117,
+    "hanzi": "假裝",
+    "en": [
+      "pretend"
+    ],
+    "exampleEn": "He's pretending not to know."
+  },
+  {
+    "rank": 1118,
+    "hanzi": "靠近",
+    "en": [
+      "approach",
+      "get close to"
+    ],
+    "exampleEn": "Don't get too close to the fire."
+  },
+  {
+    "rank": 1119,
+    "hanzi": "體驗",
+    "en": [
+      "experience",
+      "try out"
+    ],
+    "exampleEn": "Come experience Taiwanese culture."
+  },
+  {
+    "rank": 1120,
+    "hanzi": "想要",
+    "en": [
+      "want",
+      "would like to"
+    ],
+    "exampleEn": "I want to rest."
+  },
+  {
+    "rank": 1121,
+    "hanzi": "反對",
+    "en": [
+      "oppose",
+      "be against"
+    ],
+    "exampleEn": "Everyone is against it."
+  },
+  {
+    "rank": 1122,
+    "hanzi": "支持",
+    "en": [
+      "support"
+    ],
+    "exampleEn": "I support your decision."
+  },
+  {
+    "rank": 1123,
+    "hanzi": "鼓勵",
+    "en": [
+      "encourage"
+    ],
+    "exampleEn": "The teacher encourages the students."
+  },
+  {
+    "rank": 1124,
+    "hanzi": "安慰",
+    "en": [
+      "comfort",
+      "console"
+    ],
+    "exampleEn": "My friend comforted me."
+  },
+  {
+    "rank": 1125,
+    "hanzi": "保護",
+    "en": [
+      "protect"
+    ],
+    "exampleEn": "Protect the earth's environment."
+  },
+  {
+    "rank": 1126,
+    "hanzi": "救",
+    "en": [
+      "save",
+      "rescue"
+    ],
+    "exampleEn": "Help, save me!"
+  },
+  {
+    "rank": 1127,
+    "hanzi": "在乎",
+    "en": [
+      "care about"
+    ],
+    "exampleEn": "I care about you a lot."
+  },
+  {
+    "rank": 1128,
+    "hanzi": "介意",
+    "en": [
+      "mind",
+      "be bothered by"
+    ],
+    "exampleEn": "Do you mind if I smoke?"
+  },
+  {
+    "rank": 1129,
+    "hanzi": "道歉",
+    "en": [
+      "apologize"
+    ],
+    "exampleEn": "He apologized to me."
+  },
+  {
+    "rank": 1130,
+    "hanzi": "抱怨",
+    "en": [
+      "complain"
+    ],
+    "exampleEn": "Stop complaining."
+  },
+  {
+    "rank": 1131,
+    "hanzi": "稱讚",
+    "en": [
+      "compliment",
+      "praise"
+    ],
+    "exampleEn": "My boss praised me."
+  },
+  {
+    "rank": 1132,
+    "hanzi": "罵",
+    "en": [
+      "scold",
+      "curse at"
+    ],
+    "exampleEn": "Mom scolded me."
+  },
+  {
+    "rank": 1133,
+    "hanzi": "吵架",
+    "en": [
+      "argue",
+      "quarrel"
+    ],
+    "exampleEn": "They had another argument."
+  },
+  {
+    "rank": 1134,
+    "hanzi": "打架",
+    "en": [
+      "fight (physically)"
+    ],
+    "exampleEn": "The kids are fighting."
+  },
+  {
+    "rank": 1135,
+    "hanzi": "騙",
+    "en": [
+      "deceive",
+      "trick"
+    ],
+    "exampleEn": "Don't lie to me."
+  },
+  {
+    "rank": 1136,
+    "hanzi": "說謊",
+    "en": [
+      "lie",
+      "tell a lie"
+    ],
+    "exampleEn": "He never lies."
+  },
+  {
+    "rank": 1137,
+    "hanzi": "偷",
+    "en": [
+      "steal"
+    ],
+    "exampleEn": "Someone stole my wallet."
+  },
+  {
+    "rank": 1138,
+    "hanzi": "搶",
+    "en": [
+      "snatch",
+      "rob"
+    ],
+    "exampleEn": "The thief snatched the bag."
+  },
+  {
+    "rank": 1139,
+    "hanzi": "感到",
+    "en": [
+      "feel"
+    ],
+    "exampleEn": "I feel very tired."
+  },
+  {
+    "rank": 1140,
+    "hanzi": "想念",
+    "en": [
+      "miss (someone)"
+    ],
+    "exampleEn": "I miss my family a lot."
+  },
+  {
+    "rank": 1141,
+    "hanzi": "想到",
+    "en": [
+      "think of",
+      "recall suddenly"
+    ],
+    "exampleEn": "It suddenly occurred to me."
+  },
+  {
+    "rank": 1142,
+    "hanzi": "明白",
+    "en": [
+      "understand"
+    ],
+    "exampleEn": "I understand what you mean."
+  },
+  {
+    "rank": 1143,
+    "hanzi": "理解",
+    "en": [
+      "understand",
+      "comprehend"
+    ],
+    "noteEn": "more abstract/rational than 明白",
+    "exampleEn": "I understand your point of view."
+  },
+  {
+    "rank": 1144,
+    "hanzi": "曉得",
+    "en": [
+      "know"
+    ],
+    "noteEn": "spoken, colloquial register, equivalent to 知道",
+    "exampleEn": "I don't know, actually."
+  },
+  {
+    "rank": 1145,
+    "hanzi": "誤會",
+    "en": [
+      "misunderstand"
+    ],
+    "exampleEn": "You misunderstood what I meant."
+  },
+  {
+    "rank": 1146,
+    "hanzi": "懷疑",
+    "en": [
+      "doubt",
+      "suspect"
+    ],
+    "exampleEn": "I suspect he's lying."
+  },
+  {
+    "rank": 1147,
+    "hanzi": "記住",
+    "en": [
+      "remember",
+      "keep in mind"
+    ],
+    "exampleEn": "Please remember what I said."
+  },
+  {
+    "rank": 1148,
+    "hanzi": "後悔",
+    "en": [
+      "regret"
+    ],
+    "exampleEn": "I really regret doing that."
+  },
+  {
+    "rank": 1149,
+    "hanzi": "羨慕",
+    "en": [
+      "envy"
+    ],
+    "exampleEn": "I really envy you."
+  },
+  {
+    "rank": 1150,
+    "hanzi": "享受",
+    "en": [
+      "enjoy",
+      "savor"
+    ],
+    "exampleEn": "Enjoy life to the fullest."
+  },
+  {
+    "rank": 1151,
+    "hanzi": "忍",
+    "en": [
+      "endure",
+      "bear"
+    ],
+    "exampleEn": "I can't bear it any longer."
+  },
+  {
+    "rank": 1152,
+    "hanzi": "受不了",
+    "en": [
+      "can't stand",
+      "can't take it anymore"
+    ],
+    "exampleEn": "I can't stand the noise."
+  },
+  {
+    "rank": 1153,
+    "hanzi": "堅持",
+    "en": [
+      "persist",
+      "insist"
+    ],
+    "exampleEn": "He sticks to his own opinion."
+  },
+  {
+    "rank": 1154,
+    "hanzi": "適應",
+    "en": [
+      "adapt",
+      "adjust"
+    ],
+    "exampleEn": "I'm still adjusting to life here."
+  },
+  {
+    "rank": 1155,
+    "hanzi": "消失",
+    "en": [
+      "disappear"
+    ],
+    "exampleEn": "He suddenly disappeared."
+  },
+  {
+    "rank": 1156,
+    "hanzi": "不見",
+    "en": [
+      "be missing",
+      "be gone"
+    ],
+    "noteEn": "literally 'no longer seen'; used for a misplaced object",
+    "exampleEn": "My keys are missing."
+  },
+  {
+    "rank": 1157,
+    "hanzi": "增加",
+    "en": [
+      "increase"
+    ],
+    "exampleEn": "The number of people increased."
+  },
+  {
+    "rank": 1158,
+    "hanzi": "減少",
+    "en": [
+      "decrease",
+      "reduce"
+    ],
+    "exampleEn": "Income has decreased."
+  },
+  {
+    "rank": 1159,
+    "hanzi": "重複",
+    "en": [
+      "repeat"
+    ],
+    "exampleEn": "Please say that again."
+  },
+  {
+    "rank": 1160,
+    "hanzi": "停止",
+    "en": [
+      "stop",
+      "cease"
+    ],
+    "exampleEn": "The rain has stopped."
+  },
+  {
+    "rank": 1161,
+    "hanzi": "比賽",
+    "en": [
+      "compete",
+      "have a match"
+    ],
+    "noteEn": "also used as a noun meaning a competition or a match",
+    "exampleEn": "We have a match tomorrow."
+  },
+  {
+    "rank": 1162,
+    "hanzi": "負責",
+    "en": [
+      "be responsible for",
+      "be in charge of"
+    ],
+    "exampleEn": "I'm in charge of this project."
+  },
+  {
+    "rank": 1163,
+    "hanzi": "管",
+    "en": [
+      "manage",
+      "meddle in"
+    ],
+    "exampleEn": "Stay out of my business."
+  },
+  {
+    "rank": 1164,
+    "hanzi": "要求",
+    "en": [
+      "demand",
+      "require"
+    ],
+    "exampleEn": "The boss is demanding overtime."
+  },
+  {
+    "rank": 1165,
+    "hanzi": "保證",
+    "en": [
+      "guarantee",
+      "promise"
+    ],
+    "exampleEn": "I promise I'll be on time."
+  },
+  {
+    "rank": 1166,
+    "hanzi": "值得",
+    "en": [
+      "be worth it",
+      "deserve"
+    ],
+    "exampleEn": "This movie is worth watching."
+  },
+  {
+    "rank": 1167,
+    "hanzi": "屬於",
+    "en": [
+      "belong to"
+    ],
+    "exampleEn": "This place belongs to us."
+  },
+  {
+    "rank": 1168,
+    "hanzi": "交換",
+    "en": [
+      "exchange",
+      "swap"
+    ],
+    "exampleEn": "We exchange gifts."
+  },
+  {
+    "rank": 1169,
+    "hanzi": "慶祝",
+    "en": [
+      "celebrate"
+    ],
+    "exampleEn": "We're celebrating a birthday."
+  },
+  {
+    "rank": 1170,
+    "hanzi": "祝",
+    "en": [
+      "wish (someone well)"
+    ],
+    "exampleEn": "Happy birthday to you!"
+  },
+  {
+    "rank": 1171,
+    "hanzi": "活",
+    "en": [
+      "live"
+    ],
+    "exampleEn": "He lived to be ninety."
+  },
+  {
+    "rank": 1172,
+    "hanzi": "養",
+    "en": [
+      "raise",
+      "keep (a pet)"
+    ],
+    "exampleEn": "We keep a cat at home."
+  },
+  {
+    "rank": 1173,
+    "hanzi": "挑",
+    "en": [
+      "pick",
+      "choose"
+    ],
+    "exampleEn": "Help me pick out an outfit."
+  },
+  {
+    "rank": 1174,
+    "hanzi": "看起來",
+    "en": [
+      "look (like)",
+      "seem"
+    ],
+    "exampleEn": "You look tired."
+  },
+  {
+    "rank": 1175,
+    "hanzi": "欠",
+    "en": [
+      "owe (money)"
+    ],
+    "exampleEn": "I owe you a hundred dollars."
+  },
+  {
+    "rank": 1176,
+    "hanzi": "浪費",
+    "en": [
+      "waste"
+    ],
+    "exampleEn": "Don't waste food."
+  },
+  {
+    "rank": 1177,
+    "hanzi": "失去",
+    "en": [
+      "lose"
+    ],
+    "exampleEn": "He lost his job."
+  },
+  {
+    "rank": 1178,
+    "hanzi": "剩",
+    "en": [
+      "be left over",
+      "remain"
+    ],
+    "exampleEn": "There's only one left."
+  },
+  {
+    "rank": 1179,
+    "hanzi": "缺",
+    "en": [
+      "lack",
+      "be short of"
+    ],
+    "exampleEn": "We're short-staffed."
+  },
+  {
+    "rank": 1180,
+    "hanzi": "跳舞",
+    "en": [
+      "dance"
+    ],
+    "exampleEn": "Let's dance together."
+  },
+  {
+    "rank": 1181,
+    "hanzi": "畫畫",
+    "en": [
+      "draw",
+      "paint"
+    ],
+    "exampleEn": "My little sister likes drawing."
+  },
+  {
+    "rank": 1182,
+    "hanzi": "逛",
+    "en": [
+      "stroll",
+      "wander around"
+    ],
+    "exampleEn": "Let's go wander around the night market."
+  },
+  {
+    "rank": 1183,
+    "hanzi": "拍",
+    "en": [
+      "photograph",
+      "pat"
+    ],
+    "exampleEn": "Take a photo of me."
+  },
+  {
+    "rank": 1184,
+    "hanzi": "趕",
+    "en": [
+      "rush",
+      "hurry to"
+    ],
+    "exampleEn": "I'm in a rush."
+  },
+  {
+    "rank": 1185,
+    "hanzi": "來不及",
+    "en": [
+      "not have enough time",
+      "be too late"
+    ],
+    "exampleEn": "We're out of time."
+  },
+  {
+    "rank": 1186,
+    "hanzi": "逃",
+    "en": [
+      "flee",
+      "escape"
+    ],
+    "exampleEn": "He ran away from home."
+  },
+  {
+    "rank": 1187,
+    "hanzi": "躲",
+    "en": [
+      "hide"
+    ],
+    "exampleEn": "The kitten hid itself."
+  },
+  {
+    "rank": 1188,
+    "hanzi": "藏",
+    "en": [
+      "hide (something)",
+      "conceal"
+    ],
+    "exampleEn": "I hid the money."
+  },
+  {
+    "rank": 1189,
+    "hanzi": "追",
+    "en": [
+      "chase",
+      "run after"
+    ],
+    "exampleEn": "The dog is chasing the cat."
+  },
+  {
+    "rank": 1190,
+    "hanzi": "靠",
+    "en": [
+      "lean on",
+      "rely on"
+    ],
+    "exampleEn": "You can lean on me."
+  },
+  {
+    "rank": 1191,
+    "hanzi": "躺",
+    "en": [
+      "lie down"
+    ],
+    "exampleEn": "He's lying on the bed."
+  },
+  {
+    "rank": 1192,
+    "hanzi": "醒",
+    "en": [
+      "wake up"
+    ],
+    "exampleEn": "I wake up at seven."
+  },
+  {
+    "rank": 1193,
+    "hanzi": "動",
+    "en": [
+      "move"
+    ],
+    "exampleEn": "Don't move for now."
+  },
+  {
+    "rank": 1194,
+    "hanzi": "推",
+    "en": [
+      "push"
+    ],
+    "exampleEn": "Please push the door hard."
+  },
+  {
+    "rank": 1195,
+    "hanzi": "拉",
+    "en": [
+      "pull"
+    ],
+    "exampleEn": "Please pull the curtains open."
+  },
+  {
+    "rank": 1196,
+    "hanzi": "按",
+    "en": [
+      "press"
+    ],
+    "exampleEn": "Press this button."
+  },
+  {
+    "rank": 1197,
+    "hanzi": "抓",
+    "en": [
+      "catch",
+      "grab"
+    ],
+    "exampleEn": "The cat caught a mouse."
+  },
+  {
+    "rank": 1198,
+    "hanzi": "摸",
+    "en": [
+      "touch"
+    ],
+    "exampleEn": "Don't touch my stuff."
+  },
+  {
+    "rank": 1199,
+    "hanzi": "碰",
+    "en": [
+      "touch",
+      "bump into"
+    ],
+    "exampleEn": "Don't touch that."
+  },
+  {
+    "rank": 1200,
+    "hanzi": "撞",
+    "en": [
+      "hit",
+      "crash into"
+    ],
+    "exampleEn": "The car crashed into the wall."
+  },
+  {
+    "rank": 1201,
+    "hanzi": "親",
+    "en": [
+      "kiss"
+    ],
+    "exampleEn": "Mom kissed the baby."
+  },
+  {
+    "rank": 1202,
+    "hanzi": "抱",
+    "en": [
+      "hug",
+      "embrace"
+    ],
+    "exampleEn": "He gave me a hug."
+  },
+  {
+    "rank": 1203,
+    "hanzi": "微笑",
+    "en": [
+      "smile"
+    ],
+    "noteEn": "Taiwan pronunciation: wéi xiào (standard is wēi xiào)",
+    "exampleEn": "She smiled at me."
+  },
+  {
+    "rank": 1204,
+    "hanzi": "點頭",
+    "en": [
+      "nod"
+    ],
+    "exampleEn": "He nodded in agreement."
+  },
+  {
+    "rank": 1205,
+    "hanzi": "咬",
+    "en": [
+      "bite"
+    ],
+    "exampleEn": "The puppy bit me."
+  },
+  {
+    "rank": 1206,
+    "hanzi": "餵",
+    "en": [
+      "feed"
+    ],
+    "exampleEn": "I'm feeding the cat."
+  },
+  {
+    "rank": 1207,
+    "hanzi": "撿",
+    "en": [
+      "pick up (off the ground)",
+      "find"
+    ],
+    "exampleEn": "He found a phone on the ground."
+  },
+  {
+    "rank": 1208,
+    "hanzi": "掛",
+    "en": [
+      "hang",
+      "hang up"
+    ],
+    "exampleEn": "Hang up your coat."
+  },
+  {
+    "rank": 1209,
+    "hanzi": "貼",
+    "en": [
+      "stick",
+      "paste"
+    ],
+    "exampleEn": "I put up a poster."
+  },
+  {
+    "rank": 1210,
+    "hanzi": "插",
+    "en": [
+      "insert",
+      "plug in"
+    ],
+    "exampleEn": "Plug in the plug."
+  },
+  {
+    "rank": 1211,
+    "hanzi": "拆",
+    "en": [
+      "take apart",
+      "unwrap"
+    ],
+    "exampleEn": "I unwrapped the gift."
+  },
+  {
+    "rank": 1212,
+    "hanzi": "裝",
+    "en": [
+      "install",
+      "pack"
+    ],
+    "exampleEn": "Help me set up the computer."
+  },
+  {
+    "rank": 1213,
+    "hanzi": "翻",
+    "en": [
+      "flip over",
+      "leaf through"
+    ],
+    "exampleEn": "I'm flipping through this book."
+  },
+  {
+    "rank": 1214,
+    "hanzi": "抬",
+    "en": [
+      "lift",
+      "carry (together)"
+    ],
+    "exampleEn": "Let's lift this table together."
+  },
+  {
+    "rank": 1215,
+    "hanzi": "吹",
+    "en": [
+      "blow"
+    ],
+    "exampleEn": "The wind is blowing hard."
+  },
+  {
+    "rank": 1216,
+    "hanzi": "剪",
+    "en": [
+      "cut (with scissors)"
+    ],
+    "exampleEn": "I'm going to get my hair cut."
+  },
+  {
+    "rank": 1217,
+    "hanzi": "擦",
+    "en": [
+      "wipe"
+    ],
+    "exampleEn": "Please wipe the table."
+  },
+  {
+    "rank": 1218,
+    "hanzi": "敲",
+    "en": [
+      "knock (on a door)"
+    ],
+    "exampleEn": "Someone's knocking on the door."
+  },
+  {
+    "rank": 1219,
+    "hanzi": "指",
+    "en": [
+      "point at",
+      "indicate"
+    ],
+    "exampleEn": "He points at the map."
+  },
+  {
+    "rank": 1220,
+    "hanzi": "倒",
+    "en": [
+      "pour",
+      "fall over"
+    ],
+    "noteEn": "'pour' is dào (4th tone); 'fall over' is dǎo (3rd tone), e.g. 摔倒",
+    "exampleEn": "Pour me a glass of water."
+  },
+  {
+    "rank": 1221,
+    "hanzi": "摔",
+    "en": [
+      "fall",
+      "tumble"
+    ],
+    "exampleEn": "He fell down."
+  },
+  {
+    "rank": 1222,
+    "hanzi": "滑",
+    "en": [
+      "slide",
+      "scroll (a screen)"
+    ],
+    "exampleEn": "He's scrolling through his phone."
+  },
+  {
+    "rank": 1223,
+    "hanzi": "爬",
+    "en": [
+      "climb"
+    ],
+    "exampleEn": "Let's go hiking."
+  },
+  {
+    "rank": 1224,
+    "hanzi": "鎖",
+    "en": [
+      "lock"
+    ],
+    "exampleEn": "Remember to lock the door."
+  },
+  {
+    "rank": 1225,
+    "hanzi": "表演",
+    "en": [
+      "perform"
+    ],
+    "noteEn": "also used as a noun meaning a show or a performance",
+    "exampleEn": "They put on a great performance."
+  },
+  {
+    "rank": 1226,
+    "hanzi": "辛苦",
+    "en": [
+      "hard",
+      "tough (effort)"
+    ],
+    "noteEn": "also a set phrase, 辛苦了, thanking someone for their hard work",
+    "exampleEn": "Work was tough today."
+  },
+  {
+    "rank": 1227,
+    "hanzi": "美",
+    "en": [
+      "beautiful",
+      "pretty"
+    ],
+    "exampleEn": "The scenery is beautiful."
+  },
+  {
+    "rank": 1228,
+    "hanzi": "醜",
+    "en": [
+      "ugly"
+    ],
+    "exampleEn": "This shoe is really ugly."
+  },
+  {
+    "rank": 1229,
+    "hanzi": "滿",
+    "en": [
+      "full"
+    ],
+    "exampleEn": "The glass is filled with water."
+  },
+  {
+    "rank": 1230,
+    "hanzi": "空",
+    "en": [
+      "empty"
+    ],
+    "exampleEn": "The bottle is empty."
+  },
+  {
+    "rank": 1231,
+    "hanzi": "急",
+    "en": [
+      "in a hurry",
+      "urgent"
+    ],
+    "exampleEn": "I'm in a big hurry right now."
+  },
+  {
+    "rank": 1232,
+    "hanzi": "吵",
+    "en": [
+      "noisy"
+    ],
+    "exampleEn": "It's too noisy here."
+  },
+  {
+    "rank": 1233,
+    "hanzi": "亂",
+    "en": [
+      "messy",
+      "disorderly"
+    ],
+    "exampleEn": "The room is a mess."
+  },
+  {
+    "rank": 1234,
+    "hanzi": "暗",
+    "en": [
+      "dark"
+    ],
+    "exampleEn": "The room is too dark."
+  },
+  {
+    "rank": 1235,
+    "hanzi": "新鮮",
+    "en": [
+      "fresh"
+    ],
+    "exampleEn": "These vegetables are very fresh."
+  },
+  {
+    "rank": 1236,
+    "hanzi": "濕",
+    "en": [
+      "wet",
+      "damp"
+    ],
+    "exampleEn": "The clothes are still wet."
+  },
+  {
+    "rank": 1237,
+    "hanzi": "乾",
+    "en": [
+      "dry"
+    ],
+    "exampleEn": "Is your hair dry yet?"
+  },
+  {
+    "rank": 1238,
+    "hanzi": "軟",
+    "en": [
+      "soft"
+    ],
+    "exampleEn": "The mattress is very soft."
+  },
+  {
+    "rank": 1239,
+    "hanzi": "硬",
+    "en": [
+      "hard",
+      "stiff"
+    ],
+    "exampleEn": "This bread is very hard."
+  },
+  {
+    "rank": 1240,
+    "hanzi": "破",
+    "en": [
+      "broken",
+      "torn"
+    ],
+    "exampleEn": "My pants have a hole in them."
+  },
+  {
+    "rank": 1241,
+    "hanzi": "強",
+    "en": [
+      "strong",
+      "powerful"
+    ],
+    "exampleEn": "The wind is strong today."
+  },
+  {
+    "rank": 1242,
+    "hanzi": "弱",
+    "en": [
+      "weak"
+    ],
+    "exampleEn": "The signal is weak."
+  },
+  {
+    "rank": 1243,
+    "hanzi": "好喝",
+    "en": [
+      "tasty (for drinks)",
+      "good to drink"
+    ],
+    "noteEn": "used only for drinks; for food, use 好吃 instead",
+    "exampleEn": "This tea is really good."
+  },
+  {
+    "rank": 1244,
+    "hanzi": "好用",
+    "en": [
+      "handy",
+      "easy to use"
+    ],
+    "noteEn": "describes an object or tool, not a person",
+    "exampleEn": "This tool is really handy."
+  },
+  {
+    "rank": 1245,
+    "hanzi": "難吃",
+    "en": [
+      "not tasty",
+      "bad-tasting"
+    ],
+    "exampleEn": "This boxed meal tastes terrible."
+  },
+  {
+    "rank": 1246,
+    "hanzi": "難看",
+    "en": [
+      "ugly",
+      "unsightly"
+    ],
+    "exampleEn": "This photo looks really bad."
+  },
+  {
+    "rank": 1247,
+    "hanzi": "有效",
+    "en": [
+      "effective"
+    ],
+    "exampleEn": "This method is very effective."
+  },
+  {
+    "rank": 1248,
+    "hanzi": "糟糕",
+    "en": [
+      "terrible",
+      "oh no"
+    ],
+    "exampleEn": "Uh oh, now we're in trouble."
+  },
+  {
+    "rank": 1249,
+    "hanzi": "慘",
+    "en": [
+      "terrible",
+      "miserable"
+    ],
+    "exampleEn": "This exam went really badly."
+  },
+  {
+    "rank": 1250,
+    "hanzi": "恐怖",
+    "en": [
+      "horrible",
+      "terrifying"
+    ],
+    "exampleEn": "This movie is really scary."
+  }
+]

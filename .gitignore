@@ -1,0 +1,15 @@
+node_modules/
+dist/
+release/
+.gradle-home/
+*.log
+.DS_Store
+Thumbs.db
+data/external/
+.cache/
+.claude/
+# Android signing keys and local secrets: never in the repository
+*.jks
+*.keystore
+.env
+.env.*

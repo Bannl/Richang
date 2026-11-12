@@ -1,0 +1,50 @@
+# Credits
+
+## Photos of the places
+
+The backgrounds of the scenes are photographs of places in Taiwan, from Wikimedia Commons, resized to 1,280
+pixels wide and converted to WebP for the game. Each photo stays under its own licence: the ones under CC BY-SA
+remain under the same licence. 35 photos by 25 photographers:
+
+| Place | Photo | Author | Licence |
+|---|---|---|---|
+| airport | [Taiwan Taoyuan International Airport Terminal 2 Check-in Hall 20200815.jpg](https://commons.wikimedia.org/wiki/File:Taiwan_Taoyuan_International_Airport_Terminal_2_Check-in_Hall_20200815.jpg) | Cheng-en Cheng | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) |
+| bank | [Chengnei Branch, Taiwan Cooperative Bank 2007-08-26.jpg](https://commons.wikimedia.org/wiki/File:Chengnei_Branch,_Taiwan_Cooperative_Bank_2007-08-26.jpg) | KaurJmeb | Public domain |
+| beach | [Kenting Hengchun-Township Taiwan Beach-01.jpg](https://commons.wikimedia.org/wiki/File:Kenting_Hengchun-Township_Taiwan_Beach-01.jpg) | CEphoto, Uwe Aranas | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| classroom | [Classroom - Tunghai University - DSC01467.JPG](https://commons.wikimedia.org/wiki/File:Classroom_-_Tunghai_University_-_DSC01467.JPG) | Daderot | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| clinic | [Registration and Cashier in NTU Hospital West Building.jpg](https://commons.wikimedia.org/wiki/File:Registration_and_Cashier_in_NTU_Hospital_West_Building.jpg) | 玄史生 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| clothes-shopping | [Ximending, Wanhua District.jpg](https://commons.wikimedia.org/wiki/File:Ximending,_Wanhua_District.jpg) | Neilpeart is god (English Wikipedia) | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) |
+| convenience-store | [Interior of Family Mart Hualien Air Force Base Store 20170923.jpg](https://commons.wikimedia.org/wiki/File:Interior_of_Family_Mart_Hualien_Air_Force_Base_Store_20170923.jpg) | 玄史生 | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| daily-life | [202508 空軍三重一村15號眷舍"村長的家"的室內 01.jpg](https://commons.wikimedia.org/wiki/File:202508_%E7%A9%BA%E8%BB%8D%E4%B8%89%E9%87%8D%E4%B8%80%E6%9D%9115%E8%99%9F%E7%9C%B7%E8%88%8D%22%E6%9D%91%E9%95%B7%E7%9A%84%E5%AE%B6%22%E7%9A%84%E5%AE%A4%E5%85%A7_01.jpg) | Junyu-K | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| dentist | [張文乾牙醫診所 全家便利商店市民店 20190814.jpg](https://commons.wikimedia.org/wiki/File:%E5%BC%B5%E6%96%87%E4%B9%BE%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80_%E5%85%A8%E5%AE%B6%E4%BE%BF%E5%88%A9%E5%95%86%E5%BA%97%E5%B8%82%E6%B0%91%E5%BA%97_20190814.jpg) | Diamo Laung Bobpuao | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| directions | [The intersection in front of Aurora Plaza, Taipei 20100721.jpg](https://commons.wikimedia.org/wiki/File:The_intersection_in_front_of_Aurora_Plaza,_Taipei_20100721.jpg) | Lord Koxinga | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| drink-shop | [50-Lan Yongkang Store 20100214.jpg](https://commons.wikimedia.org/wiki/File:50-Lan_Yongkang_Store_20100214.jpg) | eazytraveler | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| family-dinner | [Dishes on a Yangmingshan family.jpg](https://commons.wikimedia.org/wiki/File:Dishes_on_a_Yangmingshan_family.jpg) | Allervous | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| greetings | [2010 07 21610 6847 Da'an District, Taipei, Fuxing Road, Arcades, Taiwan.JPG](https://commons.wikimedia.org/wiki/File:2010_07_21610_6847_Da%27an_District,_Taipei,_Fuxing_Road,_Arcades,_Taiwan.JPG) | Lord Koxinga | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| gym | [New Taipei City Xizhi Civil Sports Center 20161008.jpg](https://commons.wikimedia.org/wiki/File:New_Taipei_City_Xizhi_Civil_Sports_Center_20161008.jpg) | Solomon203 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| hardware-store | [1F, No. 27, Changan West Road, Taipei 20181026.jpg](https://commons.wikimedia.org/wiki/File:1F,_No._27,_Changan_West_Road,_Taipei_20181026.jpg) | Tbatb | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| hiking | [Qingtiangang at Yangmingshan (5383581661).jpg](https://commons.wikimedia.org/wiki/File:Qingtiangang_at_Yangmingshan_(5383581661).jpg) | edwin.11 | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| home | [Taipei 101, Taipei Nan Shan Plaza & Grand Hyatt Taipei 20181202.jpg](https://commons.wikimedia.org/wiki/File:Taipei_101,_Taipei_Nan_Shan_Plaza_%26_Grand_Hyatt_Taipei_20181202.jpg) | domjisch | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) |
+| job-interview | [Taipei Nan Shan Plaza Office lobby 2019.jpg](https://commons.wikimedia.org/wiki/File:Taipei_Nan_Shan_Plaza_Office_lobby_2019.jpg) | Wpcpey | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+| landlord | [Apartment buildings in Shilin, Taipei 20220705.jpg](https://commons.wikimedia.org/wiki/File:Apartment_buildings_in_Shilin,_Taipei_20220705.jpg) | 迷惘的人生 | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) |
+| library | [Taipei Public Library Beitou Branch Interior 2015.jpg](https://commons.wikimedia.org/wiki/File:Taipei_Public_Library_Beitou_Branch_Interior_2015.jpg) | Wpcpey | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+| making-friends | [Huashan 1914 Creative Park Art Boulevard 2015.jpg](https://commons.wikimedia.org/wiki/File:Huashan_1914_Creative_Park_Art_Boulevard_2015.jpg) | Wpcpey | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+| market | [Taitung City Kaifeng Market01.jpg](https://commons.wikimedia.org/wiki/File:Taitung_City_Kaifeng_Market01.jpg) | Eric Deng | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| moving-in | [CMC Canter IY-663 on Sanmin Road 20180705.jpg](https://commons.wikimedia.org/wiki/File:CMC_Canter_IY-663_on_Sanmin_Road_20180705.jpg) | 玄史生 | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| mrt | [20121115 B2 platform in Guting Station, Taipei Metro 台北捷運古亭站B2月台.jpg](https://commons.wikimedia.org/wiki/File:20121115_B2_platform_in_Guting_Station,_Taipei_Metro_%E5%8F%B0%E5%8C%97%E6%8D%B7%E9%81%8B%E5%8F%A4%E4%BA%AD%E7%AB%99B2%E6%9C%88%E5%8F%B0.jpg) | Howard61313 | Public domain |
+| neighbors | [HuaLing Street Lane 17 Alley 28, Taipei (back).jpg](https://commons.wikimedia.org/wiki/File:HuaLing_Street_Lane_17_Alley_28,_Taipei_(back).jpg) | Kiyoteru Awaji | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+| night-market | [Shilin Night Market 03.jpg](https://commons.wikimedia.org/wiki/File:Shilin_Night_Market_03.jpg) | Exec8 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| office | [Mozilla Community Space Workstations (72837401).jpeg](https://commons.wikimedia.org/wiki/File:Mozilla_Community_Space_Workstations_(72837401).jpeg) | Oliver Propst | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| pharmacy | [Dr.Med Pharmacy Longjin Branch 20150901.jpg](https://commons.wikimedia.org/wiki/File:Dr.Med_Pharmacy_Longjin_Branch_20150901.jpg) | 玄史生 | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| post-office | [Chunghwa Telecom Dajia Service Center, Post Office and Kingstone Bookstore 20120127.JPG](https://commons.wikimedia.org/wiki/File:Chunghwa_Telecom_Dajia_Service_Center,_Post_Office_and_Kingstone_Bookstore_20120127.JPG) | 玄史生 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| residency | [Hsinchu City Service Center, National Immigration Agency 20210116.jpg](https://commons.wikimedia.org/wiki/File:Hsinchu_City_Service_Center,_National_Immigration_Agency_20210116.jpg) | Solomon203 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| scooter-rental | [Scooters in Taipei street 02.jpg](https://commons.wikimedia.org/wiki/File:Scooters_in_Taipei_street_02.jpg) | Jim Epler | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| small-talk | [Starbucks Hanzhong Ximending.jpg](https://commons.wikimedia.org/wiki/File:Starbucks_Hanzhong_Ximending.jpg) | Ganmatthew | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+| taxi | [Taipei Taiwan Taxi-waiting-at-ChengDu-Road-01.jpg](https://commons.wikimedia.org/wiki/File:Taipei_Taiwan_Taxi-waiting-at-ChengDu-Road-01.jpg) | CEphoto, Uwe Aranas | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| utilities | [Tatung D4S 2S watthour meter at Jiufen Old Street 20091229.jpg](https://commons.wikimedia.org/wiki/File:Tatung_D4S_2S_watthour_meter_at_Jiufen_Old_Street_20091229.jpg) | takuma mori | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| weather | [People with Umbrellas Walking into Hanzhong Street, Taipei 20160610.jpg](https://commons.wikimedia.org/wiki/File:People_with_Umbrellas_Walking_into_Hanzhong_Street,_Taipei_20160610.jpg) | 玄史生 | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+
+## Other credits
+
+Speech synthesis, voice recordings, portraits, stroke order, dictionary and font: see the table in
+[README.md](README.md#credits).

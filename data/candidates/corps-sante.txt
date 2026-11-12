@@ -1,0 +1,127 @@
+# tier5
+生病	être malade
+身體	corps
+餓	avoir faim
+渴	avoir soif
+醫院	hôpital
+掛號	enregistrement médical
+健保卡	carte santé
+口罩	masque
+頭痛	mal de tête
+拉肚子	diarrhée
+喉嚨	gorge
+胃	estomac
+流鼻水	nez qui coule
+打針	piqûre
+看病	consulter
+護士	infirmière
+頭髮	cheveux
+脖子	cou
+肩膀	épaule
+手指	doigt
+皮膚	peau
+背	dos
+血	sang
+癢	démanger
+熬夜	veiller tard
+減肥	maigrir
+健身房	salle de sport
+跑步	courir
+游泳	nager
+散步	se promener
+# tier6
+腿	jambe
+膝蓋	genou
+骨頭	os
+頭暈	vertige
+精神	énergie
+牙醫	dentiste
+病	maladie
+病人	patient
+開藥	prescrire
+急診	urgences
+住院	hospitalisation
+開刀	opération
+打球	jouer au ballon
+籃球	basket
+棒球	baseball
+爬山	randonnée
+瑜珈	yoga
+健身	fitness
+腰	bas du dos
+手臂	bras
+屁股	fesses
+吐	vomir
+鼻塞	nez bouché
+打噴嚏	éternuer
+流汗	transpirer
+流血	saigner
+腫	enflé
+痠痛	courbatures
+麻	engourdi
+傷口	plaie
+跌倒	tomber
+骨折	fracture
+扭傷	entorse
+燙傷	brûlure
+蛀牙	carie
+近視	myopie
+眼鏡	lunettes
+失眠	insomnie
+睡著	s'endormir
+午覺	sieste
+賴床	traîner au lit
+睡過頭	se réveiller tard
+夢	rêve
+呼吸	respirer
+心臟	cœur
+肌肉	muscle
+舌頭	langue
+嘴唇	lèvres
+指甲	ongle
+身高	taille (hauteur)
+體重	poids
+力氣	force
+體溫	température
+血壓	tension artérielle
+症狀	symptôme
+發炎	inflammation
+腸胃炎	gastro-entérite
+流感	grippe
+病毒	virus
+疫苗	vaccin
+中暑	insolation
+中醫	médecine chinoise
+按摩	massage
+止痛藥	antidouleur
+藥膏	pommade
+壓力	stress
+抽菸	fumer
+營養	nutrition
+足球	football
+羽球	badminton
+# extra5
+眉毛	sourcil
+手術	chirurgie
+回診	visite de suivi
+復健	rééducation
+暈車	mal des transports
+便秘	constipation
+痘痘	bouton (acné)
+抽筋	crampe
+# extra6
+噁心	nausée
+喘	essoufflé
+血型	groupe sanguin
+體力	endurance
+懷孕	enceinte
+治療	traitement
+抽血	prise de sang
+領藥	retirer les médicaments
+維他命	vitamine
+副作用	effet secondaire
+救護車	ambulance
+OK繃	pansement
+酒精	alcool désinfectant
+免疫力	immunité
+重訓	musculation

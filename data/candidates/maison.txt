@@ -1,0 +1,157 @@
+# tier5
+家裡	à la maison
+租	louer
+房租	loyer
+搬家	déménager
+套房	studio
+公寓	appartement
+浴室	salle de bain
+家具	meubles
+沙發	canapé
+衣櫃	armoire
+書桌	bureau (meuble)
+枕頭	oreiller
+棉被	couette
+毛巾	serviette
+牙刷	brosse à dents
+牙膏	dentifrice
+衛生紙	papier toilette
+洗髮精	shampoing
+垃圾桶	poubelle
+垃圾車	camion-poubelle
+倒垃圾	sortir les poubelles
+回收	recycler
+打掃	faire le ménage
+洗衣服	faire la lessive
+褲子	pantalon
+外套	veste
+眼鏡	lunettes
+雨傘	parapluie
+充電器	chargeur
+插座	prise électrique
+# tier6
+生活	vie quotidienne
+出門	sortir
+關	fermer, éteindre
+電	électricité
+充電	recharger
+沒電	batterie vide
+樓	étage
+樓上	à l'étage
+樓下	en bas
+遙控器	télécommande
+電風扇	ventilateur
+熱水器	chauffe-eau
+電鍋	cuiseur à riz
+吹風機	sèche-cheveux
+耳機	écouteurs
+筆電	ordinateur portable
+平板	tablette
+鬧鐘	réveil
+手錶	montre
+錢包	portefeuille
+背包	sac à dos
+拖鞋	pantoufles
+襪子	chaussettes
+帽子	chapeau
+裙子	jupe
+口罩	masque
+雨衣	imperméable
+戴	porter (accessoire)
+脫	enlever (vêtement)
+馬桶	cuvette WC
+鏡子	miroir
+肥皂	savon
+沐浴乳	gel douche
+面紙	mouchoirs en papier
+刷牙	brosser les dents
+化妝	se maquiller
+午睡	sieste
+家事	tâches ménagères
+整理	ranger
+收拾	ranger, débarrasser
+掃地	balayer
+拖地	passer la serpillière
+洗碗	faire la vaisselle
+晾衣服	étendre le linge
+掃把	balai
+拖把	serpillière
+洗衣精	lessive liquide
+垃圾袋	sac poubelle
+廚餘	déchets alimentaires
+箱子	carton, caisse
+蟑螂	cafard
+壞掉	en panne
+停電	coupure de courant
+漏水	fuite d'eau
+押金	caution
+出租	à louer
+坪	ping (surface)
+管理費	charges d'immeuble
+水電費	eau et électricité
+瓦斯	gaz
+信箱	boîte aux lettres
+牆壁	mur
+地板	sol
+電池	pile
+插頭	fiche électrique
+延長線	rallonge
+開關	interrupteur
+微波爐	micro-ondes
+烤箱	four
+瓦斯爐	cuisinière à gaz
+除濕機	déshumidificateur
+吸塵器	aspirateur
+烘衣機	sèche-linge
+飲水機	fontaine à eau
+水龍頭	robinet
+櫃子	placard
+抽屜	tiroir
+衣架	cintre
+床單	drap
+窗簾	rideau
+盤子	assiette
+湯匙	cuillère
+刀子	couteau
+鍋子	casserole
+水壺	gourde
+襯衫	chemise
+短袖	manches courtes
+毛衣	pull
+牛仔褲	jean
+洋裝	robe
+睡衣	pyjama
+內衣	sous-vêtements
+球鞋	baskets
+圍巾	écharpe
+手套	gants
+# extra5
+洗臉	laver le visage
+上廁所	aller aux toilettes
+瓶子	bouteille
+盒子	boîte
+剪刀	ciseaux
+燈泡	ampoule
+洗手間	toilettes
+短褲	short
+# extra6
+熱水壺	bouilloire
+家電	électroménager
+螢幕	écran
+社區	résidence, quartier
+大門	porte d'entrée
+門鈴	sonnette
+浴缸	baignoire
+鎖	serrure, verrouiller
+餐桌	table à manger
+毯子	couverture
+熬夜	veiller tard
+洗碗精	liquide vaisselle
+吸管	paille
+皮帶	ceinture
+口袋	poche
+抹布	chiffon
+叉子	fourchette
+床墊	matelas
+保溫瓶	thermos
+頂樓	dernier étage

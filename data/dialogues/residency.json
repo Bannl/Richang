@@ -1,0 +1,313 @@
+{
+  "situation": "residency",
+  "exchanges": [
+    {
+      "enemy": {
+        "zh": "你好，歡迎。",
+        "pinyin": "nǐ hǎo huān yíng",
+        "en": "Hello, welcome.",
+        "fr": "Bonjour, bienvenue."
+      },
+      "player": {
+        "zh": "你好，謝謝。",
+        "pinyin": "nǐ hǎo xiè xie",
+        "en": "Hello, thank you.",
+        "fr": "Bonjour, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你住在哪裡？",
+        "pinyin": "nǐ zhù zài nǎ lǐ",
+        "en": "Where do you live?",
+        "fr": "Où habitez-vous ?"
+      },
+      "player": {
+        "zh": "我住在台北。",
+        "pinyin": "wǒ zhù zài tái běi",
+        "en": "I live in Taipei.",
+        "fr": "J'habite à Taipei."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你在台灣工作嗎？",
+        "pinyin": "nǐ zài tái wān gōng zuò ma",
+        "en": "Do you work in Taiwan?",
+        "fr": "Vous travaillez à Taïwan ?"
+      },
+      "player": {
+        "zh": "對，我在一家公司工作。",
+        "pinyin": "duì wǒ zài yì jiā gōng sī gōng zuò",
+        "en": "Yes, I work at a company.",
+        "fr": "Oui, je travaille dans une entreprise."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你為什麼來台灣？",
+        "pinyin": "nǐ wèi shén me lái tái wān",
+        "en": "Why did you come to Taiwan?",
+        "fr": "Pourquoi êtes-vous venu à Taïwan ?"
+      },
+      "player": {
+        "zh": "因為我喜歡台灣。",
+        "pinyin": "yīn wèi wǒ xǐ huān tái wān",
+        "en": "Because I like Taiwan.",
+        "fr": "Parce que j'aime Taïwan."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你喜歡台灣的什麼？",
+        "pinyin": "nǐ xǐ huān tái wān de shén me",
+        "en": "What do you like about Taiwan?",
+        "fr": "Qu'est-ce que vous aimez à Taïwan ?"
+      },
+      "player": {
+        "zh": "我喜歡這裡的人。",
+        "pinyin": "wǒ xǐ huān zhè lǐ de rén",
+        "en": "I like the people here.",
+        "fr": "J'aime les gens ici."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你覺得台灣菜怎麼樣？",
+        "pinyin": "nǐ jué de tái wān cài zěn me yàng",
+        "en": "What do you think of Taiwanese food?",
+        "fr": "Que pensez-vous de la cuisine taïwanaise ?"
+      },
+      "player": {
+        "zh": "很好吃，我也喜歡珍珠奶茶。",
+        "pinyin": "hěn hǎo chī wǒ yě xǐ huān zhēn zhū nǎi chá",
+        "en": "It's delicious, I also like bubble tea.",
+        "fr": "C'est délicieux, j'aime aussi le thé aux perles."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你會說中文嗎？",
+        "pinyin": "nǐ huì shuō zhōng wén ma",
+        "en": "Can you speak Chinese?",
+        "fr": "Vous savez parler chinois ?"
+      },
+      "player": {
+        "zh": "會一點，我在學中文。",
+        "pinyin": "huì yì diǎn wǒ zài xué zhōng wén",
+        "en": "A little, I'm learning Chinese.",
+        "fr": "Un peu, j'apprends le chinois."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你覺得台灣怎麼樣？",
+        "pinyin": "nǐ jué de tái wān zěn me yàng",
+        "en": "What do you think of Taiwan?",
+        "fr": "Que pensez-vous de Taïwan ?"
+      },
+      "player": {
+        "zh": "我覺得台灣很好。",
+        "pinyin": "wǒ jué de tái wān hěn hǎo",
+        "en": "I think Taiwan is great.",
+        "fr": "Je trouve que Taïwan est très bien."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你來台灣多久了？",
+        "pinyin": "nǐ lái tái wān duō jiǔ le",
+        "en": "How long have you been in Taiwan?",
+        "fr": "Depuis combien de temps êtes-vous à Taïwan ?"
+      },
+      "player": {
+        "zh": "已經三年了。",
+        "pinyin": "yǐ jīng sān nián le",
+        "en": "Three years already.",
+        "fr": "Déjà trois ans."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你什麼時候搬來的？",
+        "pinyin": "nǐ shén me shí hou bān lái de",
+        "en": "When did you move here?",
+        "fr": "Quand avez-vous emménagé ici ?"
+      },
+      "player": {
+        "zh": "三年以前搬來的。",
+        "pinyin": "sān nián yǐ qián bān lái de",
+        "en": "I moved here three years ago.",
+        "fr": "J'ai emménagé il y a trois ans."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你的工作是做什麼的？",
+        "pinyin": "nǐ de gōng zuò shì zuò shén me de",
+        "en": "What kind of work do you do?",
+        "fr": "Quel est votre métier ?"
+      },
+      "player": {
+        "zh": "我是老師，教法文。",
+        "pinyin": "wǒ shì lǎo shī jiāo fà wén",
+        "en": "I'm a teacher, I teach French.",
+        "fr": "Je suis professeur, j'enseigne le français."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你打算在台灣住多久？",
+        "pinyin": "nǐ dǎ suàn zài tái wān zhù duō jiǔ",
+        "en": "How long do you plan to live in Taiwan?",
+        "fr": "Combien de temps comptez-vous rester à Taïwan ?"
+      },
+      "player": {
+        "zh": "我打算留在這裡。",
+        "pinyin": "wǒ dǎ suàn liú zài zhè lǐ",
+        "en": "I plan to stay here.",
+        "fr": "Je compte rester ici."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你以後有什麼計畫？",
+        "pinyin": "nǐ yǐ hòu yǒu shén me jì huà",
+        "en": "What are your plans for the future?",
+        "fr": "Quels sont vos projets pour l'avenir ?"
+      },
+      "player": {
+        "zh": "我想繼續學中文。",
+        "pinyin": "wǒ xiǎng jì xù xué zhōng wén",
+        "en": "I want to keep learning Chinese.",
+        "fr": "Je veux continuer à apprendre le chinois."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你的中文是在哪裡學的？",
+        "pinyin": "nǐ de zhōng wén shì zài nǎ lǐ xué de",
+        "en": "Where did you learn your Chinese?",
+        "fr": "Où avez-vous appris le chinois ?"
+      },
+      "player": {
+        "zh": "我在語言學校學的。",
+        "pinyin": "wǒ zài yǔ yán xué xiào xué de",
+        "en": "I learned it at a language school.",
+        "fr": "Je l'ai appris dans une école de langues."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "中文難不難？",
+        "pinyin": "zhōng wén nán bù nán",
+        "en": "Is Chinese hard?",
+        "fr": "Le chinois est difficile ?"
+      },
+      "player": {
+        "zh": "有點難，可是很有趣。",
+        "pinyin": "yǒu diǎn nán kě shì hěn yǒu qù",
+        "en": "A bit hard, but very interesting.",
+        "fr": "Un peu difficile, mais très intéressant."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你有台灣朋友嗎？",
+        "pinyin": "nǐ yǒu tái wān péng yǒu ma",
+        "en": "Do you have Taiwanese friends?",
+        "fr": "Avez-vous des amis taïwanais ?"
+      },
+      "player": {
+        "zh": "有，他們對我很好。",
+        "pinyin": "yǒu tā men duì wǒ hěn hǎo",
+        "en": "Yes, they're very kind to me.",
+        "fr": "Oui, ils sont très gentils avec moi."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你家人也住在台灣嗎？",
+        "pinyin": "nǐ jiā rén yě zhù zài tái wān ma",
+        "en": "Does your family also live in Taiwan?",
+        "fr": "Votre famille habite aussi à Taïwan ?"
+      },
+      "player": {
+        "zh": "沒有，他們住在法國。",
+        "pinyin": "méi yǒu tā men zhù zài fà guó",
+        "en": "No, they live in France.",
+        "fr": "Non, ils habitent en France."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你一定很想念法國的家人。",
+        "pinyin": "nǐ yí dìng hěn xiǎng niàn fà guó de jiā rén",
+        "en": "You must really miss your family in France.",
+        "fr": "Votre famille en France doit vous manquer."
+      },
+      "player": {
+        "zh": "對，可是我常常打電話。",
+        "pinyin": "duì kě shì wǒ cháng cháng dǎ diàn huà",
+        "en": "Right, but I call often.",
+        "fr": "Oui, mais j'appelle souvent."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你的居留證辦好了嗎？",
+        "pinyin": "nǐ de jū liú zhèng bàn hǎo le ma",
+        "en": "Is your ARC sorted out already?",
+        "fr": "Votre carte de résident est-elle prête ?"
+      },
+      "player": {
+        "zh": "辦好了，護照也在這裡。",
+        "pinyin": "bàn hǎo le hù zhào yě zài zhè lǐ",
+        "en": "It's done, and my passport is here too.",
+        "fr": "C'est fait, et voici aussi mon passeport."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你的簽證什麼時候到期？",
+        "pinyin": "nǐ de qiān zhèng shén me shí hou dào qí",
+        "en": "When does your visa expire?",
+        "fr": "Quand votre visa expire-t-il ?"
+      },
+      "player": {
+        "zh": "明年三月到期。",
+        "pinyin": "míng nián sān yuè dào qí",
+        "en": "It expires next March.",
+        "fr": "Il expire en mars prochain."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你對台灣還有什麼問題嗎？",
+        "pinyin": "nǐ duì tái wān hái yǒu shén me wèn tí ma",
+        "en": "Do you have any other questions about Taiwan?",
+        "fr": "Avez-vous d'autres questions sur Taïwan ?"
+      },
+      "player": {
+        "zh": "沒有問題，謝謝您。",
+        "pinyin": "méi yǒu wèn tí xiè xie nín",
+        "en": "No questions, thank you.",
+        "fr": "Pas de questions, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "謝謝您今天過來，歡迎您留在台灣。",
+        "pinyin": "xiè xie nín jīn tiān guò lái huān yíng nín liú zài tái wān",
+        "en": "Thank you for coming today, welcome to stay in Taiwan.",
+        "fr": "Merci d'être venu aujourd'hui, bienvenue pour rester à Taïwan."
+      },
+      "player": {
+        "zh": "謝謝您，我很高興。",
+        "pinyin": "xiè xie nín wǒ hěn gāo xìng",
+        "en": "Thank you, I'm very happy.",
+        "fr": "Merci beaucoup, je suis très content."
+      }
+    }
+  ]
+}

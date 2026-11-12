@@ -1,0 +1,2079 @@
+[
+  {
+    "rank": 1,
+    "hanzi": "的",
+    "en": [
+      "possessive particle (de)",
+      "attributive particle"
+    ],
+    "noteEn": "Links a noun to what comes before it (possessor, adjective); differs from 得 and 地",
+    "exampleEn": "This is my book."
+  },
+  {
+    "rank": 2,
+    "hanzi": "了",
+    "en": [
+      "completed-action marker (le)",
+      "change-of-state particle"
+    ],
+    "noteEn": "Marks a completed action or a change of state, not a true past tense",
+    "exampleEn": "I ate."
+  },
+  {
+    "rank": 3,
+    "hanzi": "不",
+    "en": [
+      "not",
+      "no"
+    ],
+    "noteEn": "Becomes bú before a 4th-tone syllable (不是, 不對)",
+    "exampleEn": "I don't like coffee."
+  },
+  {
+    "rank": 4,
+    "hanzi": "在",
+    "en": [
+      "at, in (location)",
+      "in progress"
+    ],
+    "noteEn": "Also a verb meaning 'to be at'; zài + verb shows an action in progress",
+    "exampleEn": "I work in Taipei."
+  },
+  {
+    "rank": 5,
+    "hanzi": "就",
+    "en": [
+      "then, in that case",
+      "right away"
+    ],
+    "noteEn": "Emphasizes immediacy or a logical certainty",
+    "exampleEn": "I'll go right now."
+  },
+  {
+    "rank": 6,
+    "hanzi": "也",
+    "en": [
+      "also, too"
+    ],
+    "exampleEn": "I'm a student too."
+  },
+  {
+    "rank": 7,
+    "hanzi": "都",
+    "en": [
+      "all, both"
+    ],
+    "noteEn": "Refers to the whole group mentioned before it",
+    "exampleEn": "We're all Taiwanese."
+  },
+  {
+    "rank": 8,
+    "hanzi": "很",
+    "en": [
+      "very"
+    ],
+    "noteEn": "Often just a required linking word before an adjective, without strong meaning",
+    "exampleEn": "It's very hot today."
+  },
+  {
+    "rank": 9,
+    "hanzi": "嗎",
+    "en": [
+      "question particle (ma)"
+    ],
+    "noteEn": "Turns a statement into a yes/no question",
+    "exampleEn": "Are you doing well today?"
+  },
+  {
+    "rank": 10,
+    "hanzi": "呢",
+    "en": [
+      "and you? (ne)",
+      "pending-question particle"
+    ],
+    "exampleEn": "I'm fine, and you?"
+  },
+  {
+    "rank": 11,
+    "hanzi": "吧",
+    "en": [
+      "suggestion particle (ba)",
+      "particle of supposition"
+    ],
+    "noteEn": "Softens a command or proposes something",
+    "exampleEn": "Let's go."
+  },
+  {
+    "rank": 12,
+    "hanzi": "和",
+    "en": [
+      "and"
+    ],
+    "noteEn": "Pronounced hàn in Taiwan when it means 'and'",
+    "exampleEn": "Dad and Mom are home."
+  },
+  {
+    "rank": 13,
+    "hanzi": "跟",
+    "en": [
+      "with",
+      "and"
+    ],
+    "noteEn": "More colloquial than 和; also used as the conjunction 'and'",
+    "exampleEn": "I'm coming with you."
+  },
+  {
+    "rank": 14,
+    "hanzi": "沒",
+    "en": [
+      "not (completed action)"
+    ],
+    "noteEn": "Negates 有 and completed actions (沒 + verb)",
+    "exampleEn": "I didn't have breakfast."
+  },
+  {
+    "rank": 15,
+    "hanzi": "沒有",
+    "en": [
+      "to not have",
+      "there isn't"
+    ],
+    "exampleEn": "I don't have any money."
+  },
+  {
+    "rank": 16,
+    "hanzi": "還",
+    "en": [
+      "still, yet"
+    ],
+    "exampleEn": "He hasn't arrived yet."
+  },
+  {
+    "rank": 17,
+    "hanzi": "把",
+    "en": [
+      "object-fronting marker (ba)"
+    ],
+    "noteEn": "Ba + object + verb moves the object before the verb",
+    "exampleEn": "I closed the door."
+  },
+  {
+    "rank": 18,
+    "hanzi": "個",
+    "en": [
+      "general classifier (ge)"
+    ],
+    "noteEn": "All-purpose measure word, often used when unsure of the correct one",
+    "exampleEn": "I have an older brother."
+  },
+  {
+    "rank": 19,
+    "hanzi": "一起",
+    "en": [
+      "together"
+    ],
+    "exampleEn": "We're going together."
+  },
+  {
+    "rank": 20,
+    "hanzi": "我",
+    "en": [
+      "I, me"
+    ],
+    "exampleEn": "I'm French."
+  },
+  {
+    "rank": 21,
+    "hanzi": "你",
+    "en": [
+      "you (singular)"
+    ],
+    "noteEn": "Polite form 您 (nín) is rare in spoken Taiwanese Mandarin",
+    "exampleEn": "Are you Taiwanese?"
+  },
+  {
+    "rank": 22,
+    "hanzi": "他",
+    "en": [
+      "he, him"
+    ],
+    "exampleEn": "He's my friend."
+  },
+  {
+    "rank": 23,
+    "hanzi": "她",
+    "en": [
+      "she, her"
+    ],
+    "noteEn": "Pronounced the same as 他 (tā); the difference only shows in writing",
+    "exampleEn": "She's a teacher."
+  },
+  {
+    "rank": 24,
+    "hanzi": "我們",
+    "en": [
+      "we, us"
+    ],
+    "exampleEn": "We're friends."
+  },
+  {
+    "rank": 25,
+    "hanzi": "你們",
+    "en": [
+      "you (plural)"
+    ],
+    "exampleEn": "How are you all doing?"
+  },
+  {
+    "rank": 26,
+    "hanzi": "他們",
+    "en": [
+      "they, them"
+    ],
+    "exampleEn": "They're teachers."
+  },
+  {
+    "rank": 27,
+    "hanzi": "這",
+    "en": [
+      "this"
+    ],
+    "noteEn": "Also read zhèi in speech before a classifier",
+    "exampleEn": "What is this?"
+  },
+  {
+    "rank": 28,
+    "hanzi": "那",
+    "en": [
+      "that"
+    ],
+    "noteEn": "Also means 'in that case'; read nèi in speech before a classifier",
+    "exampleEn": "That's my car."
+  },
+  {
+    "rank": 29,
+    "hanzi": "什麼",
+    "en": [
+      "what"
+    ],
+    "exampleEn": "What do you want to eat?"
+  },
+  {
+    "rank": 30,
+    "hanzi": "誰",
+    "en": [
+      "who"
+    ],
+    "noteEn": "Common Taiwan pronunciation (rather than shuí)",
+    "exampleEn": "Who is that person?"
+  },
+  {
+    "rank": 31,
+    "hanzi": "哪",
+    "en": [
+      "which"
+    ],
+    "exampleEn": "Which one do you want?"
+  },
+  {
+    "rank": 32,
+    "hanzi": "怎麼",
+    "en": [
+      "how"
+    ],
+    "exampleEn": "How do you pronounce this character?"
+  },
+  {
+    "rank": 33,
+    "hanzi": "為什麼",
+    "en": [
+      "why"
+    ],
+    "exampleEn": "Why are you crying?"
+  },
+  {
+    "rank": 34,
+    "hanzi": "一",
+    "en": [
+      "one"
+    ],
+    "noteEn": "Pronounced yì or yí depending on the following tone (yì qǐ, yí ge)",
+    "exampleEn": "I want a glass of water."
+  },
+  {
+    "rank": 35,
+    "hanzi": "二",
+    "en": [
+      "two"
+    ],
+    "noteEn": "To count objects, use 兩 + classifier instead",
+    "exampleEn": "Two plus two equals four."
+  },
+  {
+    "rank": 36,
+    "hanzi": "三",
+    "en": [
+      "three"
+    ],
+    "exampleEn": "I have three books."
+  },
+  {
+    "rank": 37,
+    "hanzi": "四",
+    "en": [
+      "four"
+    ],
+    "exampleEn": "It's four o'clock."
+  },
+  {
+    "rank": 38,
+    "hanzi": "五",
+    "en": [
+      "five"
+    ],
+    "exampleEn": "I finish work at five o'clock."
+  },
+  {
+    "rank": 39,
+    "hanzi": "六",
+    "en": [
+      "six"
+    ],
+    "exampleEn": "It's half past six."
+  },
+  {
+    "rank": 40,
+    "hanzi": "七",
+    "en": [
+      "seven"
+    ],
+    "exampleEn": "I get up at seven o'clock."
+  },
+  {
+    "rank": 41,
+    "hanzi": "八",
+    "en": [
+      "eight"
+    ],
+    "exampleEn": "It's eight o'clock."
+  },
+  {
+    "rank": 42,
+    "hanzi": "九",
+    "en": [
+      "nine"
+    ],
+    "exampleEn": "The store opens at nine o'clock."
+  },
+  {
+    "rank": 43,
+    "hanzi": "十",
+    "en": [
+      "ten"
+    ],
+    "exampleEn": "I go to bed at ten o'clock."
+  },
+  {
+    "rank": 44,
+    "hanzi": "現在",
+    "en": [
+      "now"
+    ],
+    "exampleEn": "What time is it now?"
+  },
+  {
+    "rank": 45,
+    "hanzi": "今天",
+    "en": [
+      "today"
+    ],
+    "exampleEn": "The weather is nice today."
+  },
+  {
+    "rank": 46,
+    "hanzi": "明天",
+    "en": [
+      "tomorrow"
+    ],
+    "exampleEn": "We're meeting tomorrow."
+  },
+  {
+    "rank": 47,
+    "hanzi": "昨天",
+    "en": [
+      "yesterday"
+    ],
+    "exampleEn": "I was very busy yesterday."
+  },
+  {
+    "rank": 48,
+    "hanzi": "天",
+    "en": [
+      "day",
+      "sky"
+    ],
+    "noteEn": "Also a classifier for days (三天 = three days)",
+    "exampleEn": "I lived in Taiwan for three days."
+  },
+  {
+    "rank": 49,
+    "hanzi": "年",
+    "en": [
+      "year"
+    ],
+    "noteEn": "Also a classifier for years (一年 = one year)",
+    "exampleEn": "I lived in Taiwan for one year."
+  },
+  {
+    "rank": 50,
+    "hanzi": "時間",
+    "en": [
+      "time"
+    ],
+    "exampleEn": "I don't have time."
+  },
+  {
+    "rank": 51,
+    "hanzi": "是",
+    "en": [
+      "to be"
+    ],
+    "exampleEn": "He's my father."
+  },
+  {
+    "rank": 52,
+    "hanzi": "有",
+    "en": [
+      "to have",
+      "there is/are"
+    ],
+    "exampleEn": "I have a cat."
+  },
+  {
+    "rank": 53,
+    "hanzi": "要",
+    "en": [
+      "to want",
+      "going to (future)"
+    ],
+    "noteEn": "Also a full verb meaning 'to want something' (我要這個)",
+    "exampleEn": "I want to drink water."
+  },
+  {
+    "rank": 54,
+    "hanzi": "會",
+    "en": [
+      "to know how to",
+      "likely to (will)"
+    ],
+    "noteEn": "Learned ability, unlike 能 (physical ability/permission)",
+    "exampleEn": "I can speak Chinese."
+  },
+  {
+    "rank": 55,
+    "hanzi": "能",
+    "en": [
+      "can",
+      "to be able to"
+    ],
+    "exampleEn": "I can't go today."
+  },
+  {
+    "rank": 56,
+    "hanzi": "可以",
+    "en": [
+      "may, can (permission)"
+    ],
+    "exampleEn": "May I come in?"
+  },
+  {
+    "rank": 57,
+    "hanzi": "去",
+    "en": [
+      "to go"
+    ],
+    "exampleEn": "I'm going to go to Taipei."
+  },
+  {
+    "rank": 58,
+    "hanzi": "來",
+    "en": [
+      "to come"
+    ],
+    "exampleEn": "He's coming tomorrow."
+  },
+  {
+    "rank": 59,
+    "hanzi": "看",
+    "en": [
+      "to watch",
+      "to look at"
+    ],
+    "exampleEn": "I like watching movies."
+  },
+  {
+    "rank": 60,
+    "hanzi": "說",
+    "en": [
+      "to say, to speak"
+    ],
+    "exampleEn": "He speaks Chinese."
+  },
+  {
+    "rank": 61,
+    "hanzi": "做",
+    "en": [
+      "to do, to make"
+    ],
+    "exampleEn": "What are you doing?"
+  },
+  {
+    "rank": 62,
+    "hanzi": "想",
+    "en": [
+      "would like to",
+      "to think"
+    ],
+    "noteEn": "Also 'to think of/miss someone' (我想你 = I miss you)",
+    "exampleEn": "I feel like going home."
+  },
+  {
+    "rank": 63,
+    "hanzi": "知道",
+    "en": [
+      "to know"
+    ],
+    "exampleEn": "I don't know."
+  },
+  {
+    "rank": 64,
+    "hanzi": "給",
+    "en": [
+      "to give"
+    ],
+    "noteEn": "Also a preposition 'to/for' (給我 = for me)",
+    "exampleEn": "Please give me some water."
+  },
+  {
+    "rank": 65,
+    "hanzi": "到",
+    "en": [
+      "to arrive"
+    ],
+    "noteEn": "Also a resultative verb complement (看到, 找到)",
+    "exampleEn": "I've arrived home."
+  },
+  {
+    "rank": 66,
+    "hanzi": "讓",
+    "en": [
+      "to let",
+      "to make"
+    ],
+    "exampleEn": "Let me think about it."
+  },
+  {
+    "rank": 67,
+    "hanzi": "覺得",
+    "en": [
+      "to feel",
+      "to think that"
+    ],
+    "exampleEn": "I think it's very good."
+  },
+  {
+    "rank": 68,
+    "hanzi": "喜歡",
+    "en": [
+      "to like"
+    ],
+    "exampleEn": "I like you."
+  },
+  {
+    "rank": 69,
+    "hanzi": "好",
+    "en": [
+      "good"
+    ],
+    "exampleEn": "This is very good."
+  },
+  {
+    "rank": 70,
+    "hanzi": "大",
+    "en": [
+      "big"
+    ],
+    "exampleEn": "This house is very big."
+  },
+  {
+    "rank": 71,
+    "hanzi": "小",
+    "en": [
+      "small"
+    ],
+    "exampleEn": "This dog is very small."
+  },
+  {
+    "rank": 72,
+    "hanzi": "多",
+    "en": [
+      "many, much"
+    ],
+    "exampleEn": "There are a lot of people here."
+  },
+  {
+    "rank": 73,
+    "hanzi": "少",
+    "en": [
+      "few, little"
+    ],
+    "exampleEn": "There are few people here."
+  },
+  {
+    "rank": 74,
+    "hanzi": "快",
+    "en": [
+      "fast, quick"
+    ],
+    "exampleEn": "He walks very fast."
+  },
+  {
+    "rank": 75,
+    "hanzi": "新",
+    "en": [
+      "new"
+    ],
+    "exampleEn": "This is a new phone."
+  },
+  {
+    "rank": 76,
+    "hanzi": "對",
+    "en": [
+      "correct, right"
+    ],
+    "noteEn": "Also an interjection 'exactly!' and a preposition 'toward, to'",
+    "exampleEn": "You're right."
+  },
+  {
+    "rank": 77,
+    "hanzi": "人",
+    "en": [
+      "person, people"
+    ],
+    "exampleEn": "He's a good person."
+  },
+  {
+    "rank": 78,
+    "hanzi": "朋友",
+    "en": [
+      "friend"
+    ],
+    "exampleEn": "We're good friends."
+  },
+  {
+    "rank": 79,
+    "hanzi": "老師",
+    "en": [
+      "teacher"
+    ],
+    "exampleEn": "The teacher is very nice."
+  },
+  {
+    "rank": 80,
+    "hanzi": "吃",
+    "en": [
+      "to eat"
+    ],
+    "exampleEn": "I want to eat."
+  },
+  {
+    "rank": 81,
+    "hanzi": "喝",
+    "en": [
+      "to drink"
+    ],
+    "exampleEn": "What do you want to drink?"
+  },
+  {
+    "rank": 82,
+    "hanzi": "水",
+    "en": [
+      "water"
+    ],
+    "exampleEn": "This is cold water."
+  },
+  {
+    "rank": 83,
+    "hanzi": "茶",
+    "en": [
+      "tea"
+    ],
+    "exampleEn": "I like drinking tea."
+  },
+  {
+    "rank": 84,
+    "hanzi": "飯",
+    "en": [
+      "cooked rice, meal"
+    ],
+    "exampleEn": "Let's go eat."
+  },
+  {
+    "rank": 85,
+    "hanzi": "台灣",
+    "en": [
+      "Taiwan"
+    ],
+    "exampleEn": "I live in Taiwan."
+  },
+  {
+    "rank": 86,
+    "hanzi": "家",
+    "en": [
+      "home, family"
+    ],
+    "exampleEn": "I want to go home."
+  },
+  {
+    "rank": 87,
+    "hanzi": "學校",
+    "en": [
+      "school"
+    ],
+    "exampleEn": "Where's the school?"
+  },
+  {
+    "rank": 88,
+    "hanzi": "公司",
+    "en": [
+      "company"
+    ],
+    "exampleEn": "I work at a company."
+  },
+  {
+    "rank": 89,
+    "hanzi": "車",
+    "en": [
+      "car, vehicle"
+    ],
+    "exampleEn": "I'll go by car."
+  },
+  {
+    "rank": 90,
+    "hanzi": "錢",
+    "en": [
+      "money"
+    ],
+    "exampleEn": "How much does this cost?"
+  },
+  {
+    "rank": 91,
+    "hanzi": "買",
+    "en": [
+      "to buy"
+    ],
+    "exampleEn": "I want to buy some fruit."
+  },
+  {
+    "rank": 92,
+    "hanzi": "東西",
+    "en": [
+      "thing, item"
+    ],
+    "exampleEn": "I want to go shopping."
+  },
+  {
+    "rank": 93,
+    "hanzi": "工作",
+    "en": [
+      "work, job"
+    ],
+    "noteEn": "Also a verb meaning 'to work'",
+    "exampleEn": "My job is very busy."
+  },
+  {
+    "rank": 94,
+    "hanzi": "學",
+    "en": [
+      "to learn, to study"
+    ],
+    "exampleEn": "I'm learning Chinese."
+  },
+  {
+    "rank": 95,
+    "hanzi": "你好",
+    "en": [
+      "hello"
+    ],
+    "exampleEn": "Hello, nice to meet you."
+  },
+  {
+    "rank": 96,
+    "hanzi": "謝謝",
+    "en": [
+      "thank you"
+    ],
+    "exampleEn": "Thank you for your help."
+  },
+  {
+    "rank": 97,
+    "hanzi": "對不起",
+    "en": [
+      "sorry"
+    ],
+    "exampleEn": "Sorry, I'm late."
+  },
+  {
+    "rank": 98,
+    "hanzi": "沒關係",
+    "en": [
+      "it's okay, no worries"
+    ],
+    "exampleEn": "It's okay, don't worry."
+  },
+  {
+    "rank": 99,
+    "hanzi": "再見",
+    "en": [
+      "goodbye"
+    ],
+    "exampleEn": "Goodbye, see you tomorrow."
+  },
+  {
+    "rank": 100,
+    "hanzi": "請",
+    "en": [
+      "please",
+      "to invite",
+      "to ask (someone)"
+    ],
+    "exampleEn": "Please help me open the door."
+  },
+  {
+    "rank": 101,
+    "hanzi": "太",
+    "en": [
+      "too, excessively"
+    ],
+    "exampleEn": "This is too expensive."
+  },
+  {
+    "rank": 102,
+    "hanzi": "但是",
+    "en": [
+      "but"
+    ],
+    "exampleEn": "I'm tired, but happy."
+  },
+  {
+    "rank": 103,
+    "hanzi": "因為",
+    "en": [
+      "because"
+    ],
+    "exampleEn": "Because it's raining, I didn't go."
+  },
+  {
+    "rank": 104,
+    "hanzi": "所以",
+    "en": [
+      "so, therefore"
+    ],
+    "exampleEn": "It was raining, so I didn't go."
+  },
+  {
+    "rank": 105,
+    "hanzi": "如果",
+    "en": [
+      "if"
+    ],
+    "exampleEn": "If it rains, I won't go."
+  },
+  {
+    "rank": 106,
+    "hanzi": "還是",
+    "en": [
+      "or"
+    ],
+    "noteEn": "Also an adverb 'still, rather' before a verb",
+    "exampleEn": "Do you want tea or coffee?"
+  },
+  {
+    "rank": 107,
+    "hanzi": "或者",
+    "en": [
+      "or (alternatively)"
+    ],
+    "exampleEn": "Either you or me works."
+  },
+  {
+    "rank": 108,
+    "hanzi": "已經",
+    "en": [
+      "already"
+    ],
+    "exampleEn": "He has already arrived."
+  },
+  {
+    "rank": 109,
+    "hanzi": "再",
+    "en": [
+      "again (in the future)"
+    ],
+    "exampleEn": "Please say it again."
+  },
+  {
+    "rank": 110,
+    "hanzi": "又",
+    "en": [
+      "again (in the past)"
+    ],
+    "exampleEn": "He's late again."
+  },
+  {
+    "rank": 111,
+    "hanzi": "只",
+    "en": [
+      "only"
+    ],
+    "exampleEn": "I only have ten dollars."
+  },
+  {
+    "rank": 112,
+    "hanzi": "一下",
+    "en": [
+      "a moment",
+      "briefly"
+    ],
+    "noteEn": "After a verb, marks a brief action (看一下 = take a quick look)",
+    "exampleEn": "Wait for me a moment."
+  },
+  {
+    "rank": 113,
+    "hanzi": "一點",
+    "en": [
+      "a little, a bit"
+    ],
+    "exampleEn": "I understand a little Chinese."
+  },
+  {
+    "rank": 114,
+    "hanzi": "比",
+    "en": [
+      "compared to",
+      "more than"
+    ],
+    "exampleEn": "Today is hotter than yesterday."
+  },
+  {
+    "rank": 115,
+    "hanzi": "最",
+    "en": [
+      "most (superlative)"
+    ],
+    "exampleEn": "This shop is the cheapest."
+  },
+  {
+    "rank": 116,
+    "hanzi": "從",
+    "en": [
+      "from"
+    ],
+    "exampleEn": "I come from Taipei."
+  },
+  {
+    "rank": 117,
+    "hanzi": "好像",
+    "en": [
+      "it seems",
+      "to seem like"
+    ],
+    "exampleEn": "He seems tired."
+  },
+  {
+    "rank": 118,
+    "hanzi": "可能",
+    "en": [
+      "maybe, possibly"
+    ],
+    "exampleEn": "He might not know."
+  },
+  {
+    "rank": 119,
+    "hanzi": "它",
+    "en": [
+      "it (thing, animal)"
+    ],
+    "exampleEn": "It's my dog."
+  },
+  {
+    "rank": 120,
+    "hanzi": "大家",
+    "en": [
+      "everyone"
+    ],
+    "exampleEn": "Everyone has arrived."
+  },
+  {
+    "rank": 121,
+    "hanzi": "自己",
+    "en": [
+      "oneself"
+    ],
+    "exampleEn": "I'll manage it myself."
+  },
+  {
+    "rank": 122,
+    "hanzi": "這裡",
+    "en": [
+      "here"
+    ],
+    "exampleEn": "It's very pretty here."
+  },
+  {
+    "rank": 123,
+    "hanzi": "那裡",
+    "en": [
+      "there"
+    ],
+    "exampleEn": "I want to go there."
+  },
+  {
+    "rank": 124,
+    "hanzi": "哪裡",
+    "en": [
+      "where"
+    ],
+    "exampleEn": "Where's the bathroom?"
+  },
+  {
+    "rank": 125,
+    "hanzi": "多少",
+    "en": [
+      "how much, how many"
+    ],
+    "exampleEn": "How much do you want?"
+  },
+  {
+    "rank": 126,
+    "hanzi": "幾",
+    "en": [
+      "how many (small number)"
+    ],
+    "exampleEn": "How many children do you have?"
+  },
+  {
+    "rank": 127,
+    "hanzi": "百",
+    "en": [
+      "hundred"
+    ],
+    "exampleEn": "Is a hundred dollars enough?"
+  },
+  {
+    "rank": 128,
+    "hanzi": "兩",
+    "en": [
+      "two (before a classifier)"
+    ],
+    "exampleEn": "I want two cups of tea."
+  },
+  {
+    "rank": 129,
+    "hanzi": "星期",
+    "en": [
+      "week"
+    ],
+    "noteEn": "Taiwan pronunciation xīng qí (standard Mandarin uses xīng qī)",
+    "exampleEn": "I'm going back to my country next week."
+  },
+  {
+    "rank": 130,
+    "hanzi": "月",
+    "en": [
+      "month",
+      "moon"
+    ],
+    "exampleEn": "I'm going to Taiwan next month."
+  },
+  {
+    "rank": 131,
+    "hanzi": "日",
+    "en": [
+      "day (date)",
+      "sun"
+    ],
+    "noteEn": "Mainly used in writing for dates; speech tends to use 號 instead",
+    "exampleEn": "What is today's date?"
+  },
+  {
+    "rank": 132,
+    "hanzi": "號",
+    "en": [
+      "day of the month",
+      "number"
+    ],
+    "noteEn": "Common spoken form for dates, versus the more written 日",
+    "exampleEn": "What's the date today?"
+  },
+  {
+    "rank": 133,
+    "hanzi": "早上",
+    "en": [
+      "morning"
+    ],
+    "exampleEn": "I get up at seven in the morning."
+  },
+  {
+    "rank": 134,
+    "hanzi": "晚上",
+    "en": [
+      "evening"
+    ],
+    "exampleEn": "I don't work in the evening."
+  },
+  {
+    "rank": 135,
+    "hanzi": "時候",
+    "en": [
+      "time, moment"
+    ],
+    "exampleEn": "When are you arriving?"
+  },
+  {
+    "rank": 136,
+    "hanzi": "點",
+    "en": [
+      "o'clock",
+      "point, a bit"
+    ],
+    "exampleEn": "It's three o'clock."
+  },
+  {
+    "rank": 137,
+    "hanzi": "分鐘",
+    "en": [
+      "minute"
+    ],
+    "exampleEn": "Wait five minutes."
+  },
+  {
+    "rank": 138,
+    "hanzi": "小時",
+    "en": [
+      "hour"
+    ],
+    "exampleEn": "I waited for an hour."
+  },
+  {
+    "rank": 139,
+    "hanzi": "等",
+    "en": [
+      "to wait"
+    ],
+    "exampleEn": "I'm waiting for the bus."
+  },
+  {
+    "rank": 140,
+    "hanzi": "找",
+    "en": [
+      "to look for"
+    ],
+    "exampleEn": "I'm looking for the bathroom."
+  },
+  {
+    "rank": 141,
+    "hanzi": "開",
+    "en": [
+      "to open",
+      "to turn on",
+      "to drive"
+    ],
+    "exampleEn": "Please turn on the light."
+  },
+  {
+    "rank": 142,
+    "hanzi": "走",
+    "en": [
+      "to walk",
+      "to leave"
+    ],
+    "exampleEn": "We should get going."
+  },
+  {
+    "rank": 143,
+    "hanzi": "坐",
+    "en": [
+      "to sit",
+      "to take (a vehicle)"
+    ],
+    "exampleEn": "I take the MRT to work."
+  },
+  {
+    "rank": 144,
+    "hanzi": "用",
+    "en": [
+      "to use"
+    ],
+    "exampleEn": "I pay with my phone."
+  },
+  {
+    "rank": 145,
+    "hanzi": "叫",
+    "en": [
+      "to be called",
+      "to call"
+    ],
+    "exampleEn": "My name is Marie."
+  },
+  {
+    "rank": 146,
+    "hanzi": "問",
+    "en": [
+      "to ask"
+    ],
+    "exampleEn": "Can I ask a question?"
+  },
+  {
+    "rank": 147,
+    "hanzi": "告訴",
+    "en": [
+      "to tell"
+    ],
+    "exampleEn": "Please tell me."
+  },
+  {
+    "rank": 148,
+    "hanzi": "幫",
+    "en": [
+      "to help"
+    ],
+    "exampleEn": "Can you help me?"
+  },
+  {
+    "rank": 149,
+    "hanzi": "需要",
+    "en": [
+      "to need"
+    ],
+    "exampleEn": "I need help."
+  },
+  {
+    "rank": 150,
+    "hanzi": "希望",
+    "en": [
+      "to hope"
+    ],
+    "exampleEn": "I hope you'll come."
+  },
+  {
+    "rank": 151,
+    "hanzi": "開始",
+    "en": [
+      "to begin, to start"
+    ],
+    "exampleEn": "The movie has started."
+  },
+  {
+    "rank": 152,
+    "hanzi": "回",
+    "en": [
+      "to return"
+    ],
+    "exampleEn": "I'm going back to Taiwan."
+  },
+  {
+    "rank": 153,
+    "hanzi": "拿",
+    "en": [
+      "to take, to hold"
+    ],
+    "exampleEn": "Please hold this for a moment."
+  },
+  {
+    "rank": 154,
+    "hanzi": "慢",
+    "en": [
+      "slow"
+    ],
+    "exampleEn": "Can you speak a bit more slowly?"
+  },
+  {
+    "rank": 155,
+    "hanzi": "高",
+    "en": [
+      "tall, high"
+    ],
+    "exampleEn": "He's tall."
+  },
+  {
+    "rank": 156,
+    "hanzi": "長",
+    "en": [
+      "long"
+    ],
+    "exampleEn": "This road is very long."
+  },
+  {
+    "rank": 157,
+    "hanzi": "老",
+    "en": [
+      "old (age)"
+    ],
+    "exampleEn": "My grandfather is very old."
+  },
+  {
+    "rank": 158,
+    "hanzi": "漂亮",
+    "en": [
+      "pretty, beautiful"
+    ],
+    "exampleEn": "She's very pretty."
+  },
+  {
+    "rank": 159,
+    "hanzi": "便宜",
+    "en": [
+      "cheap, inexpensive"
+    ],
+    "exampleEn": "This is very cheap."
+  },
+  {
+    "rank": 160,
+    "hanzi": "貴",
+    "en": [
+      "expensive"
+    ],
+    "exampleEn": "Rent is very expensive in Taipei."
+  },
+  {
+    "rank": 161,
+    "hanzi": "熱",
+    "en": [
+      "hot"
+    ],
+    "exampleEn": "Summer is very hot."
+  },
+  {
+    "rank": 162,
+    "hanzi": "冷",
+    "en": [
+      "cold"
+    ],
+    "exampleEn": "It's very cold today."
+  },
+  {
+    "rank": 163,
+    "hanzi": "累",
+    "en": [
+      "tired"
+    ],
+    "exampleEn": "I'm very tired today."
+  },
+  {
+    "rank": 164,
+    "hanzi": "先生",
+    "en": [
+      "Mr., sir"
+    ],
+    "exampleEn": "Is Mr. Lin here?"
+  },
+  {
+    "rank": 165,
+    "hanzi": "小姐",
+    "en": [
+      "Miss, Ms."
+    ],
+    "exampleEn": "Excuse me, is Miss Chen here?"
+  },
+  {
+    "rank": 166,
+    "hanzi": "爸爸",
+    "en": [
+      "dad"
+    ],
+    "exampleEn": "My dad is a teacher."
+  },
+  {
+    "rank": 167,
+    "hanzi": "媽媽",
+    "en": [
+      "mom"
+    ],
+    "exampleEn": "Mom is cooking."
+  },
+  {
+    "rank": 168,
+    "hanzi": "小孩",
+    "en": [
+      "child"
+    ],
+    "exampleEn": "She has two children."
+  },
+  {
+    "rank": 169,
+    "hanzi": "同學",
+    "en": [
+      "classmate"
+    ],
+    "exampleEn": "He's my classmate."
+  },
+  {
+    "rank": 170,
+    "hanzi": "同事",
+    "en": [
+      "colleague"
+    ],
+    "exampleEn": "She's my colleague."
+  },
+  {
+    "rank": 171,
+    "hanzi": "菜",
+    "en": [
+      "dish",
+      "vegetable"
+    ],
+    "exampleEn": "This dish is delicious."
+  },
+  {
+    "rank": 172,
+    "hanzi": "麵",
+    "en": [
+      "noodles"
+    ],
+    "exampleEn": "I want a bowl of noodles."
+  },
+  {
+    "rank": 173,
+    "hanzi": "肉",
+    "en": [
+      "meat"
+    ],
+    "exampleEn": "I don't eat meat."
+  },
+  {
+    "rank": 174,
+    "hanzi": "水果",
+    "en": [
+      "fruit"
+    ],
+    "exampleEn": "I like eating fruit."
+  },
+  {
+    "rank": 175,
+    "hanzi": "咖啡",
+    "en": [
+      "coffee"
+    ],
+    "exampleEn": "I drink coffee every day."
+  },
+  {
+    "rank": 176,
+    "hanzi": "早餐",
+    "en": [
+      "breakfast"
+    ],
+    "exampleEn": "Breakfast is important."
+  },
+  {
+    "rank": 177,
+    "hanzi": "台北",
+    "en": [
+      "Taipei"
+    ],
+    "exampleEn": "I live in Taipei."
+  },
+  {
+    "rank": 178,
+    "hanzi": "地方",
+    "en": [
+      "place"
+    ],
+    "exampleEn": "This is a nice place."
+  },
+  {
+    "rank": 179,
+    "hanzi": "路",
+    "en": [
+      "road, street",
+      "way"
+    ],
+    "exampleEn": "I don't know the way."
+  },
+  {
+    "rank": 180,
+    "hanzi": "車站",
+    "en": [
+      "station"
+    ],
+    "exampleEn": "Where's the station?"
+  },
+  {
+    "rank": 181,
+    "hanzi": "捷運",
+    "en": [
+      "MRT (metro)"
+    ],
+    "noteEn": "Name of the metro in Taipei/Kaohsiung; mainland China uses 地鐵",
+    "exampleEn": "The MRT is very convenient."
+  },
+  {
+    "rank": 182,
+    "hanzi": "公車",
+    "en": [
+      "bus"
+    ],
+    "exampleEn": "The bus is coming."
+  },
+  {
+    "rank": 183,
+    "hanzi": "塊",
+    "en": [
+      "dollar (currency unit)"
+    ],
+    "noteEn": "Spoken measure word for NT$, the written equivalent is 元",
+    "exampleEn": "This costs fifty dollars."
+  },
+  {
+    "rank": 184,
+    "hanzi": "賣",
+    "en": [
+      "to sell"
+    ],
+    "exampleEn": "They sell fruit here."
+  },
+  {
+    "rank": 185,
+    "hanzi": "多少錢",
+    "en": [
+      "how much is it"
+    ],
+    "exampleEn": "How much is one cup?"
+  },
+  {
+    "rank": 186,
+    "hanzi": "便利商店",
+    "en": [
+      "convenience store"
+    ],
+    "exampleEn": "I'm going to the convenience store to buy water."
+  },
+  {
+    "rank": 187,
+    "hanzi": "手機",
+    "en": [
+      "cell phone"
+    ],
+    "exampleEn": "My phone is missing."
+  },
+  {
+    "rank": 188,
+    "hanzi": "電腦",
+    "en": [
+      "computer"
+    ],
+    "exampleEn": "I work on the computer."
+  },
+  {
+    "rank": 189,
+    "hanzi": "衣服",
+    "en": [
+      "clothes"
+    ],
+    "exampleEn": "This piece of clothing looks very nice."
+  },
+  {
+    "rank": 190,
+    "hanzi": "廁所",
+    "en": [
+      "bathroom, toilet"
+    ],
+    "exampleEn": "I need to go to the bathroom."
+  },
+  {
+    "rank": 191,
+    "hanzi": "上班",
+    "en": [
+      "to go to work"
+    ],
+    "exampleEn": "I start work at eight o'clock."
+  },
+  {
+    "rank": 192,
+    "hanzi": "學生",
+    "en": [
+      "student"
+    ],
+    "exampleEn": "I'm a university student."
+  },
+  {
+    "rank": 193,
+    "hanzi": "中文",
+    "en": [
+      "Chinese (language)"
+    ],
+    "exampleEn": "Chinese isn't too difficult."
+  },
+  {
+    "rank": 194,
+    "hanzi": "頭",
+    "en": [
+      "head"
+    ],
+    "exampleEn": "My head hurts a lot."
+  },
+  {
+    "rank": 195,
+    "hanzi": "手",
+    "en": [
+      "hand"
+    ],
+    "exampleEn": "My hand is very cold."
+  },
+  {
+    "rank": 196,
+    "hanzi": "天氣",
+    "en": [
+      "weather"
+    ],
+    "exampleEn": "The weather in Taipei is very humid."
+  },
+  {
+    "rank": 197,
+    "hanzi": "下雨",
+    "en": [
+      "to rain"
+    ],
+    "exampleEn": "It's going to rain tomorrow."
+  },
+  {
+    "rank": 198,
+    "hanzi": "不客氣",
+    "en": [
+      "you're welcome"
+    ],
+    "exampleEn": "You're welcome, it's no trouble."
+  },
+  {
+    "rank": 199,
+    "hanzi": "沒問題",
+    "en": [
+      "no problem"
+    ],
+    "exampleEn": "No problem, leave it to me."
+  },
+  {
+    "rank": 200,
+    "hanzi": "加油",
+    "en": [
+      "go for it",
+      "good luck"
+    ],
+    "exampleEn": "Go for it, you can do it!"
+  },
+  {
+    "rank": 201,
+    "hanzi": "更",
+    "en": [
+      "even more"
+    ],
+    "exampleEn": "This one is even more expensive."
+  },
+  {
+    "rank": 202,
+    "hanzi": "當然",
+    "en": [
+      "of course"
+    ],
+    "exampleEn": "Of course you can."
+  },
+  {
+    "rank": 203,
+    "hanzi": "一定",
+    "en": [
+      "definitely, for sure"
+    ],
+    "exampleEn": "I'll definitely go."
+  },
+  {
+    "rank": 204,
+    "hanzi": "應該",
+    "en": [
+      "should"
+    ],
+    "exampleEn": "You should rest."
+  },
+  {
+    "rank": 205,
+    "hanzi": "真的",
+    "en": [
+      "really, truly"
+    ],
+    "exampleEn": "Is this true?"
+  },
+  {
+    "rank": 206,
+    "hanzi": "其實",
+    "en": [
+      "actually, in fact"
+    ],
+    "exampleEn": "Actually, I'm not tired."
+  },
+  {
+    "rank": 207,
+    "hanzi": "然後",
+    "en": [
+      "then, afterward"
+    ],
+    "exampleEn": "First eat, then sleep."
+  },
+  {
+    "rank": 208,
+    "hanzi": "而且",
+    "en": [
+      "moreover, and also"
+    ],
+    "exampleEn": "It's cheap and also delicious."
+  },
+  {
+    "rank": 209,
+    "hanzi": "雖然",
+    "en": [
+      "although"
+    ],
+    "exampleEn": "Although it's expensive, it's delicious."
+  },
+  {
+    "rank": 210,
+    "hanzi": "不過",
+    "en": [
+      "however, but"
+    ],
+    "exampleEn": "I want to go, but I don't have time."
+  },
+  {
+    "rank": 211,
+    "hanzi": "可是",
+    "en": [
+      "but, yet"
+    ],
+    "exampleEn": "I want to go, but I'm too tired."
+  },
+  {
+    "rank": 212,
+    "hanzi": "除了",
+    "en": [
+      "except for, besides"
+    ],
+    "exampleEn": "Except for me, everyone has arrived."
+  },
+  {
+    "rank": 213,
+    "hanzi": "為了",
+    "en": [
+      "in order to",
+      "for the sake of"
+    ],
+    "exampleEn": "I moved for work."
+  },
+  {
+    "rank": 214,
+    "hanzi": "剛",
+    "en": [
+      "just (recently)"
+    ],
+    "exampleEn": "I just arrived in Taiwan."
+  },
+  {
+    "rank": 215,
+    "hanzi": "剛剛",
+    "en": [
+      "just now",
+      "a moment ago"
+    ],
+    "exampleEn": "I just saw him a moment ago."
+  },
+  {
+    "rank": 216,
+    "hanzi": "常常",
+    "en": [
+      "often"
+    ],
+    "exampleEn": "I often drink tea."
+  },
+  {
+    "rank": 217,
+    "hanzi": "有時候",
+    "en": [
+      "sometimes"
+    ],
+    "exampleEn": "I'm sometimes very busy."
+  },
+  {
+    "rank": 218,
+    "hanzi": "總是",
+    "en": [
+      "always"
+    ],
+    "exampleEn": "He's always late."
+  },
+  {
+    "rank": 219,
+    "hanzi": "馬上",
+    "en": [
+      "right away, immediately"
+    ],
+    "exampleEn": "I'll be right there."
+  },
+  {
+    "rank": 220,
+    "hanzi": "特別",
+    "en": [
+      "especially, particularly"
+    ],
+    "exampleEn": "It's especially hot today."
+  },
+  {
+    "rank": 221,
+    "hanzi": "非常",
+    "en": [
+      "extremely, very"
+    ],
+    "exampleEn": "It's extremely pretty here."
+  },
+  {
+    "rank": 222,
+    "hanzi": "比較",
+    "en": [
+      "relatively, rather"
+    ],
+    "exampleEn": "This one is rather better."
+  },
+  {
+    "rank": 223,
+    "hanzi": "大概",
+    "en": [
+      "approximately, probably"
+    ],
+    "exampleEn": "About five minutes."
+  },
+  {
+    "rank": 224,
+    "hanzi": "一直",
+    "en": [
+      "continuously, all along"
+    ],
+    "exampleEn": "He keeps on laughing."
+  },
+  {
+    "rank": 225,
+    "hanzi": "這個",
+    "en": [
+      "this one"
+    ],
+    "exampleEn": "What is this?"
+  },
+  {
+    "rank": 226,
+    "hanzi": "那個",
+    "en": [
+      "that one"
+    ],
+    "exampleEn": "Whose is that?"
+  },
+  {
+    "rank": 227,
+    "hanzi": "哪個",
+    "en": [
+      "which one"
+    ],
+    "exampleEn": "Which one do you want?"
+  },
+  {
+    "rank": 228,
+    "hanzi": "這些",
+    "en": [
+      "these"
+    ],
+    "exampleEn": "These are all mine."
+  },
+  {
+    "rank": 229,
+    "hanzi": "那些",
+    "en": [
+      "those"
+    ],
+    "exampleEn": "Who are those people?"
+  },
+  {
+    "rank": 230,
+    "hanzi": "別人",
+    "en": [
+      "other people"
+    ],
+    "exampleEn": "Don't worry about other people."
+  },
+  {
+    "rank": 231,
+    "hanzi": "每個人",
+    "en": [
+      "everyone, each person"
+    ],
+    "exampleEn": "Everyone is different."
+  },
+  {
+    "rank": 232,
+    "hanzi": "怎麼樣",
+    "en": [
+      "how is it",
+      "how about it"
+    ],
+    "exampleEn": "How was your day today?"
+  },
+  {
+    "rank": 233,
+    "hanzi": "千",
+    "en": [
+      "thousand"
+    ],
+    "exampleEn": "A thousand dollars is enough."
+  },
+  {
+    "rank": 234,
+    "hanzi": "零",
+    "en": [
+      "zero"
+    ],
+    "exampleEn": "My score is zero."
+  },
+  {
+    "rank": 235,
+    "hanzi": "第一",
+    "en": [
+      "first"
+    ],
+    "exampleEn": "This is my first time coming here."
+  },
+  {
+    "rank": 236,
+    "hanzi": "半",
+    "en": [
+      "half"
+    ],
+    "exampleEn": "It's half past five."
+  },
+  {
+    "rank": 237,
+    "hanzi": "上午",
+    "en": [
+      "morning (a.m.)"
+    ],
+    "exampleEn": "I have class in the morning."
+  },
+  {
+    "rank": 238,
+    "hanzi": "下午",
+    "en": [
+      "afternoon"
+    ],
+    "exampleEn": "We'll meet this afternoon."
+  },
+  {
+    "rank": 239,
+    "hanzi": "中午",
+    "en": [
+      "noon"
+    ],
+    "exampleEn": "Let's have lunch together at noon."
+  },
+  {
+    "rank": 240,
+    "hanzi": "早",
+    "en": [
+      "early"
+    ],
+    "noteEn": "Also a morning greeting: 早！= good morning",
+    "exampleEn": "You're early today."
+  },
+  {
+    "rank": 241,
+    "hanzi": "晚",
+    "en": [
+      "late"
+    ],
+    "exampleEn": "It's very late now."
+  },
+  {
+    "rank": 242,
+    "hanzi": "以前",
+    "en": [
+      "before, in the past"
+    ],
+    "exampleEn": "I used to live in Taipei."
+  },
+  {
+    "rank": 243,
+    "hanzi": "以後",
+    "en": [
+      "after, later"
+    ],
+    "exampleEn": "See you after class."
+  },
+  {
+    "rank": 244,
+    "hanzi": "後來",
+    "en": [
+      "afterward, later"
+    ],
+    "exampleEn": "Afterward, we left."
+  },
+  {
+    "rank": 245,
+    "hanzi": "最近",
+    "en": [
+      "recently, lately"
+    ],
+    "exampleEn": "How have you been lately?"
+  },
+  {
+    "rank": 246,
+    "hanzi": "星期一",
+    "en": [
+      "Monday"
+    ],
+    "exampleEn": "See you Monday."
+  },
+  {
+    "rank": 247,
+    "hanzi": "星期天",
+    "en": [
+      "Sunday"
+    ],
+    "noteEn": "Synonym of 星期日",
+    "exampleEn": "I rest on Sundays."
+  },
+  {
+    "rank": 248,
+    "hanzi": "週末",
+    "en": [
+      "weekend"
+    ],
+    "exampleEn": "What are you doing this weekend?"
+  },
+  {
+    "rank": 249,
+    "hanzi": "去年",
+    "en": [
+      "last year"
+    ],
+    "exampleEn": "I came to Taiwan last year."
+  },
+  {
+    "rank": 250,
+    "hanzi": "明年",
+    "en": [
+      "next year"
+    ],
+    "exampleEn": "I'm going back to my country next year."
+  }
+]

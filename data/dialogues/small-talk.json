@@ -1,0 +1,313 @@
+{
+  "situation": "small-talk",
+  "exchanges": [
+    {
+      "enemy": {
+        "zh": "你喜歡台灣嗎？",
+        "pinyin": "nǐ xǐ huān tái wān ma",
+        "en": "Do you like Taiwan?",
+        "fr": "Tu aimes Taïwan ?"
+      },
+      "player": {
+        "zh": "喜歡，我很喜歡這裡。",
+        "pinyin": "xǐ huān wǒ hěn xǐ huān zhè lǐ",
+        "en": "Yes, I like it here a lot.",
+        "fr": "Oui, j'aime beaucoup vivre ici."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你週末喜歡做什麼？",
+        "pinyin": "nǐ zhōu mò xǐ huān zuò shén me",
+        "en": "What do you like to do on weekends?",
+        "fr": "Qu'est-ce que tu aimes faire le week-end ?"
+      },
+      "player": {
+        "zh": "我喜歡看書。",
+        "pinyin": "wǒ xǐ huān kàn shū",
+        "en": "I like reading.",
+        "fr": "J'aime lire."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你有沒有哥哥？",
+        "pinyin": "nǐ yǒu méi yǒu gē ge",
+        "en": "Do you have an older brother?",
+        "fr": "Tu as un grand frère ?"
+      },
+      "player": {
+        "zh": "沒有，但是我有妹妹。",
+        "pinyin": "méi yǒu dàn shì wǒ yǒu mèi mei",
+        "en": "No, but I have a younger sister.",
+        "fr": "Non, mais j'ai une petite sœur."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你的家人在法國嗎？",
+        "pinyin": "nǐ de jiā rén zài fà guó ma",
+        "en": "Is your family in France?",
+        "fr": "Ta famille est en France ?"
+      },
+      "player": {
+        "zh": "對，我爸爸媽媽都在法國。",
+        "pinyin": "duì wǒ bà ba mā ma dōu zài fà guó",
+        "en": "Yes, my mom and dad are both in France.",
+        "fr": "Oui, mon père et ma mère sont tous les deux en France."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你喜歡喝咖啡還是喝茶？",
+        "pinyin": "nǐ xǐ huān hē kā fēi hái shi hē chá",
+        "en": "Do you like coffee or tea?",
+        "fr": "Tu préfères le café ou le thé ?"
+      },
+      "player": {
+        "zh": "我比較喜歡喝茶。",
+        "pinyin": "wǒ bǐ jiào xǐ huān hē chá",
+        "en": "I prefer tea.",
+        "fr": "Je préfère le thé."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你每天幾點起床？",
+        "pinyin": "nǐ měi tiān jǐ diǎn qǐ chuáng",
+        "en": "What time do you get up every day?",
+        "fr": "Tu te lèves à quelle heure tous les jours ?"
+      },
+      "player": {
+        "zh": "我七點就起床了。",
+        "pinyin": "wǒ qī diǎn jiù qǐ chuáng le",
+        "en": "I'm already up by seven.",
+        "fr": "Je suis déjà levé à sept heures."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "台灣的水果很好吃。",
+        "pinyin": "tái wān de shuǐ guǒ hěn hǎo chī",
+        "en": "Taiwanese fruits are delicious.",
+        "fr": "Les fruits à Taïwan sont délicieux."
+      },
+      "player": {
+        "zh": "真的，我也很喜歡。",
+        "pinyin": "zhēn de wǒ yě hěn xǐ huān",
+        "en": "Really, I like them a lot too.",
+        "fr": "C'est vrai, moi aussi j'adore ça."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你很喜歡台灣，對不對？",
+        "pinyin": "nǐ hěn xǐ huān tái wān duì bú duì",
+        "en": "You really like Taiwan, don't you?",
+        "fr": "Tu aimes vraiment Taïwan, non ?"
+      },
+      "player": {
+        "zh": "對，我真的很喜歡。",
+        "pinyin": "duì wǒ zhēn de hěn xǐ huān",
+        "en": "Yes, I really do.",
+        "fr": "Oui, vraiment beaucoup."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你來台灣多久了？",
+        "pinyin": "nǐ lái tái wān duō jiǔ le",
+        "en": "How long have you been in Taiwan?",
+        "fr": "Ça fait combien de temps que tu es à Taïwan ?"
+      },
+      "player": {
+        "zh": "我來台灣兩年了。",
+        "pinyin": "wǒ lái tái wān liǎng nián le",
+        "en": "I've been in Taiwan for two years.",
+        "fr": "Ça fait deux ans que je suis à Taïwan."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "週末要不要一起打球？",
+        "pinyin": "zhōu mò yào bú yào yì qǐ dǎ qiú",
+        "en": "Want to play ball together this weekend?",
+        "fr": "Ça te dit de jouer au ballon ce week-end ?"
+      },
+      "player": {
+        "zh": "好啊，我喜歡打籃球。",
+        "pinyin": "hǎo a wǒ xǐ huān dǎ lán qiú",
+        "en": "Sure, I like playing basketball.",
+        "fr": "Avec plaisir, j'aime jouer au basket."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你結婚了嗎？",
+        "pinyin": "nǐ jié hūn le ma",
+        "en": "Are you married?",
+        "fr": "Tu es marié ?"
+      },
+      "player": {
+        "zh": "還沒，我還單身。",
+        "pinyin": "hái méi wǒ hái dān shēn",
+        "en": "Not yet, I'm still single.",
+        "fr": "Pas encore, je suis toujours célibataire."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "我猜你家人很多。",
+        "pinyin": "wǒ cāi nǐ jiā rén hěn duō",
+        "en": "I bet you have a big family.",
+        "fr": "Je parie que tu as une grande famille."
+      },
+      "player": {
+        "zh": "還好，我家有四個人。",
+        "pinyin": "hái hǎo wǒ jiā yǒu sì gè rén",
+        "en": "Not really, there are four of us.",
+        "fr": "Pas tant que ça, on est quatre dans ma famille."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你喜歡吃臭豆腐嗎？",
+        "pinyin": "nǐ xǐ huān chī chòu dòu fu ma",
+        "en": "Do you like eating stinky tofu?",
+        "fr": "Tu aimes manger du tofu puant ?"
+      },
+      "player": {
+        "zh": "喜歡，那是我的最愛。",
+        "pinyin": "xǐ huān nà shì wǒ de zuì ài",
+        "en": "Yes, it's my favorite.",
+        "fr": "Oui, c'est mon préféré."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你會不會想家？",
+        "pinyin": "nǐ huì bú huì xiǎng jiā",
+        "en": "Do you ever miss home?",
+        "fr": "Est-ce que le pays te manque parfois ?"
+      },
+      "player": {
+        "zh": "有時候會，但是我喜歡這裡。",
+        "pinyin": "yǒu shí hòu huì dàn shì wǒ xǐ huān zhè lǐ",
+        "en": "Sometimes, but I like it here.",
+        "fr": "Parfois, mais j'aime bien être ici."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你週末通常去哪裡玩？",
+        "pinyin": "nǐ zhōu mò tōng cháng qù nǎ lǐ wán",
+        "en": "Where do you usually go on weekends?",
+        "fr": "Où est-ce que tu vas d'habitude le week-end ?"
+      },
+      "player": {
+        "zh": "我喜歡爬山，也喜歡去海邊。",
+        "pinyin": "wǒ xǐ huān pá shān yě xǐ huān qù hǎi biān",
+        "en": "I like hiking, and I also like going to the beach.",
+        "fr": "J'aime faire de la randonnée, et j'aime aussi aller à la plage."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "誰不喜歡逛夜市？",
+        "pinyin": "shéi bù xǐ huān guàng yè shì",
+        "en": "Who doesn't love strolling the night market?",
+        "fr": "Qui n'aime pas se promener au marché de nuit ?"
+      },
+      "player": {
+        "zh": "沒錯，我也超愛夜市。",
+        "pinyin": "méi cuò wǒ yě chāo ài yè shì",
+        "en": "Exactly, I love night markets too.",
+        "fr": "Exactement, moi aussi j'adore les marchés de nuit."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你平常有運動嗎？",
+        "pinyin": "nǐ píng cháng yǒu yùn dòng ma",
+        "en": "Do you usually exercise?",
+        "fr": "Tu fais du sport d'habitude ?"
+      },
+      "player": {
+        "zh": "我喜歡跑步和游泳。",
+        "pinyin": "wǒ xǐ huān pǎo bù hàn yóu yǒng",
+        "en": "I like running and swimming.",
+        "fr": "J'aime courir et nager."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你覺得台語難不難？",
+        "pinyin": "nǐ jué de tái yǔ nán bù nán",
+        "en": "Do you think Taiwanese is hard?",
+        "fr": "Tu trouves que le taïwanais est difficile ?"
+      },
+      "player": {
+        "zh": "難是難，但是很好玩。",
+        "pinyin": "nán shì nán dàn shì hěn hǎo wán",
+        "en": "It is hard, but it's fun.",
+        "fr": "Difficile, ça l'est, mais c'est amusant."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你一定很愛珍珠奶茶，對不對？",
+        "pinyin": "nǐ yí dìng hěn ài zhēn zhū nǎi chá duì bú duì",
+        "en": "You must love bubble tea, right?",
+        "fr": "Tu dois adorer le bubble tea, non ?"
+      },
+      "player": {
+        "zh": "喜歡啊，我每天都要喝。",
+        "pinyin": "xǐ huān a wǒ měi tiān dōu yào hē",
+        "en": "I love it, I drink it every day.",
+        "fr": "J'adore ça, j'en bois tous les jours."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你家人會不會想來台灣玩？",
+        "pinyin": "nǐ jiā rén huì bú huì xiǎng lái tái wān wán",
+        "en": "Might your family want to come visit Taiwan?",
+        "fr": "Est-ce que ta famille aurait envie de venir visiter Taïwan ?"
+      },
+      "player": {
+        "zh": "應該會，他們很想來。",
+        "pinyin": "yīng gāi huì tā men hěn xiǎng lái",
+        "en": "Probably, they really want to come.",
+        "fr": "Sans doute, ils ont très envie de venir."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你週末是不是很無聊？",
+        "pinyin": "nǐ zhōu mò shì bú shì hěn wú liáo",
+        "en": "Are your weekends boring, by any chance?",
+        "fr": "Tes week-ends sont ennuyeux, non ?"
+      },
+      "player": {
+        "zh": "不會，我很喜歡休息。",
+        "pinyin": "bú huì wǒ hěn xǐ huān xiū xi",
+        "en": "Not at all, I really enjoy resting.",
+        "fr": "Pas du tout, j'aime beaucoup me reposer."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你在台灣好像很快樂喔！",
+        "pinyin": "nǐ zài tái wān hǎo xiàng hěn kuài lè ō",
+        "en": "You seem really happy in Taiwan!",
+        "fr": "On dirait que tu es vraiment heureux à Taïwan !"
+      },
+      "player": {
+        "zh": "是啊，我在這裡很開心。",
+        "pinyin": "shì a wǒ zài zhè lǐ hěn kāi xīn",
+        "en": "Yeah, I'm really happy here.",
+        "fr": "Oui, je suis vraiment heureux ici."
+      }
+    }
+  ]
+}

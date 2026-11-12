@@ -1,0 +1,26 @@
+{
+ "scenes": [
+  {
+   "id": "tutorial",
+   "situation": "landlord",
+   "topic": "Tutoriel : premier mot",
+   "lines": [
+    {
+     "speaker": "enemy",
+     "zh": "你好，我是你的房東。",
+     "pinyin": "nǐ hǎo wǒ shì nǐ de fáng dōng",
+     "en": "Hello, I'm your landlord.",
+     "fr": "Bonjour, je suis votre propriétaire."
+    },
+    {
+     "speaker": "player",
+     "zh": "對不起，我聽不懂。",
+     "pinyin": "duì bù qǐ wǒ tīng bù dǒng",
+     "en": "Sorry, I don't understand.",
+     "fr": "Pardon, je ne comprends pas."
+    }
+   ],
+   "keywords": [20]
+  }
+ ]
+}

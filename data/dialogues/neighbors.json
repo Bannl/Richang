@@ -1,0 +1,93 @@
+{
+  "situation": "neighbors",
+  "exchanges": [
+    {
+      "enemy":  { "zh": "早安，你要去上班嗎？", "pinyin": "zǎo ān nǐ yào qù shàng bān ma", "en": "Morning, off to work?", "fr": "Bonjour, tu vas au travail ?" },
+      "player": { "zh": "對，你也要去哪裡？", "pinyin": "duì nǐ yě yào qù nǎ lǐ", "en": "Yeah, where are you headed too?", "fr": "Oui, toi aussi, tu vas où ?" }
+    },
+    {
+      "enemy":  { "zh": "今天天氣真的很熱。", "pinyin": "jīn tiān tiān qì zhēn de hěn rè", "en": "It's really hot today.", "fr": "Il fait vraiment chaud aujourd'hui." },
+      "player": { "zh": "真的，非常熱。", "pinyin": "zhēn de fēi cháng rè", "en": "It really is, so hot.", "fr": "C'est vrai, il fait très chaud." }
+    },
+    {
+      "enemy":  { "zh": "你今天要去買東西嗎？", "pinyin": "nǐ jīn tiān yào qù mǎi dōng xi ma", "en": "Are you going shopping today?", "fr": "Tu vas faire des courses aujourd'hui ?" },
+      "player": { "zh": "對，我要去超市。", "pinyin": "duì wǒ yào qù chāo shì", "en": "Yeah, I'm going to the supermarket.", "fr": "Oui, je vais au supermarché." }
+    },
+    {
+      "enemy":  { "zh": "你朋友常常來嗎？", "pinyin": "nǐ péng you cháng cháng lái ma", "en": "Do your friends come over often?", "fr": "Tes amis viennent souvent ?" },
+      "player": { "zh": "沒有，他們很少來。", "pinyin": "méi yǒu tā men hěn shǎo lái", "en": "Not really, they rarely come.", "fr": "Pas trop, ils viennent rarement." }
+    },
+    {
+      "enemy":  { "zh": "你喜歡住這裡嗎？", "pinyin": "nǐ xǐ huān zhù zhè lǐ ma", "en": "Do you like living here?", "fr": "Tu aimes habiter ici ?" },
+      "player": { "zh": "喜歡，這裡很好。", "pinyin": "xǐ huān zhè lǐ hěn hǎo", "en": "I do, it's nice here.", "fr": "Oui, c'est bien ici." }
+    },
+    {
+      "enemy":  { "zh": "你今天很累嗎？", "pinyin": "nǐ jīn tiān hěn lèi ma", "en": "Are you tired today?", "fr": "Tu es fatigué aujourd'hui ?" },
+      "player": { "zh": "對，我今天很忙。", "pinyin": "duì wǒ jīn tiān hěn máng", "en": "Yeah, I've been busy today.", "fr": "Oui, j'ai été très occupé aujourd'hui." }
+    },
+    {
+      "enemy":  { "zh": "你要不要喝茶？", "pinyin": "nǐ yào bú yào hē chá", "en": "Want some tea?", "fr": "Tu veux du thé ?" },
+      "player": { "zh": "好，謝謝你。", "pinyin": "hǎo xiè xie nǐ", "en": "Sure, thank you.", "fr": "Avec plaisir, merci." }
+    },
+    {
+      "enemy":  { "zh": "我要走了，再見。", "pinyin": "wǒ yào zǒu le zài jiàn", "en": "I need to go, bye.", "fr": "Je dois y aller, au revoir." },
+      "player": { "zh": "好，再見，慢走。", "pinyin": "hǎo zài jiàn màn zǒu", "en": "OK, bye, take care.", "fr": "D'accord, au revoir, à bientôt." }
+    },
+    {
+      "enemy":  { "zh": "昨天晚上是不是很吵？", "pinyin": "zuó tiān wǎn shang shì bú shì hěn chǎo", "en": "Was it really noisy last night?", "fr": "C'était bruyant hier soir, non ?" },
+      "player": { "zh": "對不起，我朋友來了。", "pinyin": "duì bu qǐ wǒ péng you lái le", "en": "Sorry, my friends came over.", "fr": "Désolé, mes amis étaient venus." }
+    },
+    {
+      "enemy":  { "zh": "沒關係，不用道歉。", "pinyin": "méi guān xi bú yòng dào qiàn", "en": "It's fine, no need to apologize.", "fr": "Ce n'est rien, pas besoin de t'excuser." },
+      "player": { "zh": "謝謝你，你人真好。", "pinyin": "xiè xie nǐ nǐ rén zhēn hǎo", "en": "Thanks, you're so nice.", "fr": "Merci, tu es vraiment sympa." }
+    },
+    {
+      "enemy":  { "zh": "垃圾車禮拜三不來。", "pinyin": "lè sè chē lǐ bài sān bù lái", "en": "The garbage truck doesn't come on Wednesdays.", "fr": "Le camion-poubelle ne passe pas le mercredi." },
+      "player": { "zh": "真的嗎？那我要記住。", "pinyin": "zhēn de ma nà wǒ yào jì zhù", "en": "Really? I need to remember that.", "fr": "Ah bon ? Il faut que je m'en souvienne." }
+    },
+    {
+      "enemy":  { "zh": "這是回收，不是垃圾。", "pinyin": "zhè shì huí shōu bú shì lè sè", "en": "This is recycling, not trash.", "fr": "Ça, c'est du recyclage, pas des ordures." },
+      "player": { "zh": "喔，抱歉，我不知道。", "pinyin": "ō bào qiàn wǒ bù zhī dào", "en": "Oh, sorry, I didn't know.", "fr": "Ah, désolé, je ne savais pas." }
+    },
+    {
+      "enemy":  { "zh": "你的包裹放在我這裡。", "pinyin": "nǐ de bāo guǒ fàng zài wǒ zhè lǐ", "en": "Your package is with me.", "fr": "Ton colis est chez moi." },
+      "player": { "zh": "真的嗎？謝謝你幫我收。", "pinyin": "zhēn de ma xiè xie nǐ bāng wǒ shōu", "en": "Really? Thanks for taking it in for me.", "fr": "Ah oui ? Merci de l'avoir pris pour moi." }
+    },
+    {
+      "enemy":  { "zh": "可以跟你借雨傘嗎？", "pinyin": "kě yǐ gēn nǐ jiè yǔ sǎn ma", "en": "Can I borrow your umbrella?", "fr": "Je peux t'emprunter ton parapluie ?" },
+      "player": { "zh": "當然可以，給你。", "pinyin": "dāng rán kě yǐ gěi nǐ", "en": "Of course, here you go.", "fr": "Bien sûr, tiens." }
+    },
+    {
+      "enemy":  { "zh": "上次跟你借的雨傘，還你。", "pinyin": "shàng cì gēn nǐ jiè de yǔ sǎn huán nǐ", "en": "Here's the umbrella I borrowed from you last time.", "fr": "Voici le parapluie que je t'avais emprunté." },
+      "player": { "zh": "謝謝，不急，你可以留著。", "pinyin": "xiè xie bù jí nǐ kě yǐ liú zhe", "en": "Thanks, no rush, you could've kept it.", "fr": "Merci, pas de souci, tu aurais pu la garder." }
+    },
+    {
+      "enemy":  { "zh": "今天晚上要不要一起吃飯？", "pinyin": "jīn tiān wǎn shang yào bú yào yì qǐ chī fàn", "en": "Want to have dinner together tonight?", "fr": "Ça te dit qu'on dîne ensemble ce soir ?" },
+      "player": { "zh": "好啊，我最喜歡吃飯了！", "pinyin": "hǎo a wǒ zuì xǐ huān chī fàn le", "en": "Sure, I love eating!", "fr": "Avec plaisir, j'adore manger !" }
+    },
+    {
+      "enemy":  { "zh": "我煮了牛肉麵，你要吃嗎？", "pinyin": "wǒ zhǔ le niú ròu miàn nǐ yào chī ma", "en": "I made beef noodle soup, want some?", "fr": "J'ai préparé un bœuf nouilles, tu en veux ?" },
+      "player": { "zh": "好香喔！我要一碗。", "pinyin": "hǎo xiāng ō wǒ yào yì wǎn", "en": "Smells great! I'll have a bowl.", "fr": "Ça sent trop bon ! J'en veux un bol." }
+    },
+    {
+      "enemy":  { "zh": "小心，湯很燙。", "pinyin": "xiǎo xīn tāng hěn tàng", "en": "Careful, the soup's hot.", "fr": "Attention, la soupe est chaude." },
+      "player": { "zh": "好，謝謝你的提醒。", "pinyin": "hǎo xiè xie nǐ de tí xǐng", "en": "OK, thanks for the heads-up.", "fr": "D'accord, merci de me prévenir." }
+    },
+    {
+      "enemy":  { "zh": "你自己一個人住嗎？", "pinyin": "nǐ zì jǐ yí ge rén zhù ma", "en": "Do you live alone?", "fr": "Tu habites seul ?" },
+      "player": { "zh": "對，可是鄰居人都很好。", "pinyin": "duì kě shì lín jū rén dōu hěn hǎo", "en": "Yeah, but the neighbors are all really nice.", "fr": "Oui, mais les voisins sont tous très gentils." }
+    },
+    {
+      "enemy":  { "zh": "我們社區很熱鬧。", "pinyin": "wǒ men shè qū hěn rè nào", "en": "Our neighborhood is really lively.", "fr": "Notre quartier est très animé." },
+      "player": { "zh": "對啊，鄰居也很友善。", "pinyin": "duì a lín jū yě hěn yǒu shàn", "en": "Yeah, the neighbors are friendly too.", "fr": "Oui, les voisins sont aussi très gentils." }
+    },
+    {
+      "enemy":  { "zh": "下次有空來我家坐坐。", "pinyin": "xià cì yǒu kòng lái wǒ jiā zuò zuo", "en": "Come by my place sometime when you're free.", "fr": "Passe chez moi quand tu as du temps." },
+      "player": { "zh": "好啊，一定會去。", "pinyin": "hǎo a yí dìng huì qù", "en": "Sure, I definitely will.", "fr": "Avec plaisir, j'irai sûrement." }
+    },
+    {
+      "enemy":  { "zh": "好，那我們約好了，再見！", "pinyin": "hǎo nà wǒ men yuē hǎo le zài jiàn", "en": "OK, it's a plan then, see you!", "fr": "D'accord, c'est prévu, à bientôt !" },
+      "player": { "zh": "好，我們到時候見面。", "pinyin": "hǎo wǒ men dào shí hou jiàn miàn", "en": "OK, see you then!", "fr": "D'accord, à plus !" }
+    }
+  ]
+}

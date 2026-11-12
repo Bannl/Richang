@@ -1,0 +1,93 @@
+{
+  "situation": "classroom",
+  "exchanges": [
+    {
+      "enemy":  { "zh": "你是新同學嗎？", "pinyin": "nǐ shì xīn tóng xué ma", "en": "Are you the new classmate?", "fr": "Es-tu le nouvel élève ?" },
+      "player": { "zh": "對，我是新同學。", "pinyin": "duì wǒ shì xīn tóng xué", "en": "Yes, I'm the new classmate.", "fr": "Oui, je suis le nouvel élève." }
+    },
+    {
+      "enemy":  { "zh": "這個中文怎麼說？", "pinyin": "zhè ge zhōng wén zěn me shuō", "en": "How do you say this in Chinese?", "fr": "Comment dit-on ça en chinois ?" },
+      "player": { "zh": "是水，對不對？", "pinyin": "shì shuǐ duì bú duì", "en": "It's water, right?", "fr": "C'est de l'eau, non ?" }
+    },
+    {
+      "enemy":  { "zh": "今天有作業，好嗎？", "pinyin": "jīn tiān yǒu zuò yè hǎo ma", "en": "There's homework today, is that OK?", "fr": "Il y a des devoirs aujourd'hui, d'accord ?" },
+      "player": { "zh": "好，沒問題！", "pinyin": "hǎo méi wèn tí", "en": "Sure, no problem!", "fr": "D'accord, pas de problème !" }
+    },
+    {
+      "enemy":  { "zh": "下星期考試，你準備了嗎？", "pinyin": "xià xīng qí kǎo shì nǐ zhǔn bèi le ma", "en": "There's an exam next week, are you ready?", "fr": "Il y a un examen la semaine prochaine, tu es prêt ?" },
+      "player": { "zh": "準備好了，老師！", "pinyin": "zhǔn bèi hǎo le lǎo shī", "en": "All ready, teacher!", "fr": "Je suis prêt, professeur !" }
+    },
+    {
+      "enemy":  { "zh": "請你念這個。", "pinyin": "qǐng nǐ niàn zhè ge", "en": "Please read this one aloud.", "fr": "Lis ça à voix haute, s'il te plaît." },
+      "player": { "zh": "好，我試試看。", "pinyin": "hǎo wǒ shì shì kàn", "en": "OK, I'll give it a try.", "fr": "D'accord, je vais essayer." }
+    },
+    {
+      "enemy":  { "zh": "很好，非常好！", "pinyin": "hěn hǎo fēi cháng hǎo", "en": "Very good, excellent!", "fr": "Très bien, excellent !" },
+      "player": { "zh": "謝謝老師！", "pinyin": "xiè xie lǎo shī", "en": "Thank you, teacher!", "fr": "Merci, professeur !" }
+    },
+    {
+      "enemy":  { "zh": "你喜歡上課嗎？", "pinyin": "nǐ xǐ huān shàng kè ma", "en": "Do you like class?", "fr": "Est-ce que tu aimes les cours ?" },
+      "player": { "zh": "喜歡，很有趣。", "pinyin": "xǐ huān hěn yǒu qù", "en": "I like it, it's fun.", "fr": "Oui, c'est amusant." }
+    },
+    {
+      "enemy":  { "zh": "現在請拿出書。", "pinyin": "xiàn zài qǐng ná chū shū", "en": "Now please take out your book.", "fr": "Maintenant, sors ton livre, s'il te plaît." },
+      "player": { "zh": "好的，老師。", "pinyin": "hǎo de lǎo shī", "en": "OK, teacher.", "fr": "D'accord, professeur." }
+    },
+    {
+      "enemy":  { "zh": "抱歉，你可以再說一次嗎？", "pinyin": "bào qiàn nǐ kě yǐ zài shuō yí cì ma", "en": "Sorry, could you say that again?", "fr": "Désolé, tu peux répéter, s'il te plaît ?" },
+      "player": { "zh": "沒問題，我再說一次。", "pinyin": "méi wèn tí wǒ zài shuō yí cì", "en": "No problem, I'll say it again.", "fr": "Pas de problème, je répète." }
+    },
+    {
+      "enemy":  { "zh": "你聽懂了嗎？", "pinyin": "nǐ tīng dǒng le ma", "en": "Do you understand?", "fr": "Tu comprends ?" },
+      "player": { "zh": "懂了，謝謝老師！", "pinyin": "dǒng le xiè xie lǎo shī", "en": "I understand, thank you teacher!", "fr": "J'ai compris, merci professeur !" }
+    },
+    {
+      "enemy":  { "zh": "漢字很難寫嗎？", "pinyin": "hàn zì hěn nán xiě ma", "en": "Are Chinese characters hard to write?", "fr": "Les caractères chinois sont difficiles à écrire ?" },
+      "player": { "zh": "有點難，可是很有趣。", "pinyin": "yǒu diǎn nán kě shì hěn yǒu qù", "en": "A bit hard, but fun.", "fr": "Un peu difficile, mais amusant." }
+    },
+    {
+      "enemy":  { "zh": "聲調真的不簡單。", "pinyin": "shēng diào zhēn de bù jiǎn dān", "en": "Tones are really not simple.", "fr": "Les tons, ce n'est vraiment pas simple." },
+      "player": { "zh": "對啊，我常常念錯。", "pinyin": "duì a wǒ cháng cháng niàn cuò", "en": "Yeah, I often get the tone wrong.", "fr": "Ouais, je me trompe souvent de ton." }
+    },
+    {
+      "enemy":  { "zh": "功課寫好了嗎？", "pinyin": "gōng kè xiě hǎo le ma", "en": "Have you finished your homework?", "fr": "Tu as fini tes devoirs ?" },
+      "player": { "zh": "寫好了，超簡單！", "pinyin": "xiě hǎo le chāo jiǎn dān", "en": "All done, super easy!", "fr": "Fini, super facile !" }
+    },
+    {
+      "enemy":  { "zh": "教室在三樓，你知道嗎？", "pinyin": "jiào shì zài sān lóu nǐ zhī dào ma", "en": "The classroom is on the third floor, did you know?", "fr": "La salle de classe est au troisième étage, tu savais ?" },
+      "player": { "zh": "知道，謝謝提醒。", "pinyin": "zhī dào xiè xie tí xǐng", "en": "I did, thanks for the reminder.", "fr": "Oui, merci de me le rappeler." }
+    },
+    {
+      "enemy":  { "zh": "我們一起練習對話，好嗎？", "pinyin": "wǒ men yì qǐ liàn xí duì huà hǎo ma", "en": "Let's practice a dialogue together, OK?", "fr": "On pratique un dialogue ensemble, d'accord ?" },
+      "player": { "zh": "好啊，你先說。", "pinyin": "hǎo a nǐ xiān shuō", "en": "Sure, you go first.", "fr": "D'accord, toi d'abord." }
+    },
+    {
+      "enemy":  { "zh": "這個字是什麼意思？", "pinyin": "zhè ge zì shì shén me yì si", "en": "What does this character mean?", "fr": "Qu'est-ce que ce caractère veut dire ?" },
+      "player": { "zh": "我猜是茶的意思。", "pinyin": "wǒ cāi shì chá de yì si", "en": "I guess it means \"tea.\"", "fr": "Je pense que ça veut dire thé." }
+    },
+    {
+      "enemy":  { "zh": "下課以後多說中文。", "pinyin": "xià kè yǐ hòu duō shuō zhōng wén", "en": "Speak more Chinese after class.", "fr": "Parle plus chinois après les cours." },
+      "player": { "zh": "好，我會努力練習。", "pinyin": "hǎo wǒ huì nǔ lì liàn xí", "en": "OK, I'll practice hard.", "fr": "D'accord, je vais m'entraîner sérieusement." }
+    },
+    {
+      "enemy":  { "zh": "明天聽寫，別緊張。", "pinyin": "míng tiān tīng xiě bié jǐn zhāng", "en": "There's dictation tomorrow, don't be nervous.", "fr": "Il y a une dictée demain, ne sois pas stressé." },
+      "player": { "zh": "好，我會加油的。", "pinyin": "hǎo wǒ huì jiā yóu de", "en": "OK, I'll do my best.", "fr": "D'accord, je vais faire de mon mieux." }
+    },
+    {
+      "enemy":  { "zh": "你的中文進步很多！", "pinyin": "nǐ de zhōng wén jìn bù hěn duō", "en": "Your Chinese has improved a lot!", "fr": "Ton chinois a beaucoup progressé !" },
+      "player": { "zh": "真的嗎？我好開心！", "pinyin": "zhēn de ma wǒ hǎo kāi xīn", "en": "Really? I'm so happy!", "fr": "Vraiment ? Je suis trop content !" }
+    },
+    {
+      "enemy":  { "zh": "考試以後想做什麼？", "pinyin": "kǎo shì yǐ hòu xiǎng zuò shén me", "en": "What do you want to do after the exam?", "fr": "Qu'est-ce que tu veux faire après l'examen ?" },
+      "player": { "zh": "我想好好休息。", "pinyin": "wǒ xiǎng hǎo hǎo xiū xí", "en": "I just want to rest well.", "fr": "Je veux juste bien me reposer." }
+    },
+    {
+      "enemy":  { "zh": "有問題可以問我。", "pinyin": "yǒu wèn tí kě yǐ wèn wǒ", "en": "If you have questions, you can ask me.", "fr": "Si tu as des questions, tu peux me demander." },
+      "player": { "zh": "謝謝你，你人真好。", "pinyin": "xiè xie nǐ nǐ rén zhēn hǎo", "en": "Thanks, you're really kind.", "fr": "Merci, tu es vraiment gentil." }
+    },
+    {
+      "enemy":  { "zh": "今天大家都很棒！", "pinyin": "jīn tiān dà jiā dōu hěn bàng", "en": "Everyone did great today!", "fr": "Tout le monde a été super aujourd'hui !" },
+      "player": { "zh": "謝謝老師，我們再見！", "pinyin": "xiè xie lǎo shī wǒ men zài jiàn", "en": "Thank you teacher, see you!", "fr": "Merci professeur, à bientôt !" }
+    }
+  ]
+}

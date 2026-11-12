@@ -1,0 +1,313 @@
+{
+  "situation": "office",
+  "exchanges": [
+    {
+      "enemy": {
+        "zh": "歡迎你來公司上班！",
+        "pinyin": "huān yíng nǐ lái gōng sī shàng bān",
+        "en": "Welcome to the company!",
+        "fr": "Bienvenue dans l'entreprise !"
+      },
+      "player": {
+        "zh": "謝謝，我很喜歡這裡。",
+        "pinyin": "xiè xie wǒ hěn xǐ huān zhè lǐ",
+        "en": "Thank you, I really like it here.",
+        "fr": "Merci, j'aime beaucoup cet endroit."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你的桌子在這裡。",
+        "pinyin": "nǐ de zhuō zi zài zhè lǐ",
+        "en": "Your desk is here.",
+        "fr": "Votre bureau est ici."
+      },
+      "player": {
+        "zh": "好，謝謝你告訴我。",
+        "pinyin": "hǎo xiè xie nǐ gào sù wǒ",
+        "en": "Okay, thanks for telling me.",
+        "fr": "D'accord, merci de me le dire."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你今天要做什麼工作？",
+        "pinyin": "nǐ jīn tiān yào zuò shén me gōng zuò",
+        "en": "What work do you need to do today?",
+        "fr": "Qu'est-ce que vous devez faire aujourd'hui ?"
+      },
+      "player": {
+        "zh": "我還不知道，要問老闆。",
+        "pinyin": "wǒ hái bù zhī dào yào wèn lǎo bǎn",
+        "en": "I don't know yet, I need to ask the boss.",
+        "fr": "Je ne sais pas encore, je dois demander au patron."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要不要一起開會？",
+        "pinyin": "nǐ yào bú yào yì qǐ kāi huì",
+        "en": "Do you want to join the meeting?",
+        "fr": "Voulez-vous venir à la réunion ?"
+      },
+      "player": {
+        "zh": "好，我現在可以去。",
+        "pinyin": "hǎo wǒ xiàn zài kě yǐ qù",
+        "en": "Sure, I can go now.",
+        "fr": "D'accord, je peux y aller maintenant."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "中午要不要一起吃飯？",
+        "pinyin": "zhōng wǔ yào bú yào yì qǐ chī fàn",
+        "en": "Do you want to have lunch together?",
+        "fr": "Voulez-vous déjeuner ensemble ?"
+      },
+      "player": {
+        "zh": "好，一起去吃午餐。",
+        "pinyin": "hǎo yì qǐ qù chī wǔ cān",
+        "en": "Sure, let's go have lunch together.",
+        "fr": "D'accord, allons déjeuner ensemble."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "可以幫我一下嗎？",
+        "pinyin": "kě yǐ bāng wǒ yí xià ma",
+        "en": "Can you help me for a moment?",
+        "fr": "Pouvez-vous m'aider un instant ?"
+      },
+      "player": {
+        "zh": "當然可以，我來幫你。",
+        "pinyin": "dāng rán kě yǐ wǒ lái bāng nǐ",
+        "en": "Of course, let me help you.",
+        "fr": "Bien sûr, je vais vous aider."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你幾點下班？",
+        "pinyin": "nǐ jǐ diǎn xià bān",
+        "en": "What time do you get off work?",
+        "fr": "À quelle heure finissez-vous le travail ?"
+      },
+      "player": {
+        "zh": "我六點下班。",
+        "pinyin": "wǒ liù diǎn xià bān",
+        "en": "I get off work at six.",
+        "fr": "Je finis à six heures."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你今天很忙嗎？",
+        "pinyin": "nǐ jīn tiān hěn máng ma",
+        "en": "Are you very busy today?",
+        "fr": "Êtes-vous très occupé aujourd'hui ?"
+      },
+      "player": {
+        "zh": "有一點忙，但是還可以。",
+        "pinyin": "yǒu yì diǎn máng dàn shì hái kě yǐ",
+        "en": "A little busy, but it's manageable.",
+        "fr": "Un peu occupé, mais ça va."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "我來介紹一下，這是新同事。",
+        "pinyin": "wǒ lái jiè shào yí xià zhè shì xīn tóng shì",
+        "en": "Let me introduce you, this is our new colleague.",
+        "fr": "Je vous présente notre nouveau collègue."
+      },
+      "player": {
+        "zh": "你好，很高興認識大家。",
+        "pinyin": "nǐ hǎo hěn gāo xìng rèn shi dà jiā",
+        "en": "Hello, nice to meet everyone.",
+        "fr": "Bonjour, ravi de rencontrer tout le monde."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "有問題可以問我。",
+        "pinyin": "yǒu wèn tí kě yǐ wèn wǒ",
+        "en": "If you have questions, you can ask me.",
+        "fr": "Si vous avez des questions, demandez-moi."
+      },
+      "player": {
+        "zh": "好的，謝謝你的幫忙。",
+        "pinyin": "hǎo de xiè xie nǐ de bāng máng",
+        "en": "Okay, thank you for your help.",
+        "fr": "D'accord, merci pour votre aide."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "星期一有會議，別遲到。",
+        "pinyin": "xīng qí yī yǒu huì yì bié chí dào",
+        "en": "There's a meeting on Monday, don't be late.",
+        "fr": "Il y a une réunion lundi, ne soyez pas en retard."
+      },
+      "player": {
+        "zh": "好，我一定準時到。",
+        "pinyin": "hǎo wǒ yí dìng zhǔn shí dào",
+        "en": "Okay, I'll definitely be on time.",
+        "fr": "D'accord, je serai à l'heure sans faute."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你今天是不是要加班？",
+        "pinyin": "nǐ jīn tiān shì bú shì yào jiā bān",
+        "en": "Are you working overtime today?",
+        "fr": "Est-ce que vous faites des heures supplémentaires aujourd'hui ?"
+      },
+      "player": {
+        "zh": "應該不用，我準時下班。",
+        "pinyin": "yīng gāi bú yòng wǒ zhǔn shí xià bān",
+        "en": "Probably not, I'll finish on time.",
+        "fr": "Sans doute pas, je finirai à l'heure."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "老闆說今天要早點下班。",
+        "pinyin": "lǎo bǎn shuō jīn tiān yào zǎo diǎn xià bān",
+        "en": "The boss said we can leave a bit early today.",
+        "fr": "Le patron a dit qu'on peut partir un peu plus tôt aujourd'hui."
+      },
+      "player": {
+        "zh": "真的嗎？太好了！",
+        "pinyin": "zhēn de ma tài hǎo le",
+        "en": "Really? That's great!",
+        "fr": "Vraiment ? C'est super !"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "這份報告什麼時候要交？",
+        "pinyin": "zhè fèn bào gào shén me shí hou yào jiāo",
+        "en": "When is this report due?",
+        "fr": "Pour quand faut-il rendre ce rapport ?"
+      },
+      "player": {
+        "zh": "明天早上就要交。",
+        "pinyin": "míng tiān zǎo shang jiù yào jiāo",
+        "en": "It's due tomorrow morning.",
+        "fr": "Il faut le rendre demain matin."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "我們去買咖啡，好不好？",
+        "pinyin": "wǒ men qù mǎi kā fēi hǎo bù hǎo",
+        "en": "Let's go buy coffee, okay?",
+        "fr": "On va acheter un café, d'accord ?"
+      },
+      "player": {
+        "zh": "好啊，我也想喝咖啡。",
+        "pinyin": "hǎo a wǒ yě xiǎng hē kā fēi",
+        "en": "Sure, I want some coffee too.",
+        "fr": "Avec plaisir, j'ai envie d'un café aussi."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你看起來很緊張。",
+        "pinyin": "nǐ kàn qǐ lái hěn jǐn zhāng",
+        "en": "You look very nervous.",
+        "fr": "Vous avez l'air très nerveux."
+      },
+      "player": {
+        "zh": "對啊，我有一點緊張。",
+        "pinyin": "duì a wǒ yǒu yì diǎn jǐn zhāng",
+        "en": "Yeah, I'm a little nervous.",
+        "fr": "Oui, je suis un peu nerveux."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "下班以後，你要做什麼？",
+        "pinyin": "xià bān yǐ hòu nǐ yào zuò shén me",
+        "en": "What are you going to do after work?",
+        "fr": "Qu'est-ce que vous allez faire après le travail ?"
+      },
+      "player": {
+        "zh": "我想回家休息一下。",
+        "pinyin": "wǒ xiǎng huí jiā xiū xi yí xià",
+        "en": "I want to go home and rest a bit.",
+        "fr": "J'ai envie de rentrer me reposer un peu."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "電子郵件麻煩你看一下。",
+        "pinyin": "diàn zǐ yóu jiàn má fan nǐ kàn yí xià",
+        "en": "Please take a look at the email.",
+        "fr": "Merci de jeter un œil à l'e-mail."
+      },
+      "player": {
+        "zh": "好，我等一下看。",
+        "pinyin": "hǎo wǒ děng yí xià kàn",
+        "en": "Okay, I'll look at it in a moment.",
+        "fr": "D'accord, je le regarde tout à l'heure."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你能不能教我怎麼用？",
+        "pinyin": "nǐ néng bù néng jiāo wǒ zěn me yòng",
+        "en": "Can you teach me how to use it?",
+        "fr": "Pouvez-vous m'apprendre à l'utiliser ?"
+      },
+      "player": {
+        "zh": "沒問題，我教你。",
+        "pinyin": "méi wèn tí wǒ jiāo nǐ",
+        "en": "No problem, I'll show you.",
+        "fr": "Pas de problème, je vous montre."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你是哪裡人？",
+        "pinyin": "nǐ shì nǎ lǐ rén",
+        "en": "Where are you from?",
+        "fr": "Vous venez d'où ?"
+      },
+      "player": {
+        "zh": "我是法國人，你呢？",
+        "pinyin": "wǒ shì fà guó rén nǐ ne",
+        "en": "I'm French, and you?",
+        "fr": "Je suis français, et vous ?"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "老闆今天看起來不錯。",
+        "pinyin": "lǎo bǎn jīn tiān kàn qǐ lái bú cuò",
+        "en": "The boss looks like he's in a good mood today.",
+        "fr": "Le patron a l'air de bonne humeur aujourd'hui."
+      },
+      "player": {
+        "zh": "對啊，他今天很開心。",
+        "pinyin": "duì a tā jīn tiān hěn kāi xīn",
+        "en": "Yeah, he's very happy today.",
+        "fr": "Oui, il est très content aujourd'hui."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "下次見，路上小心！",
+        "pinyin": "xià cì jiàn lù shàng xiǎo xīn",
+        "en": "See you next time, be careful on your way!",
+        "fr": "À la prochaine, faites attention sur la route !"
+      },
+      "player": {
+        "zh": "好，再見！",
+        "pinyin": "hǎo zài jiàn",
+        "en": "Okay, bye!",
+        "fr": "D'accord, au revoir !"
+      }
+    }
+  ]
+}

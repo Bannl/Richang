@@ -1,0 +1,127 @@
+# tier5
+世界	monde
+國家	pays
+城市	ville
+動物	animal
+環境	environnement
+空氣	air
+溫度	température
+度	degré
+晴天	beau temps
+陰天	temps couvert
+涼	frais
+悶熱	lourd, étouffant
+潮濕	humide
+蚊子	moustique
+蟑螂	cafard
+鳥	oiseau
+海邊	bord de mer
+森林	forêt
+島	île
+溫泉	source chaude
+停電	panne de courant
+地圖	carte
+氣溫	température extérieure
+鄉下	campagne
+法國	France
+# tier6
+自然	nature, naturel
+地球	Terre
+火	feu
+下雪	neiger
+雪	neige
+霧	brouillard
+多雲	nuageux
+打雷	tonner
+閃電	éclair
+雷陣雨	orage
+天氣預報	prévisions météo
+氣候	climat
+濕度	humidité
+溫暖	doux, chaud
+乾燥	sec
+濕	mouillé, humide
+陽光	lumière du soleil
+曬	exposer au soleil
+淋雨	prendre la pluie
+寒流	vague de froid
+梅雨	saison des pluies
+颱風假	congé typhon
+彩虹	arc-en-ciel
+紫外線	rayons UV
+污染	pollution
+環保	écologie
+風景	paysage
+日出	lever du soleil
+日落	coucher du soleil
+沙灘	plage
+海浪	vagues
+溪	ruisseau, rivière
+瀑布	cascade
+田	champ, rizière
+石頭	pierre
+沙	sable
+土	terre, sol
+步道	sentier
+郊區	banlieue
+地區	région
+外國	pays étranger
+亞洲	Asie
+歐洲	Europe
+日本	Japon
+美國	États-Unis
+中國	Chine
+韓國	Corée
+蟲	insecte, ver
+老鼠	souris, rat
+蛇	serpent
+猴子	singe
+蝴蝶	papillon
+螞蟻	fourmi
+壁虎	gecko
+蒼蠅	mouche
+蜜蜂	abeille
+蜘蛛	araignée
+青蛙	grenouille
+兔子	lapin
+馬	cheval
+羊	mouton, chèvre
+熊	ours
+老虎	tigre
+鴨子	canard
+寵物	animal de compagnie
+植物	plante
+葉子	feuille
+竹子	bambou
+櫻花	fleur de cerisier
+玫瑰	rose
+水災	inondation
+淹水	inondé
+停水	coupure d'eau
+火災	incendie
+土石流	coulée de boue
+# extra5
+涼快	frais, agréable
+夕陽	soleil couchant
+海洋	océan
+大象	éléphant
+獅子	lion
+國外	à l'étranger
+沙漠	désert
+烏龜	tortue
+# extra6
+回收	recyclage
+爬山	randonnée
+露營	camping
+全球暖化	réchauffement climatique
+氣候變遷	changement climatique
+海嘯	tsunami
+餘震	réplique sismique
+缺水	pénurie d'eau
+國家公園	parc national
+離島	île périphérique
+流浪狗	chien errant
+蟬	cigale
+蝸牛	escargot
+貓熊	panda
+樹葉	feuille d'arbre

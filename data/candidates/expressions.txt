@@ -1,0 +1,80 @@
+# tier5
+請問	excusez-moi (question)
+拜拜	au revoir
+對啊	oui, c'est ça
+好啊	d'accord
+借過	pardon, je passe
+沒錯	exact
+對了	au fait
+還好	ça va
+嗯	hmm, oui
+喔	oh
+啦	particule finale
+抱歉	désolé
+不用了	pas besoin
+拜託	s'il te plaît
+怎麼辦	que faire
+怎麼了	qu'y a-t-il
+好吧	bon, d'accord
+算了	laisse tomber
+真的假的	sérieux ?
+不會吧	pas possible !
+# tier6
+不會	de rien
+哇	waouh
+欸	hé
+歡迎光臨	bienvenue (magasin)
+不行	pas possible
+好久不見	ça fait longtemps
+喂	allô
+天啊	mon Dieu
+是喔	ah bon
+這樣喔	ah, je vois
+原來如此	je comprends
+了解	compris
+都可以	peu importe
+沒差	aucune différence
+好啦	bon, ok
+稍等	un instant
+慢慢來	prends ton temps
+打擾了	désolé de déranger
+慢用	bon appétit
+乾杯	santé !
+請坐	asseyez-vous
+請進	entrez
+糟糕	zut
+慘了	catastrophe
+完了	c'est fichu
+可惜	dommage
+哎呀	aïe
+哈哈	haha
+哇塞	la vache
+蛤	hein ?
+耶	ouais, particule
+齁	hein (TW)
+嘛	particule (évidence)
+看情況	ça dépend
+保重	prends soin
+一路順風	bon voyage
+下次見	à la prochaine
+聖誕快樂	joyeux Noël
+恭喜發財	bonne fortune
+救命	au secours
+# extra5
+您好	bonjour (poli)
+待會見	à tout à l'heure
+啊	ah
+唉	soupir
+大家好	bonjour à tous
+幸會	enchanté
+# extra6
+說不定	peut-être
+不一定	pas forcément
+太棒了	génial
+路上小心	rentre bien
+吃飽沒	t'as mangé ?
+早日康復	bon rétablissement
+祝你好運	bonne chance
+小心	attention
+謝謝光臨	merci (magasin)
+拍謝	désolé (TW)

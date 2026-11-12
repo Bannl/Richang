@@ -1,0 +1,313 @@
+{
+  "situation": "drink-shop",
+  "exchanges": [
+    {
+      "enemy": {
+        "zh": "你好，你要喝什麼？",
+        "pinyin": "nǐ hǎo nǐ yào hē shén me",
+        "en": "Hi, what would you like to drink?",
+        "fr": "Salut, qu'est-ce que tu veux boire ?"
+      },
+      "player": {
+        "zh": "我要珍珠奶茶，謝謝。",
+        "pinyin": "wǒ yào zhēn zhū nǎi chá xiè xie",
+        "en": "I'd like a bubble milk tea, thanks.",
+        "fr": "Je voudrais un thé au lait aux perles, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "要大的還是小的？",
+        "pinyin": "yào dà de hái shi xiǎo de",
+        "en": "Big or small?",
+        "fr": "Grand ou petit ?"
+      },
+      "player": {
+        "zh": "大的，謝謝老闆。",
+        "pinyin": "dà de xiè xie lǎo bǎn",
+        "en": "Big, thank you.",
+        "fr": "Grand, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "太甜嗎？",
+        "pinyin": "tài tián ma",
+        "en": "Will it be too sweet?",
+        "fr": "Ce sera trop sucré ?"
+      },
+      "player": {
+        "zh": "不太會，剛剛好。",
+        "pinyin": "bú tài huì gāng gāng hǎo",
+        "en": "Probably not, it'll be just right.",
+        "fr": "Sûrement pas, ce sera parfait."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你想喝熱的嗎？",
+        "pinyin": "nǐ xiǎng hē rè de ma",
+        "en": "Do you want it hot?",
+        "fr": "Tu la veux chaude ?"
+      },
+      "player": {
+        "zh": "不要，我要冷的。",
+        "pinyin": "bú yào wǒ yào lěng de",
+        "en": "No, I want it cold.",
+        "fr": "Non, je la veux froide."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "這個五十元。",
+        "pinyin": "zhè ge wǔ shí yuán",
+        "en": "That's fifty NT dollars.",
+        "fr": "Ça fait cinquante dollars taïwanais."
+      },
+      "player": {
+        "zh": "好，我知道了。",
+        "pinyin": "hǎo wǒ zhī dào le",
+        "en": "Okay, got it.",
+        "fr": "D'accord, compris."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "我們有茶，也有咖啡。",
+        "pinyin": "wǒ men yǒu chá yě yǒu kā fēi",
+        "en": "We have tea, and we have coffee too.",
+        "fr": "On a du thé, et aussi du café."
+      },
+      "player": {
+        "zh": "那我要咖啡，謝謝。",
+        "pinyin": "nà wǒ yào kā fēi xiè xie",
+        "en": "Then I'll have coffee, thanks.",
+        "fr": "Alors je prends un café, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "客人很多，你要等。",
+        "pinyin": "kè rén hěn duō nǐ yào děng",
+        "en": "There are lots of customers, you'll have to wait.",
+        "fr": "Il y a beaucoup de clients, il va falloir attendre."
+      },
+      "player": {
+        "zh": "沒關係，我可以等。",
+        "pinyin": "méi guān xi wǒ kě yǐ děng",
+        "en": "No worries, I can wait.",
+        "fr": "Pas de souci, je peux attendre."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "先生，你要什麼？",
+        "pinyin": "xiān sheng nǐ yào shén me",
+        "en": "Sir, what would you like?",
+        "fr": "Monsieur, vous voulez quoi ?"
+      },
+      "player": {
+        "zh": "我要茶，謝謝。",
+        "pinyin": "wǒ yào chá xiè xie",
+        "en": "I'll have tea, thanks.",
+        "fr": "Je prendrai du thé, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "大杯還是中杯？",
+        "pinyin": "dà bēi hái shi zhōng bēi",
+        "en": "Large or medium?",
+        "fr": "Grand ou moyen ?"
+      },
+      "player": {
+        "zh": "大杯，謝謝。",
+        "pinyin": "dà bēi xiè xie",
+        "en": "Large, please.",
+        "fr": "Un grand, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "糖的話，半糖可以嗎？",
+        "pinyin": "táng de huà bàn táng kě yǐ ma",
+        "en": "As for sugar, is half-sugar okay?",
+        "fr": "Pour le sucre, demi-sucre, ça va ?"
+      },
+      "player": {
+        "zh": "可以，半糖就好。",
+        "pinyin": "kě yǐ bàn táng jiù hǎo",
+        "en": "Sure, half sugar is fine.",
+        "fr": "Oui, demi-sucre, ça ira."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你怕不怕冰的？",
+        "pinyin": "nǐ pà bu pà bīng de",
+        "en": "Are you okay with ice?",
+        "fr": "Ça te dérange, la glace ?"
+      },
+      "player": {
+        "zh": "不怕，但是少冰就好。",
+        "pinyin": "bú pà dàn shì shǎo bīng jiù hǎo",
+        "en": "I don't mind, but light ice is fine.",
+        "fr": "Ça va, mais peu de glaçons, c'est parfait."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "要加珍珠嗎？",
+        "pinyin": "yào jiā zhēn zhū ma",
+        "en": "Would you like pearls added?",
+        "fr": "Tu veux des perles en plus ?"
+      },
+      "player": {
+        "zh": "好啊，我喜歡珍珠。",
+        "pinyin": "hǎo a wǒ xǐ huan zhēn zhū",
+        "en": "Sure, I love pearls.",
+        "fr": "Oui, j'adore les perles."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "大杯珍珠奶茶六十五元。",
+        "pinyin": "dà bēi zhēn zhū nǎi chá liù shí wǔ yuán",
+        "en": "A large bubble tea is sixty-five.",
+        "fr": "Un grand thé aux perles, ça fait soixante-cinq."
+      },
+      "player": {
+        "zh": "好，這是一百元。",
+        "pinyin": "hǎo zhè shì yì bǎi yuán",
+        "en": "Okay, here's a hundred.",
+        "fr": "D'accord, voici cent dollars."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "好了，請稍等一下。",
+        "pinyin": "hǎo le qǐng shāo děng yí xià",
+        "en": "All set, please wait a moment.",
+        "fr": "C'est prêt, patientez un instant."
+      },
+      "player": {
+        "zh": "好的，我在旁邊等。",
+        "pinyin": "hǎo de wǒ zài páng biān děng",
+        "en": "Okay, I'll wait over there.",
+        "fr": "D'accord, j'attends juste à côté."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "這是我們的菜單，你看一下。",
+        "pinyin": "zhè shì wǒ men de cài dān nǐ kàn yí xià",
+        "en": "Here's our menu, take a look.",
+        "fr": "Voici notre carte, jette un œil."
+      },
+      "player": {
+        "zh": "謝謝，我看看有什麼飲料。",
+        "pinyin": "xiè xie wǒ kàn kan yǒu shén me yǐn liào",
+        "en": "Thanks, let me see what drinks there are.",
+        "fr": "Merci, je vais voir quelles boissons il y a."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "烏龍茶也很好喝。",
+        "pinyin": "wū lóng chá yě hěn hǎo hē",
+        "en": "The oolong tea is really good too.",
+        "fr": "Le thé oolong est très bon aussi."
+      },
+      "player": {
+        "zh": "那我下次試試看。",
+        "pinyin": "nà wǒ xià cì shì shi kàn",
+        "en": "I'll try that next time then.",
+        "fr": "J'essaierai la prochaine fois."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "可以用悠遊卡付錢。",
+        "pinyin": "kě yǐ yòng yōu yóu kǎ fù qián",
+        "en": "You can pay with an EasyCard.",
+        "fr": "Tu peux payer avec une carte EasyCard."
+      },
+      "player": {
+        "zh": "好方便，我沒有現金。",
+        "pinyin": "hǎo fāng biàn wǒ méi yǒu xiàn jīn",
+        "en": "Great, that's handy, I don't have cash.",
+        "fr": "Pratique, je n'ai pas de liquide."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "微糖真的不會太甜。",
+        "pinyin": "wéi táng zhēn de bú huì tài tián",
+        "en": "Light sugar really isn't too sweet.",
+        "fr": "Peu sucré, ce n'est vraiment pas trop sucré."
+      },
+      "player": {
+        "zh": "好，那我要微糖。",
+        "pinyin": "hǎo nà wǒ yào wéi táng",
+        "en": "Okay, I'll go with light sugar then.",
+        "fr": "D'accord, je prends peu sucré alors."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "好喝嗎？",
+        "pinyin": "hǎo hē ma",
+        "en": "Is it good?",
+        "fr": "C'est bon ?"
+      },
+      "player": {
+        "zh": "超好喝，我還要一杯！",
+        "pinyin": "chāo hǎo hē wǒ hái yào yì bēi",
+        "en": "Super good, I want another cup!",
+        "fr": "Trop bon, j'en veux une autre tasse !"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "需要吸管嗎？",
+        "pinyin": "xū yào xī guǎn ma",
+        "en": "Do you need a straw?",
+        "fr": "Tu as besoin d'une paille ?"
+      },
+      "player": {
+        "zh": "不用了，謝謝老闆。",
+        "pinyin": "bú yòng le xiè xie lǎo bǎn",
+        "en": "No need, thanks boss.",
+        "fr": "Pas besoin, merci patron."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "總共一百三十元。",
+        "pinyin": "zǒng gòng yì bǎi sān shí yuán",
+        "en": "That's a hundred and thirty in total.",
+        "fr": "Ça fait cent trente en tout."
+      },
+      "player": {
+        "zh": "好的，錢在這裡。",
+        "pinyin": "hǎo de qián zài zhè lǐ",
+        "en": "Here, here's the money.",
+        "fr": "Voilà, voici l'argent."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "謝謝，下次再來喔！",
+        "pinyin": "xiè xie xià cì zài lái o",
+        "en": "Thanks, come again next time!",
+        "fr": "Merci, reviens la prochaine fois !"
+      },
+      "player": {
+        "zh": "一定，再見！",
+        "pinyin": "yí dìng zài jiàn",
+        "en": "For sure, bye!",
+        "fr": "Bien sûr, au revoir !"
+      }
+    }
+  ]
+}

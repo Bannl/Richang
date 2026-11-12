@@ -1,0 +1,109 @@
+/* =====================================================================
+   Tutoriel : tracer 我, la rencontre avec le proprietaire (consigne et demonstration du glisser-deposer par-dessus le
+   combat), puis l'ecran sombre de la voix interieure.
+   ===================================================================== */
+
+/* --- Bouton pour passer le tutoriel : dans l'en-tete de l'apprentissage, et dans le coin de la scene (sur la photo). --- */
+.tutorial-skip {
+  flex: none; display: inline-flex; align-items: center; height: max(calc(32 * var(--u)), 28px); padding: 0 calc(12 * var(--u));
+  border-radius: calc(9 * var(--u)); border: calc(2 * var(--u)) solid var(--line); background: transparent; color: var(--muted);
+  font: inherit; font-weight: 800; font-size: max(calc(13 * var(--u)), 11px); white-space: nowrap; cursor: pointer;
+}
+.tutorial-skip:hover { color: var(--fg); border-color: var(--muted); }
+.scene-corner { position: absolute; left: calc(10 * var(--u)); bottom: calc(10 * var(--u)); z-index: 3; }
+.scene-corner .tutorial-skip { border-color: rgba(255, 255, 255, .35); background: rgba(12, 12, 28, .62); color: #fff; }
+.scene-corner .tutorial-skip:hover { background: rgba(12, 12, 28, .85); border-color: rgba(255, 255, 255, .7); }
+
+/* --- Trace de 我 : le titre de bienvenue en tete de la colonne d'informations. --- */
+.tutorial-learn .learn-head .title { font-size: max(calc(19 * var(--u)), 14px); font-weight: 900; color: var(--brand); }
+
+/* --- Scene : elle apparait en fondu depuis l'ecran d'apprentissage. --- */
+.tutorial-fadein { position: fixed; inset: 0; z-index: 450; background: var(--bg); pointer-events: none; animation: tutorial-fadein .7s ease-out forwards; }
+@keyframes tutorial-fadein { to { opacity: 0; visibility: hidden; } }
+
+/* Bulle de consigne a cote de la carte 我 (a droite, ou a gauche si la place manque), avec sa pointe vers la carte. */
+.coach-tip {
+  position: fixed; z-index: 150; translate: 0 -50%; width: max-content; padding: calc(10 * var(--u)) calc(14 * var(--u));
+  border-radius: calc(12 * var(--u)); border: calc(2.5 * var(--u)) solid var(--panel-edge); background: var(--gold); color: var(--ink);
+  font-weight: 800; font-size: max(calc(17 * var(--u)), 12px); line-height: 1.3; box-shadow: 0 calc(4 * var(--u)) 0 var(--panel-edge);
+  pointer-events: none; animation: coach-in .35s cubic-bezier(.2, .8, .2, 1.2) both;
+}
+.coach-tip .hz { font-family: var(--font-zh); font-weight: 700; font-size: 1.15em; }
+.coach-tip::before {
+  content: ''; position: absolute; top: 50%; width: calc(14 * var(--u)); height: calc(14 * var(--u)); background: var(--gold);
+  border: 0 solid var(--panel-edge); border-width: 0 0 calc(2.5 * var(--u)) calc(2.5 * var(--u));
+}
+.coach-tip.right::before { left: calc(-9 * var(--u)); transform: translateY(-50%) rotate(45deg); }
+.coach-tip.left::before { right: calc(-9 * var(--u)); transform: translateY(-50%) rotate(-135deg); }
+@keyframes coach-in { from { opacity: 0; scale: .85; } }
+
+/* Demonstration du geste : la carte fantome quitte la main, va jusqu'au trou, s'y pose, puis s'efface ; en boucle. */
+.drag-ghost.coach-ghost { translate: -50% -50%; z-index: 140; opacity: 0; animation: coach-drag 2.8s ease-in-out .6s infinite; }
+.coach-ghost .gcard { transition: none; }
+@keyframes coach-drag {
+  0% { opacity: 0; transform: none; }
+  12% { opacity: .9; transform: translateY(calc(-16 * var(--u))) scale(1.05); }
+  58% { opacity: .9; transform: translate(var(--dx), var(--dy)) scale(var(--s)); }
+  76% { opacity: .9; transform: translate(var(--dx), var(--dy)) scale(var(--s)); }
+  92%, 100% { opacity: 0; transform: translate(var(--dx), var(--dy)) scale(var(--s)); }
+}
+/* Le doigt qui tient la carte. */
+.coach-finger {
+  position: absolute; left: 50%; top: 62%; width: calc(46 * var(--u)); height: calc(46 * var(--u)); translate: -50% -50%; border-radius: 50%;
+  background: rgba(255, 255, 255, .5); border: calc(3 * var(--u)) solid #fff; box-shadow: 0 0 0 calc(3 * var(--u)) rgba(31, 27, 45, .4);
+}
+@media (prefers-reduced-motion: reduce) {
+  .drag-ghost.coach-ghost { animation-duration: 5s; }
+}
+
+/* Petites bulles d'explication (bouton de repetition, vies) : claires, pour se distinguer de la consigne doree, avec
+   une pointe vers l'element et un anneau qui pulse autour de lui. */
+.coach-note {
+  position: fixed; z-index: 150; width: max-content; padding: calc(7 * var(--u)) calc(11 * var(--u));
+  border-radius: calc(10 * var(--u)); border: calc(2 * var(--u)) solid var(--panel-edge); background: #fffaf0; color: #1f1b2d;
+  font-weight: 700; font-size: max(calc(14 * var(--u)), 11px); line-height: 1.3; box-shadow: 0 calc(3 * var(--u)) 0 var(--panel-edge);
+  pointer-events: none; animation: coach-in .35s cubic-bezier(.2, .8, .2, 1.2) .25s both;
+}
+.coach-note::before {
+  content: ''; position: absolute; width: calc(12 * var(--u)); height: calc(12 * var(--u)); background: #fffaf0;
+  border: 0 solid var(--panel-edge); border-width: 0 calc(2 * var(--u)) calc(2 * var(--u)) 0;
+}
+/* Au-dessus de l'element : pointe en bas, a l'aplomb de son milieu (--ax depuis le bord d'alignement). */
+.coach-note.above-right, .coach-note.above-left { translate: 0 -100%; }
+.coach-note.above-right::before { bottom: calc(-7 * var(--u)); right: calc(var(--ax) - 6 * var(--u)); rotate: 45deg; }
+.coach-note.above-left::before { bottom: calc(-7 * var(--u)); left: calc(var(--ax) - 6 * var(--u)); rotate: 45deg; }
+/* A droite de l'element : pointe a gauche, a mi-hauteur. */
+.coach-note.right { translate: 0 -50%; }
+.coach-note.right::before { left: calc(-7 * var(--u)); top: 50%; translate: 0 -50%; rotate: 135deg; }
+.coach-ring {
+  position: fixed; z-index: 149; pointer-events: none; border-radius: calc(12 * var(--u));
+  box-shadow: 0 0 0 calc(3 * var(--u)) var(--gold); animation: coach-ring 1.6s ease-out .25s infinite;
+}
+@keyframes coach-ring {
+  0% { box-shadow: 0 0 0 calc(2 * var(--u)) rgba(242, 181, 58, .95); }
+  70%, 100% { box-shadow: 0 0 0 calc(12 * var(--u)) rgba(242, 181, 58, 0); }
+}
+
+/* --- Voix interieure : l'ecran s'assombrit sur la derniere image de la scene, puis les phrases apparaissent. --- */
+.tutorial-outro {
+  --d0: .5s;
+  position: fixed; inset: 0; z-index: 500; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: calc(44 * var(--u)); padding: calc(24 * var(--u)) max(calc(24 * var(--u)), env(safe-area-inset-right)) calc(24 * var(--u)) max(calc(24 * var(--u)), env(safe-area-inset-left));
+  background: #07070d; color: #ece6da; cursor: default;
+}
+.tutorial-outro.fade { --d0: 2.1s; animation: outro-dark 1.8s ease-in both; }
+@keyframes outro-dark { from { background-color: rgba(7, 7, 13, 0); } to { background-color: #07070d; } }
+.outro-text { max-width: min(34em, 92vw); display: flex; flex-direction: column; gap: calc(20 * var(--u)); text-align: center; }
+.thought { margin: 0; font-style: italic; font-weight: 600; font-size: max(calc(30 * var(--u)), 17px); line-height: 1.45; opacity: 0; animation: thought-in 1.3s ease-out var(--d0) forwards; }
+.thought:nth-child(2) { animation-delay: calc(var(--d0) + 2s); }
+.thought .hz { font-style: normal; font-family: var(--font-zh); font-weight: 700; color: var(--gold); }
+.outro-next { min-width: calc(220 * var(--u)); opacity: 0; animation: thought-in .8s ease-out calc(var(--d0) + 3.6s) forwards; }
+.tutorial-outro.all .thought, .tutorial-outro.all .outro-next { animation-delay: 0s; animation-duration: .3s; }
+@keyframes thought-in { from { opacity: 0; transform: translateY(calc(10 * var(--u))); filter: blur(3px); } to { opacity: 1; transform: none; filter: none; } }
+
+@media (max-height: 560px) {
+  .coach-tip { padding: calc(7 * var(--u)) calc(10 * var(--u)); font-size: max(calc(15 * var(--u)), 12px); }
+  .scene-corner { left: calc(6 * var(--u)); bottom: calc(6 * var(--u)); }
+  .tutorial-outro { gap: calc(28 * var(--u)); }
+  .outro-text { gap: calc(12 * var(--u)); }
+}

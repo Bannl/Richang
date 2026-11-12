@@ -1,0 +1,2152 @@
+[
+  {
+    "rank": 751,
+    "hanzi": "黃",
+    "en": [
+      "yellow"
+    ],
+    "exampleEn": "The banana is yellow."
+  },
+  {
+    "rank": 752,
+    "hanzi": "黑",
+    "en": [
+      "black"
+    ],
+    "exampleEn": "That cat is black."
+  },
+  {
+    "rank": 753,
+    "hanzi": "白",
+    "en": [
+      "white"
+    ],
+    "exampleEn": "My socks are white."
+  },
+  {
+    "rank": 754,
+    "hanzi": "有錢",
+    "en": [
+      "rich",
+      "wealthy"
+    ],
+    "noteEn": "Literally \"to have money.\"",
+    "exampleEn": "He's very rich."
+  },
+  {
+    "rank": 755,
+    "hanzi": "感動",
+    "en": [
+      "moved",
+      "touched"
+    ],
+    "exampleEn": "This movie moved me deeply."
+  },
+  {
+    "rank": 756,
+    "hanzi": "孩子",
+    "en": [
+      "child",
+      "kid"
+    ],
+    "exampleEn": "She has two children."
+  },
+  {
+    "rank": 757,
+    "hanzi": "老公",
+    "en": [
+      "husband",
+      "hubby"
+    ],
+    "noteEn": "Casual and affectionate; very common in speech.",
+    "exampleEn": "My husband is at work."
+  },
+  {
+    "rank": 758,
+    "hanzi": "老婆",
+    "en": [
+      "wife"
+    ],
+    "noteEn": "Casual and affectionate; very common in speech.",
+    "exampleEn": "His wife is very pretty."
+  },
+  {
+    "rank": 759,
+    "hanzi": "男人",
+    "en": [
+      "man"
+    ],
+    "exampleEn": "Who is that man?"
+  },
+  {
+    "rank": 760,
+    "hanzi": "女人",
+    "en": [
+      "woman"
+    ],
+    "exampleEn": "She is a woman."
+  },
+  {
+    "rank": 761,
+    "hanzi": "父母",
+    "en": [
+      "parents"
+    ],
+    "exampleEn": "My parents live in Taipei."
+  },
+  {
+    "rank": 762,
+    "hanzi": "名字",
+    "en": [
+      "name",
+      "first name"
+    ],
+    "exampleEn": "What's your name?"
+  },
+  {
+    "rank": 763,
+    "hanzi": "家庭",
+    "en": [
+      "family"
+    ],
+    "noteEn": "The family unit; more formal than 家 (home).",
+    "exampleEn": "He has a happy family."
+  },
+  {
+    "rank": 764,
+    "hanzi": "關係",
+    "en": [
+      "relationship",
+      "connection"
+    ],
+    "exampleEn": "Our relationship is good."
+  },
+  {
+    "rank": 765,
+    "hanzi": "結婚",
+    "en": [
+      "to get married",
+      "to marry"
+    ],
+    "exampleEn": "They're getting married next year."
+  },
+  {
+    "rank": 766,
+    "hanzi": "阿姨",
+    "en": [
+      "aunt",
+      "ma'am"
+    ],
+    "noteEn": "Also used to politely address a middle-aged woman.",
+    "exampleEn": "This is my aunt."
+  },
+  {
+    "rank": 767,
+    "hanzi": "叔叔",
+    "en": [
+      "uncle",
+      "mister"
+    ],
+    "noteEn": "Father's younger brother, or a man younger than one's parents.",
+    "exampleEn": "My uncle is very nice."
+  },
+  {
+    "rank": 768,
+    "hanzi": "爺爺",
+    "en": [
+      "paternal grandfather",
+      "grandpa"
+    ],
+    "exampleEn": "Grandpa is eighty years old this year."
+  },
+  {
+    "rank": 769,
+    "hanzi": "奶奶",
+    "en": [
+      "paternal grandmother",
+      "grandma"
+    ],
+    "exampleEn": "Grandma's cooking is delicious."
+  },
+  {
+    "rank": 770,
+    "hanzi": "阿公",
+    "en": [
+      "grandpa",
+      "grandfather"
+    ],
+    "noteEn": "Borrowed from Taiwanese Hokkien; very common in Taiwan.",
+    "exampleEn": "Grandpa is watching TV in the living room."
+  },
+  {
+    "rank": 771,
+    "hanzi": "阿嬤",
+    "en": [
+      "grandma",
+      "grandmother"
+    ],
+    "noteEn": "Borrowed from Taiwanese Hokkien; very common in Taiwan.",
+    "exampleEn": "Grandma lives in the countryside."
+  },
+  {
+    "rank": 772,
+    "hanzi": "外公",
+    "en": [
+      "maternal grandfather",
+      "grandpa"
+    ],
+    "exampleEn": "Grandpa loves fishing."
+  },
+  {
+    "rank": 773,
+    "hanzi": "外婆",
+    "en": [
+      "maternal grandmother",
+      "grandma"
+    ],
+    "exampleEn": "I miss Grandma a lot."
+  },
+  {
+    "rank": 774,
+    "hanzi": "台灣人",
+    "en": [
+      "Taiwanese person",
+      "Taiwanese"
+    ],
+    "exampleEn": "He is Taiwanese."
+  },
+  {
+    "rank": 775,
+    "hanzi": "法國人",
+    "en": [
+      "French person",
+      "French"
+    ],
+    "exampleEn": "I am French."
+  },
+  {
+    "rank": 776,
+    "hanzi": "美國人",
+    "en": [
+      "American person",
+      "American"
+    ],
+    "exampleEn": "She is American."
+  },
+  {
+    "rank": 777,
+    "hanzi": "小朋友",
+    "en": [
+      "child",
+      "kids"
+    ],
+    "noteEn": "Affectionate term, also used to address a child directly.",
+    "exampleEn": "The kids are playing in the park."
+  },
+  {
+    "rank": 778,
+    "hanzi": "大人",
+    "en": [
+      "adult",
+      "grown-up"
+    ],
+    "exampleEn": "This is an adult ticket."
+  },
+  {
+    "rank": 779,
+    "hanzi": "老人",
+    "en": [
+      "elderly person",
+      "old person"
+    ],
+    "exampleEn": "Elderly people are strolling in the park."
+  },
+  {
+    "rank": 780,
+    "hanzi": "員工",
+    "en": [
+      "employee",
+      "staff member"
+    ],
+    "exampleEn": "The company has fifty employees."
+  },
+  {
+    "rank": 781,
+    "hanzi": "飲料",
+    "en": [
+      "drink",
+      "beverage"
+    ],
+    "exampleEn": "What drink would you like?"
+  },
+  {
+    "rank": 782,
+    "hanzi": "奶茶",
+    "en": [
+      "milk tea"
+    ],
+    "exampleEn": "I'd like a milk tea."
+  },
+  {
+    "rank": 783,
+    "hanzi": "外帶",
+    "en": [
+      "to go",
+      "takeout"
+    ],
+    "noteEn": "Specify this when ordering; opposite of 內用 (eat in).",
+    "exampleEn": "My coffee is to go."
+  },
+  {
+    "rank": 784,
+    "hanzi": "內用",
+    "en": [
+      "for here",
+      "to eat in"
+    ],
+    "noteEn": "Opposite of 外帶 (to go).",
+    "exampleEn": "Is that for here?"
+  },
+  {
+    "rank": 785,
+    "hanzi": "菜單",
+    "en": [
+      "menu"
+    ],
+    "exampleEn": "The menu, please."
+  },
+  {
+    "rank": 786,
+    "hanzi": "點餐",
+    "en": [
+      "to order (food)"
+    ],
+    "exampleEn": "Can we order now?"
+  },
+  {
+    "rank": 787,
+    "hanzi": "買單",
+    "en": [
+      "to pay the bill",
+      "check please"
+    ],
+    "noteEn": "Spoken synonym of 結帳 (to pay the bill).",
+    "exampleEn": "I'd like to pay the bill."
+  },
+  {
+    "rank": 788,
+    "hanzi": "食物",
+    "en": [
+      "food"
+    ],
+    "exampleEn": "The food here is delicious."
+  },
+  {
+    "rank": 789,
+    "hanzi": "酒",
+    "en": [
+      "alcohol",
+      "wine"
+    ],
+    "exampleEn": "He doesn't drink alcohol."
+  },
+  {
+    "rank": 790,
+    "hanzi": "紅茶",
+    "en": [
+      "black tea"
+    ],
+    "exampleEn": "I like drinking black tea."
+  },
+  {
+    "rank": 791,
+    "hanzi": "綠茶",
+    "en": [
+      "green tea"
+    ],
+    "exampleEn": "Green tea is good for your health."
+  },
+  {
+    "rank": 792,
+    "hanzi": "豆腐",
+    "en": [
+      "tofu"
+    ],
+    "exampleEn": "I like eating tofu."
+  },
+  {
+    "rank": 793,
+    "hanzi": "炒飯",
+    "en": [
+      "fried rice"
+    ],
+    "exampleEn": "I'd like a fried rice."
+  },
+  {
+    "rank": 794,
+    "hanzi": "炒麵",
+    "en": [
+      "fried noodles"
+    ],
+    "exampleEn": "Fried noodles are delicious."
+  },
+  {
+    "rank": 795,
+    "hanzi": "泡麵",
+    "en": [
+      "instant noodles"
+    ],
+    "exampleEn": "In the evening I often eat instant noodles."
+  },
+  {
+    "rank": 796,
+    "hanzi": "包子",
+    "en": [
+      "steamed bun",
+      "bao"
+    ],
+    "exampleEn": "This shop's steamed buns are famous."
+  },
+  {
+    "rank": 797,
+    "hanzi": "蛋糕",
+    "en": [
+      "cake"
+    ],
+    "exampleEn": "I bought a cake."
+  },
+  {
+    "rank": 798,
+    "hanzi": "餅乾",
+    "en": [
+      "cookie",
+      "cracker"
+    ],
+    "exampleEn": "Kids love eating cookies."
+  },
+  {
+    "rank": 799,
+    "hanzi": "巧克力",
+    "en": [
+      "chocolate"
+    ],
+    "exampleEn": "I love chocolate cake."
+  },
+  {
+    "rank": 800,
+    "hanzi": "冰淇淋",
+    "en": [
+      "ice cream"
+    ],
+    "exampleEn": "In summer I often eat ice cream."
+  },
+  {
+    "rank": 801,
+    "hanzi": "西瓜",
+    "en": [
+      "watermelon"
+    ],
+    "exampleEn": "Summer is the perfect time to eat watermelon."
+  },
+  {
+    "rank": 802,
+    "hanzi": "香蕉",
+    "en": [
+      "banana"
+    ],
+    "exampleEn": "I eat a banana every day."
+  },
+  {
+    "rank": 803,
+    "hanzi": "蘋果",
+    "en": [
+      "apple"
+    ],
+    "exampleEn": "This apple is very sweet."
+  },
+  {
+    "rank": 804,
+    "hanzi": "芒果",
+    "en": [
+      "mango"
+    ],
+    "exampleEn": "Mango shaved ice is very popular."
+  },
+  {
+    "rank": 805,
+    "hanzi": "鳳梨",
+    "en": [
+      "pineapple"
+    ],
+    "noteEn": "In Taiwan it's 鳳梨, never 菠蘿.",
+    "exampleEn": "Pineapple cake is a Taiwanese specialty."
+  },
+  {
+    "rank": 806,
+    "hanzi": "去冰",
+    "en": [
+      "no ice"
+    ],
+    "noteEn": "Specify this when ordering a cold drink.",
+    "exampleEn": "I'd like a black tea with no ice."
+  },
+  {
+    "rank": 807,
+    "hanzi": "半糖",
+    "en": [
+      "half sugar"
+    ],
+    "noteEn": "Specifies a drink's sugar level.",
+    "exampleEn": "I'd like my milk tea half sugar."
+  },
+  {
+    "rank": 808,
+    "hanzi": "大杯",
+    "en": [
+      "large (size)",
+      "large cup"
+    ],
+    "exampleEn": "I'll have a large, please."
+  },
+  {
+    "rank": 809,
+    "hanzi": "點心",
+    "en": [
+      "snack",
+      "dim sum"
+    ],
+    "exampleEn": "I feel like having a snack this afternoon."
+  },
+  {
+    "rank": 810,
+    "hanzi": "下午茶",
+    "en": [
+      "afternoon tea"
+    ],
+    "exampleEn": "Let's go for afternoon tea."
+  },
+  {
+    "rank": 811,
+    "hanzi": "醫院",
+    "en": [
+      "hospital"
+    ],
+    "exampleEn": "He works at the hospital."
+  },
+  {
+    "rank": 812,
+    "hanzi": "搭",
+    "en": [
+      "to take (transport)",
+      "to ride"
+    ],
+    "exampleEn": "I take the MRT to work."
+  },
+  {
+    "rank": 813,
+    "hanzi": "左邊",
+    "en": [
+      "left side",
+      "left"
+    ],
+    "exampleEn": "The bank is on the left."
+  },
+  {
+    "rank": 814,
+    "hanzi": "右邊",
+    "en": [
+      "right side",
+      "right"
+    ],
+    "exampleEn": "The restroom is on the right."
+  },
+  {
+    "rank": 815,
+    "hanzi": "前面",
+    "en": [
+      "front",
+      "ahead"
+    ],
+    "exampleEn": "The MRT station is up ahead."
+  },
+  {
+    "rank": 816,
+    "hanzi": "後面",
+    "en": [
+      "behind",
+      "back"
+    ],
+    "exampleEn": "I'm sitting behind you."
+  },
+  {
+    "rank": 817,
+    "hanzi": "上面",
+    "en": [
+      "on top",
+      "above"
+    ],
+    "exampleEn": "The book is on the table."
+  },
+  {
+    "rank": 818,
+    "hanzi": "下面",
+    "en": [
+      "under",
+      "below"
+    ],
+    "exampleEn": "The cat is under the bed."
+  },
+  {
+    "rank": 819,
+    "hanzi": "裡面",
+    "en": [
+      "inside"
+    ],
+    "exampleEn": "There's a wallet inside the bag."
+  },
+  {
+    "rank": 820,
+    "hanzi": "外面",
+    "en": [
+      "outside"
+    ],
+    "exampleEn": "It's raining outside."
+  },
+  {
+    "rank": 821,
+    "hanzi": "旁邊",
+    "en": [
+      "next to",
+      "beside"
+    ],
+    "exampleEn": "My house is next to the school."
+  },
+  {
+    "rank": 822,
+    "hanzi": "對面",
+    "en": [
+      "across from",
+      "opposite"
+    ],
+    "exampleEn": "The post office is across the street."
+  },
+  {
+    "rank": 823,
+    "hanzi": "中間",
+    "en": [
+      "middle",
+      "center"
+    ],
+    "exampleEn": "I'm sitting in the middle."
+  },
+  {
+    "rank": 824,
+    "hanzi": "出口",
+    "en": [
+      "exit"
+    ],
+    "exampleEn": "Where's the exit?"
+  },
+  {
+    "rank": 825,
+    "hanzi": "下車",
+    "en": [
+      "to get off (a vehicle)"
+    ],
+    "exampleEn": "I'm getting off at the next stop."
+  },
+  {
+    "rank": 826,
+    "hanzi": "轉車",
+    "en": [
+      "to transfer (transport)",
+      "to change trains"
+    ],
+    "exampleEn": "I need to transfer in Taipei."
+  },
+  {
+    "rank": 827,
+    "hanzi": "塞車",
+    "en": [
+      "traffic jam",
+      "stuck in traffic"
+    ],
+    "exampleEn": "The roads are very congested right now."
+  },
+  {
+    "rank": 828,
+    "hanzi": "停車場",
+    "en": [
+      "parking lot"
+    ],
+    "exampleEn": "The parking lot is in the basement."
+  },
+  {
+    "rank": 829,
+    "hanzi": "票",
+    "en": [
+      "ticket"
+    ],
+    "noteEn": "Measure word: 張.",
+    "exampleEn": "I'd like to buy two tickets."
+  },
+  {
+    "rank": 830,
+    "hanzi": "馬路",
+    "en": [
+      "road",
+      "street"
+    ],
+    "exampleEn": "Be careful when crossing the road."
+  },
+  {
+    "rank": 831,
+    "hanzi": "路口",
+    "en": [
+      "intersection"
+    ],
+    "exampleEn": "Turn right at the intersection."
+  },
+  {
+    "rank": 832,
+    "hanzi": "左轉",
+    "en": [
+      "to turn left"
+    ],
+    "exampleEn": "Please turn left here."
+  },
+  {
+    "rank": 833,
+    "hanzi": "右轉",
+    "en": [
+      "to turn right"
+    ],
+    "exampleEn": "Turn right at the next intersection."
+  },
+  {
+    "rank": 834,
+    "hanzi": "直走",
+    "en": [
+      "to go straight"
+    ],
+    "exampleEn": "Go straight from here."
+  },
+  {
+    "rank": 835,
+    "hanzi": "地址",
+    "en": [
+      "address"
+    ],
+    "exampleEn": "Give me your address."
+  },
+  {
+    "rank": 836,
+    "hanzi": "飯店",
+    "en": [
+      "hotel"
+    ],
+    "noteEn": "In Taiwan this means hotel, not restaurant (that's 餐廳).",
+    "exampleEn": "We're staying at this hotel."
+  },
+  {
+    "rank": 837,
+    "hanzi": "護照",
+    "en": [
+      "passport"
+    ],
+    "exampleEn": "Don't forget your passport."
+  },
+  {
+    "rank": 838,
+    "hanzi": "旅行",
+    "en": [
+      "to travel",
+      "trip"
+    ],
+    "exampleEn": "I like traveling alone."
+  },
+  {
+    "rank": 839,
+    "hanzi": "出國",
+    "en": [
+      "to go abroad"
+    ],
+    "exampleEn": "He's going abroad next month."
+  },
+  {
+    "rank": 840,
+    "hanzi": "法國",
+    "en": [
+      "France"
+    ],
+    "exampleEn": "I come from France."
+  },
+  {
+    "rank": 841,
+    "hanzi": "結帳",
+    "en": [
+      "to pay (the bill)",
+      "to check out"
+    ],
+    "exampleEn": "I'd like to pay, please."
+  },
+  {
+    "rank": 842,
+    "hanzi": "超商",
+    "en": [
+      "convenience store"
+    ],
+    "noteEn": "Common short form of 便利商店 (convenience store).",
+    "exampleEn": "I'm going to the convenience store to buy a drink."
+  },
+  {
+    "rank": 843,
+    "hanzi": "特價",
+    "en": [
+      "special price",
+      "on sale"
+    ],
+    "exampleEn": "This jacket is on sale."
+  },
+  {
+    "rank": 844,
+    "hanzi": "優惠",
+    "en": [
+      "special offer",
+      "discount"
+    ],
+    "exampleEn": "There's a special offer for members right now."
+  },
+  {
+    "rank": 845,
+    "hanzi": "折扣",
+    "en": [
+      "discount"
+    ],
+    "exampleEn": "This jacket has a discount."
+  },
+  {
+    "rank": 846,
+    "hanzi": "買一送一",
+    "en": [
+      "buy one get one free",
+      "BOGO"
+    ],
+    "exampleEn": "Drinks are buy one get one free."
+  },
+  {
+    "rank": 847,
+    "hanzi": "會員",
+    "en": [
+      "member"
+    ],
+    "exampleEn": "Are you a member?"
+  },
+  {
+    "rank": 848,
+    "hanzi": "提款機",
+    "en": [
+      "ATM"
+    ],
+    "exampleEn": "Is there an ATM nearby?"
+  },
+  {
+    "rank": 849,
+    "hanzi": "領錢",
+    "en": [
+      "to withdraw money"
+    ],
+    "exampleEn": "I'm going to withdraw some money."
+  },
+  {
+    "rank": 850,
+    "hanzi": "轉帳",
+    "en": [
+      "to transfer money",
+      "bank transfer"
+    ],
+    "exampleEn": "I transfer money using my phone."
+  },
+  {
+    "rank": 851,
+    "hanzi": "帳戶",
+    "en": [
+      "bank account"
+    ],
+    "exampleEn": "What is your account number?"
+  },
+  {
+    "rank": 852,
+    "hanzi": "房租",
+    "en": [
+      "rent"
+    ],
+    "exampleEn": "How much is the rent this month?"
+  },
+  {
+    "rank": 853,
+    "hanzi": "水電費",
+    "en": [
+      "utility bill",
+      "water and electricity bill"
+    ],
+    "exampleEn": "The utility bill is due."
+  },
+  {
+    "rank": 854,
+    "hanzi": "繳費",
+    "en": [
+      "to pay a bill"
+    ],
+    "exampleEn": "I pay my bills at the convenience store."
+  },
+  {
+    "rank": 855,
+    "hanzi": "網購",
+    "en": [
+      "to shop online"
+    ],
+    "exampleEn": "I often shop online."
+  },
+  {
+    "rank": 856,
+    "hanzi": "外送",
+    "en": [
+      "food delivery"
+    ],
+    "noteEn": "Food delivery, e.g. Uber Eats or Foodpanda.",
+    "exampleEn": "Let's order delivery tonight."
+  },
+  {
+    "rank": 857,
+    "hanzi": "宅配",
+    "en": [
+      "home delivery"
+    ],
+    "noteEn": "Package delivery, distinct from 外送 (food delivery).",
+    "exampleEn": "Can this be delivered to my home?"
+  },
+  {
+    "rank": 858,
+    "hanzi": "取貨",
+    "en": [
+      "to pick up",
+      "to collect a package"
+    ],
+    "exampleEn": "I'm going to pick up my package at the convenience store."
+  },
+  {
+    "rank": 859,
+    "hanzi": "退貨",
+    "en": [
+      "to return an item",
+      "to get a refund"
+    ],
+    "exampleEn": "Can I return this item?"
+  },
+  {
+    "rank": 860,
+    "hanzi": "尺寸",
+    "en": [
+      "size"
+    ],
+    "exampleEn": "This piece of clothing's size is too small."
+  },
+  {
+    "rank": 861,
+    "hanzi": "禮物",
+    "en": [
+      "gift",
+      "present"
+    ],
+    "exampleEn": "This is a gift for you."
+  },
+  {
+    "rank": 862,
+    "hanzi": "總共",
+    "en": [
+      "in total",
+      "altogether"
+    ],
+    "exampleEn": "How much is it in total?"
+  },
+  {
+    "rank": 863,
+    "hanzi": "台幣",
+    "en": [
+      "NT dollar",
+      "Taiwan dollar"
+    ],
+    "noteEn": "Short for 新台幣, Taiwan's currency (NT$).",
+    "exampleEn": "This costs 300 NT dollars."
+  },
+  {
+    "rank": 864,
+    "hanzi": "加值",
+    "en": [
+      "to top up",
+      "to recharge"
+    ],
+    "noteEn": "E.g. topping up an EasyCard (悠遊卡).",
+    "exampleEn": "I need to top up my EasyCard."
+  },
+  {
+    "rank": 865,
+    "hanzi": "划算",
+    "en": [
+      "worth it",
+      "a good deal"
+    ],
+    "exampleEn": "This price is a really good deal."
+  },
+  {
+    "rank": 866,
+    "hanzi": "家裡",
+    "en": [
+      "at home",
+      "home"
+    ],
+    "exampleEn": "I'm at home today."
+  },
+  {
+    "rank": 867,
+    "hanzi": "租",
+    "en": [
+      "to rent"
+    ],
+    "exampleEn": "I rent an apartment in Taipei."
+  },
+  {
+    "rank": 868,
+    "hanzi": "搬家",
+    "en": [
+      "to move (house)"
+    ],
+    "exampleEn": "We're moving next month."
+  },
+  {
+    "rank": 869,
+    "hanzi": "套房",
+    "en": [
+      "studio apartment",
+      "suite"
+    ],
+    "exampleEn": "I rented a studio apartment."
+  },
+  {
+    "rank": 870,
+    "hanzi": "公寓",
+    "en": [
+      "apartment"
+    ],
+    "exampleEn": "He lives in an old apartment."
+  },
+  {
+    "rank": 871,
+    "hanzi": "浴室",
+    "en": [
+      "bathroom"
+    ],
+    "exampleEn": "The bathroom is at the end of the hallway."
+  },
+  {
+    "rank": 872,
+    "hanzi": "家具",
+    "en": [
+      "furniture"
+    ],
+    "exampleEn": "This furniture is new."
+  },
+  {
+    "rank": 873,
+    "hanzi": "沙發",
+    "en": [
+      "sofa",
+      "couch"
+    ],
+    "exampleEn": "He's lying on the sofa."
+  },
+  {
+    "rank": 874,
+    "hanzi": "衣櫃",
+    "en": [
+      "wardrobe",
+      "closet"
+    ],
+    "exampleEn": "The clothes are in the wardrobe."
+  },
+  {
+    "rank": 875,
+    "hanzi": "書桌",
+    "en": [
+      "desk"
+    ],
+    "exampleEn": "The computer is on the desk."
+  },
+  {
+    "rank": 876,
+    "hanzi": "枕頭",
+    "en": [
+      "pillow"
+    ],
+    "exampleEn": "This pillow is very soft."
+  },
+  {
+    "rank": 877,
+    "hanzi": "棉被",
+    "en": [
+      "quilt",
+      "comforter"
+    ],
+    "exampleEn": "When it's cold, you need a quilt."
+  },
+  {
+    "rank": 878,
+    "hanzi": "毛巾",
+    "en": [
+      "towel"
+    ],
+    "exampleEn": "Please pass me the towel."
+  },
+  {
+    "rank": 879,
+    "hanzi": "牙刷",
+    "en": [
+      "toothbrush"
+    ],
+    "exampleEn": "I forgot my toothbrush."
+  },
+  {
+    "rank": 880,
+    "hanzi": "牙膏",
+    "en": [
+      "toothpaste"
+    ],
+    "exampleEn": "We're out of toothpaste."
+  },
+  {
+    "rank": 881,
+    "hanzi": "衛生紙",
+    "en": [
+      "toilet paper",
+      "tissue"
+    ],
+    "exampleEn": "There's no toilet paper in the bathroom."
+  },
+  {
+    "rank": 882,
+    "hanzi": "洗髮精",
+    "en": [
+      "shampoo"
+    ],
+    "exampleEn": "This shampoo smells really nice."
+  },
+  {
+    "rank": 883,
+    "hanzi": "垃圾桶",
+    "en": [
+      "trash can",
+      "bin"
+    ],
+    "exampleEn": "The trash can is full."
+  },
+  {
+    "rank": 884,
+    "hanzi": "垃圾車",
+    "en": [
+      "garbage truck"
+    ],
+    "noteEn": "Announces its route with a jingle, as in Taiwan.",
+    "exampleEn": "The garbage truck is here!"
+  },
+  {
+    "rank": 885,
+    "hanzi": "倒垃圾",
+    "en": [
+      "to take out the trash",
+      "to put out garbage"
+    ],
+    "exampleEn": "I'm going to take out the trash."
+  },
+  {
+    "rank": 886,
+    "hanzi": "回收",
+    "en": [
+      "to recycle"
+    ],
+    "exampleEn": "This bottle can be recycled."
+  },
+  {
+    "rank": 887,
+    "hanzi": "打掃",
+    "en": [
+      "to clean",
+      "to tidy up"
+    ],
+    "exampleEn": "This weekend I need to clean my room."
+  },
+  {
+    "rank": 888,
+    "hanzi": "洗衣服",
+    "en": [
+      "to do laundry"
+    ],
+    "exampleEn": "I'm doing laundry."
+  },
+  {
+    "rank": 889,
+    "hanzi": "褲子",
+    "en": [
+      "pants",
+      "trousers"
+    ],
+    "noteEn": "Measure word: 條.",
+    "exampleEn": "These pants are too tight."
+  },
+  {
+    "rank": 890,
+    "hanzi": "外套",
+    "en": [
+      "jacket",
+      "coat"
+    ],
+    "exampleEn": "You should wear a jacket."
+  },
+  {
+    "rank": 891,
+    "hanzi": "眼鏡",
+    "en": [
+      "glasses",
+      "eyeglasses"
+    ],
+    "noteEn": "Measure word: 副.",
+    "exampleEn": "I can't find my glasses."
+  },
+  {
+    "rank": 892,
+    "hanzi": "雨傘",
+    "en": [
+      "umbrella"
+    ],
+    "noteEn": "Measure word: 把.",
+    "exampleEn": "You should take an umbrella when you go out."
+  },
+  {
+    "rank": 893,
+    "hanzi": "充電器",
+    "en": [
+      "charger"
+    ],
+    "exampleEn": "I forgot my charger."
+  },
+  {
+    "rank": 894,
+    "hanzi": "插座",
+    "en": [
+      "electrical outlet",
+      "socket"
+    ],
+    "exampleEn": "The outlet is in the corner of the wall."
+  },
+  {
+    "rank": 895,
+    "hanzi": "洗臉",
+    "en": [
+      "to wash one's face"
+    ],
+    "exampleEn": "In the morning I wash my face and brush my teeth."
+  },
+  {
+    "rank": 896,
+    "hanzi": "問題",
+    "en": [
+      "question",
+      "problem"
+    ],
+    "exampleEn": "I have a question."
+  },
+  {
+    "rank": 897,
+    "hanzi": "意思",
+    "en": [
+      "meaning"
+    ],
+    "exampleEn": "What does this word mean?"
+  },
+  {
+    "rank": 898,
+    "hanzi": "懂",
+    "en": [
+      "to understand"
+    ],
+    "exampleEn": "I don't understand this sentence."
+  },
+  {
+    "rank": 899,
+    "hanzi": "字",
+    "en": [
+      "character",
+      "word"
+    ],
+    "exampleEn": "How do you write this character?"
+  },
+  {
+    "rank": 900,
+    "hanzi": "句子",
+    "en": [
+      "sentence"
+    ],
+    "exampleEn": "Please make a sentence."
+  },
+  {
+    "rank": 901,
+    "hanzi": "單字",
+    "en": [
+      "vocabulary word",
+      "vocabulary"
+    ],
+    "exampleEn": "I'm memorizing vocabulary words."
+  },
+  {
+    "rank": 902,
+    "hanzi": "發音",
+    "en": [
+      "pronunciation"
+    ],
+    "exampleEn": "Your pronunciation is very accurate."
+  },
+  {
+    "rank": 903,
+    "hanzi": "漢字",
+    "en": [
+      "Chinese character"
+    ],
+    "exampleEn": "Chinese characters are hard to remember."
+  },
+  {
+    "rank": 904,
+    "hanzi": "聲調",
+    "en": [
+      "tone"
+    ],
+    "exampleEn": "Tones are very important in Chinese."
+  },
+  {
+    "rank": 905,
+    "hanzi": "注音",
+    "en": [
+      "zhuyin",
+      "bopomofo"
+    ],
+    "noteEn": "Phonetic alphabet used in Taiwan instead of pinyin.",
+    "exampleEn": "Taiwanese children learn zhuyin."
+  },
+  {
+    "rank": 906,
+    "hanzi": "拼音",
+    "en": [
+      "pinyin"
+    ],
+    "exampleEn": "Pinyin helps with pronunciation."
+  },
+  {
+    "rank": 907,
+    "hanzi": "翻譯",
+    "en": [
+      "to translate",
+      "translation"
+    ],
+    "exampleEn": "Can you help me translate?"
+  },
+  {
+    "rank": 908,
+    "hanzi": "文法",
+    "en": [
+      "grammar"
+    ],
+    "exampleEn": "Chinese grammar isn't difficult."
+  },
+  {
+    "rank": 909,
+    "hanzi": "答案",
+    "en": [
+      "answer"
+    ],
+    "exampleEn": "Do you know the answer?"
+  },
+  {
+    "rank": 910,
+    "hanzi": "功課",
+    "en": [
+      "homework"
+    ],
+    "exampleEn": "I haven't done my homework yet."
+  },
+  {
+    "rank": 911,
+    "hanzi": "課本",
+    "en": [
+      "textbook"
+    ],
+    "exampleEn": "I forgot my textbook."
+  },
+  {
+    "rank": 912,
+    "hanzi": "資料",
+    "en": [
+      "data",
+      "information"
+    ],
+    "exampleEn": "This data is very useful."
+  },
+  {
+    "rank": 913,
+    "hanzi": "訊息",
+    "en": [
+      "message"
+    ],
+    "exampleEn": "I'll send you a message."
+  },
+  {
+    "rank": 914,
+    "hanzi": "檔案",
+    "en": [
+      "file"
+    ],
+    "exampleEn": "Please open this file."
+  },
+  {
+    "rank": 915,
+    "hanzi": "網站",
+    "en": [
+      "website"
+    ],
+    "exampleEn": "This website is very handy."
+  },
+  {
+    "rank": 916,
+    "hanzi": "密碼",
+    "en": [
+      "password"
+    ],
+    "exampleEn": "I forgot my password."
+  },
+  {
+    "rank": 917,
+    "hanzi": "帳號",
+    "en": [
+      "account",
+      "username"
+    ],
+    "exampleEn": "Please enter your username."
+  },
+  {
+    "rank": 918,
+    "hanzi": "登入",
+    "en": [
+      "to log in"
+    ],
+    "exampleEn": "Please log in to the site first."
+  },
+  {
+    "rank": 919,
+    "hanzi": "下載",
+    "en": [
+      "to download"
+    ],
+    "exampleEn": "I'm downloading a file."
+  },
+  {
+    "rank": 920,
+    "hanzi": "上網",
+    "en": [
+      "to go online",
+      "to use the internet"
+    ],
+    "exampleEn": "I go online every day."
+  },
+  {
+    "rank": 921,
+    "hanzi": "申請",
+    "en": [
+      "to apply (for)"
+    ],
+    "exampleEn": "I need to apply for a visa."
+  },
+  {
+    "rank": 922,
+    "hanzi": "簽證",
+    "en": [
+      "visa"
+    ],
+    "exampleEn": "My visa has expired."
+  },
+  {
+    "rank": 923,
+    "hanzi": "居留證",
+    "en": [
+      "residence permit",
+      "residency card"
+    ],
+    "noteEn": "Residency card for foreign residents in Taiwan (ARC).",
+    "exampleEn": "I need to apply for my residence permit."
+  },
+  {
+    "rank": 924,
+    "hanzi": "合約",
+    "en": [
+      "contract"
+    ],
+    "exampleEn": "Please sign this contract."
+  },
+  {
+    "rank": 925,
+    "hanzi": "例子",
+    "en": [
+      "example"
+    ],
+    "exampleEn": "Can you give me an example?"
+  },
+  {
+    "rank": 926,
+    "hanzi": "生病",
+    "en": [
+      "to get sick",
+      "to be ill"
+    ],
+    "exampleEn": "I was sick yesterday."
+  },
+  {
+    "rank": 927,
+    "hanzi": "身體",
+    "en": [
+      "body",
+      "health"
+    ],
+    "exampleEn": "You should take care of your health."
+  },
+  {
+    "rank": 928,
+    "hanzi": "渴",
+    "en": [
+      "thirsty"
+    ],
+    "exampleEn": "I'm very thirsty right now."
+  },
+  {
+    "rank": 929,
+    "hanzi": "掛號",
+    "en": [
+      "to register",
+      "to check in"
+    ],
+    "noteEn": "A required check-in step before seeing a doctor in Taiwan.",
+    "exampleEn": "I need to register first."
+  },
+  {
+    "rank": 930,
+    "hanzi": "健保卡",
+    "en": [
+      "National Health Insurance card",
+      "health insurance card"
+    ],
+    "exampleEn": "You need to bring your NHI card to see a doctor."
+  },
+  {
+    "rank": 931,
+    "hanzi": "口罩",
+    "en": [
+      "face mask"
+    ],
+    "exampleEn": "When you're sick, you should wear a mask."
+  },
+  {
+    "rank": 932,
+    "hanzi": "頭痛",
+    "en": [
+      "to have a headache",
+      "headache"
+    ],
+    "exampleEn": "I have a bad headache today."
+  },
+  {
+    "rank": 933,
+    "hanzi": "拉肚子",
+    "en": [
+      "to have diarrhea"
+    ],
+    "exampleEn": "I had diarrhea yesterday."
+  },
+  {
+    "rank": 934,
+    "hanzi": "喉嚨",
+    "en": [
+      "throat"
+    ],
+    "exampleEn": "My throat really hurts."
+  },
+  {
+    "rank": 935,
+    "hanzi": "胃",
+    "en": [
+      "stomach"
+    ],
+    "exampleEn": "My stomach doesn't feel well."
+  },
+  {
+    "rank": 936,
+    "hanzi": "流鼻水",
+    "en": [
+      "to have a runny nose",
+      "runny nose"
+    ],
+    "exampleEn": "My cold is giving me a runny nose."
+  },
+  {
+    "rank": 937,
+    "hanzi": "打針",
+    "en": [
+      "to get a shot",
+      "injection"
+    ],
+    "exampleEn": "The doctor gave me a shot."
+  },
+  {
+    "rank": 938,
+    "hanzi": "看病",
+    "en": [
+      "to see a doctor"
+    ],
+    "exampleEn": "I'm going to see a doctor."
+  },
+  {
+    "rank": 939,
+    "hanzi": "護士",
+    "en": [
+      "nurse"
+    ],
+    "exampleEn": "The nurse is very kind."
+  },
+  {
+    "rank": 940,
+    "hanzi": "頭髮",
+    "en": [
+      "hair"
+    ],
+    "exampleEn": "Her hair is very long."
+  },
+  {
+    "rank": 941,
+    "hanzi": "脖子",
+    "en": [
+      "neck"
+    ],
+    "exampleEn": "My neck is really sore."
+  },
+  {
+    "rank": 942,
+    "hanzi": "肩膀",
+    "en": [
+      "shoulder"
+    ],
+    "exampleEn": "His shoulders are broad."
+  },
+  {
+    "rank": 943,
+    "hanzi": "手指",
+    "en": [
+      "finger"
+    ],
+    "exampleEn": "I hurt my finger."
+  },
+  {
+    "rank": 944,
+    "hanzi": "皮膚",
+    "en": [
+      "skin"
+    ],
+    "exampleEn": "Her skin is very fair."
+  },
+  {
+    "rank": 945,
+    "hanzi": "背",
+    "en": [
+      "back"
+    ],
+    "exampleEn": "My back really hurts."
+  },
+  {
+    "rank": 946,
+    "hanzi": "血",
+    "en": [
+      "blood"
+    ],
+    "noteEn": "Pronounced xiě in speech; xuè in compounds like 血型 (blood type).",
+    "exampleEn": "His hand is bleeding."
+  },
+  {
+    "rank": 947,
+    "hanzi": "癢",
+    "en": [
+      "itchy"
+    ],
+    "exampleEn": "My skin is really itchy."
+  },
+  {
+    "rank": 948,
+    "hanzi": "熬夜",
+    "en": [
+      "to stay up late"
+    ],
+    "exampleEn": "Stop staying up so late."
+  },
+  {
+    "rank": 949,
+    "hanzi": "減肥",
+    "en": [
+      "to lose weight",
+      "to diet"
+    ],
+    "exampleEn": "She's been dieting lately."
+  },
+  {
+    "rank": 950,
+    "hanzi": "健身房",
+    "en": [
+      "gym"
+    ],
+    "exampleEn": "I go to the gym every week."
+  },
+  {
+    "rank": 951,
+    "hanzi": "跑步",
+    "en": [
+      "to run",
+      "to jog"
+    ],
+    "exampleEn": "I go running in the morning."
+  },
+  {
+    "rank": 952,
+    "hanzi": "游泳",
+    "en": [
+      "to swim"
+    ],
+    "exampleEn": "In summer I like swimming."
+  },
+  {
+    "rank": 953,
+    "hanzi": "散步",
+    "en": [
+      "to take a walk",
+      "to stroll"
+    ],
+    "exampleEn": "Let's go for a walk in the park."
+  },
+  {
+    "rank": 954,
+    "hanzi": "眉毛",
+    "en": [
+      "eyebrow"
+    ],
+    "exampleEn": "Her eyebrows are very thin."
+  },
+  {
+    "rank": 955,
+    "hanzi": "手術",
+    "en": [
+      "surgery",
+      "operation"
+    ],
+    "exampleEn": "He's having surgery tomorrow."
+  },
+  {
+    "rank": 956,
+    "hanzi": "世界",
+    "en": [
+      "world"
+    ],
+    "exampleEn": "This is the tallest mountain in the world."
+  },
+  {
+    "rank": 957,
+    "hanzi": "國家",
+    "en": [
+      "country",
+      "nation"
+    ],
+    "exampleEn": "France is a beautiful country."
+  },
+  {
+    "rank": 958,
+    "hanzi": "城市",
+    "en": [
+      "city"
+    ],
+    "exampleEn": "Taipei is a big city."
+  },
+  {
+    "rank": 959,
+    "hanzi": "動物",
+    "en": [
+      "animal"
+    ],
+    "exampleEn": "Cats are my favorite animal."
+  },
+  {
+    "rank": 960,
+    "hanzi": "環境",
+    "en": [
+      "environment"
+    ],
+    "exampleEn": "We need to protect the environment."
+  },
+  {
+    "rank": 961,
+    "hanzi": "空氣",
+    "en": [
+      "air"
+    ],
+    "exampleEn": "The air in the mountains is very good."
+  },
+  {
+    "rank": 962,
+    "hanzi": "溫度",
+    "en": [
+      "temperature"
+    ],
+    "exampleEn": "The temperature is high today."
+  },
+  {
+    "rank": 963,
+    "hanzi": "度",
+    "en": [
+      "degree"
+    ],
+    "exampleEn": "It's 35 degrees today."
+  },
+  {
+    "rank": 964,
+    "hanzi": "晴天",
+    "en": [
+      "sunny day",
+      "clear weather"
+    ],
+    "exampleEn": "Tomorrow will be sunny."
+  },
+  {
+    "rank": 965,
+    "hanzi": "陰天",
+    "en": [
+      "overcast day",
+      "cloudy weather"
+    ],
+    "exampleEn": "It's overcast today."
+  },
+  {
+    "rank": 966,
+    "hanzi": "涼",
+    "en": [
+      "cool"
+    ],
+    "exampleEn": "It's cooler in the evening."
+  },
+  {
+    "rank": 967,
+    "hanzi": "悶熱",
+    "en": [
+      "muggy",
+      "stifling"
+    ],
+    "exampleEn": "It's muggy today."
+  },
+  {
+    "rank": 968,
+    "hanzi": "潮濕",
+    "en": [
+      "humid",
+      "damp"
+    ],
+    "exampleEn": "Taiwan's weather is very humid."
+  },
+  {
+    "rank": 969,
+    "hanzi": "蚊子",
+    "en": [
+      "mosquito"
+    ],
+    "exampleEn": "There's a mosquito in the room."
+  },
+  {
+    "rank": 970,
+    "hanzi": "蟑螂",
+    "en": [
+      "cockroach"
+    ],
+    "exampleEn": "There's a cockroach in the kitchen."
+  },
+  {
+    "rank": 971,
+    "hanzi": "鳥",
+    "en": [
+      "bird"
+    ],
+    "exampleEn": "There are lots of birds in the tree."
+  },
+  {
+    "rank": 972,
+    "hanzi": "海邊",
+    "en": [
+      "seaside",
+      "beach"
+    ],
+    "exampleEn": "Let's go have fun at the beach."
+  },
+  {
+    "rank": 973,
+    "hanzi": "森林",
+    "en": [
+      "forest"
+    ],
+    "exampleEn": "This forest is very large."
+  },
+  {
+    "rank": 974,
+    "hanzi": "島",
+    "en": [
+      "island"
+    ],
+    "exampleEn": "Taiwan is an island."
+  },
+  {
+    "rank": 975,
+    "hanzi": "溫泉",
+    "en": [
+      "hot spring"
+    ],
+    "exampleEn": "Soaking in a hot spring feels great in winter."
+  },
+  {
+    "rank": 976,
+    "hanzi": "停電",
+    "en": [
+      "power outage"
+    ],
+    "exampleEn": "There was a power outage last night."
+  },
+  {
+    "rank": 977,
+    "hanzi": "地圖",
+    "en": [
+      "map"
+    ],
+    "exampleEn": "Please give me a map."
+  },
+  {
+    "rank": 978,
+    "hanzi": "氣溫",
+    "en": [
+      "air temperature"
+    ],
+    "exampleEn": "The temperature is low today."
+  },
+  {
+    "rank": 979,
+    "hanzi": "鄉下",
+    "en": [
+      "countryside"
+    ],
+    "exampleEn": "My grandfather lives in the countryside."
+  },
+  {
+    "rank": 980,
+    "hanzi": "涼快",
+    "en": [
+      "pleasantly cool"
+    ],
+    "noteEn": "Lighter and more pleasant than 涼.",
+    "exampleEn": "The weather is pleasantly cool today."
+  },
+  {
+    "rank": 981,
+    "hanzi": "請問",
+    "en": [
+      "excuse me",
+      "may I ask"
+    ],
+    "exampleEn": "Excuse me, where is the restroom?"
+  },
+  {
+    "rank": 982,
+    "hanzi": "拜拜",
+    "en": [
+      "bye",
+      "bye-bye"
+    ],
+    "noteEn": "Also means to pray or make offerings (bài bài) at a temple.",
+    "exampleEn": "I'm heading out, bye!"
+  },
+  {
+    "rank": 983,
+    "hanzi": "對啊",
+    "en": [
+      "yeah, that's right",
+      "exactly"
+    ],
+    "exampleEn": "Yeah, that's exactly it."
+  },
+  {
+    "rank": 984,
+    "hanzi": "好啊",
+    "en": [
+      "sure",
+      "okay"
+    ],
+    "exampleEn": "Sure, let's go!"
+  },
+  {
+    "rank": 985,
+    "hanzi": "借過",
+    "en": [
+      "excuse me",
+      "coming through"
+    ],
+    "exampleEn": "Excuse me, let me through please."
+  },
+  {
+    "rank": 986,
+    "hanzi": "沒錯",
+    "en": [
+      "that's right",
+      "correct"
+    ],
+    "exampleEn": "What you're saying is correct."
+  },
+  {
+    "rank": 987,
+    "hanzi": "對了",
+    "en": [
+      "by the way",
+      "oh, that reminds me"
+    ],
+    "exampleEn": "By the way, have you eaten?"
+  },
+  {
+    "rank": 988,
+    "hanzi": "還好",
+    "en": [
+      "okay",
+      "not bad"
+    ],
+    "exampleEn": "I'm doing okay today."
+  },
+  {
+    "rank": 989,
+    "hanzi": "嗯",
+    "en": [
+      "mm-hmm",
+      "uh-huh"
+    ],
+    "exampleEn": "Mm-hmm, I understand."
+  },
+  {
+    "rank": 990,
+    "hanzi": "喔",
+    "en": [
+      "oh (I see)",
+      "ah"
+    ],
+    "exampleEn": "Oh, I see."
+  },
+  {
+    "rank": 991,
+    "hanzi": "啦",
+    "en": [
+      "emphatic particle (la)",
+      "tone softener"
+    ],
+    "noteEn": "A blend of 了+啊; softens or adds emphasis to a statement.",
+    "exampleEn": "I know already!"
+  },
+  {
+    "rank": 992,
+    "hanzi": "抱歉",
+    "en": [
+      "sorry",
+      "my apologies"
+    ],
+    "exampleEn": "Sorry, I'm late."
+  },
+  {
+    "rank": 993,
+    "hanzi": "不用了",
+    "en": [
+      "no need",
+      "no thanks"
+    ],
+    "exampleEn": "No need, thanks."
+  },
+  {
+    "rank": 994,
+    "hanzi": "拜託",
+    "en": [
+      "please (pleading)",
+      "come on"
+    ],
+    "exampleEn": "Please, help me."
+  },
+  {
+    "rank": 995,
+    "hanzi": "怎麼辦",
+    "en": [
+      "what should we do?",
+      "what now?"
+    ],
+    "exampleEn": "What should we do now?"
+  },
+  {
+    "rank": 996,
+    "hanzi": "怎麼了",
+    "en": [
+      "what's wrong?",
+      "what happened?"
+    ],
+    "exampleEn": "What's wrong with you?"
+  },
+  {
+    "rank": 997,
+    "hanzi": "好吧",
+    "en": [
+      "alright then",
+      "fine"
+    ],
+    "exampleEn": "Alright then, we'll do it your way."
+  },
+  {
+    "rank": 998,
+    "hanzi": "算了",
+    "en": [
+      "forget it",
+      "never mind"
+    ],
+    "exampleEn": "Forget it, it's not important."
+  },
+  {
+    "rank": 999,
+    "hanzi": "真的假的",
+    "en": [
+      "seriously?",
+      "for real?"
+    ],
+    "exampleEn": "Seriously? I don't believe it."
+  },
+  {
+    "rank": 1000,
+    "hanzi": "不會吧",
+    "en": [
+      "no way!",
+      "you're kidding"
+    ],
+    "exampleEn": "No way? That's too much."
+  }
+]

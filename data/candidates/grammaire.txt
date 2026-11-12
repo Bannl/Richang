@@ -1,0 +1,80 @@
+# tier5
+得	particule complément
+才	seulement, alors
+先	d'abord
+過	déjà (expérience)
+著	aspect duratif
+被	passif
+別	ne pas (impératif)
+還有	et aussi
+的話	si (condition)
+像	comme, ressembler
+一樣	pareil
+有點	un peu
+正在	en train de
+必須	devoir absolument
+啊	particule finale
+次	fois (classif.)
+種	sorte (classif.)
+位	classif. personnes
+本	classif. livres
+件	classif. vêtements
+張	classif. objets plats
+杯	classif. verres
+隻	classif. animaux
+條	classif. objets longs
+瓶	classif. bouteilles
+# tier6
+喔	particule (oh)
+反正	de toute façon
+卻	pourtant
+只是	seulement, juste
+不用	pas besoin
+蠻	assez, plutôt
+原來	en fait
+本來	à l'origine
+終於	enfin
+至少	au moins
+夠	assez, suffisant
+連	même
+趕快	vite
+而已	c'est tout
+不管	peu importe
+例如	par exemple
+往	vers
+離	distance de
+雙	paire (classif.)
+份	portion (classif.)
+台	classif. appareils
+顆	classif. petits objets
+間	classif. pièces
+支	classif. objets fins
+超	super, hyper
+一些	quelques
+完全	complètement
+直接	directement
+根本	fondamentalement
+啦	particule finale
+耶	particule (Taïwan)
+起來	se mettre à
+差點	presque, failli
+剛好	juste, pile
+絕對	absolument
+# extra5
+就算	même si
+萬一	au cas où
+另外	en plus, autre
+敢	oser
+順便	en passant
+難怪	pas étonnant
+總共	au total
+遍	fois (complète)
+# extra6
+趟	trajet (classif.)
+輛	classif. véhicules
+無論	quel que soit
+甚至	même, voire
+場	classif. événements
+一邊	tout en (simultané)
+說不定	peut-être bien
+稍微	légèrement

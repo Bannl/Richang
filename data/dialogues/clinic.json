@@ -1,0 +1,313 @@
+{
+  "situation": "clinic",
+  "exchanges": [
+    {
+      "enemy": {
+        "zh": "你好，你要看醫生嗎？",
+        "pinyin": "nǐ hǎo nǐ yào kàn yī shēng ma",
+        "en": "Hello, are you here to see the doctor?",
+        "fr": "Bonjour, vous venez voir le médecin ?"
+      },
+      "player": {
+        "zh": "對，我不太舒服。",
+        "pinyin": "duì wǒ bú tài shū fú",
+        "en": "Yes, I'm not feeling well.",
+        "fr": "Oui, je ne me sens pas très bien."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你今天怎麼樣？哪裡不舒服？",
+        "pinyin": "nǐ jīn tiān zěn me yàng nǎ lǐ bù shū fú",
+        "en": "How are you today? Where does it hurt?",
+        "fr": "Comment allez-vous aujourd'hui ? Où avez-vous mal ?"
+      },
+      "player": {
+        "zh": "我的頭很痛。",
+        "pinyin": "wǒ de tóu hěn tòng",
+        "en": "My head hurts a lot.",
+        "fr": "J'ai très mal à la tête."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你昨天可能就感冒了。",
+        "pinyin": "nǐ zuó tiān kě néng jiù gǎn mào le",
+        "en": "You probably caught a cold yesterday.",
+        "fr": "Vous avez sans doute attrapé un rhume hier."
+      },
+      "player": {
+        "zh": "對，昨天晚上就開始了。",
+        "pinyin": "duì zuó tiān wǎn shang jiù kāi shǐ le",
+        "en": "Yes, it started last night.",
+        "fr": "Oui, ça a commencé hier soir."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你是不是感冒了？",
+        "pinyin": "nǐ shì bú shì gǎn mào le",
+        "en": "Do you have a cold?",
+        "fr": "Est-ce que vous avez un rhume ?"
+      },
+      "player": {
+        "zh": "對，我應該是感冒了。",
+        "pinyin": "duì wǒ yīng gāi shì gǎn mào le",
+        "en": "Yes, I think I have a cold.",
+        "fr": "Oui, je crois que j'ai un rhume."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你今天有沒有吃早餐？",
+        "pinyin": "nǐ jīn tiān yǒu méi yǒu chī zǎo cān",
+        "en": "Did you have breakfast today?",
+        "fr": "Avez-vous pris votre petit-déjeuner aujourd'hui ?"
+      },
+      "player": {
+        "zh": "沒有，我還沒吃飯。",
+        "pinyin": "méi yǒu wǒ hái méi chī fàn",
+        "en": "No, I haven't eaten yet.",
+        "fr": "Non, je n'ai pas encore mangé."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要吃一點藥，好嗎？",
+        "pinyin": "nǐ yào chī yì diǎn yào hǎo ma",
+        "en": "You should take some medicine, okay?",
+        "fr": "Vous devriez prendre un peu de médicament, d'accord ?"
+      },
+      "player": {
+        "zh": "好，謝謝醫生。",
+        "pinyin": "hǎo xiè xie yī shēng",
+        "en": "Okay, thank you doctor.",
+        "fr": "D'accord, merci docteur."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要多休息，知道嗎？",
+        "pinyin": "nǐ yào duō xiū xi zhī dào ma",
+        "en": "You need to rest more, understand?",
+        "fr": "Vous devez vous reposer davantage, d'accord ?"
+      },
+      "player": {
+        "zh": "我知道，會多休息。",
+        "pinyin": "wǒ zhī dào huì duō xiū xi",
+        "en": "I know, I'll rest more.",
+        "fr": "Je sais, je vais me reposer davantage."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要記得再來拿藥。",
+        "pinyin": "nǐ yào jì de zài lái ná yào",
+        "en": "Remember to come back for the medicine.",
+        "fr": "N'oubliez pas de revenir chercher le médicament."
+      },
+      "player": {
+        "zh": "好，我會再來。",
+        "pinyin": "hǎo wǒ huì zài lái",
+        "en": "Okay, I'll come again.",
+        "fr": "D'accord, je reviendrai."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "先生，你要先掛號。",
+        "pinyin": "xiān sheng nǐ yào xiān guà hào",
+        "en": "Sir, you need to register first.",
+        "fr": "Monsieur, vous devez d'abord vous inscrire."
+      },
+      "player": {
+        "zh": "好，要怎麼掛號？",
+        "pinyin": "hǎo yào zěn me guà hào",
+        "en": "Okay, how do I register?",
+        "fr": "D'accord, comment est-ce qu'on s'inscrit ?"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "有帶健保卡嗎？",
+        "pinyin": "yǒu dài jiàn bǎo kǎ ma",
+        "en": "Did you bring your health insurance card?",
+        "fr": "Avez-vous apporté votre carte d'assurance maladie ?"
+      },
+      "player": {
+        "zh": "有，健保卡在這裡。",
+        "pinyin": "yǒu jiàn bǎo kǎ zài zhè lǐ",
+        "en": "Yes, here's my health insurance card.",
+        "fr": "Oui, voici ma carte d'assurance maladie."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你現在會不會發燒？",
+        "pinyin": "nǐ xiàn zài huì bú huì fā shāo",
+        "en": "Do you have a fever right now?",
+        "fr": "Avez-vous de la fièvre en ce moment ?"
+      },
+      "player": {
+        "zh": "有一點發燒，也怕冷。",
+        "pinyin": "yǒu yì diǎn fā shāo yě pà lěng",
+        "en": "I have a bit of a fever, and I feel cold too.",
+        "fr": "J'ai un peu de fièvre, et j'ai froid aussi."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你有沒有一直咳嗽？",
+        "pinyin": "nǐ yǒu méi yǒu yì zhí ké sòu",
+        "en": "Have you been coughing a lot?",
+        "fr": "Est-ce que vous toussez sans arrêt ?"
+      },
+      "player": {
+        "zh": "對，我咳嗽三天了。",
+        "pinyin": "duì wǒ ké sòu sān tiān le",
+        "en": "Yes, I've been coughing for three days.",
+        "fr": "Oui, je tousse depuis trois jours."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你的肚子會不會痛？",
+        "pinyin": "nǐ de dù zi huì bú huì tòng",
+        "en": "Does your stomach hurt?",
+        "fr": "Est-ce que votre ventre vous fait mal ?"
+      },
+      "player": {
+        "zh": "頭和肚子都很痛。",
+        "pinyin": "tóu hàn dù zi dōu hěn tòng",
+        "en": "Both my head and stomach hurt.",
+        "fr": "J'ai mal à la tête et au ventre."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "這個藥一天吃三次。",
+        "pinyin": "zhè ge yào yì tiān chī sān cì",
+        "en": "Take this medicine three times a day.",
+        "fr": "Prenez ce médicament trois fois par jour."
+      },
+      "player": {
+        "zh": "好，我會記得吃藥。",
+        "pinyin": "hǎo wǒ huì jì de chī yào",
+        "en": "Okay, I'll remember to take my medicine.",
+        "fr": "D'accord, je penserai à prendre mon médicament."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "三天以後回來檢查一下。",
+        "pinyin": "sān tiān yǐ hòu huí lái jiǎn chá yí xià",
+        "en": "Come back for a check-up in three days.",
+        "fr": "Revenez faire un contrôle dans trois jours."
+      },
+      "player": {
+        "zh": "好，我會回來。",
+        "pinyin": "hǎo wǒ huì huí lái",
+        "en": "Okay, I'll come back.",
+        "fr": "D'accord, je repasserai."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "感冒的時候，別喝冰的手搖飲。",
+        "pinyin": "gǎn mào de shí hòu bié hē bīng de shǒu yáo yǐn",
+        "en": "When you have a cold, don't drink cold bubble tea.",
+        "fr": "Quand on a un rhume, il ne faut pas boire de thé aux perles glacé."
+      },
+      "player": {
+        "zh": "好啦，我知道了。",
+        "pinyin": "hǎo la wǒ zhī dào le",
+        "en": "Alright, alright, I get it.",
+        "fr": "Bon, d'accord, j'ai compris."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你對什麼藥會過敏？",
+        "pinyin": "nǐ duì shén me yào huì guò mǐn",
+        "en": "What medicine are you allergic to?",
+        "fr": "À quel médicament êtes-vous allergique ?"
+      },
+      "player": {
+        "zh": "我不知道，應該沒有。",
+        "pinyin": "wǒ bù zhī dào yīng gāi méi yǒu",
+        "en": "I don't know, probably none.",
+        "fr": "Je ne sais pas, sans doute aucun."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "護士現在幫你打針。",
+        "pinyin": "hù shi xiàn zài bāng nǐ dǎ zhēn",
+        "en": "The nurse will give you a shot now.",
+        "fr": "L'infirmière va vous faire une piqûre maintenant."
+      },
+      "player": {
+        "zh": "打針會不會很痛？",
+        "pinyin": "dǎ zhēn huì bú huì hěn tòng",
+        "en": "Will the shot hurt a lot?",
+        "fr": "Est-ce que la piqûre va faire très mal ?"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你是不是拉肚子？",
+        "pinyin": "nǐ shì bú shì lā dù zi",
+        "en": "Do you have diarrhea?",
+        "fr": "Avez-vous la diarrhée ?"
+      },
+      "player": {
+        "zh": "對，昨天晚上開始的。",
+        "pinyin": "duì zuó tiān wǎn shang kāi shǐ de",
+        "en": "Yes, since last night.",
+        "fr": "Oui, depuis hier soir."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你的喉嚨怎麼樣？",
+        "pinyin": "nǐ de hóu lóng zěn me yàng",
+        "en": "How's your throat?",
+        "fr": "Comment va votre gorge ?"
+      },
+      "player": {
+        "zh": "喉嚨很痛，喝水也痛。",
+        "pinyin": "hóu lóng hěn tòng hē shuǐ yě tòng",
+        "en": "My throat really hurts, it even hurts to drink water.",
+        "fr": "J'ai très mal à la gorge, même boire de l'eau me fait mal."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "別擔心，感冒很快就會好。",
+        "pinyin": "bié dān xīn gǎn mào hěn kuài jiù huì hǎo",
+        "en": "Don't worry, the cold will get better soon.",
+        "fr": "Ne vous inquiétez pas, le rhume va vite passer."
+      },
+      "player": {
+        "zh": "太好了，謝謝醫生。",
+        "pinyin": "tài hǎo le xiè xie yī shēng",
+        "en": "That's great, thank you doctor.",
+        "fr": "C'est super, merci docteur."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "有問題的話，再回診所。",
+        "pinyin": "yǒu wèn tí de huà zài huí zhěn suǒ",
+        "en": "If there's a problem, come back to the clinic.",
+        "fr": "S'il y a un problème, revenez à la clinique."
+      },
+      "player": {
+        "zh": "好，謝謝你的幫忙。",
+        "pinyin": "hǎo xiè xie nǐ de bāng máng",
+        "en": "Okay, thank you for your help.",
+        "fr": "D'accord, merci pour votre aide."
+      }
+    }
+  ]
+}

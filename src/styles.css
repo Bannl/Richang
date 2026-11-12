@@ -1,0 +1,102 @@
+:root {
+  /* Unite de design : 1 px pour une fenetre de 1400 x 900, proportionnelle a la fenetre (bornee). */
+  --u: clamp(0.5px, min(calc(100vw / 1400), calc(100vh / 900)), 2px);
+  --bg: #f1ebdf; --fg: #1f1b2d; --muted: #6f6979; --card: #fffaf1; --line: #e2d9c8;
+  --ok: #24935a; --bad: #d4422f;
+  /* Palette du jeu : encre des contours, vermillon (temples), jade, or ; cadres facon console portable. */
+  --ink: #1f1b2d; --edge: #1f1b2d; --brand: #e5533d; --brand-dark: #b23a28; --jade: #23897c; --gold: #f2b53a;
+  --panel-bg: #fffaf0; --panel-fg: #1f1b2d; --panel-muted: #6d6578; --panel-edge: #1f1b2d; --panel-inner: #d9ccb2;
+  --drop: rgba(18, 14, 34, .5);
+  --radius: calc(20 * var(--u));
+  --font: "Nunito Variable", "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-zh: "Microsoft JhengHei", "PingFang TC", "Noto Sans CJK TC", "Noto Sans TC", "Source Han Sans TC", sans-serif;
+  --font-kai: "DFKai-SB", "BiauKai", "TW-Kai", "Kaiti TC", "Noto Serif CJK TC", "Noto Serif TC", serif;
+  --card-bg: var(--card); --card-accent: var(--muted);
+  /* couleurs de theme : clarte/chroma du fond et de l'accent (OKLCH), la teinte vient du theme */
+  --hue-l: 94%; --hue-c: 0.05; --acc-l: 42%; --acc-c: 0.13; --tint-l: 90%; --tint-c: 0.075;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14162a; --fg: #efeaf8; --muted: #a29fb8; --card: #22253e; --line: #33375a; --edge: #070812;
+    --ok: #5fcf8f; --bad: #f0705a;
+    --panel-bg: #232741; --panel-fg: #f4f0e6; --panel-muted: #aaa6c0; --panel-edge: #0b0c16; --panel-inner: #4a5078;
+    --drop: rgba(0, 0, 0, .6);
+    --hue-l: 27%; --hue-c: 0.05; --acc-l: 82%; --acc-c: 0.1; --tint-l: 30%; --tint-c: 0.06;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14162a; --fg: #efeaf8; --muted: #a29fb8; --card: #22253e; --line: #33375a; --edge: #070812;
+  --ok: #5fcf8f; --bad: #f0705a;
+  --panel-bg: #232741; --panel-fg: #f4f0e6; --panel-muted: #aaa6c0; --panel-edge: #0b0c16; --panel-inner: #4a5078;
+  --drop: rgba(0, 0, 0, .6);
+  --hue-l: 27%; --hue-c: 0.05; --acc-l: 82%; --acc-c: 0.1; --tint-l: 30%; --tint-c: 0.06;
+}
+:root[data-font="kai"] .hanzi { font-family: var(--font-kai); }
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-weight: 600;
+  -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent;
+}
+body { overscroll-behavior: none; }
+button { font: inherit; color: inherit; }
+p { margin: 0; }
+
+.app {
+  max-width: calc(640 * var(--u)); margin: 0 auto; min-height: 100dvh; display: flex; flex-direction: column; position: relative; isolation: isolate;
+  padding: calc(calc(10 * var(--u)) + env(safe-area-inset-top)) calc(16 * var(--u)) calc(calc(16 * var(--u)) + env(safe-area-inset-bottom));
+}
+.topbar { display: flex; align-items: center; justify-content: space-between; height: calc(48 * var(--u)); font-size: calc(14 * var(--u)); color: var(--muted); font-weight: 800; }
+.topbar > * { min-width: calc(44 * var(--u)); }
+.topbar .title { text-align: center; font-variant-numeric: tabular-nums; }
+.progress { height: 3px; background: var(--line); border-radius: 2px; overflow: hidden; margin: 2px 0 calc(14 * var(--u)); }
+.progress > i { display: block; height: 100%; background: var(--fg); transition: width .3s ease; }
+
+h1 { font-size: calc(44 * var(--u)); font-weight: 900; margin: calc(28 * var(--u)) 0 0; letter-spacing: .01em; }
+h1 .hanzi { font-size: calc(50 * var(--u)); font-weight: 700; margin-right: calc(12 * var(--u)); }
+h2 { font-size: calc(22 * var(--u)); font-weight: 800; margin: calc(8 * var(--u)) 0 calc(12 * var(--u)); }
+.subtitle { color: var(--muted); margin: calc(4 * var(--u)) 0 calc(28 * var(--u)); font-weight: 700; }
+
+.hanzi { font-family: var(--font-zh); font-weight: 500; line-height: 1.15; }
+.hanzi.xl { font-size: clamp(calc(72 * var(--u)), 24vw, calc(132 * var(--u))); }
+.hanzi.lg { font-size: calc(40 * var(--u)); }
+.hanzi.md { font-size: calc(24 * var(--u)); }
+.pinyin { font-size: calc(22 * var(--u)); letter-spacing: .01em; font-weight: 700; }
+.zhuyin { font-family: var(--font-zh); font-size: calc(17 * var(--u)); color: var(--muted); letter-spacing: .04em; }
+.muted { color: var(--muted); }
+.small { font-size: calc(13 * var(--u)); }
+.center { text-align: center; }
+.stack { display: flex; flex-direction: column; gap: calc(6 * var(--u)); align-items: center; }
+.row { display: flex; align-items: center; gap: calc(10 * var(--u)); }
+.spacer { flex: 1; }
+.link { background: none; border: none; padding: calc(8 * var(--u)) calc(4 * var(--u)); color: var(--muted); cursor: pointer; font-size: calc(15 * var(--u)); font-weight: 800; }
+.link:hover { color: var(--fg); }
+.footer { display: flex; justify-content: center; gap: calc(24 * var(--u)); margin-top: auto; padding-top: calc(20 * var(--u)); }
+@media (min-width: 700px) { .app { padding-top: calc(calc(32 * var(--u)) + env(safe-area-inset-top)); } }
+
+/* --- Annotation phonetique : bopomofo vertical a droite de chaque caractere, ou romanisation en ruby au-dessus.
+   Zhuyin comme dans les manuels de Taiwan (W3C clreq 5.5.3) : a 3/10 de la taille du caractere, centre sur sa hauteur,
+   ton (ˊ ˇ ˋ) hors du coin superieur droit du dernier symbole, a moitie au-dessus de lui ; la place du ton est gardee
+   meme sans ton (premier ton). --- */
+/* Alignes sur leur milieu : une colonne de trois symboles, plus haute que le caractere, ne le fait pas remonter. */
+.zy { display: inline-flex; align-items: center; vertical-align: middle; line-height: 1; }
+.zy-h { line-height: 1.05; }
+.zy-col {
+  position: relative; display: inline-flex; flex-direction: column; align-items: center; justify-content: center;
+  font-family: var(--font-zh); font-weight: 500; font-size: .3em; line-height: 1.04; margin: 0 .62em 0 .12em; letter-spacing: 0;
+}
+.zy-s { position: relative; display: block; }
+/* Les signes de ton sont dessines en haut de leur cadre : un leger decalage met leur centre sur le haut du dernier symbole. */
+.zy-t { position: absolute; left: 100%; top: -.1em; margin-left: .02em; line-height: 1; }
+.zy-dot { line-height: .55; }
+/* Case vide d'un caractere a ecrire (exercice « lis le zhuyin, ecris le caractere »). */
+.zy-box { display: inline-block; width: 1em; height: 1em; box-sizing: border-box; border: max(.06em, 1.5px) solid currentColor; border-radius: .08em; opacity: .4; }
+/* Mot annote sur une carte : les caracteres passent a la ligne quand la carte est trop etroite. */
+.zy-run { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; row-gap: .12em; max-width: 100%; }
+.reading-zy .zy-col, .zy-run.boxes .zy-col { font-size: max(.34em, 10px); }
+.zy-run.boxes { font-family: var(--font-zh); font-size: calc(30 * var(--u)); color: var(--fg); }
+ruby.rb { ruby-position: over; ruby-align: center; }
+ruby.rb rt { font-family: var(--font); font-weight: 800; font-size: .3em; line-height: 1.15; letter-spacing: 0; text-transform: none; }
+.anno-tail { font-family: var(--font); font-size: .32em; font-weight: 700; margin-left: .4em; opacity: .8; letter-spacing: 0; }
+.learn-info .hanzi .zy-col, .example .zy-col, .item .zy-col { font-size: max(.34em, 10px); }
+.bubble .zy-col { font-size: max(.34em, 9px); }

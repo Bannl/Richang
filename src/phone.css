@@ -1,0 +1,167 @@
+/* --- Telephone en paysage (fenetre de moins de 560 px de haut) ---
+   L'unite de design suit la hauteur (l'ecran fait toujours 480u de haut, ~1060u de large sur un 20:9),
+   les textes et les cibles tactiles ont des planchers en px, et le combat perd sa colonne de droite :
+   la conversation s'ouvre dans un volet a la demande. */
+
+/* --- Toutes tailles (telephone, tablette, pliable, petite fenetre) : planchers de lisibilite et de toucher.
+   Sans effet a l'echelle de reference (1400 x 900) : chaque plancher est sous la valeur de bureau. --- */
+.btn { height: max(calc(54 * var(--u)), 42px); font-size: max(calc(17 * var(--u)), 13px); }
+.btn .sub, .small, .prompt, .sub { font-size: max(calc(13 * var(--u)), 11px); }
+.link { font-size: max(calc(15 * var(--u)), 12px); }
+.chip { font-size: max(calc(13 * var(--u)), 11px); }
+.icon-btn { width: max(calc(44 * var(--u)), 40px); height: max(calc(44 * var(--u)), 40px); }
+.icon-btn.small { width: max(calc(30 * var(--u)), 28px); height: max(calc(30 * var(--u)), 28px); }
+.topbar { font-size: max(calc(14 * var(--u)), 11px); }
+.badge { font-size: max(calc(14 * var(--u)), 11px); }
+.gcard-pinyin { font-size: max(calc(13 * var(--u)), 11px); }
+.gcard-gloss { font-size: max(calc(11 * var(--u)), 10px); }
+.hand .gcard-pinyin { font-size: max(calc(17 * var(--u)), 11px); }
+.hand .gcard-gloss { font-size: max(calc(14 * var(--u)), 10px); }
+.dline .tr { font-size: max(calc(17 * var(--u)), 11px); }
+.bubble { font-size: max(calc(17 * var(--u)), 13px); }
+.bubble .sub { font-size: max(calc(12 * var(--u)), 10px); }
+.dialog-head, .tb-hint, .talk-bar .num { font-size: max(calc(13 * var(--u)), 10px); }
+.replay-btn { height: max(calc(32 * var(--u)), 30px); font-size: max(calc(14 * var(--u)), 12px); }
+.tb-next, .tb-give { height: max(calc(38 * var(--u)), 34px); font-size: max(calc(16 * var(--u)), 13px); }
+.learn-info .meaning { font-size: max(calc(24 * var(--u)), 13px); }
+.learn-info .note, .example .fr, .example .py { font-size: max(calc(14 * var(--u)), 11px); }
+.list .item, .detail { font-size: max(calc(15 * var(--u)), 12px); }
+/* Marges d'encoche (ecrans a decoupe) sur toutes les tailles. */
+.app { padding-left: max(calc(16 * var(--u)), env(safe-area-inset-left)); padding-right: max(calc(16 * var(--u)), env(safe-area-inset-right)); }
+.app.battle { padding-left: max(calc(18 * var(--u)), env(safe-area-inset-left)); padding-right: max(calc(18 * var(--u)), env(safe-area-inset-right)); }
+
+/* --- Apprentissage et entrainement plein ecran : les cases d'ecriture prennent toute la hauteur disponible.
+   L'apprentissage n'a pas de barre du haut : la fenetre occupe tout l'ecran, a une petite marge pres. --- */
+.app.learn {
+  height: 100dvh; min-height: 0; overflow: hidden; justify-content: flex-start;
+  padding-top: max(calc(14 * var(--u)), env(safe-area-inset-top)); padding-bottom: max(calc(14 * var(--u)), env(safe-area-inset-bottom));
+}
+.learn .card { flex: 1; min-height: 0; }
+.learn-layout { height: 100%; min-height: 0; align-items: stretch; }
+.learn-canvases { height: 100%; min-height: 0; overflow: hidden; }
+.learn-canvases.single { flex-wrap: nowrap; align-items: center; gap: calc(14 * var(--u)); }
+.learn-info { justify-content: center; overflow: hidden; }
+.char-progress { display: flex; flex-direction: column; gap: calc(8 * var(--u)); flex: none; align-self: center; }
+.char-progress span { display: grid; place-items: center; border-radius: calc(8 * var(--u)); border: calc(2.5 * var(--u)) solid var(--edge); background: var(--card); color: var(--fg); font-family: var(--font-zh); font-weight: 600; line-height: 1; box-shadow: 0 calc(3 * var(--u)) 0 var(--drop); }
+.char-progress .cur { border-color: var(--brand); background: color-mix(in oklab, var(--brand) 18%, var(--card)); }
+.char-progress .done { border-color: var(--ok); color: var(--ok); }
+.char-progress .todo { color: color-mix(in oklab, var(--fg) 35%, transparent); }
+.practice-pads.compact .pads { align-items: center; gap: calc(14 * var(--u)); height: 100%; }
+.practice-pads.compact .model-pad { justify-content: center; gap: calc(8 * var(--u)); }
+.practice-pads.compact .char-progress { flex-direction: row; }
+
+@media (max-height: 560px) {
+  :root { --u: clamp(0.5px, calc(100vh / 480), 0.9px); }
+  .app {
+    padding: calc(8 * var(--u)) max(calc(12 * var(--u)), env(safe-area-inset-right)) calc(8 * var(--u)) max(calc(12 * var(--u)), env(safe-area-inset-left));
+    min-height: 100dvh;
+  }
+
+  .topbar { height: calc(40 * var(--u)); }
+  .badge { padding: calc(4 * var(--u)) calc(8 * var(--u)); }
+  .icon-btn.small { width: max(calc(30 * var(--u)), 32px); height: max(calc(30 * var(--u)), 32px); }
+  h1 { margin-top: calc(6 * var(--u)); }
+  .subtitle { margin-bottom: calc(10 * var(--u)); }
+  .footer { padding-top: calc(8 * var(--u)); }
+
+  /* Combat : les memes trois zones, plus serrees (scene, conversation ; main en bas). */
+  .app.battle { padding-top: calc(8 * var(--u)); padding-bottom: calc(2 * var(--u)); }
+  .battle-grid { gap: calc(8 * var(--u)) calc(10 * var(--u)); grid-template-columns: minmax(0, 1fr) minmax(0, 1.75fr); }
+  .scene-hud { padding: calc(5 * var(--u)) calc(8 * var(--u)); gap: calc(6 * var(--u)); }
+  .scene-portrait { top: calc(30 * var(--u)); }
+  .foe-name { font-size: max(calc(15 * var(--u)), 12px); }
+  .talk-bar { min-width: calc(50 * var(--u)); }
+  .talk-bar .bar { height: calc(10 * var(--u)); }
+  .dialog { padding: calc(6 * var(--u)) calc(8 * var(--u)) calc(4 * var(--u)); gap: calc(5 * var(--u)); }
+  .dialog-head { display: none; }
+  .say-box { margin-top: calc(17 * var(--u)); padding: calc(18 * var(--u)) calc(6 * var(--u)) calc(6 * var(--u)); }
+  .speaker-tag { top: calc(-12 * var(--u)); font-size: max(calc(12 * var(--u)), 11px); padding: calc(2 * var(--u)) calc(9 * var(--u)); }
+  .say-actions { top: max(calc(-19 * var(--u)), -17px); right: calc(8 * var(--u)); gap: calc(6 * var(--u)); }
+  .tb-hint { display: none; }
+  .chatlog { scrollbar-width: none; }
+  .player-hud { padding: calc(6 * var(--u)) calc(9 * var(--u)); }
+  .player-hud .you { display: none; }
+  .hp .heart { width: max(calc(18 * var(--u)), 14px); height: max(calc(16 * var(--u)), 13px); }
+  .draw-pile { font-size: max(calc(13 * var(--u)), 11px); gap: calc(5 * var(--u)); }
+  .draw-pile .pile { width: calc(46 * var(--u)); height: calc(62 * var(--u)); }
+  /* Native : la case d'ecriture a gauche sur toute la hauteur (assez grande pour ecrire au doigt), scene et
+     conversation empilees a droite ; les vies au-dessus de la case. */
+  .battle-grid.native { grid-template-columns: auto minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) minmax(0, 1.5fr); grid-template-areas: 'deck scene' 'deck dialog'; }
+  .battle-grid.native .deck-zone { width: min(48vw, calc(100dvh - 40 * var(--u))); grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); align-items: stretch; gap: calc(6 * var(--u)); }
+  .battle-grid.native .player-hud { flex-direction: row; align-items: center; justify-self: start; }
+  .battle-grid.native .draw-pile { display: none; }
+  .dialogue { --row-gap: calc(8 * var(--u)); --cw-max: calc(86 * var(--u)); --row-pad: calc(2 * var(--u)); }
+  .wcard-face { border-width: max(calc(2 * var(--u)), 1.5px); }
+  .dline .tr { font-size: max(calc(12 * var(--u)), 11px); }
+  .fly-word { font-size: calc(34 * var(--u)); }
+  .hand { padding: calc(10 * var(--u)) 0 calc(12 * var(--u)); }
+  .hand .gcard, .drag-ghost .gcard { width: calc(102 * var(--u)); height: calc(138 * var(--u)); }
+  .hand .gcard-hanzi, .drag-ghost .gcard-hanzi { font-size: calc(40 * var(--u)); }
+  .hand .gcard.len2 .gcard-hanzi, .drag-ghost .gcard.len2 .gcard-hanzi { font-size: calc(32 * var(--u)); }
+  .hand .gcard.len3 .gcard-hanzi, .drag-ghost .gcard.len3 .gcard-hanzi { font-size: calc(24 * var(--u)); }
+  .hand .gcard.len4 .gcard-hanzi, .drag-ghost .gcard.len4 .gcard-hanzi { font-size: calc(18 * var(--u)); }
+  .hand .gcard-pinyin { font-size: max(calc(12 * var(--u)), 11px); }
+  .hand .gcard-gloss { font-size: max(calc(10 * var(--u)), 10px); }
+  .hand-item.selected { translate: 0 calc(-18 * var(--u)); }
+  .bubble { font-size: max(calc(14 * var(--u)), 13px); padding: calc(5 * var(--u)) calc(10 * var(--u)); }
+  .bubble .sub { font-size: max(calc(11 * var(--u)), 10px); }
+
+  /* Apprentissage, recompense, entrainement. */
+  .practice .card { padding: calc(20 * var(--u)) calc(16 * var(--u)) calc(14 * var(--u)); }
+  .app.learn { padding-top: max(calc(8 * var(--u)), env(safe-area-inset-top)); padding-bottom: max(calc(8 * var(--u)), env(safe-area-inset-bottom)); }
+  .learn .card { padding: calc(12 * var(--u)) calc(16 * var(--u)); }
+  .learn-layout {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); grid-template-areas: "canvas head" "canvas info";
+    column-gap: calc(16 * var(--u)); row-gap: calc(4 * var(--u));
+  }
+  .learn-head { gap: calc(8 * var(--u)); }
+  .learn-head .icon-btn { width: 32px; height: 32px; }
+  .learn-canvases { gap: calc(8 * var(--u)); }
+  .learn-info { gap: calc(4 * var(--u)); }
+  .learn-kicker .prompt { display: none; }
+  .learn-info .row { gap: calc(6 * var(--u)); }
+  .learn-info .row .icon-btn { width: 32px; height: 32px; }
+  .learn-info .stack { flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: calc(8 * var(--u)); }
+  .learn-info .hanzi.lg { font-size: calc(40 * var(--u)); }
+  .learn-info .pinyin { font-size: calc(18 * var(--u)); }
+  .learn-info .zhuyin { font-size: calc(13 * var(--u)); }
+  .learn-info .meaning { font-size: max(calc(16 * var(--u)), 13px); }
+  .learn-info .note { max-width: none; line-height: 1.25; }
+  .learn-info .example { margin-top: calc(4 * var(--u)); gap: 0; }
+  .learn-info .example .zh { font-size: calc(22 * var(--u)); }
+  .learn-info .example .icon-btn.small { width: 28px; height: 28px; }
+  .learn-actions { margin-top: calc(4 * var(--u)); gap: calc(6 * var(--u)); }
+  .learn-actions .btn { height: 40px; padding: 0 calc(10 * var(--u)); font-size: 12px; }
+  .app.practice { grid-template-columns: calc(110 * var(--u)) minmax(0, 1fr); column-gap: calc(12 * var(--u)); }
+  .practice-list { grid-template-columns: 1fr; gap: calc(8 * var(--u)); }
+  .practice-list .gcard { width: calc(92 * var(--u)); height: calc(118 * var(--u)); padding: calc(4 * var(--u)); }
+  .practice-list .gcard-pinyin, .practice-list .gcard-gloss { display: none; }
+  .practice-list .gcard-hanzi { font-size: calc(30 * var(--u)); }
+  .practice-main { padding-top: calc(10 * var(--u)); }
+  .practice-layout { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: calc(16 * var(--u)); }
+  .practice .learn-info .learn-actions:last-child { display: none; }
+  /* Accueil : titre et deck a gauche, boutons a droite ; choix de difficulte sur deux colonnes. */
+  .app.home { display: grid; grid-template-columns: 1fr 1.2fr; grid-template-rows: auto auto auto 1fr auto; column-gap: calc(24 * var(--u)); align-items: start; max-width: none; padding-top: calc(10 * var(--u)); }
+  .app.home h1 { grid-column: 1; grid-row: 1; margin: 0; }
+  .app.home .subtitle { grid-column: 1; grid-row: 2; margin: 0 0 calc(8 * var(--u)); }
+  .app.home .badge.big { grid-column: 1; grid-row: 3; justify-self: start; }
+  .app.home > p.muted { grid-column: 1; grid-row: 4; text-align: left; }
+  .app.home .actions { grid-column: 2; grid-row: 1 / 5; padding: 0; align-self: center; }
+  .app.home .footer { grid-column: 1 / -1; grid-row: 5; margin-top: 0; padding-top: calc(4 * var(--u)); }
+  .difficulty-list { grid-template-columns: 1fr 1fr; gap: calc(6 * var(--u)); }
+  .difficulty-list .section, .difficulty-list .btn.ghost { grid-column: 1 / -1; }
+  .difficulty-list .btn { padding: calc(6 * var(--u)) calc(10 * var(--u)); }
+  .section { margin: calc(10 * var(--u)) 0 calc(2 * var(--u)); }
+  /* Reglages : trois colonnes ; deck : seule la liste defile. */
+  .app.settings { max-width: none; }
+  .settings-body { column-count: 3; column-gap: calc(24 * var(--u)); }
+  .settings-body .section:first-child { margin-top: 0; }
+  .settings-body .field, .settings-body .section, .settings-body .actions { break-inside: avoid; }
+  .field { padding: calc(7 * var(--u)) 0; }
+  .app.words { height: 100dvh; min-height: 0; overflow: hidden; }
+  .app.words .chips { margin: calc(4 * var(--u)) 0; }
+  .app.words .list { flex: 1; min-height: 0; overflow-y: auto; }
+
+  /* Carte du run : elle se dessine a la taille de l'ecran (voir MapScreen), seule la barre d'actions se resserre. */
+  .map .actions { padding: calc(4 * var(--u)) 0 0; }
+}

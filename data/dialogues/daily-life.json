@@ -1,0 +1,93 @@
+{
+  "situation": "daily-life",
+  "exchanges": [
+    {
+      "enemy":  { "zh": "你今天幾點起床？", "pinyin": "nǐ jīn tiān jǐ diǎn qǐ chuáng", "en": "What time did you get up today?", "fr": "Tu t'es levé à quelle heure aujourd'hui ?" },
+      "player": { "zh": "我七點就起床了。", "pinyin": "wǒ qī diǎn jiù qǐ chuáng le", "en": "I got up at seven.", "fr": "Je me suis levé à sept heures." }
+    },
+    {
+      "enemy":  { "zh": "你早上要上班嗎？", "pinyin": "nǐ zǎo shang yào shàng bān ma", "en": "Do you have work this morning?", "fr": "Tu travailles ce matin ?" },
+      "player": { "zh": "對，我八點上班。", "pinyin": "duì wǒ bā diǎn shàng bān", "en": "Yes, I start at eight.", "fr": "Oui, je commence à huit heures." }
+    },
+    {
+      "enemy":  { "zh": "你今天工作忙不忙？", "pinyin": "nǐ jīn tiān gōng zuò máng bù máng", "en": "Is work busy today?", "fr": "Le travail est chargé aujourd'hui ?" },
+      "player": { "zh": "很忙，我很累。", "pinyin": "hěn máng wǒ hěn lèi", "en": "Very busy, I'm exhausted.", "fr": "Très chargé, je suis épuisé." }
+    },
+    {
+      "enemy":  { "zh": "你中午吃了什麼？", "pinyin": "nǐ zhōng wǔ chī le shén me", "en": "What did you have for lunch?", "fr": "Tu as mangé quoi à midi ?" },
+      "player": { "zh": "我中午吃麵，很好吃。", "pinyin": "wǒ zhōng wǔ chī miàn hěn hǎo chī", "en": "I had noodles for lunch, they were delicious.", "fr": "J'ai mangé des nouilles à midi, c'était délicieux." }
+    },
+    {
+      "enemy":  { "zh": "你晚上想做什麼？", "pinyin": "nǐ wǎn shang xiǎng zuò shén me", "en": "What do you want to do tonight?", "fr": "Tu veux faire quoi ce soir ?" },
+      "player": { "zh": "我晚上想在家休息。", "pinyin": "wǒ wǎn shang xiǎng zài jiā xiū xi", "en": "I want to rest at home tonight.", "fr": "Je veux me reposer à la maison ce soir." }
+    },
+    {
+      "enemy":  { "zh": "你今天下班了嗎？", "pinyin": "nǐ jīn tiān xià bān le ma", "en": "Are you done with work today?", "fr": "Tu as fini le travail aujourd'hui ?" },
+      "player": { "zh": "下班了，我要去吃飯。", "pinyin": "xià bān le wǒ yào qù chī fàn", "en": "Done, I'm going to go eat.", "fr": "Fini, je vais aller manger." }
+    },
+    {
+      "enemy":  { "zh": "你昨天幾點睡覺？", "pinyin": "nǐ zuó tiān jǐ diǎn shuì jiào", "en": "What time did you go to sleep yesterday?", "fr": "Tu t'es couché à quelle heure hier ?" },
+      "player": { "zh": "我昨天很晚睡覺。", "pinyin": "wǒ zuó tiān hěn wǎn shuì jiào", "en": "I went to sleep very late yesterday.", "fr": "Je me suis couché très tard hier." }
+    },
+    {
+      "enemy":  { "zh": "你今天累不累？", "pinyin": "nǐ jīn tiān lèi bú lèi", "en": "Are you tired today?", "fr": "Tu es fatigué aujourd'hui ?" },
+      "player": { "zh": "有一點累，想睡覺。", "pinyin": "yǒu yì diǎn lèi xiǎng shuì jiào", "en": "A little tired, I want to sleep.", "fr": "Un peu fatigué, j'ai envie de dormir." }
+    },
+    {
+      "enemy":  { "zh": "你昨天晚上有沒有加班？", "pinyin": "nǐ zuó tiān wǎn shang yǒu méi yǒu jiā bān", "en": "Did you work overtime last night?", "fr": "Tu as fait des heures supplémentaires hier soir ?" },
+      "player": { "zh": "沒有，我準時下班。", "pinyin": "méi yǒu wǒ zhǔn shí xià bān", "en": "No, I finished work on time.", "fr": "Non, j'ai fini le travail à l'heure." }
+    },
+    {
+      "enemy":  { "zh": "你今天上班遲到了嗎？", "pinyin": "nǐ jīn tiān shàng bān chí dào le ma", "en": "Were you late for work today?", "fr": "Tu es arrivé en retard au travail aujourd'hui ?" },
+      "player": { "zh": "對啊，塞車了，抱歉。", "pinyin": "duì a sè chē le bào qiàn", "en": "Yeah, there was traffic, sorry.", "fr": "Ouais, il y avait des embouteillages, désolé." }
+    },
+    {
+      "enemy":  { "zh": "你今天有沒有開會？", "pinyin": "nǐ jīn tiān yǒu méi yǒu kāi huì", "en": "Did you have a meeting today?", "fr": "Tu as eu une réunion aujourd'hui ?" },
+      "player": { "zh": "有，會議很無聊。", "pinyin": "yǒu huì yì hěn wú liáo", "en": "Yes, the meeting was boring.", "fr": "Oui, la réunion était ennuyeuse." }
+    },
+    {
+      "enemy":  { "zh": "你今天看起來很累。", "pinyin": "nǐ jīn tiān kàn qǐ lái hěn lèi", "en": "You look tired today.", "fr": "Tu as l'air fatigué aujourd'hui." },
+      "player": { "zh": "對啊，我昨天熬夜。", "pinyin": "duì a wǒ zuó tiān áo yè", "en": "Yeah, I stayed up late yesterday.", "fr": "Ouais, j'ai veillé tard hier." }
+    },
+    {
+      "enemy":  { "zh": "你今天要不要運動？", "pinyin": "nǐ jīn tiān yào bú yào yùn dòng", "en": "Are you going to exercise today?", "fr": "Tu vas faire du sport aujourd'hui ?" },
+      "player": { "zh": "想啊，可是我很累。", "pinyin": "xiǎng a kě shì wǒ hěn lèi", "en": "I want to, but I'm really tired.", "fr": "J'ai envie, mais je suis très fatigué." }
+    },
+    {
+      "enemy":  { "zh": "你下班以後要幹嘛？", "pinyin": "nǐ xià bān yǐ hòu yào gàn má", "en": "What are you doing after work?", "fr": "Tu fais quoi après le travail ?" },
+      "player": { "zh": "我要跟朋友聊天。", "pinyin": "wǒ yào gēn péng yǒu liáo tiān", "en": "I'm going to chat with a friend.", "fr": "Je vais discuter avec un ami." }
+    },
+    {
+      "enemy":  { "zh": "你今天過得怎麼樣？", "pinyin": "nǐ jīn tiān guò de zěn me yàng", "en": "How was your day today?", "fr": "Ta journée s'est passée comment ?" },
+      "player": { "zh": "還不錯，只是有點忙。", "pinyin": "hái bú cuò zhǐ shì yǒu diǎn máng", "en": "Pretty good, just a bit busy.", "fr": "Plutôt bien, juste un peu chargé." }
+    },
+    {
+      "enemy":  { "zh": "你平常很晚回家嗎？", "pinyin": "nǐ píng cháng hěn wǎn huí jiā ma", "en": "Do you usually get home late?", "fr": "Tu rentres tard d'habitude ?" },
+      "player": { "zh": "不會，我很早回家。", "pinyin": "bú huì wǒ hěn zǎo huí jiā", "en": "No, I get home early.", "fr": "Non, je rentre tôt." }
+    },
+    {
+      "enemy":  { "zh": "你是不是很累？", "pinyin": "nǐ shì bú shì hěn lèi", "en": "You're tired, aren't you?", "fr": "Tu es fatigué, non ?" },
+      "player": { "zh": "對啊，我想睡覺了。", "pinyin": "duì a wǒ xiǎng shuì jiào le", "en": "Yeah, I want to go to sleep.", "fr": "Ouais, j'ai envie d'aller dormir." }
+    },
+    {
+      "enemy":  { "zh": "你昨天很晚才回家。", "pinyin": "nǐ zuó tiān hěn wǎn cái huí jiā", "en": "You didn't get home until really late yesterday.", "fr": "Tu n'es rentré que très tard hier." },
+      "player": { "zh": "對啊，昨天太熱鬧了。", "pinyin": "duì a zuó tiān tài rè nào le", "en": "Yeah, yesterday was too lively.", "fr": "Ouais, hier c'était trop animé." }
+    },
+    {
+      "enemy":  { "zh": "你比較想睡覺還是運動？", "pinyin": "nǐ bǐ jiào xiǎng shuì jiào hái shi yùn dòng", "en": "Would you rather sleep or exercise?", "fr": "Tu préfères dormir ou faire du sport ?" },
+      "player": { "zh": "我比較想睡覺，謝謝。", "pinyin": "wǒ bǐ jiào xiǎng shuì jiào xiè xie", "en": "I'd rather sleep, thanks.", "fr": "Je préfère dormir, merci." }
+    },
+    {
+      "enemy":  { "zh": "你今天早點睡覺，好不好？", "pinyin": "nǐ jīn tiān zǎo diǎn shuì jiào hǎo bù hǎo", "en": "Go to bed early tonight, okay?", "fr": "Couche-toi tôt ce soir, d'accord ?" },
+      "player": { "zh": "好啊，我也很睏了。", "pinyin": "hǎo a wǒ yě hěn kùn le", "en": "Okay, I'm sleepy too.", "fr": "D'accord, j'ai sommeil aussi." }
+    },
+    {
+      "enemy":  { "zh": "你今天精神很好耶。", "pinyin": "nǐ jīn tiān jīng shen hěn hǎo ye", "en": "You seem really energetic today!", "fr": "T'as l'air en pleine forme aujourd'hui !" },
+      "player": { "zh": "因為今天是週末！", "pinyin": "yīn wèi jīn tiān shì zhōu mò", "en": "Because it's the weekend!", "fr": "Parce que c'est le week-end !" }
+    },
+    {
+      "enemy":  { "zh": "晚安，做個好夢！", "pinyin": "wǎn ān zuò gè hǎo mèng", "en": "Goodnight, sweet dreams!", "fr": "Bonne nuit, fais de beaux rêves !" },
+      "player": { "zh": "晚安，你也是！", "pinyin": "wǎn ān nǐ yě shì", "en": "Goodnight, you too!", "fr": "Bonne nuit, toi aussi !" }
+    }
+  ]
+}

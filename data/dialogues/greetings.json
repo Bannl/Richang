@@ -1,0 +1,313 @@
+{
+  "situation": "greetings",
+  "exchanges": [
+    {
+      "enemy": {
+        "zh": "你好，你是新來的嗎？",
+        "pinyin": "nǐ hǎo nǐ shì xīn lái de ma",
+        "en": "Hello, are you new here?",
+        "fr": "Bonjour, vous êtes nouveau ici ?"
+      },
+      "player": {
+        "zh": "對，我剛到。",
+        "pinyin": "duì wǒ gāng dào",
+        "en": "Yes, I just arrived.",
+        "fr": "Oui, je viens d'arriver."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你最近好嗎？",
+        "pinyin": "nǐ zuì jìn hǎo ma",
+        "en": "How have you been lately?",
+        "fr": "Comment allez-vous ces derniers temps ?"
+      },
+      "player": {
+        "zh": "我很好，謝謝你。",
+        "pinyin": "wǒ hěn hǎo xiè xie nǐ",
+        "en": "I'm doing well, thank you.",
+        "fr": "Je vais bien, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你住在哪裡？",
+        "pinyin": "nǐ zhù zài nǎ lǐ",
+        "en": "Where do you live?",
+        "fr": "Où habitez-vous ?"
+      },
+      "player": {
+        "zh": "我住在台北。",
+        "pinyin": "wǒ zhù zài tái běi",
+        "en": "I live in Taipei.",
+        "fr": "J'habite à Taipei."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你從哪裡來？",
+        "pinyin": "nǐ cóng nǎ lǐ lái",
+        "en": "Where do you come from?",
+        "fr": "D'où venez-vous ?"
+      },
+      "player": {
+        "zh": "我從法國來。",
+        "pinyin": "wǒ cóng fà guó lái",
+        "en": "I come from France.",
+        "fr": "Je viens de France."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要喝什麼？",
+        "pinyin": "nǐ yào hē shén me",
+        "en": "What would you like to drink?",
+        "fr": "Qu'est-ce que vous voulez boire ?"
+      },
+      "player": {
+        "zh": "我要喝茶，謝謝。",
+        "pinyin": "wǒ yào hē chá xiè xie",
+        "en": "I'd like tea, thanks.",
+        "fr": "Je vais prendre du thé, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "今天天氣很好。",
+        "pinyin": "jīn tiān tiān qì hěn hǎo",
+        "en": "The weather's really nice today.",
+        "fr": "Il fait très beau aujourd'hui."
+      },
+      "player": {
+        "zh": "對，真的很好。",
+        "pinyin": "duì zhēn de hěn hǎo",
+        "en": "Yes, it really is.",
+        "fr": "Oui, vraiment très beau."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你是老師嗎？",
+        "pinyin": "nǐ shì lǎo shī ma",
+        "en": "Are you a teacher?",
+        "fr": "Vous êtes professeur ?"
+      },
+      "player": {
+        "zh": "不是，我是學生。",
+        "pinyin": "bú shì wǒ shì xué shēng",
+        "en": "No, I'm a student.",
+        "fr": "Non, je suis étudiant."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "歡迎再來，慢走！",
+        "pinyin": "huān yíng zài lái màn zǒu",
+        "en": "Come back anytime, take care!",
+        "fr": "Revenez quand vous voulez, rentrez bien !"
+      },
+      "player": {
+        "zh": "好，再見！",
+        "pinyin": "hǎo zài jiàn",
+        "en": "Okay, bye!",
+        "fr": "D'accord, au revoir !"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你好，很高興認識你。",
+        "pinyin": "nǐ hǎo hěn gāo xìng rèn shi nǐ",
+        "en": "Hello, nice to meet you.",
+        "fr": "Bonjour, ravi de vous rencontrer."
+      },
+      "player": {
+        "zh": "我也很高興認識你。",
+        "pinyin": "wǒ yě hěn gāo xìng rèn shi nǐ",
+        "en": "Nice to meet you too.",
+        "fr": "Moi aussi, ravi de vous rencontrer."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你叫什麼名字？",
+        "pinyin": "nǐ jiào shén me míng zi",
+        "en": "What's your name?",
+        "fr": "Comment vous appelez-vous ?"
+      },
+      "player": {
+        "zh": "叫我老外就可以了。",
+        "pinyin": "jiào wǒ lǎo wài jiù kě yǐ le",
+        "en": "Just call me \"laowai\" (foreigner).",
+        "fr": "Vous pouvez juste m'appeler « laowai » (l'étranger)."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你是不是在學校工作？",
+        "pinyin": "nǐ shì bú shì zài xué xiào gōng zuò",
+        "en": "Do you work at a school, by any chance?",
+        "fr": "Est-ce que vous travaillez dans une école, par hasard ?"
+      },
+      "player": {
+        "zh": "不是，我在公司上班。",
+        "pinyin": "bú shì wǒ zài gōng sī shàng bān",
+        "en": "No, I work at a company.",
+        "fr": "Non, je travaille dans une entreprise."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你的中文很好耶！",
+        "pinyin": "nǐ de zhōng wén hěn hǎo ye",
+        "en": "Your Chinese is really good!",
+        "fr": "Votre chinois est vraiment bon !"
+      },
+      "player": {
+        "zh": "哪有，我還在學。",
+        "pinyin": "nǎ yǒu wǒ hái zài xué",
+        "en": "Not really, I'm still learning.",
+        "fr": "Mais non, j'apprends encore."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你今天看起來很累。",
+        "pinyin": "nǐ jīn tiān kàn qǐ lái hěn lèi",
+        "en": "You look tired today.",
+        "fr": "Vous avez l'air fatigué aujourd'hui."
+      },
+      "player": {
+        "zh": "對啊，昨天沒睡覺。",
+        "pinyin": "duì a zuó tiān méi shuì jiào",
+        "en": "Yeah, I didn't sleep yesterday.",
+        "fr": "Oui, je n'ai pas dormi hier."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "我住在你家隔壁三樓。",
+        "pinyin": "wǒ zhù zài nǐ jiā gé bì sān lóu",
+        "en": "I live on the 3rd floor next door to you.",
+        "fr": "J'habite au troisième étage, juste à côté de chez vous."
+      },
+      "player": {
+        "zh": "不好意思，可以再說一次嗎？",
+        "pinyin": "bù hǎo yì si kě yǐ zài shuō yí cì ma",
+        "en": "Sorry, could you say that again?",
+        "fr": "Désolé, vous pouvez répéter ?"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "謝謝你的幫忙。",
+        "pinyin": "xiè xie nǐ de bāng máng",
+        "en": "Thanks for your help.",
+        "fr": "Merci de votre aide."
+      },
+      "player": {
+        "zh": "不會，這是應該的。",
+        "pinyin": "bú huì zhè shì yīng gāi de",
+        "en": "No problem, it's only right.",
+        "fr": "Je vous en prie, c'est normal."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你怎麼會說中文？",
+        "pinyin": "nǐ zěn me huì shuō zhōng wén",
+        "en": "How come you can speak Chinese?",
+        "fr": "Comment ça se fait que vous parlez chinois ?"
+      },
+      "player": {
+        "zh": "因為我每天都學中文。",
+        "pinyin": "yīn wèi wǒ měi tiān dōu xué zhōng wén",
+        "en": "Because I study Chinese every day.",
+        "fr": "Parce que j'apprends le chinois tous les jours."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "第一次來我們店嗎？",
+        "pinyin": "dì yí cì lái wǒ men diàn ma",
+        "en": "First time at our store?",
+        "fr": "C'est la première fois que vous venez dans notre magasin ?"
+      },
+      "player": {
+        "zh": "對，老闆，我第一次來。",
+        "pinyin": "duì lǎo bǎn wǒ dì yí cì lái",
+        "en": "Yes, boss, first time here.",
+        "fr": "Oui, patron, c'est la première fois."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "歡迎光臨！需要什麼幫忙嗎？",
+        "pinyin": "huān yíng guāng lín xū yào shén me bāng máng ma",
+        "en": "Welcome! Need any help?",
+        "fr": "Bienvenue ! Vous avez besoin d'aide ?"
+      },
+      "player": {
+        "zh": "謝謝，我先看看。",
+        "pinyin": "xiè xie wǒ xiān kàn kàn",
+        "en": "Thanks, I'll just look around.",
+        "fr": "Merci, je vais d'abord regarder."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "很開心認識你，路上小心。",
+        "pinyin": "hěn kāi xīn rèn shi nǐ lù shàng xiǎo xīn",
+        "en": "Great meeting you, take care on your way.",
+        "fr": "Ravi de vous avoir rencontré, faites attention sur la route."
+      },
+      "player": {
+        "zh": "謝謝，你也是，再見！",
+        "pinyin": "xiè xie nǐ yě shì zài jiàn",
+        "en": "Thanks, you too, bye!",
+        "fr": "Merci, vous aussi, au revoir !"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "有空再聊，保重！",
+        "pinyin": "yǒu kōng zài liáo bǎo zhòng",
+        "en": "Let's chat again sometime, take care!",
+        "fr": "On se reparle à l'occasion, prenez soin de vous !"
+      },
+      "player": {
+        "zh": "好，下次見！",
+        "pinyin": "hǎo xià cì jiàn",
+        "en": "Okay, see you next time!",
+        "fr": "D'accord, à la prochaine !"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "早安，你吃早餐了嗎？",
+        "pinyin": "zǎo ān nǐ chī zǎo cān le ma",
+        "en": "Morning! Have you had breakfast yet?",
+        "fr": "Bonjour ! Vous avez déjà pris votre petit-déjeuner ?"
+      },
+      "player": {
+        "zh": "還沒，我要去便利商店買。",
+        "pinyin": "hái méi wǒ yào qù biàn lì shāng diàn mǎi",
+        "en": "Not yet, I'll go buy some at the convenience store.",
+        "fr": "Pas encore, je vais en acheter à la supérette."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "好久不見，最近怎麼樣？",
+        "pinyin": "hǎo jiǔ bú jiàn zuì jìn zěn me yàng",
+        "en": "Long time no see! How have things been?",
+        "fr": "Ça fait longtemps ! Comment ça va ces derniers temps ?"
+      },
+      "player": {
+        "zh": "我很好，你呢？",
+        "pinyin": "wǒ hěn hǎo nǐ ne",
+        "en": "I'm good, and you?",
+        "fr": "Je vais bien, et vous ?"
+      }
+    }
+  ]
+}

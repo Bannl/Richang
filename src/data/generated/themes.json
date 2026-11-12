@@ -1,0 +1,86 @@
+[
+  {
+    "id": "grammaire",
+    "label": "Grammaire",
+    "hue": 257,
+    "labelEn": "Grammar"
+  },
+  {
+    "id": "pronoms",
+    "label": "Pronoms & questions",
+    "hue": 309,
+    "labelEn": "Pronouns & questions"
+  },
+  {
+    "id": "nombres-temps",
+    "label": "Nombres & temps",
+    "hue": 283,
+    "labelEn": "Numbers & time"
+  },
+  {
+    "id": "verbes",
+    "label": "Verbes",
+    "hue": 26,
+    "labelEn": "Verbs"
+  },
+  {
+    "id": "adjectifs",
+    "label": "Adjectifs",
+    "hue": 77,
+    "labelEn": "Adjectives"
+  },
+  {
+    "id": "personnes",
+    "label": "Personnes & famille",
+    "hue": 0,
+    "labelEn": "People & family"
+  },
+  {
+    "id": "nourriture",
+    "label": "Nourriture",
+    "hue": 51,
+    "labelEn": "Food"
+  },
+  {
+    "id": "lieux-transport",
+    "label": "Lieux & transport",
+    "hue": 180,
+    "labelEn": "Places & transport"
+  },
+  {
+    "id": "achats",
+    "label": "Achats & argent",
+    "hue": 154,
+    "labelEn": "Shopping & money"
+  },
+  {
+    "id": "maison",
+    "label": "Maison & quotidien",
+    "hue": 206,
+    "labelEn": "Home & daily life"
+  },
+  {
+    "id": "travail-etudes",
+    "label": "Travail & études",
+    "hue": 231,
+    "labelEn": "Work & study"
+  },
+  {
+    "id": "corps-sante",
+    "label": "Corps & santé",
+    "hue": 103,
+    "labelEn": "Body & health"
+  },
+  {
+    "id": "nature",
+    "label": "Nature & météo",
+    "hue": 129,
+    "labelEn": "Nature & weather"
+  },
+  {
+    "id": "expressions",
+    "label": "Expressions",
+    "hue": 334,
+    "labelEn": "Expressions"
+  }
+]

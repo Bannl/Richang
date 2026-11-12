@@ -1,0 +1,117 @@
+# tier5
+孩子	enfant
+老公	mari
+老婆	épouse
+男人	homme
+女人	femme
+父母	parents
+名字	nom, prénom
+家庭	famille
+關係	relation
+結婚	se marier
+阿姨	tante
+叔叔	oncle
+爺爺	grand-père paternel
+奶奶	grand-mère paternelle
+阿公	papi
+阿嬤	mamie
+外公	grand-père maternel
+外婆	grand-mère maternelle
+台灣人	Taïwanais
+法國人	Français
+美國人	Américain
+小朋友	enfants
+大人	adulte
+老人	personne âgée
+員工	employé
+# tier6
+主管	supérieur hiérarchique
+客戶	client
+日本人	Japonais
+經理	directeur, manager
+親戚	proches, parenté
+夫妻	couple marié
+舅舅	oncle maternel
+寶寶	bébé
+護士	infirmier, infirmière
+老闆娘	patronne
+帥哥	beau gosse
+美女	belle femme
+陌生人	inconnu
+工程師	ingénieur
+姓	nom de famille
+中國人	Chinois
+韓國人	Coréen
+英國人	Britannique
+老外	étranger (fam.)
+兄弟	frères
+姐妹	sœurs
+老爸	papa (fam.)
+老媽	maman (fam.)
+爸媽	les parents
+表哥	cousin aîné
+姑姑	tante paternelle
+婆婆	belle-mère
+孫子	petit-fils
+長輩	aînés
+家長	parents d'élèves
+嬰兒	nourrisson
+兒童	enfant (formel)
+青少年	adolescent
+出生	naître
+長大	grandir
+情侶	couple
+情人	amoureux
+對象	partenaire amoureux
+單身	célibataire
+約會	rendez-vous amoureux
+交往	sortir ensemble
+離婚	divorcer
+婚禮	mariage (cérémonie)
+室友	colocataire
+學長	camarade aîné
+學姐	camarade aînée
+上班族	salarié de bureau
+外送員	livreur
+律師	avocat
+教授	professeur d'université
+廚師	cuisinier, chef
+記者	journaliste
+明星	star, vedette
+歌手	chanteur
+演員	acteur
+總統	président
+工作人員	personnel, staff
+保全	agent de sécurité
+管理員	gardien d'immeuble
+房客	locataire
+郵差	facteur
+顧客	client (commerce)
+觀光客	touriste
+業務	commercial
+師傅	maître artisan
+# extra5
+越南人	Vietnamien
+原住民	aborigène, autochtone
+客家人	Hakka
+華人	Chinois ethnique
+會員	membre
+路人	passant
+乘客	passager
+網紅	influenceur
+# extra6
+助理	assistant
+公務員	fonctionnaire
+軍人	militaire
+消防員	pompier
+志工	bénévole
+導遊	guide touristique
+校長	directeur d'école
+教練	entraîneur
+選手	athlète, joueur
+專家	expert
+粉絲	fan
+觀眾	spectateurs, public
+女性	femme (formel)
+男性	homme (formel)
+小偷	voleur

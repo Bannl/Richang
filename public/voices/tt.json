@@ -1,0 +1,113 @@
+{
+ "files": {
+  "night-market": {
+   "opus": "night-market.opus"
+  },
+  "greetings": {
+   "opus": "greetings.opus"
+  },
+  "small-talk": {
+   "opus": "small-talk.opus"
+  },
+  "daily-life": {
+   "opus": "daily-life.opus"
+  },
+  "convenience-store": {
+   "opus": "convenience-store.opus"
+  },
+  "drink-shop": {
+   "opus": "drink-shop.opus"
+  },
+  "mrt": {
+   "opus": "mrt.opus"
+  },
+  "taxi": {
+   "opus": "taxi.opus"
+  },
+  "landlord": {
+   "opus": "landlord.opus"
+  },
+  "neighbors": {
+   "opus": "neighbors.opus"
+  },
+  "clinic": {
+   "opus": "clinic.opus"
+  },
+  "office": {
+   "opus": "office.opus"
+  },
+  "classroom": {
+   "opus": "classroom.opus"
+  },
+  "family-dinner": {
+   "opus": "family-dinner.opus"
+  },
+  "weather": {
+   "opus": "weather.opus"
+  },
+  "bank": {
+   "opus": "bank.opus"
+  },
+  "residency": {
+   "opus": "residency.opus"
+  },
+  "player-f": {
+   "opus": "player-f.opus"
+  },
+  "player-m": {
+   "opus": "player-m.opus"
+  },
+  "hardware-store": {
+   "opus": "hardware-store.opus"
+  },
+  "moving-in": {
+   "opus": "moving-in.opus"
+  },
+  "utilities": {
+   "opus": "utilities.opus"
+  },
+  "airport": {
+   "opus": "airport.opus"
+  },
+  "directions": {
+   "opus": "directions.opus"
+  },
+  "scooter-rental": {
+   "opus": "scooter-rental.opus"
+  },
+  "post-office": {
+   "opus": "post-office.opus"
+  },
+  "pharmacy": {
+   "opus": "pharmacy.opus"
+  },
+  "dentist": {
+   "opus": "dentist.opus"
+  },
+  "gym": {
+   "opus": "gym.opus"
+  },
+  "hiking": {
+   "opus": "hiking.opus"
+  },
+  "beach": {
+   "opus": "beach.opus"
+  },
+  "making-friends": {
+   "opus": "making-friends.opus"
+  },
+  "job-interview": {
+   "opus": "job-interview.opus"
+  },
+  "library": {
+   "opus": "library.opus"
+  },
+  "clothes-shopping": {
+   "opus": "clothes-shopping.opus"
+  },
+  "market": {
+   "opus": "market.opus"
+  }
+ },
+ "format": "TT File Format 0.3 (Ogg Opus .opus)"
+}

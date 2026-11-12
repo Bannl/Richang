@@ -1,0 +1,138 @@
+# tier5
+問題	question
+意思	sens
+懂	comprendre
+字	caractère
+句子	phrase
+單字	mot de vocabulaire
+發音	prononciation
+漢字	caractère chinois
+聲調	ton
+注音	zhuyin
+拼音	pinyin
+翻譯	traduire
+文法	grammaire
+答案	réponse
+功課	devoirs
+課本	manuel
+資料	données
+訊息	message
+檔案	fichier
+網站	site web
+密碼	mot de passe
+帳號	compte
+登入	se connecter
+下載	télécharger
+上網	aller en ligne
+申請	faire une demande
+簽證	visa
+居留證	carte de séjour
+護照	passeport
+合約	contrat
+# tier6
+聯絡	contacter
+辦	faire les démarches
+語言	langue
+法文	français
+筆記	notes
+文件	document
+報名	s'inscrire
+打工	petit boulot
+教室	salle de classe
+成績	résultats
+畢業	être diplômé
+補習班	cours du soir
+表格	formulaire
+填	remplir
+簽名	signer
+證件	pièce d'identité
+影本	photocopie
+手續	formalités
+蓋章	tamponner
+延期	prolonger
+到期	expirer
+移民署	service d'immigration
+身分證	carte d'identité
+名片	carte de visite
+出差	voyage d'affaires
+國語	mandarin
+台語	taïwanais
+字典	dictionnaire
+複習	réviser
+背	apprendre par cœur
+生詞	mot nouveau
+對話	dialogue
+流利	courant
+繁體字	caractères traditionnels
+家教	cours particulier
+語言交換	échange linguistique
+螢幕	écran
+筆電	ordinateur portable
+印表機	imprimante
+影印	photocopier
+列印	imprimer
+鍵盤	clavier
+滑鼠	souris
+上傳	téléverser
+設定	paramètres
+更新	mettre à jour
+安裝	installer
+刪除	supprimer
+搜尋	rechercher
+連結	lien
+軟體	logiciel
+當機	planter
+關機	éteindre
+線上	en ligne
+視訊	visio
+簡訊	SMS
+群組	groupe de discussion
+留言	commentaire
+按讚	liker
+信箱	boîte mail
+回覆	répondre
+學期	semestre
+課程	cours
+及格	réussir l'examen
+學費	frais de scolarité
+獎學金	bourse
+實習	stage
+留學	étudier à l'étranger
+頁	page
+資料夾	dossier
+應徵	postuler
+辭職	démissionner
+打卡	pointer
+時薪	salaire horaire
+特休	congés payés
+專案	projet
+簡報	présentation
+經驗	expérience
+確認	confirmer
+處理	traiter
+# extra5
+例子	exemple
+題目	sujet
+程度	niveau
+網頁	page web
+附件	pièce jointe
+儲存	enregistrer
+登出	se déconnecter
+註冊	créer un compte
+# extra6
+寄	envoyer
+訊號	signal
+開機	allumer
+打字	taper
+貼圖	sticker
+隨身碟	clé USB
+資訊	information
+負責	être responsable
+部門	service
+兼職	temps partiel
+研究所	études supérieures
+系	département
+開學	rentrée
+暑假	vacances d'été
+講義	polycopié
+截圖	capture d'écran

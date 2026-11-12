@@ -1,0 +1,313 @@
+{
+  "situation": "bank",
+  "exchanges": [
+    {
+      "enemy": {
+        "zh": "先生，你好，需要什麼？",
+        "pinyin": "xiān sheng nǐ hǎo xū yào shén me",
+        "en": "Hello sir, what do you need?",
+        "fr": "Bonjour monsieur, qu'est-ce qu'il vous faut ?"
+      },
+      "player": {
+        "zh": "你好，我想問一下。",
+        "pinyin": "nǐ hǎo wǒ xiǎng wèn yí xià",
+        "en": "Hello, I'd like to ask something.",
+        "fr": "Bonjour, j'aimerais demander quelque chose."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "不好意思，要等五分鐘。",
+        "pinyin": "bù hǎo yì si yào děng wǔ fēn zhōng",
+        "en": "Sorry, you'll need to wait five minutes.",
+        "fr": "Désolé, il va falloir attendre cinq minutes."
+      },
+      "player": {
+        "zh": "沒關係，我可以等。",
+        "pinyin": "méi guān xi wǒ kě yǐ děng",
+        "en": "No worries, I can wait.",
+        "fr": "Ce n'est pas grave, je peux attendre."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你要用現金還是刷卡？",
+        "pinyin": "nǐ yào yòng xiàn jīn hái shi shuā kǎ",
+        "en": "Do you want to pay cash or by card?",
+        "fr": "Vous payez en liquide ou par carte ?"
+      },
+      "player": {
+        "zh": "我要刷卡，謝謝。",
+        "pinyin": "wǒ yào shuā kǎ xiè xie",
+        "en": "I'll pay by card, thanks.",
+        "fr": "Par carte, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "這個要一百塊。",
+        "pinyin": "zhè ge yào yì bǎi kuài",
+        "en": "This one is 100 kuai.",
+        "fr": "Ça fait cent dollars taïwanais."
+      },
+      "player": {
+        "zh": "這是一百塊。",
+        "pinyin": "zhè shì yì bǎi kuài",
+        "en": "Here's 100.",
+        "fr": "Voici cent dollars."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "需要發票嗎？",
+        "pinyin": "xū yào fā piào ma",
+        "en": "Do you need a receipt?",
+        "fr": "Vous avez besoin d'un reçu ?"
+      },
+      "player": {
+        "zh": "要，謝謝你。",
+        "pinyin": "yào xiè xie nǐ",
+        "en": "Yes, thank you.",
+        "fr": "Oui, merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "不好意思，這是找錢。",
+        "pinyin": "bù hǎo yì si zhè shì zhǎo qián",
+        "en": "Excuse me, here's your change.",
+        "fr": "Excusez-moi, voici votre monnaie."
+      },
+      "player": {
+        "zh": "謝謝，再見。",
+        "pinyin": "xiè xie zài jiàn",
+        "en": "Thanks, bye.",
+        "fr": "Merci, au revoir."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "這裡不能用悠遊卡。",
+        "pinyin": "zhè lǐ bù néng yòng yōu yóu kǎ",
+        "en": "You can't use an EasyCard here.",
+        "fr": "On ne peut pas utiliser la carte EasyCard ici."
+      },
+      "player": {
+        "zh": "好的，我用現金。",
+        "pinyin": "hǎo de wǒ yòng xiàn jīn",
+        "en": "OK, I'll use cash.",
+        "fr": "D'accord, je paie en liquide."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "這個現在免費。",
+        "pinyin": "zhè ge xiàn zài miǎn fèi",
+        "en": "This one is free right now.",
+        "fr": "C'est gratuit en ce moment."
+      },
+      "player": {
+        "zh": "真的嗎？謝謝你。",
+        "pinyin": "zhēn de ma xiè xie nǐ",
+        "en": "Really? Thank you.",
+        "fr": "Vraiment ? Merci."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "這裡要先拿號碼。",
+        "pinyin": "zhè lǐ yào xiān ná hào mǎ",
+        "en": "You need to take a number here first.",
+        "fr": "Ici, il faut d'abord prendre un ticket."
+      },
+      "player": {
+        "zh": "我先拿號碼。",
+        "pinyin": "wǒ xiān ná hào mǎ",
+        "en": "I'll take a number first.",
+        "fr": "Je prends d'abord un ticket."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "今天要開戶嗎？",
+        "pinyin": "jīn tiān yào kāi hù ma",
+        "en": "Are you opening an account today?",
+        "fr": "Vous ouvrez un compte aujourd'hui ?"
+      },
+      "player": {
+        "zh": "對，我要開帳戶。",
+        "pinyin": "duì wǒ yào kāi zhàng hù",
+        "en": "Yes, I want to open an account.",
+        "fr": "Oui, je veux ouvrir un compte."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "護照和居留證，麻煩給我。",
+        "pinyin": "hù zhào hàn jū liú zhèng má fan gěi wǒ",
+        "en": "Your passport and ARC, please.",
+        "fr": "Votre passeport et votre carte de résident, s'il vous plaît."
+      },
+      "player": {
+        "zh": "好，都在這裡。",
+        "pinyin": "hǎo dōu zài zhè lǐ",
+        "en": "Sure, they're both here.",
+        "fr": "Voilà, ils sont là tous les deux."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "麻煩你填這張表格。",
+        "pinyin": "má fan nǐ tián zhè zhāng biǎo gé",
+        "en": "Please fill out this form.",
+        "fr": "Veuillez remplir ce formulaire."
+      },
+      "player": {
+        "zh": "這裡要寫什麼？",
+        "pinyin": "zhè lǐ yào xiě shén me",
+        "en": "What do I write here?",
+        "fr": "Qu'est-ce que je dois écrire ici ?"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "你今天要領錢嗎？",
+        "pinyin": "nǐ jīn tiān yào lǐng qián ma",
+        "en": "Are you withdrawing money today?",
+        "fr": "Vous retirez de l'argent aujourd'hui ?"
+      },
+      "player": {
+        "zh": "對，我要領錢，五千塊。",
+        "pinyin": "duì wǒ yào lǐng qián wǔ qiān kuài",
+        "en": "Yes, I want to withdraw five thousand.",
+        "fr": "Oui, je veux retirer cinq mille dollars."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "要換多少台幣？",
+        "pinyin": "yào huàn duō shao tái bì",
+        "en": "How much NT do you want to exchange for?",
+        "fr": "Combien de dollars taïwanais voulez-vous ?"
+      },
+      "player": {
+        "zh": "我要換一萬台幣。",
+        "pinyin": "wǒ yào huàn yí wàn tái bì",
+        "en": "I want to exchange for ten thousand NT.",
+        "fr": "Je veux échanger dix mille dollars taïwanais."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "提款機在銀行外面。",
+        "pinyin": "tí kuǎn jī zài yín háng wài miàn",
+        "en": "The ATM is outside the bank.",
+        "fr": "Le distributeur est à l'extérieur de la banque."
+      },
+      "player": {
+        "zh": "謝謝你的幫忙。",
+        "pinyin": "xiè xie nǐ de bāng máng",
+        "en": "Thanks for your help.",
+        "fr": "Merci pour votre aide."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "麻煩在這裡簽名。",
+        "pinyin": "má fan zài zhè lǐ qiān míng",
+        "en": "Please sign here.",
+        "fr": "Veuillez signer ici, s'il vous plaît."
+      },
+      "player": {
+        "zh": "我簽名了。",
+        "pinyin": "wǒ qiān míng le",
+        "en": "I've signed.",
+        "fr": "J'ai signé."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "手續費不便宜。",
+        "pinyin": "shǒu xù fèi bù pián yí",
+        "en": "The fee isn't cheap.",
+        "fr": "Les frais ne sont pas donnés."
+      },
+      "player": {
+        "zh": "手續費多少錢？",
+        "pinyin": "shǒu xù fèi duō shao qián",
+        "en": "How much is the fee?",
+        "fr": "Les frais sont de combien ?"
+      }
+    },
+    {
+      "enemy": {
+        "zh": "銀行營業時間到三點。",
+        "pinyin": "yín háng yíng yè shí jiān dào sān diǎn",
+        "en": "The bank is open until three.",
+        "fr": "La banque est ouverte jusqu'à trois heures."
+      },
+      "player": {
+        "zh": "我知道了。",
+        "pinyin": "wǒ zhī dào le",
+        "en": "Got it.",
+        "fr": "D'accord, je note."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "需要辦提款卡嗎？",
+        "pinyin": "xū yào bàn tí kuǎn kǎ ma",
+        "en": "Do you need to apply for a debit card?",
+        "fr": "Vous avez besoin d'une carte bancaire ?"
+      },
+      "player": {
+        "zh": "好啊，我要辦一張。",
+        "pinyin": "hǎo a wǒ yào bàn yì zhāng",
+        "en": "Sure, I'd like to get one.",
+        "fr": "Avec plaisir, j'en veux une."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "密碼不要告訴別人。",
+        "pinyin": "mì mǎ bú yào gào sù bié rén",
+        "en": "Don't tell your PIN to anyone.",
+        "fr": "Ne donnez votre code à personne."
+      },
+      "player": {
+        "zh": "沒問題，我會小心。",
+        "pinyin": "méi wèn tí wǒ huì xiǎo xīn",
+        "en": "No problem, I'll be careful.",
+        "fr": "Pas de souci, je ferai attention."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "法國的銀行跟台灣一樣嗎？",
+        "pinyin": "fà guó de yín háng gēn tái wān yí yàng ma",
+        "en": "Are banks in France the same as in Taiwan?",
+        "fr": "Les banques en France sont comme à Taïwan ?"
+      },
+      "player": {
+        "zh": "不一樣，這裡比較方便。",
+        "pinyin": "bù yí yàng zhè lǐ bǐ jiào fāng biàn",
+        "en": "Not the same, it’s more convenient here.",
+        "fr": "Non, c'est plus pratique ici."
+      }
+    },
+    {
+      "enemy": {
+        "zh": "謝謝你，今天都辦好了。",
+        "pinyin": "xiè xie nǐ jīn tiān dōu bàn hǎo le",
+        "en": "Thank you, everything's done today.",
+        "fr": "Merci, tout est réglé aujourd'hui."
+      },
+      "player": {
+        "zh": "不客氣，再見。",
+        "pinyin": "bú kè qì zài jiàn",
+        "en": "You're welcome, bye.",
+        "fr": "De rien, au revoir."
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+# tier5
+醫院	hôpital
+搭	prendre (transport)
+左邊	gauche
+右邊	droite
+前面	devant
+後面	derrière
+上面	dessus
+下面	dessous
+裡面	dedans
+外面	dehors
+旁邊	à côté
+對面	en face
+中間	milieu
+出口	sortie
+下車	descendre (véhicule)
+轉車	changer (correspondance)
+塞車	embouteillage
+停車場	parking
+票	billet
+馬路	route
+路口	carrefour
+左轉	tourner à gauche
+右轉	tourner à droite
+直走	tout droit
+地址	adresse
+飯店	hôtel
+護照	passeport
+旅行	voyage
+出國	partir à l'étranger
+法國	France
+# tier6
+樓	étage
+隔壁	à côté (voisin)
+機票	billet d'avion
+上車	monter (véhicule)
+入口	entrée
+門口	entrée (porte)
+行李	bagages
+地圖	carte, plan
+迷路	se perdre
+樓上	à l'étage
+樓下	en bas
+月台	quai
+停車	se garer
+台鐵	trains TRA
+交通	circulation
+載	emmener (véhicule)
+高雄	Kaohsiung
+台中	Taichung
+台南	Tainan
+過馬路	traverser la rue
+城市	ville
+國家	pays
+美國	États-Unis
+日本	Japon
+中國	Chine
+東	est
+西	ouest
+南	sud
+北	nord
+區	district
+弄	allée (adresse)
+段	section (route)
+街	rue
+騎樓	arcade couverte
+人行道	trottoir
+方向	direction
+位置	emplacement
+地點	lieu
+距離	distance
+公里	kilomètre
+路上	en chemin
+客運	autocar
+公車站	arrêt de bus
+站牌	panneau d'arrêt
+區間車	train local
+末班車	dernier train
+時刻表	horaires
+路線	itinéraire
+導航	GPS
+汽車	voiture
+船	bateau
+駕照	permis de conduire
+出發	partir (départ)
+到達	arriver
+經過	passer par
+住宿	hébergement
+觀光	tourisme
+景點	site touristique
+民宿	maison d'hôtes
+班機	vol (avion)
+轉機	escale
+起飛	décoller
+海關	douane
+簽證	visa
+行李箱	valise
+國外	à l'étranger
+韓國	Corée
+香港	Hong Kong
+歐洲	Europe
+桃園	Taoyuan
+新北	Nouveau Taipei
+新竹	Hsinchu
+花蓮	Hualien
+宜蘭	Yilan
+台東	Taitung
+基隆	Keelung
+墾丁	Kenting
+淡水	Tamsui
+九份	Jiufen
+動物園	zoo
+博物館	musée
+老街	vieille rue
+市區	centre-ville
+鄉下	campagne
+派出所	poste de police
+# extra5
+搭車	prendre un véhicule
+車票	ticket de transport
+捷運站	station de métro
+火車站	gare
+旅遊	voyager (tourisme)
+十字路口	croisement
+市中心	centre-ville
+旅館	auberge
+# extra6
+南部	sud de Taïwan
+北部	nord de Taïwan
+外國	pays étranger
+登機	embarquer
+降落	atterrir
+英國	Royaume-Uni
+泰國	Thaïlande
+越南	Vietnam
+世界	monde
+廣場	place (esplanade)
+橋	pont
+健身房	salle de sport
+游泳池	piscine
+咖啡廳	café (lieu)
+溫泉	sources chaudes
+安全帽	casque
+阿里山	Alishan
+日月潭	lac Soleil-Lune

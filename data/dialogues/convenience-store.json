@@ -1,0 +1,93 @@
+{
+  "situation": "convenience-store",
+  "exchanges": [
+    {
+      "enemy":  { "zh": "歡迎，你要買什麼？", "pinyin": "huān yíng nǐ yào mǎi shén me", "en": "Welcome, what would you like to buy?", "fr": "Bienvenue, qu'est-ce que vous voulez acheter ?" },
+      "player": { "zh": "我要買水，謝謝。", "pinyin": "wǒ yào mǎi shuǐ xiè xie", "en": "I'd like to buy some water, thanks.", "fr": "Je voudrais acheter de l'eau, merci." }
+    },
+    {
+      "enemy":  { "zh": "你要用現金還是刷卡？", "pinyin": "nǐ yào yòng xiàn jīn hái shi shuā kǎ", "en": "Will you pay with cash or card?", "fr": "Vous payez en espèces ou par carte ?" },
+      "player": { "zh": "我要刷卡，謝謝。", "pinyin": "wǒ yào shuā kǎ xiè xie", "en": "I'll pay by card, thanks.", "fr": "Je vais payer par carte, merci." }
+    },
+    {
+      "enemy":  { "zh": "這個三十五塊。", "pinyin": "zhè ge sān shí wǔ kuài", "en": "This one is thirty-five dollars.", "fr": "Ça fait trente-cinq dollars." },
+      "player": { "zh": "好，現金，謝謝。", "pinyin": "hǎo xiàn jīn xiè xie", "en": "Okay, cash, thanks.", "fr": "D'accord, en espèces, merci." }
+    },
+    {
+      "enemy":  { "zh": "這是你的發票。", "pinyin": "zhè shì nǐ de fā piào", "en": "Here's your receipt.", "fr": "Voici votre reçu." },
+      "player": { "zh": "謝謝，再見。", "pinyin": "xiè xie zài jiàn", "en": "Thanks, bye.", "fr": "Merci, au revoir." }
+    },
+    {
+      "enemy":  { "zh": "我們有賣麵包。", "pinyin": "wǒ men yǒu mài miàn bāo", "en": "We sell bread here.", "fr": "On vend du pain ici." },
+      "player": { "zh": "好，我要一個。", "pinyin": "hǎo wǒ yào yí gè", "en": "Great, I'll take one.", "fr": "Super, j'en prends un." }
+    },
+    {
+      "enemy":  { "zh": "我們也有賣咖啡。", "pinyin": "wǒ men yě yǒu mài kā fēi", "en": "We also sell coffee.", "fr": "On vend aussi du café." },
+      "player": { "zh": "好，那我也要。", "pinyin": "hǎo nà wǒ yě yào", "en": "Okay, then I'll get some too.", "fr": "D'accord, alors j'en prends aussi." }
+    },
+    {
+      "enemy":  { "zh": "這裡的東西很便宜。", "pinyin": "zhè lǐ de dōng xi hěn pián yí", "en": "Things here are cheap.", "fr": "Ici, c'est vraiment pas cher." },
+      "player": { "zh": "對，我很喜歡。", "pinyin": "duì wǒ hěn xǐ huān", "en": "Right, I really like that.", "fr": "Exact, j'aime beaucoup ça." }
+    },
+    {
+      "enemy":  { "zh": "你要不要喝茶？", "pinyin": "nǐ yào bú yào hē chá", "en": "Do you want some tea?", "fr": "Vous voulez du thé ?" },
+      "player": { "zh": "好，我要喝茶。", "pinyin": "hǎo wǒ yào hē chá", "en": "Sure, I'll have tea.", "fr": "Oui, je veux du thé." }
+    },
+    {
+      "enemy":  { "zh": "需要袋子嗎？", "pinyin": "xū yào dài zi ma", "en": "Do you need a bag?", "fr": "Vous avez besoin d'un sac ?" },
+      "player": { "zh": "不用，謝謝。", "pinyin": "bú yòng xiè xie", "en": "No need, thanks.", "fr": "Non merci, pas besoin." }
+    },
+    {
+      "enemy":  { "zh": "要幫你熱一下嗎？", "pinyin": "yào bāng nǐ rè yí xià ma", "en": "Would you like me to heat it up for you?", "fr": "Je vous le réchauffe ?" },
+      "player": { "zh": "好，麻煩你了。", "pinyin": "hǎo má fan nǐ le", "en": "Yes, thank you for the trouble.", "fr": "Oui, merci beaucoup." }
+    },
+    {
+      "enemy":  { "zh": "辦會員可以打折。", "pinyin": "bàn huì yuán kě yǐ dǎ zhé", "en": "Signing up for membership gets you a discount.", "fr": "Devenir membre donne droit à une réduction." },
+      "player": { "zh": "好，那我要辦。", "pinyin": "hǎo nà wǒ yào bàn", "en": "Okay, then I'll sign up.", "fr": "D'accord, alors je m'inscris." }
+    },
+    {
+      "enemy":  { "zh": "有集點，要不要參加？", "pinyin": "yǒu jí diǎn yào bú yào cān jiā", "en": "There's a points program, want to join?", "fr": "Il y a un programme de points, vous voulez participer ?" },
+      "player": { "zh": "好啊，我想集點。", "pinyin": "hǎo a wǒ xiǎng jí diǎn", "en": "Sure, I'd like to collect points.", "fr": "Oui, j'aimerais cumuler des points." }
+    },
+    {
+      "enemy":  { "zh": "你要加值多少錢？", "pinyin": "nǐ yào jiā zhí duō shao qián", "en": "How much would you like to top up?", "fr": "Vous voulez recharger combien ?" },
+      "player": { "zh": "加五百塊就好。", "pinyin": "jiā wǔ bǎi kuài jiù hǎo", "en": "Just add five hundred dollars.", "fr": "Rechargez juste cinq cents dollars." }
+    },
+    {
+      "enemy":  { "zh": "這是找你的零錢。", "pinyin": "zhè shì zhǎo nǐ de líng qián", "en": "Here's your change.", "fr": "Voici votre monnaie." },
+      "player": { "zh": "謝謝，不好意思。", "pinyin": "xiè xie bù hǎo yì si", "en": "Thanks, sorry for the trouble.", "fr": "Merci, désolé du dérangement." }
+    },
+    {
+      "enemy":  { "zh": "去冰比較好喝。", "pinyin": "qù bīng bǐ jiào hǎo hē", "en": "It tastes better without ice.", "fr": "C'est meilleur sans glaçons." },
+      "player": { "zh": "好，那就去冰。", "pinyin": "hǎo nà jiù qù bīng", "en": "Okay, no ice then.", "fr": "D'accord, alors sans glaçons." }
+    },
+    {
+      "enemy":  { "zh": "半糖還是無糖？", "pinyin": "bàn táng hái shi wú táng", "en": "Half sugar or no sugar?", "fr": "Mi-sucré ou sans sucre ?" },
+      "player": { "zh": "半糖就好，謝謝。", "pinyin": "bàn táng jiù hǎo xiè xie", "en": "Half sugar is fine, thanks.", "fr": "Mi-sucré, ça ira, merci." }
+    },
+    {
+      "enemy":  { "zh": "門口有提款機喔。", "pinyin": "mén kǒu yǒu tí kuǎn jī ō", "en": "There's an ATM by the entrance.", "fr": "Il y a un distributeur à l'entrée." },
+      "player": { "zh": "好，謝謝你告訴我。", "pinyin": "hǎo xiè xie nǐ gào sù wǒ", "en": "Great, thanks for telling me.", "fr": "Super, merci de me le dire." }
+    },
+    {
+      "enemy":  { "zh": "便當我幫你熱好了。", "pinyin": "biàn dāng wǒ bāng nǐ rè hǎo le", "en": "I've heated up your bento for you.", "fr": "Je vous ai réchauffé votre bento." },
+      "player": { "zh": "太好了，謝謝老闆。", "pinyin": "tài hǎo le xiè xie lǎo bǎn", "en": "Great, thank you!", "fr": "Génial, merci patron !" }
+    },
+    {
+      "enemy":  { "zh": "總共一百二十元。", "pinyin": "zǒng gòng yì bǎi èr shí yuán", "en": "That's a hundred and twenty dollars in total.", "fr": "Ça fait cent vingt dollars en tout." },
+      "player": { "zh": "好，給你錢。", "pinyin": "hǎo gěi nǐ qián", "en": "Okay, here's the money.", "fr": "D'accord, voici l'argent." }
+    },
+    {
+      "enemy":  { "zh": "這是您的發票和零錢。", "pinyin": "zhè shì nín de fā piào hàn líng qián", "en": "Here's your receipt and change.", "fr": "Voici votre reçu et votre monnaie." },
+      "player": { "zh": "謝謝你，再見！", "pinyin": "xiè xie nǐ zài jiàn", "en": "Thank you, goodbye!", "fr": "Merci, au revoir !" }
+    },
+    {
+      "enemy":  { "zh": "歡迎光臨，裡面請。", "pinyin": "huān yíng guāng lín lǐ miàn qǐng", "en": "Welcome, please come in.", "fr": "Bienvenue, entrez je vous prie." },
+      "player": { "zh": "謝謝，我隨便看看。", "pinyin": "xiè xie wǒ suí biàn kàn kan", "en": "Thanks, I'm just browsing.", "fr": "Merci, je regarde juste." }
+    },
+    {
+      "enemy":  { "zh": "謝謝，慢走喔！", "pinyin": "xiè xie màn zǒu ō", "en": "Thanks, take care now!", "fr": "Merci, faites attention en rentrant !" },
+      "player": { "zh": "謝謝老闆，再見！", "pinyin": "xiè xie lǎo bǎn zài jiàn", "en": "Thank you, goodbye!", "fr": "Merci, au revoir !" }
+    }
+  ]
+}

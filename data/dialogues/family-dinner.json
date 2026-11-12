@@ -1,0 +1,93 @@
+{
+  "situation": "family-dinner",
+  "exchanges": [
+    {
+      "enemy":  { "zh": "歡迎來我家！", "pinyin": "huān yíng lái wǒ jiā", "en": "Welcome to my home!", "fr": "Bienvenue chez moi !" },
+      "player": { "zh": "謝謝，你家很漂亮。", "pinyin": "xiè xie nǐ jiā hěn piào liàng", "en": "Thanks, your home is lovely.", "fr": "Merci, ta maison est très belle." }
+    },
+    {
+      "enemy":  { "zh": "來，請你坐這裡。", "pinyin": "lái qǐng nǐ zuò zhè lǐ", "en": "Come, please sit here.", "fr": "Viens, assieds-toi ici." },
+      "player": { "zh": "好，謝謝你。", "pinyin": "hǎo xiè xie nǐ", "en": "OK, thank you.", "fr": "D'accord, merci." }
+    },
+    {
+      "enemy":  { "zh": "多吃一點菜。", "pinyin": "duō chī yì diǎn cài", "en": "Eat a bit more.", "fr": "Mange un peu plus." },
+      "player": { "zh": "好，很好吃！", "pinyin": "hǎo hěn hǎo chī", "en": "OK, it's delicious!", "fr": "D'accord, c'est délicieux !" }
+    },
+    {
+      "enemy":  { "zh": "這個太辣嗎？", "pinyin": "zhè ge tài là ma", "en": "Is this too spicy?", "fr": "C'est trop épicé ?" },
+      "player": { "zh": "不辣，剛剛好。", "pinyin": "bú là gāng gāng hǎo", "en": "No, it's just right.", "fr": "Non, c'est parfait." }
+    },
+    {
+      "enemy":  { "zh": "你喜歡吃台灣菜嗎？", "pinyin": "nǐ xǐ huān chī tái wān cài ma", "en": "Do you like Taiwanese food?", "fr": "Tu aimes la cuisine taïwanaise ?" },
+      "player": { "zh": "很喜歡，非常好吃。", "pinyin": "hěn xǐ huān fēi cháng hǎo chī", "en": "I love it, it's really good.", "fr": "J'adore, c'est vraiment délicieux." }
+    },
+    {
+      "enemy":  { "zh": "你喜歡台灣嗎？", "pinyin": "nǐ xǐ huān tái wān ma", "en": "Do you like Taiwan?", "fr": "Est-ce que tu aimes Taïwan ?" },
+      "player": { "zh": "喜歡，這裡很好。", "pinyin": "xǐ huān zhè lǐ hěn hǎo", "en": "I do, this place is great.", "fr": "Oui, cet endroit est génial." }
+    },
+    {
+      "enemy":  { "zh": "喝茶嗎？還是喝水？", "pinyin": "hē chá ma hái shì hē shuǐ", "en": "Would you like tea, or water?", "fr": "Tu veux du thé, ou de l'eau ?" },
+      "player": { "zh": "茶就好，謝謝。", "pinyin": "chá jiù hǎo xiè xie", "en": "Tea is fine, thanks.", "fr": "Du thé, ça ira, merci." }
+    },
+    {
+      "enemy":  { "zh": "這是我太太做的菜。", "pinyin": "zhè shì wǒ tài tai zuò de cài", "en": "My wife made this dish.", "fr": "C'est ma femme qui a préparé ce plat." },
+      "player": { "zh": "真的嗎？太好吃了！", "pinyin": "zhēn de ma tài hǎo chī le", "en": "Really? It's so delicious!", "fr": "Vraiment ? C'est trop bon !" }
+    },
+    {
+      "enemy":  { "zh": "多吃一點肉，別不好意思。", "pinyin": "duō chī yì diǎn ròu bié bù hǎo yì si", "en": "Eat more meat, no need to be shy.", "fr": "Mange plus de viande, ne sois pas gêné." },
+      "player": { "zh": "好的，不好意思。", "pinyin": "hǎo de bù hǎo yì si", "en": "OK, thanks so much.", "fr": "D'accord, merci beaucoup." }
+    },
+    {
+      "enemy":  { "zh": "吃飽了嗎？還要再來玩喔！", "pinyin": "chī bǎo le ma hái yào zài lái wán o", "en": "Are you full? Come again sometime!", "fr": "Tu es rassasié ? Reviens nous voir !" },
+      "player": { "zh": "謝謝邀請，今天很開心。", "pinyin": "xiè xie yāo qǐng jīn tiān hěn kāi xīn", "en": "Thank you for having me, I had a great time today.", "fr": "Merci de m'avoir invité, j'ai passé un très bon moment aujourd'hui." }
+    },
+    {
+      "enemy":  { "zh": "已經很晚了，你要回家嗎？", "pinyin": "yǐ jīng hěn wǎn le nǐ yào huí jiā ma", "en": "It's already late, are you heading home?", "fr": "Il est déjà tard, tu rentres chez toi ?" },
+      "player": { "zh": "對啊，我該回家了。", "pinyin": "duì a wǒ gāi huí jiā le", "en": "Yeah, I should head home.", "fr": "Oui, je devrais rentrer." }
+    },
+    {
+      "enemy":  { "zh": "要不要吃一點水果？", "pinyin": "yào bú yào chī yì diǎn shuǐ guǒ", "en": "Would you like some fruit?", "fr": "Tu veux un peu de fruits ?" },
+      "player": { "zh": "好啊，西瓜看起來很棒。", "pinyin": "hǎo a xī guā kàn qǐ lái hěn bàng", "en": "Sure, the watermelon looks great.", "fr": "Avec plaisir, la pastèque a l'air délicieuse." }
+    },
+    {
+      "enemy":  { "zh": "你會用筷子嗎？", "pinyin": "nǐ huì yòng kuài zi ma", "en": "Can you use chopsticks?", "fr": "Tu sais utiliser des baguettes ?" },
+      "player": { "zh": "會一點，還在練習。", "pinyin": "huì yì diǎn hái zài liàn xí", "en": "A little, I'm still practicing.", "fr": "Un peu, je m'entraîne encore." }
+    },
+    {
+      "enemy":  { "zh": "法國菜跟台灣菜哪個好吃？", "pinyin": "fà guó cài gēn tái wān cài nǎ ge hǎo chī", "en": "Which is better, French food or Taiwanese food?", "fr": "Qu'est-ce qui est meilleur, la cuisine française ou taïwanaise ?" },
+      "player": { "zh": "兩個都好吃，很難選。", "pinyin": "liǎng ge dōu hǎo chī hěn nán xuǎn", "en": "Both are great, hard to choose.", "fr": "Les deux sont délicieux, difficile de choisir." }
+    },
+    {
+      "enemy":  { "zh": "來，我們乾杯！", "pinyin": "lái wǒ men gān bēi", "en": "Come on, let's toast!", "fr": "Allez, santé !" },
+      "player": { "zh": "乾杯！祝大家健康。", "pinyin": "gān bēi zhù dà jiā jiàn kāng", "en": "Cheers! Health to everyone.", "fr": "Santé ! Bonne santé à tous." }
+    },
+    {
+      "enemy":  { "zh": "這是我兒子，他很可愛。", "pinyin": "zhè shì wǒ ér zi tā hěn kě ài", "en": "This is my son, he's adorable.", "fr": "Voici mon fils, il est adorable." },
+      "player": { "zh": "你好，你幾歲了？", "pinyin": "nǐ hǎo nǐ jǐ suì le", "en": "Hi there, how old are you?", "fr": "Bonjour, quel âge as-tu ?" }
+    },
+    {
+      "enemy":  { "zh": "再吃一點嘛，好不好？", "pinyin": "zài chī yì diǎn ma hǎo bù hǎo", "en": "Have a bit more, OK?", "fr": "Reprends-en un peu, d'accord ?" },
+      "player": { "zh": "我真的很飽了，謝謝。", "pinyin": "wǒ zhēn de hěn bǎo le xiè xie", "en": "I'm really full, thank you.", "fr": "Je suis vraiment plein, merci." }
+    },
+    {
+      "enemy":  { "zh": "今天外面好像變冷了。", "pinyin": "jīn tiān wài miàn hǎo xiàng biàn lěng le", "en": "It seems to have gotten cold outside today.", "fr": "On dirait qu'il fait plus froid dehors aujourd'hui." },
+      "player": { "zh": "對啊，冬天要到了。", "pinyin": "duì a dōng tiān yào dào le", "en": "Yeah, winter's coming.", "fr": "Oui, l'hiver arrive." }
+    },
+    {
+      "enemy":  { "zh": "剩下的菜你要不要帶走？", "pinyin": "shèng xià de cài nǐ yào bú yào dài zǒu", "en": "Do you want to take the leftovers home?", "fr": "Tu veux ramener les restes chez toi ?" },
+      "player": { "zh": "好啊，太謝謝你了。", "pinyin": "hǎo a tài xiè xie nǐ le", "en": "Sure, thank you so much.", "fr": "Avec plaisir, merci beaucoup." }
+    },
+    {
+      "enemy":  { "zh": "下次再來我們家吃飯。", "pinyin": "xià cì zài lái wǒ men jiā chī fàn", "en": "Come eat at our place again sometime.", "fr": "Reviens manger chez nous une prochaine fois." },
+      "player": { "zh": "一定會，謝謝你們。", "pinyin": "yí dìng huì xiè xie nǐ men", "en": "I definitely will, thank you all.", "fr": "C'est sûr, merci à vous." }
+    },
+    {
+      "enemy":  { "zh": "你喜歡我煮的菜嗎？", "pinyin": "nǐ xǐ huān wǒ zhǔ de cài ma", "en": "Do you like the food I cooked?", "fr": "Tu aimes ce que j'ai cuisiné ?" },
+      "player": { "zh": "超喜歡，你很會煮菜。", "pinyin": "chāo xǐ huān nǐ hěn huì zhǔ cài", "en": "I love it, you're a great cook.", "fr": "J'adore, tu cuisines vraiment bien." }
+    },
+    {
+      "enemy":  { "zh": "路上小心，慢走喔！", "pinyin": "lù shàng xiǎo xīn màn zǒu o", "en": "Take care on your way, bye now!", "fr": "Fais attention sur la route, à bientôt !" },
+      "player": { "zh": "謝謝，今天玩得很開心。", "pinyin": "xiè xie jīn tiān wán de hěn kāi xīn", "en": "Thanks, I had a really fun time today.", "fr": "Merci, j'ai passé un très bon moment aujourd'hui." }
+    }
+  ]
+}
