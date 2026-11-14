@@ -53,7 +53,7 @@
 @media (max-height: 560px) {
   :root { --u: clamp(0.5px, calc(100vh / 480), 0.9px); }
   .app {
-    padding: calc(8 * var(--u)) max(calc(12 * var(--u)), env(safe-area-inset-right)) calc(8 * var(--u)) max(calc(12 * var(--u)), env(safe-area-inset-left));
+    padding: calc(8 * var(--u)) max(calc(12 * var(--u)), env(safe-area-inset-right)) max(calc(8 * var(--u)), env(safe-area-inset-bottom)) max(calc(12 * var(--u)), env(safe-area-inset-left));
     min-height: 100dvh;
   }
 
@@ -65,7 +65,7 @@
   .footer { padding-top: calc(8 * var(--u)); }
 
   /* Combat : les memes trois zones, plus serrees (scene, conversation ; main en bas). */
-  .app.battle { padding-top: calc(8 * var(--u)); padding-bottom: calc(2 * var(--u)); }
+  .app.battle { padding-top: calc(8 * var(--u)); padding-bottom: max(calc(2 * var(--u)), env(safe-area-inset-bottom)); }
   .battle-grid { gap: calc(8 * var(--u)) calc(10 * var(--u)); grid-template-columns: minmax(0, 1fr) minmax(0, 1.75fr); }
   .scene-hud { padding: calc(5 * var(--u)) calc(8 * var(--u)); gap: calc(6 * var(--u)); }
   .scene-portrait { top: calc(30 * var(--u)); }

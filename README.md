@@ -38,6 +38,11 @@ voice), each line a segment with its name and its metadata. The game is the firs
 | Dictionary (checks only) | CC-CEDICT | CC BY-SA 4.0 |
 | Font | Nunito | SIL Open Font License |
 
+## Privacy
+
+Rìcháng collects no personal data: no account, no advertising, no analytics, no tracking. Your progress stays on your
+device. Details: [PRIVACY.md](PRIVACY.md).
+
 ## License
 
 Rìcháng is free software by Nextale Audio. Its code is under the GNU GPL, version 3 or later, and any version you

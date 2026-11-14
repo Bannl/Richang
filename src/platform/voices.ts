@@ -88,6 +88,10 @@ function audioContext(): AudioContext {
 }
 // Le contexte audio demarre a la premiere interaction (regle d'autolecture des navigateurs).
 if (typeof window !== 'undefined') window.addEventListener('pointerdown', () => { audioContext(); }, { once: true, capture: true });
+// iOS (WebKit, API Audio Session) : les voix jouent meme quand l'iPhone est en mode silencieux, comme une app de
+// musique ; sans cela, Web Audio se tait des que le bouton silencieux est active. Absent ailleurs : rien a faire.
+const audioSession = typeof navigator !== 'undefined' ? (navigator as Navigator & { audioSession?: { type: string } }).audioSession : undefined;
+if (audioSession) { try { audioSession.type = 'playback'; } catch { /* type refuse : comportement par defaut */ } }
 
 let current: AudioBufferSourceNode | null = null;
 function stopCurrent() {

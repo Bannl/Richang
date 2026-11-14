@@ -10,7 +10,8 @@ const FILE = 'progress.json';
 
 export const isElectron = (): boolean => typeof window !== 'undefined' && !!window.richangNative;
 export const isNative = (): boolean => Capacitor.isNativePlatform();
-export const platformName = (): string => (isElectron() ? 'Windows' : isNative() ? 'Android' : 'Web');
+export const isIOS = (): boolean => Capacitor.getPlatform() === 'ios';
+export const platformName = (): string => (isElectron() ? 'Windows' : isIOS() ? 'iOS' : isNative() ? 'Android' : 'Web');
 
 export function migrate(raw: unknown): AppState {
   const base = emptyState();
@@ -69,7 +70,7 @@ export async function saveState(state: AppState): Promise<void> {
   else localStorage.setItem(KEY, json);
 }
 
-export interface ExportResult { key: 'exported' | 'exportCancelled' | 'exportedTo' | 'downloaded'; path?: string }
+export interface ExportResult { key: 'exported' | 'exportCancelled' | 'exportedTo' | 'exportedFiles' | 'downloaded'; path?: string }
 
 /** Exporte la progression ; renvoie une cle de message a traduire. */
 export async function exportState(state: AppState): Promise<ExportResult> {
@@ -78,7 +79,8 @@ export async function exportState(state: AppState): Promise<ExportResult> {
   if (isElectron()) return { key: (await window.richangNative!.exportState(json)) ? 'exported' : 'exportCancelled' };
   if (isNative()) {
     const r = await Filesystem.writeFile({ path: name, directory: Directory.Documents, data: json, encoding: Encoding.UTF8 });
-    return { key: 'exportedTo', path: r.uri };
+    // iOS : le dossier Documents de l'app est visible dans l'app Fichiers (Info.plist : UIFileSharingEnabled).
+    return isIOS() ? { key: 'exportedFiles' } : { key: 'exportedTo', path: r.uri };
   }
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([json], { type: 'application/json' }));

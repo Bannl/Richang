@@ -47,6 +47,8 @@
    (--t le long du parcours, --c en travers), les chemins un dessin etire dessous dont les traits gardent leur epaisseur.
    Noeuds et textes ont une taille fixe a l'ecran : seuls les ecarts grandissent avec la place. --- */
 .app.map { height: 100dvh; min-height: 0; }
+/* Ecrans de jeu : un appui long (glisser une carte, viser un lieu) ne selectionne pas de texte (loupe iOS). */
+.app.battle, .app.map { -webkit-user-select: none; user-select: none; }
 .map { flex: 1; display: flex; flex-direction: column; }
 .map .map-area { flex: 1 1 auto; min-height: 0; position: relative; margin: calc(4 * var(--u)) 0; }
 /* Zone des centres des noeuds : marges le long du parcours pour le depart et le boss, en travers pour les noms. */

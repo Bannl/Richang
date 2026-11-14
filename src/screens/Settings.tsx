@@ -10,6 +10,8 @@ import { Icon, Switch, TopBar } from '../ui/basics';
 
 /** Depot public du jeu (code source, licences : LICENSE, LICENSE-MIT, COPYRIGHT.md). */
 const REPO_URL = 'https://github.com/Bannl/Richang';
+/** Politique de confidentialite (exigee par l'App Store, dans l'app comme sur la fiche). */
+const PRIVACY_URL = `${REPO_URL}/blob/master/PRIVACY.md`;
 
 interface Props {
   state: AppState;
@@ -165,6 +167,7 @@ export function SettingsScreen({ state, update, onBack, toast }: Props) {
           Audio » garde dans toute version distribuee) demande que le jeu les affiche lui-meme. */}
       <p className="muted small legal" style={{ marginTop: 24 }}>
         {t('legal')} <a href={REPO_URL} target="_blank" rel="noreferrer">{REPO_URL.replace(/^https:\/\//, '')}</a>
+        {' · '}<a href={PRIVACY_URL} target="_blank" rel="noreferrer">{t('privacyPolicy')}</a>
       </p>
       <p className="muted small">{t('about')}</p>
       <p className="muted small credits">{t('mediaCredits')}</p>

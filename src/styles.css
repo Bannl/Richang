@@ -37,6 +37,8 @@
 html, body {
   margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-weight: 600;
   -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent;
+  /* iOS : pas d'agrandissement automatique du texte en paysage, pas de menu « enregistrer l'image » a l'appui long. */
+  -webkit-text-size-adjust: 100%; text-size-adjust: 100%; -webkit-touch-callout: none;
 }
 body { overscroll-behavior: none; }
 button { font: inherit; color: inherit; }

@@ -11,10 +11,13 @@ export function configureVoices(v: Record<VoiceRole, string>): void { preferred 
 /** Sans voix du bon genre installee, on modifie la hauteur de la voix disponible. */
 const ROLE_PITCH: Record<VoiceRole, number> = { male: 0.7, female: 1.12 };
 
-// Genre devine d'apres le nom de la voix : Windows (Zhiwei, Hanhan, Yating...), Apple, Samsung (SMTm/SMTf),
-// Google sur Android (cmn-xx-x-ccd / ctd : voix d'homme ; ccc, cce, ctc, cte, ssa : voix de femme, a confirmer dans les reglages).
+// Genre devine d'apres le nom de la voix : Windows (Zhiwei, Hanhan, Yating...), Apple (Li-Mu ; Mei-Jia, Ting-Ting,
+// Sin-Ji, Yu-Shu), Samsung (SMTm/SMTf), Google sur Android (cmn-xx-x-ccd / ctd : voix d'homme ; ccc, cce, ctc, cte,
+// ssa : voix de femme, a confirmer dans les reglages).
 const MALE_RE = /zhiwei|yunjhe|yunxi|yunyang|yunjian|yunye|yunze|yunhao|kangkang|li-?mu|\bmale\b|男|smtm\d|-x-c[ct]d-/i;
-const FEMALE_RE = /hanhan|yating|hsiao|huihui|yaoyao|xiaoxiao|xiaoyi|mei-?jia|ting-?ting|sin-?ji|female|女|smtf\d|-x-(c[ct][ce]|ssa)-|google/i;
+const FEMALE_RE = /hanhan|yating|hsiao|huihui|yaoyao|xiaoxiao|xiaoyi|mei-?jia|ting-?ting|sin-?ji|yu-?shu|female|女|smtf\d|-x-(c[ct][ce]|ssa)-|google/i;
+/** L'ecran d'installation des voix (Reglages › Synthese vocale) n'existe que sur Android. */
+const canOpenTtsInstall = Capacitor.getPlatform() === 'android';
 export function guessGender(name: string): VoiceRole | null {
   if (MALE_RE.test(name)) return 'male';
   if (FEMALE_RE.test(name)) return 'female';
@@ -197,8 +200,8 @@ export interface TtsInfo { key?: 'ttsAndroid' | 'ttsUnavailable' | 'ttsNoVoice';
 export async function ttsDescription(): Promise<TtsInfo> {
   if (Capacitor.isNativePlatform()) {
     const lang = await nativeChineseLang();
-    if (!lang) return { key: 'ttsNoVoice', canInstall: true };
-    return { key: 'ttsAndroid', lang, mainland: scoreTag(lang) < 30, canInstall: scoreTag(lang) < 30 };
+    if (!lang) return { key: 'ttsNoVoice', canInstall: canOpenTtsInstall };
+    return { key: 'ttsAndroid', lang, mainland: scoreTag(lang) < 30, canInstall: canOpenTtsInstall && scoreTag(lang) < 30 };
   }
   if (!('speechSynthesis' in window)) return { key: 'ttsUnavailable' };
   const v = await getVoice();
