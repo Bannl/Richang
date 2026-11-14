@@ -103,6 +103,25 @@ bash ~/Richang/scripts/ios/build_ios.sh clean     # libère de la place
 
 Le script prépare tout, sans droits administrateur : Node (dans `~/.richang-node` s'il manque), les dépendances npm, CocoaPods (dans `~/.richang-gems`), puis `npm run ios:sync` et `pod install`. L'archive est faite sans signature ; l'export App Store la signe en distribution et crée le profil. L'identifiant d'équipe Apple est demandé une fois et gardé sur le Mac (`~/.richang-ios.env`), jamais dans le dépôt ; l'Apple ID et le mot de passe d'application sont demandés à chaque envoi et jamais écrits. Numéro de build : `AAMMJJ.HHMM` par défaut, ou en deuxième argument.
 
-Avant le premier envoi, créer la fiche de l'app dans App Store Connect (bundle `app.richang.mobile`, enregistré par le premier `ipa`), avec pour politique de confidentialité <https://github.com/Bannl/Richang/blob/master/PRIVACY.md> (aussi liée dans les Réglages de l'app). Captures App Store en paysage : iPhone 6,9" 2868×1320, iPad 13" 2752×2064 (celles du mode `sim`, remises à l'endroit si le simulateur les a prises en portrait).
+**Tester sur un iPhone ou un iPad, sans publier : TestFlight.** Sur iOS, il n'y a pas d'installateur à copier sur l'appareil comme l'APK Android. L'`.ipa` du mode `ipa` est signé pour l'App Store et ne s'installe que par TestFlight ou l'App Store. Sans câble vers le Mac, TestFlight est le moyen simple.
+1. Sur le Mac : `build_ios.sh ipa`. L'export enregistre l'identifiant `app.richang.mobile` dans l'équipe.
+2. Sur appstoreconnect.apple.com, depuis n'importe quel navigateur, aller dans Apps › + › Nouvelle app :
+   - iOS ;
+   - un nom unique sur l'App Store ;
+   - langue principale ;
+   - bundle `app.richang.mobile` ;
+   - un SKU, par exemple `richang-ios`.
+
+   La fiche reste privée tant qu'elle n'est pas soumise à Apple.
+3. Sur le Mac : `build_ios.sh upload`.
+4. Dans App Store Connect, aller dans l'app › TestFlight :
+   - attendre la fin du traitement du build, de quelques minutes à une heure ;
+   - créer un groupe de test interne et s'y ajouter ;
+   - le test interne ne passe pas par la validation d'Apple.
+5. Sur l'iPhone : installer l'app TestFlight (App Store), se connecter avec le même Apple ID, puis installer Rìcháng. Un build reste installable 90 jours.
+
+L'App Store, plus tard, demandera :
+- la politique de confidentialité, <https://github.com/Bannl/Richang/blob/master/PRIVACY.md> (aussi liée dans les Réglages de l'app) ;
+- des captures en paysage : iPhone 6,9" 2868×1320, iPad 13" 2752×2064.
 
 Les réglages natifs (Info.plist, AppDelegate, icônes générées depuis `assets/icon-only.png`, version) vivent dans `ios/` et ne sont pas écrasés par `cap sync`.

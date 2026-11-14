@@ -7,6 +7,12 @@ import './native.d';
 
 const KEY = 'richang-state-v1';
 const FILE = 'progress.json';
+/**
+ * Dossier de la sauvegarde. iOS : Library, invisible dans l'app Fichiers. Le dossier Documents, ou vont les exports,
+ * y est visible (UIFileSharingEnabled), et on ne doit pas pouvoir y effacer la partie en cours par erreur.
+ * Android : dossier prive de l'app, comme depuis le debut.
+ */
+const saveDir = (): Directory => (Capacitor.getPlatform() === 'ios' ? Directory.Library : Directory.Data);
 
 export const isElectron = (): boolean => typeof window !== 'undefined' && !!window.richangNative;
 export const isNative = (): boolean => Capacitor.isNativePlatform();
@@ -54,7 +60,7 @@ export async function loadState(): Promise<AppState> {
     if (isElectron()) json = await window.richangNative!.readState();
     else if (isNative()) {
       try {
-        const r = await Filesystem.readFile({ path: FILE, directory: Directory.Data, encoding: Encoding.UTF8 });
+        const r = await Filesystem.readFile({ path: FILE, directory: saveDir(), encoding: Encoding.UTF8 });
         json = typeof r.data === 'string' ? r.data : null;
       } catch { json = null; }
     } else json = localStorage.getItem(KEY);
@@ -66,7 +72,7 @@ export async function loadState(): Promise<AppState> {
 export async function saveState(state: AppState): Promise<void> {
   const json = JSON.stringify(state);
   if (isElectron()) await window.richangNative!.writeState(json);
-  else if (isNative()) await Filesystem.writeFile({ path: FILE, directory: Directory.Data, data: json, encoding: Encoding.UTF8 });
+  else if (isNative()) await Filesystem.writeFile({ path: FILE, directory: saveDir(), data: json, encoding: Encoding.UTF8 });
   else localStorage.setItem(KEY, json);
 }
 
