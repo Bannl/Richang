@@ -89,19 +89,31 @@ Construire et installer : `npx vite build && npx cap sync android && node script
 
 ## iOS
 
+**Statut (14 novembre 2026) : en pause.** Le projet iOS est prêt, et il a été compilé sur un Mac jusqu'à l'export App Store (`.ipa`). Les étapes avant l'export fonctionnent toutes :
+- installation automatique de Node et de CocoaPods ;
+- dépendances npm et compilation du jeu ;
+- `pod install` ;
+- archive.
+
+À la reprise :
+- premier envoi sur App Store Connect. Le premier essai par `altool` a été refusé à la connexion ; le mode `upload` passe maintenant par Xcode, mais n'a pas encore été essayé ;
+- fiche de l'app dans App Store Connect ;
+- test sur iPhone par TestFlight ;
+- pour une publication, captures de l'App Store.
+
 Même projet web, dans un projet Xcode Capacitor (`ios/App`, CocoaPods, iPhone et iPad, iOS 15 minimum), identifiant `app.richang.mobile` comme sur Android. L'app tourne en **paysage** (plein écran sur iPad, barre d'état masquée) ; les marges de l'encoche et de la barre d'accueil sont prises en compte en CSS (`env(safe-area-inset-*)`). Le son joue même en mode silencieux, sans couper la musique d'une autre app (`AppDelegate.swift`, et `navigator.audioSession` dans `src/platform/voices.ts`). Les sauvegardes exportées vont dans l'app Fichiers (Sur mon iPhone › 日常). Les voix doublées (Ogg Opus) demandent iOS 18.4 ou plus ; avant, la synthèse vocale prend le relais.
 
 Compilation sur un Mac avec Xcode, en ligne de commande, depuis un clone du dépôt :
 
 ```bash
 git clone https://github.com/Bannl/Richang.git ~/Richang     # ensuite : git -C ~/Richang pull
-bash ~/Richang/scripts/ios/build_ios.sh sim       # simulateurs iPhone et iPad, captures dans ~/Richang_shots
+bash ~/Richang/scripts/ios/build_ios.sh sim       # compile et lance l'app sur un iPhone et un iPad simulés
 bash ~/Richang/scripts/ios/build_ios.sh ipa       # archive + export App Store -> ~/Richang_ipa/App.ipa
 bash ~/Richang/scripts/ios/build_ios.sh upload    # idem, puis envoi sur App Store Connect (TestFlight)
 bash ~/Richang/scripts/ios/build_ios.sh clean     # libère de la place
 ```
 
-Le script prépare tout, sans droits administrateur : Node (dans `~/.richang-node` s'il manque), les dépendances npm, CocoaPods (dans `~/.richang-gems`), puis `npm run ios:sync` et `pod install`. L'archive est faite sans signature ; l'export App Store la signe en distribution et crée le profil. L'identifiant d'équipe Apple est demandé une fois et gardé sur le Mac (`~/.richang-ios.env`), jamais dans le dépôt ; l'Apple ID et le mot de passe d'application sont demandés à chaque envoi et jamais écrits. Numéro de build : `AAMMJJ.HHMM` par défaut, ou en deuxième argument.
+Le script prépare tout, sans droits administrateur : Node (dans `~/.richang-node` s'il manque), les dépendances npm, CocoaPods (dans `~/.richang-gems`), puis `npm run ios:sync` et `pod install`. L'archive est faite sans signature ; l'export App Store la signe en distribution et crée le profil. L'identifiant d'équipe Apple est demandé une fois et gardé sur le Mac (`~/.richang-ios.env`), jamais dans le dépôt. L'envoi (`upload`) passe par Xcode, avec le compte Apple connecté dans Xcode (Réglages › Comptes) : aucun mot de passe n'est demandé. Numéro de build : `AAMMJJ.HHMM` par défaut, ou en deuxième argument.
 
 **Tester sur un iPhone ou un iPad, sans publier : TestFlight.** Sur iOS, il n'y a pas d'installateur à copier sur l'appareil comme l'APK Android. L'`.ipa` du mode `ipa` est signé pour l'App Store et ne s'installe que par TestFlight ou l'App Store. Sans câble vers le Mac, TestFlight est le moyen simple.
 1. Sur le Mac : `build_ios.sh ipa`. L'export enregistre l'identifiant `app.richang.mobile` dans l'équipe.
@@ -120,8 +132,6 @@ Le script prépare tout, sans droits administrateur : Node (dans `~/.richang-nod
    - le test interne ne passe pas par la validation d'Apple.
 5. Sur l'iPhone : installer l'app TestFlight (App Store), se connecter avec le même Apple ID, puis installer Rìcháng. Un build reste installable 90 jours.
 
-L'App Store, plus tard, demandera :
-- la politique de confidentialité, <https://github.com/Bannl/Richang/blob/master/PRIVACY.md> (aussi liée dans les Réglages de l'app) ;
-- des captures en paysage : iPhone 6,9" 2868×1320, iPad 13" 2752×2064.
+Pour l'App Store, plus tard, la politique de confidentialité est <https://github.com/Bannl/Richang/blob/master/PRIVACY.md> (aussi liée dans les Réglages de l'app).
 
 Les réglages natifs (Info.plist, AppDelegate, icônes générées depuis `assets/icon-only.png`, version) vivent dans `ios/` et ne sont pas écrasés par `cap sync`.

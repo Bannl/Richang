@@ -2,7 +2,7 @@
 # Richang (日常) : build iOS sur un Mac, en ligne de commande, depuis un clone du depot public.
 #   git clone https://github.com/Bannl/Richang.git ~/Richang        (mise a jour ensuite : git -C ~/Richang pull)
 #
-#   bash ~/Richang/scripts/ios/build_ios.sh sim             simulateurs iPhone et iPad, captures dans ~/Richang_shots
+#   bash ~/Richang/scripts/ios/build_ios.sh sim             compile et lance l'app sur un iPhone et un iPad simules
 #   bash ~/Richang/scripts/ios/build_ios.sh ipa    [build]  archive + export App Store -> ~/Richang_ipa/App.ipa
 #   bash ~/Richang/scripts/ios/build_ios.sh upload [build]  idem, puis envoi a App Store Connect (TestFlight)
 #   bash ~/Richang/scripts/ios/build_ios.sh clean           libere de la place (archive, ipa, DerivedData, simulateurs)
@@ -12,8 +12,8 @@
 # compilation du jeu et synchronisation du projet Xcode (npm run ios:sync).
 # Signature : archive sans signature, puis export App Store qui signe en distribution et cree le profil tout seul.
 # L'identifiant d'equipe Apple (TEAM_ID) vient de l'environnement ou de ~/.richang-ios.env (hors du depot) : il est
-# demande et enregistre la premiere fois. Envoi : APPLE_ID et APP_PASSWORD (mot de passe d'application) sont demandes
-# au lancement s'ils ne sont pas dans l'environnement, et ne sont jamais ecrits sur le disque.
+# demande et enregistre la premiere fois. Envoi : par Xcode, avec le compte Apple connecte dans Xcode (Reglages ›
+# Comptes), celui qui signe deja l'export ; aucun mot de passe a saisir. (altool refusait les identifiants : erreur 1235.)
 # [build] : numero de build (CFBundleVersion), croissant a chaque envoi ; par defaut AAMMJJ.HHMM.
 set -euo pipefail
 
@@ -26,7 +26,6 @@ APP_DIR="$ROOT/ios/App"
 CONF="$HOME/.richang-ios.env"
 ARCHIVE="$HOME/Richang_iOS.xcarchive"
 IPA_DIR="$HOME/Richang_ipa"
-SHOTS="$HOME/Richang_shots"
 export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8   # CocoaPods exige un terminal UTF-8
 
 say() { printf '\n== %s\n' "$*"; }
@@ -35,7 +34,7 @@ case "$MODE" in
   sim|ipa|upload) ;;
   clean)
     say "Menage"
-    rm -rf "$ARCHIVE" "$IPA_DIR" "$SHOTS"/raw_*.png "$HOME"/Library/Developer/Xcode/DerivedData/App-*
+    rm -rf "$ARCHIVE" "$IPA_DIR" "$HOME"/Library/Developer/Xcode/DerivedData/App-*
     xcrun simctl delete unavailable || true
     df -h "$HOME" | tail -1
     exit 0
@@ -53,10 +52,6 @@ if [ "$MODE" != "sim" ]; then
     echo "Enregistre dans $CONF (hors du depot)."
   fi
   [[ "$TEAM_ID" =~ ^[A-Z0-9]{10}$ ]] || { echo "Team ID invalide : $TEAM_ID (corriger $CONF)"; exit 1; }
-fi
-if [ "$MODE" = "upload" ]; then
-  if [ -z "${APPLE_ID:-}" ]; then read -r -p "Apple ID (e-mail du compte developpeur) : " APPLE_ID; fi
-  if [ -z "${APP_PASSWORD:-}" ]; then read -r -s -p "Mot de passe d'application (appleid.apple.com) : " APP_PASSWORD; echo; fi
 fi
 
 # --- Node : celui du Mac s'il est assez recent (Vite demande Node 22), sinon une copie dans ~/.richang-node.
@@ -126,26 +121,18 @@ case "$MODE" in
       | awk '/Build settings for action build and target App:/ {f=1} f==1 && /^ *BUILT_PRODUCTS_DIR = / {sub(/^ *BUILT_PRODUCTS_DIR = /, ""); print; f=2}')"
     APP="$PRODUCTS/App.app"
     [ -d "$APP" ] || { echo "App.app introuvable dans $PRODUCTS"; exit 1; }
-    mkdir -p "$SHOTS"
+    open -a Simulator || true   # fenetres des appareils simules, visibles par le bureau a distance
     for MODEL in "iPhone [0-9]+ Pro Max" "iPad Pro 13"; do
       LINE="$(xcrun simctl list devices available | grep -E "$MODEL" | tail -1 || true)"
       UDID="$(printf '%s' "$LINE" | grep -oE '[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}' | head -1 || true)"
       if [ -z "$UDID" ]; then echo "Pas de simulateur « $MODEL » (xcrun simctl list devices available)"; continue; fi
-      NAME="$(printf '%s' "$LINE" | sed -E 's/^ *//; s/ \(.*//' | tr ' ' '_')"
-      say "$NAME ($UDID)"
+      say "$(printf '%s' "$LINE" | sed -E 's/^ *//; s/ \(.*//') ($UDID)"
       xcrun simctl boot "$UDID" 2>/dev/null || true
       xcrun simctl bootstatus "$UDID" -b >/dev/null
       xcrun simctl install "$UDID" "$APP"
       xcrun simctl launch "$UDID" "$BUNDLE_ID"
-      sleep 12   # chargement du web, des polices et des images
-      xcrun simctl io "$UDID" screenshot "$SHOTS/raw_$NAME.png"
-      W="$(sips -g pixelWidth "$SHOTS/raw_$NAME.png" | awk '/pixelWidth/ {print $2}')"
-      H="$(sips -g pixelHeight "$SHOTS/raw_$NAME.png" | awk '/pixelHeight/ {print $2}')"
-      # Simulateur sans fenetre : l'app paysage est capturee dans un cadre portrait, on la remet a l'endroit (270 degres).
-      if [ "$H" -gt "$W" ]; then sips -r 270 "$SHOTS/raw_$NAME.png" --out "$SHOTS/$NAME.png" >/dev/null; else cp "$SHOTS/raw_$NAME.png" "$SHOTS/$NAME.png"; fi
-      echo "Capture : $SHOTS/$NAME.png ($(sips -g pixelWidth -g pixelHeight "$SHOTS/$NAME.png" | awk '/pixel(Width|Height)/ {printf "%s ", $2}'))"
     done
-    echo "Simulateurs laisses allumes. Autre capture : xcrun simctl io <UDID> screenshot ~/Richang_shots/x.png && sips -r 270 ~/Richang_shots/x.png"
+    echo "L'app tourne dans l'app Simulator (iPhone et iPad)."
     ;;
   ipa|upload)
     say "Archive Release non signee (version $VERSION, build $BUILD)"
@@ -153,25 +140,28 @@ case "$MODE" in
     xcodebuild -workspace App.xcworkspace -scheme App -configuration Release -destination 'generic/platform=iOS' \
       -archivePath "$ARCHIVE" MARKETING_VERSION="$VERSION" CURRENT_PROJECT_VERSION="$BUILD" \
       CODE_SIGNING_ALLOWED=NO -quiet archive
-    say "Export App Store (signature distribution, profil cree automatiquement)"
+    # Export App Store : en local (ipa), ou envoye directement a App Store Connect (upload) avec le compte Apple
+    # connecte dans Xcode. Le numero de build reste celui de l'archive (Xcode ne le change pas).
+    if [ "$MODE" = "upload" ]; then DEST=upload; say "Export App Store et envoi a App Store Connect"; else DEST=export; say "Export App Store"; fi
     cat > "$HOME/Richang_exportOptions.plist" <<PLIST
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0"><dict>
   <key>method</key><string>app-store</string>
+  <key>destination</key><string>$DEST</string>
   <key>teamID</key><string>$TEAM_ID</string>
   <key>signingStyle</key><string>automatic</string>
   <key>uploadSymbols</key><true/>
+  <key>manageAppVersionAndBuildNumber</key><false/>
 </dict></plist>
 PLIST
     xcodebuild -exportArchive -archivePath "$ARCHIVE" -exportPath "$IPA_DIR" \
       -exportOptionsPlist "$HOME/Richang_exportOptions.plist" -allowProvisioningUpdates
-    IPA="$(ls "$IPA_DIR"/*.ipa | head -1)"
-    echo "IPA : $IPA ($(du -h "$IPA" | cut -f1))"
     if [ "$MODE" = "upload" ]; then
-      say "Envoi a App Store Connect"
-      xcrun altool --upload-app -f "$IPA" -t ios -u "$APPLE_ID" -p "$APP_PASSWORD"
       echo "Envoye. Le build apparait dans App Store Connect › TestFlight apres traitement (quelques minutes a 1 h)."
+    else
+      IPA="$(ls "$IPA_DIR"/*.ipa | head -1)"
+      echo "IPA : $IPA ($(du -h "$IPA" | cut -f1))"
     fi
     ;;
 esac
