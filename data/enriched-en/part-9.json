@@ -1,0 +1,5057 @@
+[
+  {
+    "rank": 2001,
+    "hanzi": "上",
+    "en": [
+      "on, in (after a noun: 牆上)",
+      "to go up, to get on",
+      "last, previous (上星期)"
+    ],
+    "noteEn": "After a noun: 網路上 online, 車上 in the car; 上課: to attend class",
+    "exampleEn": "They're cheaper online."
+  },
+  {
+    "rank": 2002,
+    "hanzi": "下",
+    "en": [
+      "to go down, to get off",
+      "next (下星期)",
+      "to fall (rain, snow)"
+    ],
+    "noteEn": "下一位: next, please; 下山: to go down the mountain; 吃不下: unable to eat any more",
+    "exampleEn": "Are you free to come next week?"
+  },
+  {
+    "rank": 2003,
+    "hanzi": "完",
+    "en": [
+      "to finish (after a verb: 吃完 to finish eating)",
+      "finished, over"
+    ],
+    "noteEn": "吃不完: unable to finish (the food)",
+    "exampleEn": "Water can't go through. You'll have to finish it first."
+  },
+  {
+    "rank": 2004,
+    "hanzi": "裡",
+    "en": [
+      "in, inside (after a noun)"
+    ],
+    "noteEn": "包包裡: in the bag; same as 裡面",
+    "exampleEn": "Hello, is there any water in your bag?"
+  },
+  {
+    "rank": 2005,
+    "hanzi": "色",
+    "en": [
+      "color (after a color word: 黑色, 藍色)"
+    ],
+    "noteEn": "黑色 black, 白色 white, 藍色 blue, 灰色 grey, 綠色 green; same as 顏色",
+    "exampleEn": "Sure. Do you have grey ones?"
+  },
+  {
+    "rank": 2006,
+    "hanzi": "卡",
+    "en": [
+      "card (bank, transit, membership)",
+      "to be stuck, to jam"
+    ],
+    "noteEn": "Read kǎ in both senses in Taiwan; 辦卡: to get a card issued",
+    "exampleEn": "This card can be used for five years."
+  },
+  {
+    "rank": 2007,
+    "hanzi": "包",
+    "en": [
+      "to wrap",
+      "pack, bag (classifier)",
+      "to make (dumplings: 包水餃)"
+    ],
+    "noteEn": "包好: wrapped up; 一包: one pack",
+    "exampleEn": "Twelve hundred. I'll gift-wrap it for you."
+  },
+  {
+    "rank": 2008,
+    "hanzi": "牠",
+    "en": [
+      "it, he, she (animal)"
+    ],
+    "noteEn": "Pronounced like 他 and 她; written for animals",
+    "exampleEn": "Does it bite people?"
+  },
+  {
+    "rank": 2009,
+    "hanzi": "常",
+    "en": [
+      "often"
+    ],
+    "noteEn": "Short for 常常; 不常: not often",
+    "exampleEn": "I often come here on weekends."
+  },
+  {
+    "rank": 2010,
+    "hanzi": "前",
+    "en": [
+      "before (飯前, 出門前)",
+      "ago (三天前)",
+      "forward, in front (往前走)"
+    ],
+    "noteEn": "Comes after the noun or verb: 睡前 before sleeping",
+    "exampleEn": "I checked the weather forecast before leaving."
+  },
+  {
+    "rank": 2011,
+    "hanzi": "睡",
+    "en": [
+      "to sleep",
+      "to go to bed"
+    ],
+    "noteEn": "睡午覺: to take a nap; 睡一覺: to get some sleep",
+    "exampleEn": "OK, I'll go to bed early tonight."
+  },
+  {
+    "rank": 2012,
+    "hanzi": "主意",
+    "en": [
+      "idea"
+    ],
+    "noteEn": "好主意!: good idea!; in Taiwan 意 keeps its full tone",
+    "exampleEn": "Good idea. I'll call and book right away."
+  },
+  {
+    "rank": 2013,
+    "hanzi": "後",
+    "en": [
+      "after (飯後)",
+      "in, later (五分鐘後: in five minutes)",
+      "last (後三碼)"
+    ],
+    "noteEn": "Comes after the noun: 打折後 after the discount",
+    "exampleEn": "After meals. Don't forget."
+  },
+  {
+    "rank": 2014,
+    "hanzi": "線",
+    "en": [
+      "line (metro, road marking)",
+      "wire, cable"
+    ],
+    "noteEn": "Curb lines: 紅線 no stopping, 黃線 brief stops only, 白線 parking allowed",
+    "exampleEn": "The red line, towards Tamsui."
+  },
+  {
+    "rank": 2015,
+    "hanzi": "但",
+    "en": [
+      "but"
+    ],
+    "noteEn": "Short form of 但是",
+    "exampleEn": "A bit hot, but I like it."
+  },
+  {
+    "rank": 2016,
+    "hanzi": "忘",
+    "en": [
+      "to forget"
+    ],
+    "noteEn": "Same as 忘記; 別忘了: don't forget; 忘光了: forgot everything",
+    "exampleEn": "No, I forgot."
+  },
+  {
+    "rank": 2017,
+    "hanzi": "聽起來",
+    "en": [
+      "to sound (like)"
+    ],
+    "noteEn": "Like 看起來 (to look like)",
+    "exampleEn": "That sounds fun."
+  },
+  {
+    "rank": 2018,
+    "hanzi": "事",
+    "en": [
+      "thing, matter",
+      "trouble, incident"
+    ],
+    "noteEn": "發生什麼事？: what happened?; 有事: to have something (to do, to say)",
+    "exampleEn": "You said you had something to ask me?"
+  },
+  {
+    "rank": 2019,
+    "hanzi": "班",
+    "en": [
+      "scheduled run, flight, train (classifier: 這班車)",
+      "class (group of students)"
+    ],
+    "noteEn": "下一班: the next one (train, bus); 我們班: our class",
+    "exampleEn": "Right, one every seven minutes."
+  },
+  {
+    "rank": 2020,
+    "hanzi": "堂",
+    "en": [
+      "class, lesson, session (classifier)"
+    ],
+    "noteEn": "一堂課: one class",
+    "exampleEn": "How much for ten?"
+  },
+  {
+    "rank": 2021,
+    "hanzi": "箱",
+    "en": [
+      "box, case (classifier)"
+    ],
+    "noteEn": "一箱水: a case of water; the noun is 箱子",
+    "exampleEn": "I'll just take one and leave one for someone else."
+  },
+  {
+    "rank": 2022,
+    "hanzi": "地上",
+    "en": [
+      "on the ground, on the floor"
+    ],
+    "exampleEn": "Your watch fell on the floor."
+  },
+  {
+    "rank": 2023,
+    "hanzi": "刷",
+    "en": [
+      "to brush (teeth)",
+      "to swipe (a card)"
+    ],
+    "noteEn": "刷牙: to brush one's teeth; 刷卡: to pay by card",
+    "exampleEn": "How long should I brush each time?"
+  },
+  {
+    "rank": 2024,
+    "hanzi": "轉",
+    "en": [
+      "to transfer (money)",
+      "to forward (轉寄)",
+      "to turn"
+    ],
+    "noteEn": "轉給你: I'll transfer it to you; 左轉: to turn left; read zhuàn for turning round: 轉下來 to unscrew",
+    "exampleEn": "Then transfer me the rest before tomorrow."
+  },
+  {
+    "rank": 2025,
+    "hanzi": "成",
+    "en": [
+      "into (change A into B: 換成, 改成)",
+      "to become"
+    ],
+    "noteEn": "After a verb: 換成 to swap for, 翻譯成 to translate into",
+    "exampleEn": "Then we can swap the milk for soy milk."
+  },
+  {
+    "rank": 2026,
+    "hanzi": "考",
+    "en": [
+      "to take an exam",
+      "to test on (考第幾課)"
+    ],
+    "noteEn": "考得很好: to do well on an exam",
+    "exampleEn": "Which lessons will it cover?"
+  },
+  {
+    "rank": 2027,
+    "hanzi": "見",
+    "en": [
+      "to see, to meet",
+      "see you (明天見: see you tomorrow)"
+    ],
+    "noteEn": "見過面: to have met before",
+    "exampleEn": "Thanks, see you tomorrow!"
+  },
+  {
+    "rank": 2028,
+    "hanzi": "信",
+    "en": [
+      "letter, mail"
+    ],
+    "noteEn": "Classifier: 封 (一封信); 寄信: to mail a letter",
+    "exampleEn": "Is this letter urgent?"
+  },
+  {
+    "rank": 2029,
+    "hanzi": "客氣",
+    "en": [
+      "polite, formal",
+      "too kind (你太客氣了)"
+    ],
+    "noteEn": "你太客氣了: you shouldn't have; 不用客氣: don't mention it",
+    "exampleEn": "Oh, thank you! You shouldn't have!"
+  },
+  {
+    "rank": 2030,
+    "hanzi": "修",
+    "en": [
+      "to repair, to fix"
+    ],
+    "noteEn": "修好: fixed; 裝修: to renovate",
+    "exampleEn": "When can it be fixed?"
+  },
+  {
+    "rank": 2031,
+    "hanzi": "退",
+    "en": [
+      "to refund, to give back (退錢)",
+      "to return, to send back"
+    ],
+    "exampleEn": "So can I get my money back? Or can I only exchange it?"
+  },
+  {
+    "rank": 2032,
+    "hanzi": "費",
+    "en": [
+      "fee, charge",
+      "bill (電費: electricity bill)"
+    ],
+    "noteEn": "安裝費 installation fee, 掛號費 registration fee",
+    "exampleEn": "Your electricity bill's too high? Let me have a look."
+  },
+  {
+    "rank": 2033,
+    "hanzi": "匯",
+    "en": [
+      "to remit, to wire (money)"
+    ],
+    "noteEn": "匯款: money transfer; 匯率: exchange rate",
+    "exampleEn": "Yes, I'd like to send money back to France, to my mother."
+  },
+  {
+    "rank": 2034,
+    "hanzi": "照片",
+    "en": [
+      "photo, picture"
+    ],
+    "noteEn": "Classifier: 張 (一張照片)",
+    "exampleEn": "Was the photo taken recently?"
+  },
+  {
+    "rank": 2035,
+    "hanzi": "謝",
+    "en": [
+      "to thank",
+      "thanks (謝啦, casual)"
+    ],
+    "noteEn": "謝啦: thanks! (casual, very Taiwanese); 不用謝: no need to thank me",
+    "exampleEn": "Got it, thanks!"
+  },
+  {
+    "rank": 2036,
+    "hanzi": "山頂",
+    "en": [
+      "summit, mountaintop"
+    ],
+    "exampleEn": "Will it be cold at the summit?"
+  },
+  {
+    "rank": 2037,
+    "hanzi": "光",
+    "en": [
+      "all gone, used up (after a verb: 賣光 sold out)",
+      "light"
+    ],
+    "noteEn": "忘光了: forgot everything; 買光了: all bought up",
+    "exampleEn": "Sold out. Come back tomorrow."
+  },
+  {
+    "rank": 2038,
+    "hanzi": "痠",
+    "en": [
+      "sore, aching"
+    ],
+    "noteEn": "Written 痠 for muscles (≠ 酸 sour), same pronunciation",
+    "exampleEn": "Oh my god, my legs are so sore."
+  },
+  {
+    "rank": 2039,
+    "hanzi": "越",
+    "en": [
+      "the more… the more… (越A越B)"
+    ],
+    "noteEn": "越高越好: the higher the better; cf. 越來越 (more and more)",
+    "exampleEn": "Listen a lot and speak a lot, and you'll keep getting better!"
+  },
+  {
+    "rank": 2040,
+    "hanzi": "量",
+    "en": [
+      "to measure",
+      "to take (blood pressure), to weigh (量體重)"
+    ],
+    "noteEn": "Read liàng in 份量 (portion) and 電量 (battery level)",
+    "exampleEn": "Let me check your blood pressure."
+  },
+  {
+    "rank": 2041,
+    "hanzi": "補",
+    "en": [
+      "to make up, to redo (補辦)",
+      "to mend, to fill (a tooth, a hole)"
+    ],
+    "noteEn": "補辦: to get (a lost document) reissued; 補牙: to fill a tooth",
+    "exampleEn": "OK, please complete the information."
+  },
+  {
+    "rank": 2042,
+    "hanzi": "電影",
+    "en": [
+      "movie, film"
+    ],
+    "noteEn": "看電影: to watch a movie, go to the movies; 電影院: cinema",
+    "exampleEn": "We could watch a movie together."
+  },
+  {
+    "rank": 2043,
+    "hanzi": "練",
+    "en": [
+      "to practice, to train"
+    ],
+    "noteEn": "Same as 練習",
+    "exampleEn": "Are we still training today?"
+  },
+  {
+    "rank": 2044,
+    "hanzi": "機",
+    "en": [
+      "machine, device (in compounds: 影印機)"
+    ],
+    "noteEn": "影印機 photocopier, 加值機 top-up machine, 售票機 ticket machine",
+    "exampleEn": "The photocopier is right behind you."
+  },
+  {
+    "rank": 2045,
+    "hanzi": "繳",
+    "en": [
+      "to pay (a bill, a tax)"
+    ],
+    "noteEn": "繳費: to pay fees; in Taiwan, bills are paid at convenience stores",
+    "exampleEn": "Can I pay my phone bill?"
+  },
+  {
+    "rank": 2046,
+    "hanzi": "難怪",
+    "en": [
+      "no wonder"
+    ],
+    "exampleEn": "No wonder you look tired."
+  },
+  {
+    "rank": 2047,
+    "hanzi": "一共",
+    "en": [
+      "in total, altogether"
+    ],
+    "noteEn": "Same as 總共",
+    "exampleEn": "That's 350 dollars in total."
+  },
+  {
+    "rank": 2048,
+    "hanzi": "工具",
+    "en": [
+      "tool"
+    ],
+    "exampleEn": "I don't have any tools at home. Should I buy some?"
+  },
+  {
+    "rank": 2049,
+    "hanzi": "公斤",
+    "en": [
+      "kilogram"
+    ],
+    "noteEn": "At the market, 斤 (jīn) = 600 g",
+    "exampleEn": "My weight is fifty-five kilos."
+  },
+  {
+    "rank": 2050,
+    "hanzi": "另",
+    "en": [
+      "other, another (另一個: the other one)"
+    ],
+    "noteEn": "另一半: one's other half (partner); cf. 另外",
+    "exampleEn": "Only one. The other one's gone."
+  },
+  {
+    "rank": 2051,
+    "hanzi": "招牌",
+    "en": [
+      "shop sign",
+      "signature (dish: 招牌菜)"
+    ],
+    "exampleEn": "This is our signature dish."
+  },
+  {
+    "rank": 2052,
+    "hanzi": "面",
+    "en": [
+      "classifier for mirrors, flags, walls",
+      "face (見過面: to have met)"
+    ],
+    "noteEn": "一面鏡子: a mirror; 見面: to meet",
+    "exampleEn": "Good. My mum gave me that mirror."
+  },
+  {
+    "rank": 2053,
+    "hanzi": "座",
+    "en": [
+      "classifier for mountains, buildings",
+      "star sign (雙魚座)"
+    ],
+    "noteEn": "一座山: a mountain; 你是什麼座?: what's your sign?",
+    "exampleEn": "Look, there's a mountain over there."
+  },
+  {
+    "rank": 2054,
+    "hanzi": "配",
+    "en": [
+      "to go with, to pair with (配豆漿: with soy milk)",
+      "to match (clothes)"
+    ],
+    "exampleEn": "Steamed buns with soy milk are good too."
+  },
+  {
+    "rank": 2055,
+    "hanzi": "發",
+    "en": [
+      "to pay out, to hand out (發薪水: to pay salaries)",
+      "to start (an engine: 發不動)",
+      "to produce (a sound)"
+    ],
+    "noteEn": "發動: to start (an engine); 發不動: won't start",
+    "exampleEn": "Not yet. What day does your company pay salaries?"
+  },
+  {
+    "rank": 2056,
+    "hanzi": "準",
+    "en": [
+      "accurate, precise"
+    ],
+    "noteEn": "預報不準: the forecast is wrong; 準沒錯: sure to be right",
+    "exampleEn": "Yeah, you guessed right."
+  },
+  {
+    "rank": 2057,
+    "hanzi": "該",
+    "en": [
+      "should, ought to"
+    ],
+    "noteEn": "Same as 應該; 我該走了: I should get going",
+    "exampleEn": "Yeah, I should get going."
+  },
+  {
+    "rank": 2058,
+    "hanzi": "鳳梨酥",
+    "en": [
+      "pineapple cake"
+    ],
+    "noteEn": "Iconic Taiwanese pastry, a classic gift",
+    "exampleEn": "My family loves pineapple cakes!"
+  },
+  {
+    "rank": 2059,
+    "hanzi": "擋",
+    "en": [
+      "to block, to be in the way",
+      "to hide, to cover (擋住)"
+    ],
+    "noteEn": "擋到別人: to get in people's way",
+    "exampleEn": "Your boxes are blocking the outlet."
+  },
+  {
+    "rank": 2060,
+    "hanzi": "聲",
+    "en": [
+      "tone (第三聲: third tone)",
+      "voice, sound (小聲: quietly)"
+    ],
+    "noteEn": "小聲一點: keep your voice down",
+    "exampleEn": "Right! Mǎi, 'to buy', is third tone; mài, 'to sell', is fourth tone."
+  },
+  {
+    "rank": 2061,
+    "hanzi": "題",
+    "en": [
+      "question (exam, exercise)"
+    ],
+    "noteEn": "第三題: question 3; 錯幾題: how many wrong",
+    "exampleEn": "I don't know how to answer this question."
+  },
+  {
+    "rank": 2062,
+    "hanzi": "邊",
+    "en": [
+      "side",
+      "edge, bank (河邊: riverside)"
+    ],
+    "noteEn": "哪一邊: which side; 兩邊: both sides",
+    "exampleEn": "Number twenty, on the other side."
+  },
+  {
+    "rank": 2063,
+    "hanzi": "牙",
+    "en": [
+      "tooth"
+    ],
+    "noteEn": "Same as 牙齒; 洗牙: scaling (dental cleaning)",
+    "exampleEn": "Which tooth hurts?"
+  },
+  {
+    "rank": 2064,
+    "hanzi": "另外",
+    "en": [
+      "extra, additionally",
+      "separately"
+    ],
+    "exampleEn": "Does the bag cost extra?"
+  },
+  {
+    "rank": 2065,
+    "hanzi": "印",
+    "en": [
+      "to print"
+    ],
+    "exampleEn": "I have to print the meeting documents for ten o'clock."
+  },
+  {
+    "rank": 2066,
+    "hanzi": "好險",
+    "en": [
+      "phew!, that was close"
+    ],
+    "exampleEn": "Phew! I'd better hurry, then."
+  },
+  {
+    "rank": 2067,
+    "hanzi": "系統",
+    "en": [
+      "system (computer)"
+    ],
+    "exampleEn": "Sorry, the system just crashed."
+  },
+  {
+    "rank": 2068,
+    "hanzi": "車子",
+    "en": [
+      "car, vehicle (also scooter)"
+    ],
+    "noteEn": "Same as 車",
+    "exampleEn": "Can a car get into your lane?"
+  },
+  {
+    "rank": 2069,
+    "hanzi": "幸運",
+    "en": [
+      "lucky"
+    ],
+    "exampleEn": "That guy is lucky."
+  },
+  {
+    "rank": 2070,
+    "hanzi": "枝",
+    "en": [
+      "classifier for pens, pencils",
+      "branch (樹枝)"
+    ],
+    "noteEn": "Taiwan writes 一枝筆 (支 in mainland China)",
+    "exampleEn": "Yeah, can you lend me one?"
+  },
+  {
+    "rank": 2071,
+    "hanzi": "表",
+    "en": [
+      "form",
+      "table, chart"
+    ],
+    "noteEn": "填表: to fill in a form; 時刻表: timetable",
+    "exampleEn": "Please fill out this application form first."
+  },
+  {
+    "rank": 2072,
+    "hanzi": "巷口",
+    "en": [
+      "mouth of the lane, end of the alley"
+    ],
+    "exampleEn": "Seven at night at the alley entrance."
+  },
+  {
+    "rank": 2073,
+    "hanzi": "紅包",
+    "en": [
+      "red envelope (gift of money)"
+    ],
+    "noteEn": "Given at New Year and weddings; unmarried people receive them",
+    "exampleEn": "Thank you, auntie. Should I prepare red envelopes?"
+  },
+  {
+    "rank": 2074,
+    "hanzi": "結果",
+    "en": [
+      "result",
+      "in the end, as it turned out"
+    ],
+    "noteEn": "At the start of a clause: \"and then…\" (often an unwelcome outcome)",
+    "exampleEn": "When will you announce the results?"
+  },
+  {
+    "rank": 2075,
+    "hanzi": "順利",
+    "en": [
+      "smooth, without a hitch"
+    ],
+    "noteEn": "祝你順利: all the best, good luck",
+    "exampleEn": "You're welcome, best of luck."
+  },
+  {
+    "rank": 2076,
+    "hanzi": "煞車",
+    "en": [
+      "brake",
+      "to brake"
+    ],
+    "noteEn": "按煞車: to squeeze the brake (scooter)",
+    "exampleEn": "When you start it, are you squeezing the brake?"
+  },
+  {
+    "rank": 2077,
+    "hanzi": "節",
+    "en": [
+      "festival, holiday (過節: to celebrate)",
+      "train car, class period (classifier)"
+    ],
+    "noteEn": "情人節 Valentine's Day, 春節 Chinese New Year",
+    "exampleEn": "Everyone's out celebrating the holiday."
+  },
+  {
+    "rank": 2078,
+    "hanzi": "道",
+    "en": [
+      "classifier for dishes (這道菜)",
+      "path, aisle (走道)"
+    ],
+    "exampleEn": "Should we add salt to this dish?"
+  },
+  {
+    "rank": 2079,
+    "hanzi": "嫩",
+    "en": [
+      "tender (meat, vegetables)"
+    ],
+    "exampleEn": "Delicious, the fish is tender too."
+  },
+  {
+    "rank": 2080,
+    "hanzi": "樣",
+    "en": [
+      "kind, type (什麼樣的: what kind of)",
+      "item, thing (classifier: 兩樣)"
+    ],
+    "noteEn": "一樣 the same, 這樣 like this",
+    "exampleEn": "Hello, what kind of clothes are you looking for today?"
+  },
+  {
+    "rank": 2081,
+    "hanzi": "整",
+    "en": [
+      "whole, entire (一整年: a whole year)"
+    ],
+    "noteEn": "整個: the whole, completely",
+    "exampleEn": "Yes, I've been saving them for a whole year."
+  },
+  {
+    "rank": 2082,
+    "hanzi": "牆",
+    "en": [
+      "wall"
+    ],
+    "noteEn": "Same as 牆壁; 牆上: on the wall",
+    "exampleEn": "There's also a gecko on the wall."
+  },
+  {
+    "rank": 2083,
+    "hanzi": "簽",
+    "en": [
+      "to sign"
+    ],
+    "noteEn": "簽名: to sign one's name; 簽合約: to sign a contract",
+    "exampleEn": "No problem, I'll sign right away."
+  },
+  {
+    "rank": 2084,
+    "hanzi": "證明",
+    "en": [
+      "certificate, proof",
+      "to prove"
+    ],
+    "noteEn": "醫生證明 doctor's note, 工作證明 proof of employment",
+    "exampleEn": "I also need proof of employment."
+  },
+  {
+    "rank": 2085,
+    "hanzi": "囉",
+    "en": [
+      "sentence-final particle (announcing, stating the obvious)"
+    ],
+    "noteEn": "我走囉!: I'm off!; light, friendly tone, very Taiwanese",
+    "exampleEn": "I'll get going!"
+  },
+  {
+    "rank": 2086,
+    "hanzi": "攤",
+    "en": [
+      "stall, stand"
+    ],
+    "noteEn": "收攤: to pack up the stall; 攤位: stall space",
+    "exampleEn": "Bought it next door, they added shrimp."
+  },
+  {
+    "rank": 2087,
+    "hanzi": "片",
+    "en": [
+      "slice, flat piece (一片吐司)",
+      "stretch, expanse (一片田)"
+    ],
+    "exampleEn": "Yes, I had a slice of toast."
+  },
+  {
+    "rank": 2088,
+    "hanzi": "牙齦",
+    "en": [
+      "gums"
+    ],
+    "exampleEn": "My gums seem to be bleeding."
+  },
+  {
+    "rank": 2089,
+    "hanzi": "卡片",
+    "en": [
+      "card (bank card, greeting card)"
+    ],
+    "exampleEn": "When will the card arrive?"
+  },
+  {
+    "rank": 2090,
+    "hanzi": "左右",
+    "en": [
+      "about, around (after a number: 七點左右)",
+      "left and right"
+    ],
+    "exampleEn": "Usually around 7."
+  },
+  {
+    "rank": 2091,
+    "hanzi": "巧",
+    "en": [
+      "coincidental (真巧: what a coincidence)"
+    ],
+    "exampleEn": "What a coincidence, me too!"
+  },
+  {
+    "rank": 2092,
+    "hanzi": "汁",
+    "en": [
+      "juice (西瓜汁: watermelon juice)"
+    ],
+    "noteEn": "果汁: fruit juice",
+    "exampleEn": "No need, thanks. Do you have mango juice?"
+  },
+  {
+    "rank": 2093,
+    "hanzi": "全",
+    "en": [
+      "entirely, all (全白: all white)",
+      "whole (全家: the whole family)"
+    ],
+    "exampleEn": "Better to avoid all white, and all black too."
+  },
+  {
+    "rank": 2094,
+    "hanzi": "冰塊",
+    "en": [
+      "ice cube"
+    ],
+    "noteEn": "At drink shops: 去冰 no ice, 少冰 less ice",
+    "exampleEn": "Sure, want some ice added?"
+  },
+  {
+    "rank": 2095,
+    "hanzi": "安全帽",
+    "en": [
+      "helmet"
+    ],
+    "noteEn": "Compulsory on a scooter; classifier 頂",
+    "exampleEn": "Okay, then I'll wear a helmet."
+  },
+  {
+    "rank": 2096,
+    "hanzi": "行",
+    "en": [
+      "OK, all right, will do (都行: anything works)"
+    ],
+    "noteEn": "才行: it has to be; 那怎麼行?: no way!; read háng for \"line\" (一行) and \"shop\" (機車行)",
+    "exampleEn": "Pajamas and belts, you can put them anywhere."
+  },
+  {
+    "rank": 2097,
+    "hanzi": "快遞",
+    "en": [
+      "express delivery, courier"
+    ],
+    "exampleEn": "OK. Where's there a courier company?"
+  },
+  {
+    "rank": 2098,
+    "hanzi": "折",
+    "en": [
+      "discount (八折: 20% off)",
+      "to take off (折五塊: 5 dollars off)"
+    ],
+    "noteEn": "八折 = pay 80% of the price; 九折 = 10% off",
+    "exampleEn": "Twenty percent off: a hundred and sixty for you."
+  },
+  {
+    "rank": 2099,
+    "hanzi": "沖",
+    "en": [
+      "to rinse, to run water over",
+      "to flush",
+      "to wash up (waves)"
+    ],
+    "exampleEn": "Did you run cold water over it right away?"
+  },
+  {
+    "rank": 2100,
+    "hanzi": "妳",
+    "en": [
+      "you (to a woman)"
+    ],
+    "noteEn": "Written usage in Taiwan; pronounced like 你",
+    "exampleEn": "Thank you, auntie, that's so kind of you."
+  },
+  {
+    "rank": 2101,
+    "hanzi": "拔",
+    "en": [
+      "to pull out (a tooth)"
+    ],
+    "exampleEn": "This wisdom tooth has to come out!"
+  },
+  {
+    "rank": 2102,
+    "hanzi": "拖吊",
+    "en": [
+      "to tow (away)"
+    ],
+    "noteEn": "拖吊場: impound lot",
+    "exampleEn": "Don't get me started. My scooter got towed."
+  },
+  {
+    "rank": 2103,
+    "hanzi": "服務",
+    "en": [
+      "service"
+    ],
+    "noteEn": "服務生: waiter",
+    "exampleEn": "We also have an online shopping service."
+  },
+  {
+    "rank": 2104,
+    "hanzi": "泡",
+    "en": [
+      "to brew, to steep (tea, coffee)"
+    ],
+    "noteEn": "泡茶: to make tea; 泡麵: instant noodles",
+    "exampleEn": "Do you want tea? I just brewed it."
+  },
+  {
+    "rank": 2105,
+    "hanzi": "封",
+    "en": [
+      "classifier for letters, emails"
+    ],
+    "exampleEn": "This letter is too heavy."
+  },
+  {
+    "rank": 2106,
+    "hanzi": "巷",
+    "en": [
+      "lane (numbered, in an address)"
+    ],
+    "noteEn": "Taiwanese address: 路 road › 段 section › 巷 lane › 弄 alley › 號 number; same as 巷子",
+    "exampleEn": "Lane 15 is up ahead — turn left."
+  },
+  {
+    "rank": 2107,
+    "hanzi": "架子",
+    "en": [
+      "shelf, stand",
+      "drying rack"
+    ],
+    "exampleEn": "The laundry detergent is on the balcony shelf."
+  },
+  {
+    "rank": 2108,
+    "hanzi": "洞",
+    "en": [
+      "hole"
+    ],
+    "exampleEn": "Your pants have a hole in them!"
+  },
+  {
+    "rank": 2109,
+    "hanzi": "玻璃",
+    "en": [
+      "glass, window pane"
+    ],
+    "exampleEn": "Good. Tomorrow I'll get someone in to replace the glass."
+  },
+  {
+    "rank": 2110,
+    "hanzi": "珍奶",
+    "en": [
+      "bubble tea, pearl milk tea"
+    ],
+    "noteEn": "Short for 珍珠奶茶",
+    "exampleEn": "OK, then I'll grab a pearl milk tea to go before I head off."
+  },
+  {
+    "rank": 2111,
+    "hanzi": "借書證",
+    "en": [
+      "library card"
+    ],
+    "exampleEn": "Yes. Give me your library card."
+  },
+  {
+    "rank": 2112,
+    "hanzi": "家鄉",
+    "en": [
+      "hometown"
+    ],
+    "exampleEn": "Does it snow in your hometown?"
+  },
+  {
+    "rank": 2113,
+    "hanzi": "草地",
+    "en": [
+      "grass, lawn",
+      "meadow"
+    ],
+    "exampleEn": "Don't worry. But watch out for the bugs in the grass."
+  },
+  {
+    "rank": 2114,
+    "hanzi": "起",
+    "en": [
+      "to get up (早起: to get up early)",
+      "to arise, to form (起霧: fog forms)"
+    ],
+    "exampleEn": "Isn't it tiring to get up early?"
+  },
+  {
+    "rank": 2115,
+    "hanzi": "售票",
+    "en": [
+      "ticket sales (售票口 ticket window, 售票機 ticket machine)"
+    ],
+    "exampleEn": "The ticket machine is next to the entrance."
+  },
+  {
+    "rank": 2116,
+    "hanzi": "唱",
+    "en": [
+      "to sing"
+    ],
+    "noteEn": "唱歌: to sing; 去唱: to go to karaoke (KTV)",
+    "exampleEn": "Doesn't matter, come sing with us!"
+  },
+  {
+    "rank": 2117,
+    "hanzi": "國",
+    "en": [
+      "country"
+    ],
+    "noteEn": "回國: to go back to one's country; 哪國人: what nationality",
+    "exampleEn": "What's your nationality?"
+  },
+  {
+    "rank": 2118,
+    "hanzi": "宿舍",
+    "en": [
+      "dormitory, staff housing"
+    ],
+    "exampleEn": "So would it be better for him to live in a school dorm?"
+  },
+  {
+    "rank": 2119,
+    "hanzi": "掃",
+    "en": [
+      "to scan (a QR code)",
+      "to sweep"
+    ],
+    "exampleEn": "Then scan mine!"
+  },
+  {
+    "rank": 2120,
+    "hanzi": "規定",
+    "en": [
+      "rule, regulation",
+      "to stipulate"
+    ],
+    "exampleEn": "Rules are rules."
+  },
+  {
+    "rank": 2121,
+    "hanzi": "貨",
+    "en": [
+      "goods, merchandise"
+    ],
+    "noteEn": "新貨 new stock, 送貨 delivery, 年貨 New Year shopping",
+    "exampleEn": "The new stock just arrived yesterday."
+  },
+  {
+    "rank": 2122,
+    "hanzi": "傘",
+    "en": [
+      "umbrella"
+    ],
+    "noteEn": "Same as 雨傘; 帶傘: to take an umbrella",
+    "exampleEn": "It's raining today, did you bring an umbrella?"
+  },
+  {
+    "rank": 2123,
+    "hanzi": "報案",
+    "en": [
+      "to report (to the police)"
+    ],
+    "noteEn": "Done at the 派出所 (police station)",
+    "exampleEn": "Did you report it at the police station?"
+  },
+  {
+    "rank": 2124,
+    "hanzi": "畫",
+    "en": [
+      "to draw, to paint"
+    ],
+    "noteEn": "Also: painting, drawing; 畫畫: to draw",
+    "exampleEn": "Great, let me draw it for you."
+  },
+  {
+    "rank": 2125,
+    "hanzi": "傷",
+    "en": [
+      "to hurt, to damage",
+      "injury, wound"
+    ],
+    "noteEn": "傷到膝蓋: to hurt one's knee",
+    "exampleEn": "I once hurt my knee exercising."
+  },
+  {
+    "rank": 2126,
+    "hanzi": "搖",
+    "en": [
+      "to shake (earthquake)",
+      "to shake, to rock"
+    ],
+    "noteEn": "手搖飲: hand-shaken drink",
+    "exampleEn": "You're right. Whoa, it's shaking again!"
+  },
+  {
+    "rank": 2127,
+    "hanzi": "滴",
+    "en": [
+      "to drip",
+      "drop (measure word)"
+    ],
+    "noteEn": "滴水 = to drip; 一滴水 = a drop of water.",
+    "exampleEn": "The AC keeps dripping? Since when?"
+  },
+  {
+    "rank": 2128,
+    "hanzi": "盡量",
+    "en": [
+      "as much as possible, to do one's best to"
+    ],
+    "exampleEn": "OK, I'll try to eat less."
+  },
+  {
+    "rank": 2129,
+    "hanzi": "蓋",
+    "en": [
+      "to cover",
+      "to cover oneself with (蓋棉被: to use a quilt)"
+    ],
+    "noteEn": "Also: lid; to build (蓋房子)",
+    "exampleEn": "We'd better cover the food."
+  },
+  {
+    "rank": 2130,
+    "hanzi": "澆",
+    "en": [
+      "to water (plants)"
+    ],
+    "noteEn": "澆水: to water; 澆花: to water the flowers",
+    "exampleEn": "Japan. Could I ask you to water my flowers?"
+  },
+  {
+    "rank": 2131,
+    "hanzi": "調",
+    "en": [
+      "to adjust, to set (調靜音: to set to silent)",
+      "to mix (a drink)"
+    ],
+    "noteEn": "Read diào in other words (調查: investigation)",
+    "exampleEn": "No worries, please set it to silent."
+  },
+  {
+    "rank": 2132,
+    "hanzi": "鞋",
+    "en": [
+      "shoe"
+    ],
+    "noteEn": "Same as 鞋子; 脫鞋: to take off one's shoes",
+    "exampleEn": "Should I take off my shoes?"
+  },
+  {
+    "rank": 2133,
+    "hanzi": "機器",
+    "en": [
+      "machine"
+    ],
+    "exampleEn": "Does the machine calculate it automatically?"
+  },
+  {
+    "rank": 2134,
+    "hanzi": "燈泡",
+    "en": [
+      "light bulb"
+    ],
+    "exampleEn": "My light bulb's dead."
+  },
+  {
+    "rank": 2135,
+    "hanzi": "燒",
+    "en": [
+      "to run a fever (燒到39度)",
+      "to boil (燒水)",
+      "to burn"
+    ],
+    "noteEn": "發燒: to have a fever",
+    "exampleEn": "If your fever goes up, go to the ER, OK?"
+  },
+  {
+    "rank": 2136,
+    "hanzi": "舉",
+    "en": [
+      "to raise (舉手: to raise one's hand)",
+      "to give (an example: 舉例子)"
+    ],
+    "exampleEn": "If you feel like vomiting, raise your hand."
+  },
+  {
+    "rank": 2137,
+    "hanzi": "臉色",
+    "en": [
+      "complexion, how one looks"
+    ],
+    "noteEn": "臉色不好 / 臉色很差: to look unwell",
+    "exampleEn": "You look pale. Are you OK?"
+  },
+  {
+    "rank": 2138,
+    "hanzi": "濾網",
+    "en": [
+      "filter (air conditioner)"
+    ],
+    "exampleEn": "How long since you last cleaned the filter?"
+  },
+  {
+    "rank": 2139,
+    "hanzi": "醬",
+    "en": [
+      "sauce, paste"
+    ],
+    "noteEn": "醬油: soy sauce",
+    "exampleEn": "OK. Could I have extra sauce?"
+  },
+  {
+    "rank": 2140,
+    "hanzi": "警報",
+    "en": [
+      "warning, alert"
+    ],
+    "noteEn": "颱風警報: typhoon warning",
+    "exampleEn": "A sea warning for the typhoon. The waves will be huge."
+  },
+  {
+    "rank": 2141,
+    "hanzi": "響",
+    "en": [
+      "to ring (phone, alarm)"
+    ],
+    "exampleEn": "The doorbell is ringing, go and have a look."
+  },
+  {
+    "rank": 2142,
+    "hanzi": "蠟燭",
+    "en": [
+      "candle"
+    ],
+    "exampleEn": "If the power goes out, be careful with candles"
+  },
+  {
+    "rank": 2143,
+    "hanzi": "灑",
+    "en": [
+      "to spill",
+      "to sprinkle"
+    ],
+    "exampleEn": "Oh no, your drink spilled!"
+  },
+  {
+    "rank": 2144,
+    "hanzi": "人潮",
+    "en": [
+      "crowd, stream of people"
+    ],
+    "exampleEn": "In the evening the crowds start to grow."
+  },
+  {
+    "rank": 2145,
+    "hanzi": "口",
+    "en": [
+      "entrance, opening (廟口, 售票口)",
+      "mouth"
+    ],
+    "noteEn": "門口 doorway, 出口 exit, 巷口 end of the lane",
+    "exampleEn": "We'll be at the temple entrance shortly."
+  },
+  {
+    "rank": 2146,
+    "hanzi": "大安",
+    "en": [
+      "Da'an (Taipei district)"
+    ],
+    "noteEn": "大安區; also 大安森林公園 (Da'an Forest Park)",
+    "exampleEn": "I live near Da'an District."
+  },
+  {
+    "rank": 2147,
+    "hanzi": "小鈔",
+    "en": [
+      "small bill, small banknote"
+    ],
+    "exampleEn": "Small ones, please. They're easier to use."
+  },
+  {
+    "rank": 2148,
+    "hanzi": "中山",
+    "en": [
+      "Zhongshan (street, district and station name)"
+    ],
+    "noteEn": "Almost every town in Taiwan has a 中山路",
+    "exampleEn": "Zhongshan Road, Section 3, Number 15."
+  },
+  {
+    "rank": 2149,
+    "hanzi": "巴黎",
+    "en": [
+      "Paris"
+    ],
+    "exampleEn": "Yes, I'm from Paris."
+  },
+  {
+    "rank": 2150,
+    "hanzi": "水桶",
+    "en": [
+      "bucket"
+    ],
+    "exampleEn": "OK, I'll catch the water in a bucket until then."
+  },
+  {
+    "rank": 2151,
+    "hanzi": "水槽",
+    "en": [
+      "(kitchen) sink"
+    ],
+    "exampleEn": "Yes, and the sink is leaking."
+  },
+  {
+    "rank": 2152,
+    "hanzi": "牙線",
+    "en": [
+      "dental floss"
+    ],
+    "exampleEn": "Flossing is really effective."
+  },
+  {
+    "rank": 2153,
+    "hanzi": "全糖",
+    "en": [
+      "full sugar (100%)"
+    ],
+    "noteEn": "Sugar levels at drink shops: 全糖, 少糖, 半糖, 微糖, 無糖",
+    "exampleEn": "Medium, full sugar."
+  },
+  {
+    "rank": 2154,
+    "hanzi": "地鐵",
+    "en": [
+      "subway (mainland China word)"
+    ],
+    "noteEn": "In Taiwan people say 捷運",
+    "exampleEn": "Taiwanese people say \"jieyun\" for the metro; people in China say \"ditie\"."
+  },
+  {
+    "rank": 2155,
+    "hanzi": "自費",
+    "en": [
+      "to pay out of pocket",
+      "at one's own expense (not covered)"
+    ],
+    "noteEn": "Said of care not covered by National Health Insurance (健保).",
+    "exampleEn": "Do I have to pay for the filling myself?"
+  },
+  {
+    "rank": 2156,
+    "hanzi": "行程",
+    "en": [
+      "itinerary, schedule"
+    ],
+    "exampleEn": "We could discuss the itinerary."
+  },
+  {
+    "rank": 2157,
+    "hanzi": "行銷",
+    "en": [
+      "marketing"
+    ],
+    "exampleEn": "I'd rather do marketing."
+  },
+  {
+    "rank": 2158,
+    "hanzi": "弄壞",
+    "en": [
+      "to break, to damage"
+    ],
+    "exampleEn": "No. Nails will damage the walls."
+  },
+  {
+    "rank": 2159,
+    "hanzi": "形狀",
+    "en": [
+      "shape"
+    ],
+    "exampleEn": "But the shape of the clouds is so strange."
+  },
+  {
+    "rank": 2160,
+    "hanzi": "豆芽菜",
+    "en": [
+      "bean sprouts"
+    ],
+    "exampleEn": "You could get bean sprouts — their price hasn't changed."
+  },
+  {
+    "rank": 2161,
+    "hanzi": "車廂",
+    "en": [
+      "(train) car, carriage",
+      "under-seat storage (scooter)"
+    ],
+    "exampleEn": "This car is already full."
+  },
+  {
+    "rank": 2162,
+    "hanzi": "防蚊液",
+    "en": [
+      "mosquito repellent"
+    ],
+    "exampleEn": "There's repellent. Spray it on your skin before going out."
+  },
+  {
+    "rank": 2163,
+    "hanzi": "防曬乳",
+    "en": [
+      "sunscreen (lotion)"
+    ],
+    "noteEn": "Often shortened to 防曬",
+    "exampleEn": "Do you have sunscreen?"
+  },
+  {
+    "rank": 2164,
+    "hanzi": "乖",
+    "en": [
+      "well-behaved, good (child, pet)"
+    ],
+    "exampleEn": "He's very quiet and well-behaved."
+  },
+  {
+    "rank": 2165,
+    "hanzi": "來得及",
+    "en": [
+      "to have enough time, to make it in time"
+    ],
+    "noteEn": "Opposite: 來不及",
+    "exampleEn": "No worries, there's still time."
+  },
+  {
+    "rank": 2166,
+    "hanzi": "刮",
+    "en": [
+      "to scratch, to scrape",
+      "to scrape off"
+    ],
+    "noteEn": "刮到 = scratched; 刮鬍子 = to shave.",
+    "exampleEn": "But there's a little scratch on the right side. Sorry."
+  },
+  {
+    "rank": 2167,
+    "hanzi": "味噌",
+    "en": [
+      "miso"
+    ],
+    "noteEn": "味噌湯: miso soup",
+    "exampleEn": "Miso soup is fine, thanks."
+  },
+  {
+    "rank": 2168,
+    "hanzi": "怪",
+    "en": [
+      "strange, weird"
+    ],
+    "noteEn": "怪怪的 = a bit weird (very common in Taiwan); ≈ 奇怪.",
+    "exampleEn": "Are you OK? You're walking funny."
+  },
+  {
+    "rank": 2169,
+    "hanzi": "拉筋",
+    "en": [
+      "to stretch (one's muscles)"
+    ],
+    "exampleEn": "Does stretching make it less sore?"
+  },
+  {
+    "rank": 2170,
+    "hanzi": "招待",
+    "en": [
+      "to treat (on the house)",
+      "to host, hospitality"
+    ],
+    "noteEn": "這杯招待你 = this one's on the house.",
+    "exampleEn": "OK, this one's on the house for you."
+  },
+  {
+    "rank": 2171,
+    "hanzi": "明信片",
+    "en": [
+      "postcard"
+    ],
+    "exampleEn": "I want to mail a postcard."
+  },
+  {
+    "rank": 2172,
+    "hanzi": "治療",
+    "en": [
+      "treatment",
+      "to treat"
+    ],
+    "exampleEn": "The treatment is finished, you can sit up."
+  },
+  {
+    "rank": 2173,
+    "hanzi": "泡菜",
+    "en": [
+      "pickled cabbage"
+    ],
+    "noteEn": "In Taiwan, sweet-sour cabbage served with stinky tofu or fried food; also kimchi",
+    "exampleEn": "Yes, please put in some extra pickled cabbage."
+  },
+  {
+    "rank": 2174,
+    "hanzi": "信封",
+    "en": [
+      "envelope"
+    ],
+    "exampleEn": "It's okay, I have a white envelope here."
+  },
+  {
+    "rank": 2175,
+    "hanzi": "後照鏡",
+    "en": [
+      "rearview mirror"
+    ],
+    "exampleEn": "The mirror's broken. I've already moved the branch away."
+  },
+  {
+    "rank": 2176,
+    "hanzi": "怎樣",
+    "en": [
+      "how, in what way",
+      "what (kind of)"
+    ],
+    "noteEn": "≈ 怎麼樣; 不管怎樣 = no matter what, anyway.",
+    "exampleEn": "What's your friend's personality like?"
+  },
+  {
+    "rank": 2177,
+    "hanzi": "恢復",
+    "en": [
+      "to restore, to recover"
+    ],
+    "exampleEn": "The signal is back to normal too."
+  },
+  {
+    "rank": 2178,
+    "hanzi": "指標",
+    "en": [
+      "(direction) sign",
+      "indicator"
+    ],
+    "exampleEn": "Very easy, just follow the signs."
+  },
+  {
+    "rank": 2179,
+    "hanzi": "挑剔",
+    "en": [
+      "picky, fussy",
+      "nitpicking"
+    ],
+    "exampleEn": "When it comes to milk tea, you're picky."
+  },
+  {
+    "rank": 2180,
+    "hanzi": "派對",
+    "en": [
+      "party"
+    ],
+    "exampleEn": "By the way, how did that party turn out?"
+  },
+  {
+    "rank": 2181,
+    "hanzi": "流",
+    "en": [
+      "to flow, to run (blood, sweat)"
+    ],
+    "noteEn": "流血 to bleed, 流汗 to sweat",
+    "exampleEn": "No, it just bled a little."
+  },
+  {
+    "rank": 2182,
+    "hanzi": "疤",
+    "en": [
+      "scar"
+    ],
+    "noteEn": "留疤: to leave a scar",
+    "exampleEn": "Will it leave a scar?"
+  },
+  {
+    "rank": 2183,
+    "hanzi": "訂購",
+    "en": [
+      "to order (goods)"
+    ],
+    "noteEn": "網路訂購 = to order online.",
+    "exampleEn": "Does ordering online have free shipping?"
+  },
+  {
+    "rank": 2184,
+    "hanzi": "音",
+    "en": [
+      "sound (of a language)",
+      "musical note"
+    ],
+    "exampleEn": "Which sound is the hardest? I can teach you."
+  },
+  {
+    "rank": 2185,
+    "hanzi": "個性",
+    "en": [
+      "personality, character"
+    ],
+    "exampleEn": "Yeah, Taiwanese people's character is very friendly."
+  },
+  {
+    "rank": 2186,
+    "hanzi": "唉",
+    "en": [
+      "sigh (oh dear, ugh)",
+      "alas"
+    ],
+    "noteEn": "Expresses weariness, regret or annoyance.",
+    "exampleEn": "Ugh, I love sweets too much."
+  },
+  {
+    "rank": 2187,
+    "hanzi": "旅途",
+    "en": [
+      "journey, trip"
+    ],
+    "noteEn": "祝你旅途愉快: have a pleasant trip",
+    "exampleEn": "Wishing you a pleasant journey."
+  },
+  {
+    "rank": 2188,
+    "hanzi": "桌",
+    "en": [
+      "table, desk",
+      "table(ful) (measure word)"
+    ],
+    "noteEn": "桌上 = on the table; 一桌菜 = a whole spread of dishes; ≈ 桌子.",
+    "exampleEn": "OK, I have paper on my desk."
+  },
+  {
+    "rank": 2189,
+    "hanzi": "浪",
+    "en": [
+      "wave"
+    ],
+    "noteEn": "Same as 海浪",
+    "exampleEn": "The waves are too big. No going in the water."
+  },
+  {
+    "rank": 2190,
+    "hanzi": "消息",
+    "en": [
+      "news",
+      "information"
+    ],
+    "noteEn": "等你的消息 = I'll wait to hear from you.",
+    "exampleEn": "Okay, I'll wait to hear from you."
+  },
+  {
+    "rank": 2191,
+    "hanzi": "紙箱",
+    "en": [
+      "cardboard box"
+    ],
+    "exampleEn": "It should still be in the box."
+  },
+  {
+    "rank": 2192,
+    "hanzi": "耗電",
+    "en": [
+      "to use a lot of electricity",
+      "power-hungry"
+    ],
+    "exampleEn": "Do old ACs use more electricity?"
+  },
+  {
+    "rank": 2193,
+    "hanzi": "脆皮",
+    "en": [
+      "crispy (skin or crust)"
+    ],
+    "exampleEn": "I can't take spicy food. I'll have the crispy one."
+  },
+  {
+    "rank": 2194,
+    "hanzi": "茶葉",
+    "en": [
+      "tea leaves, loose tea"
+    ],
+    "exampleEn": "I want to send clothes and tea to my mom in Japan."
+  },
+  {
+    "rank": 2195,
+    "hanzi": "蚊帳",
+    "en": [
+      "mosquito net"
+    ],
+    "exampleEn": "Get a mosquito net. Hang it over your bed."
+  },
+  {
+    "rank": 2196,
+    "hanzi": "記",
+    "en": [
+      "to write down (記下來)",
+      "to remember (記錯: to misremember)"
+    ],
+    "exampleEn": "Just two. Write the address down."
+  },
+  {
+    "rank": 2197,
+    "hanzi": "記錄",
+    "en": [
+      "to note down, to record",
+      "to log"
+    ],
+    "noteEn": "The noun \"a record\" is written 紀錄 in Taiwan",
+    "exampleEn": "I also need to note down your weight."
+  },
+  {
+    "rank": 2198,
+    "hanzi": "健保",
+    "en": [
+      "National Health Insurance (Taiwan)"
+    ],
+    "noteEn": "Short for 全民健康保險; 健保卡 = health insurance card.",
+    "exampleEn": "That's why so many foreigners say Taiwan's health insurance is great!"
+  },
+  {
+    "rank": 2199,
+    "hanzi": "國際",
+    "en": [
+      "international"
+    ],
+    "noteEn": "國際駕照 = international driving permit.",
+    "exampleEn": "That won't do — you need an international license."
+  },
+  {
+    "rank": 2200,
+    "hanzi": "堅固",
+    "en": [
+      "sturdy, solid"
+    ],
+    "exampleEn": "OK, this table is very sturdy."
+  },
+  {
+    "rank": 2201,
+    "hanzi": "排",
+    "en": [
+      "to line up, to queue",
+      "to drain (water)",
+      "row"
+    ],
+    "exampleEn": "Go to the back of the line."
+  },
+  {
+    "rank": 2202,
+    "hanzi": "淋",
+    "en": [
+      "to get soaked (by rain)",
+      "to pour, to drench"
+    ],
+    "noteEn": "淋濕 = soaked; ≈ 淋雨.",
+    "exampleEn": "I hope the package won't get soaked."
+  },
+  {
+    "rank": 2203,
+    "hanzi": "淨灘",
+    "en": [
+      "to clean up the beach"
+    ],
+    "exampleEn": "This weekend we're cleaning up the beach. Want to join us?"
+  },
+  {
+    "rank": 2204,
+    "hanzi": "蚵仔",
+    "en": [
+      "oysters (small Taiwanese oysters)"
+    ],
+    "noteEn": "From Taiwanese ô-á; 蚵仔煎 = oyster omelette.",
+    "exampleEn": "One. Can I have it without oysters?"
+  },
+  {
+    "rank": 2205,
+    "hanzi": "頂",
+    "en": [
+      "classifier for hats, helmets"
+    ],
+    "noteEn": "一頂帽子: a hat",
+    "exampleEn": "Here's a helmet for you."
+  },
+  {
+    "rank": 2206,
+    "hanzi": "單",
+    "en": [
+      "bill, slip, form (電費單, 成績單)"
+    ],
+    "noteEn": "帳單 bill, 菜單 menu, 成績單 transcript",
+    "exampleEn": "Right, we also need your school transcript."
+  },
+  {
+    "rank": 2207,
+    "hanzi": "報紙",
+    "en": [
+      "newspaper"
+    ],
+    "exampleEn": "OK. Do you have any newspaper?"
+  },
+  {
+    "rank": 2208,
+    "hanzi": "場",
+    "en": [
+      "place, ground (for an activity)",
+      "session, match (measure word)"
+    ],
+    "noteEn": "停車場 = parking lot; 馬場 = horse ranch; 一場比賽 = a match.",
+    "exampleEn": "Isn't there a horse ranch at the foot of the mountain?"
+  },
+  {
+    "rank": 2209,
+    "hanzi": "掰掰",
+    "en": [
+      "bye-bye"
+    ],
+    "noteEn": "Very common in Taiwan, from English \"bye-bye\"; ≈ 拜拜.",
+    "exampleEn": "Thank you, bye!"
+  },
+  {
+    "rank": 2210,
+    "hanzi": "棟",
+    "en": [
+      "measure word for buildings"
+    ],
+    "noteEn": "這棟 = this building.",
+    "exampleEn": "This building doesn't have a lift?"
+  },
+  {
+    "rank": 2211,
+    "hanzi": "詐騙",
+    "en": [
+      "scam, fraud"
+    ],
+    "noteEn": "詐騙電話: scam call, common in Taiwan",
+    "exampleEn": "This looks a lot like a scam. Please don't send anything yet."
+  },
+  {
+    "rank": 2212,
+    "hanzi": "貼心",
+    "en": [
+      "thoughtful, considerate"
+    ],
+    "exampleEn": "Thank you, that's so thoughtful."
+  },
+  {
+    "rank": 2213,
+    "hanzi": "郵票",
+    "en": [
+      "(postage) stamp"
+    ],
+    "exampleEn": "Do you need to buy some stamps?"
+  },
+  {
+    "rank": 2214,
+    "hanzi": "感情",
+    "en": [
+      "relationship, bond",
+      "feelings"
+    ],
+    "noteEn": "感情很好: to get along well",
+    "exampleEn": "Yes, they get along very well."
+  },
+  {
+    "rank": 2215,
+    "hanzi": "暈",
+    "en": [
+      "to feel dizzy",
+      "to get motion sickness"
+    ],
+    "noteEn": "暈船 = to get seasick; 暈車 = to get carsick.",
+    "exampleEn": "Yes. Have you been seasick before?"
+  },
+  {
+    "rank": 2216,
+    "hanzi": "盞",
+    "en": [
+      "measure word for lamps"
+    ],
+    "noteEn": "一盞燈 = a lamp.",
+    "exampleEn": "Should this lamp hang on the wall?"
+  },
+  {
+    "rank": 2217,
+    "hanzi": "補牙",
+    "en": [
+      "to fill a tooth"
+    ],
+    "exampleEn": "I'm going to fill your tooth now."
+  },
+  {
+    "rank": 2218,
+    "hanzi": "預報",
+    "en": [
+      "forecast"
+    ],
+    "noteEn": "Same as 天氣預報",
+    "exampleEn": "The forecast says it's very dry today."
+  },
+  {
+    "rank": 2219,
+    "hanzi": "旗",
+    "en": [
+      "flag"
+    ],
+    "noteEn": "Same as 旗子; on the beach, 紅旗: no swimming",
+    "exampleEn": "What does the red flag mean?"
+  },
+  {
+    "rank": 2220,
+    "hanzi": "演",
+    "en": [
+      "to act (in), to play (a role)",
+      "to perform, to stage"
+    ],
+    "noteEn": "演員 = actor, actress.",
+    "exampleEn": "Really? What has he acted in?"
+  },
+  {
+    "rank": 2221,
+    "hanzi": "種類",
+    "en": [
+      "kind, variety, type"
+    ],
+    "exampleEn": "Yes, and there are many kinds of plants."
+  },
+  {
+    "rank": 2222,
+    "hanzi": "聞",
+    "en": [
+      "to smell",
+      "to sniff"
+    ],
+    "noteEn": "聞起來 = to smell (like); 聞到 = to smell, to catch a smell.",
+    "exampleEn": "It may smell bad, but it tastes great."
+  },
+  {
+    "rank": 2223,
+    "hanzi": "認",
+    "en": [
+      "to recognize, to identify"
+    ],
+    "noteEn": "好認 = easy to spot; 認錯人 = to mistake someone for someone else.",
+    "exampleEn": "Sorry, I think you have the wrong person?"
+  },
+  {
+    "rank": 2224,
+    "hanzi": "酸梅",
+    "en": [
+      "sour plum (dried)"
+    ],
+    "exampleEn": "I have cookies and sour plums."
+  },
+  {
+    "rank": 2225,
+    "hanzi": "領",
+    "en": [
+      "to collect, to pick up",
+      "to receive (a salary)"
+    ],
+    "noteEn": "領錢 = to withdraw money; 領包裹 = to pick up a parcel.",
+    "exampleEn": "Next. Sending or picking up?"
+  },
+  {
+    "rank": 2226,
+    "hanzi": "廣告",
+    "en": [
+      "advertisement, ad"
+    ],
+    "exampleEn": "Apparently it started with a soy sauce commercial!"
+  },
+  {
+    "rank": 2227,
+    "hanzi": "標準",
+    "en": [
+      "standard, correct (pronunciation, form)",
+      "standard, norm"
+    ],
+    "exampleEn": "Not bad, but I want to speak more accurately."
+  },
+  {
+    "rank": 2228,
+    "hanzi": "樣子",
+    "en": [
+      "look, appearance",
+      "manner, way"
+    ],
+    "noteEn": "……的樣子 = to look (like), to seem.",
+    "exampleEn": "What's wrong? You look anxious."
+  },
+  {
+    "rank": 2229,
+    "hanzi": "賠",
+    "en": [
+      "to compensate, to pay for (damage)",
+      "to lose (money)"
+    ],
+    "noteEn": "賠錢 = to pay damages, or to lose money.",
+    "exampleEn": "I'm really sorry. Our company will compensate you."
+  },
+  {
+    "rank": 2230,
+    "hanzi": "踩",
+    "en": [
+      "to step on, to tread"
+    ],
+    "noteEn": "踩踩海水: to dip one's feet in the sea",
+    "exampleEn": "Let's go dip our feet in the seawater."
+  },
+  {
+    "rank": 2231,
+    "hanzi": "磨",
+    "en": [
+      "to wear down, to rub",
+      "to grind (one's teeth)",
+      "to grind (coffee etc.)"
+    ],
+    "noteEn": "磨牙 = to grind one's teeth; 磨咖啡 = to grind coffee.",
+    "exampleEn": "Yes. If it goes on, your teeth will get shorter and shorter."
+  },
+  {
+    "rank": 2232,
+    "hanzi": "磨牙",
+    "en": [
+      "to grind one's teeth (in sleep)"
+    ],
+    "exampleEn": "Stressed people often grind their teeth in their sleep."
+  },
+  {
+    "rank": 2233,
+    "hanzi": "賴",
+    "en": [
+      "LINE (messaging app, Taiwanese slang)"
+    ],
+    "noteEn": "加賴 = to add each other on LINE; also \"to linger\": 賴床 = to stay in bed.",
+    "exampleEn": "That was so fun! Shall we add each other on LINE?"
+  },
+  {
+    "rank": 2234,
+    "hanzi": "鴛鴦鍋",
+    "en": [
+      "split hot pot (two broths)"
+    ],
+    "noteEn": "One side spicy, one side mild.",
+    "exampleEn": "Don't worry, we'll just order a yuanyang pot!"
+  },
+  {
+    "rank": 2235,
+    "hanzi": "嚐",
+    "en": [
+      "to taste"
+    ],
+    "noteEn": "嚐嚐看 = have a taste.",
+    "exampleEn": "Hurry up and give it a taste."
+  },
+  {
+    "rank": 2236,
+    "hanzi": "營業",
+    "en": [
+      "to be open (for business)",
+      "to do business"
+    ],
+    "exampleEn": "No worries, we're open until the small hours."
+  },
+  {
+    "rank": 2237,
+    "hanzi": "點數",
+    "en": [
+      "(loyalty) points"
+    ],
+    "noteEn": "集點: to collect points",
+    "exampleEn": "Points can be exchanged for gifts."
+  },
+  {
+    "rank": 2238,
+    "hanzi": "覺",
+    "en": [
+      "sleep, nap (睡一覺: to get some sleep)"
+    ],
+    "noteEn": "Read jué in 覺得 (to feel, to think)",
+    "exampleEn": "Thank you, doctor. I'm going home to get a good sleep."
+  },
+  {
+    "rank": 2239,
+    "hanzi": "曬傷",
+    "en": [
+      "to get sunburned",
+      "sunburn"
+    ],
+    "exampleEn": "Your face is so red. Is it sunburn?"
+  },
+  {
+    "rank": 2240,
+    "hanzi": "罐",
+    "en": [
+      "can, jar (classifier)"
+    ],
+    "noteEn": "一罐啤酒: a can of beer; 罐頭: canned food",
+    "exampleEn": "Want a can of beer?"
+  },
+  {
+    "rank": 2241,
+    "hanzi": "一言為定",
+    "en": [
+      "it's a deal, that's settled"
+    ],
+    "exampleEn": "Sure, it's a deal!"
+  },
+  {
+    "rank": 2242,
+    "hanzi": "上夜班",
+    "en": [
+      "to work the night shift"
+    ],
+    "noteEn": "夜班 = night shift; cf. 上班.",
+    "exampleEn": "Working the night shift is really tough."
+  },
+  {
+    "rank": 2243,
+    "hanzi": "口音",
+    "en": [
+      "accent"
+    ],
+    "noteEn": "外國口音 = foreign accent.",
+    "exampleEn": "From your accent, you're a foreigner, right?"
+  },
+  {
+    "rank": 2244,
+    "hanzi": "士林",
+    "en": [
+      "Shilin (Taipei district)"
+    ],
+    "noteEn": "Famous for its night market (士林夜市).",
+    "exampleEn": "I live in Shilin."
+  },
+  {
+    "rank": 2245,
+    "hanzi": "大哥",
+    "en": [
+      "(friendly address to a man) big brother",
+      "eldest brother"
+    ],
+    "noteEn": "司機大哥 = a friendly way to address a driver.",
+    "exampleEn": "Thanks, driver! That's very generous of you!"
+  },
+  {
+    "rank": 2246,
+    "hanzi": "大鈔",
+    "en": [
+      "large bill, big banknote"
+    ],
+    "exampleEn": "That's fine. Large or small notes?"
+  },
+  {
+    "rank": 2247,
+    "hanzi": "小孩子",
+    "en": [
+      "child, kids"
+    ],
+    "noteEn": "Same as 小孩",
+    "exampleEn": "That's nice, children are all so innocent."
+  },
+  {
+    "rank": 2248,
+    "hanzi": "小時候",
+    "en": [
+      "in one's childhood, as a kid"
+    ],
+    "noteEn": "Not to be confused with 小時 (hour).",
+    "exampleEn": "Did you like watching children's shows as a kid?"
+  },
+  {
+    "rank": 2249,
+    "hanzi": "小琉球",
+    "en": [
+      "Xiao Liuqiu (small island off Pingtung)"
+    ],
+    "noteEn": "Coral island known for its sea turtles.",
+    "exampleEn": "Yes. Last time, going to Xiao Liuqiu, I threw up several times."
+  },
+  {
+    "rank": 2250,
+    "hanzi": "中",
+    "en": [
+      "to win (the lottery: 中樂透)",
+      "to hit (a target)"
+    ],
+    "noteEn": "Read zhòng in this sense; otherwise zhōng: middle, centre (中文, 中午)",
+    "exampleEn": "I won the lottery yesterday!"
+  },
+  {
+    "rank": 2251,
+    "hanzi": "中獎",
+    "en": [
+      "to win a prize (lottery)"
+    ],
+    "exampleEn": "Yes. He said I won a prize and have to pay the tax first."
+  },
+  {
+    "rank": 2252,
+    "hanzi": "互相",
+    "en": [
+      "each other, mutually"
+    ],
+    "exampleEn": "Not at all. Hikers are supposed to help each other."
+  },
+  {
+    "rank": 2253,
+    "hanzi": "內容",
+    "en": [
+      "content(s)"
+    ],
+    "exampleEn": "What's on page ten is very important."
+  },
+  {
+    "rank": 2254,
+    "hanzi": "公尺",
+    "en": [
+      "meter"
+    ],
+    "noteEn": "Taiwan usage (Mainland: 米); 公分 = centimeter.",
+    "exampleEn": "About twenty-six square meters."
+  },
+  {
+    "rank": 2255,
+    "hanzi": "公平",
+    "en": [
+      "fair"
+    ],
+    "exampleEn": "So how should we split the bill to be fair?"
+  },
+  {
+    "rank": 2256,
+    "hanzi": "分享器",
+    "en": [
+      "(Wi-Fi) router"
+    ],
+    "noteEn": "Taiwanese term.",
+    "exampleEn": "Buy another router and put it in the living room."
+  },
+  {
+    "rank": 2257,
+    "hanzi": "分類",
+    "en": [
+      "to sort (trash)",
+      "to classify"
+    ],
+    "noteEn": "Sorting trash is mandatory in Taiwan",
+    "exampleEn": "Do we sort the trash?"
+  },
+  {
+    "rank": 2258,
+    "hanzi": "午休",
+    "en": [
+      "lunch break (often a nap)"
+    ],
+    "noteEn": "In Taiwan, schools and offices often turn the lights off for a nap.",
+    "exampleEn": "Lunch break has started, let's go."
+  },
+  {
+    "rank": 2259,
+    "hanzi": "天災",
+    "en": [
+      "natural disaster"
+    ],
+    "noteEn": "水災 = flood, 火災 = fire.",
+    "exampleEn": "No. A natural disaster isn't your fault. I'll pay."
+  },
+  {
+    "rank": 2260,
+    "hanzi": "天橋",
+    "en": [
+      "pedestrian overpass, footbridge"
+    ],
+    "exampleEn": "Too dangerous — use the footbridge up ahead."
+  },
+  {
+    "rank": 2261,
+    "hanzi": "尤其",
+    "en": [
+      "especially, particularly"
+    ],
+    "noteEn": "Often followed by 是: 尤其是…",
+    "exampleEn": "It is more expensive than Taipei, especially rent."
+  },
+  {
+    "rank": 2262,
+    "hanzi": "巴士",
+    "en": [
+      "bus, coach"
+    ],
+    "noteEn": "≈ 公車 (city bus); 巴士 is used mostly for coaches and shuttles.",
+    "exampleEn": "Are you looking for the bus stop?"
+  },
+  {
+    "rank": 2263,
+    "hanzi": "手腕",
+    "en": [
+      "wrist"
+    ],
+    "exampleEn": "Right here on the wrist."
+  },
+  {
+    "rank": 2264,
+    "hanzi": "手電筒",
+    "en": [
+      "flashlight, torch"
+    ],
+    "exampleEn": "Get a bag ready with water, a flashlight and your passport."
+  },
+  {
+    "rank": 2265,
+    "hanzi": "手藝",
+    "en": [
+      "craftsmanship, (cooking) skill"
+    ],
+    "noteEn": "媽媽的手藝 = mom's cooking.",
+    "exampleEn": "Your skills are really great."
+  },
+  {
+    "rank": 2266,
+    "hanzi": "方案",
+    "en": [
+      "plan (subscription)",
+      "scheme, proposal"
+    ],
+    "noteEn": "In Taiwan: a subscription plan (phone, gym…).",
+    "exampleEn": "We have a one-month plan."
+  },
+  {
+    "rank": 2267,
+    "hanzi": "日記",
+    "en": [
+      "diary"
+    ],
+    "exampleEn": "You could write it down in a diary."
+  },
+  {
+    "rank": 2268,
+    "hanzi": "止痛",
+    "en": [
+      "to relieve pain"
+    ],
+    "noteEn": "止痛藥 = painkiller.",
+    "exampleEn": "This ointment reduces swelling and eases pain."
+  },
+  {
+    "rank": 2269,
+    "hanzi": "止癢",
+    "en": [
+      "to relieve itching"
+    ],
+    "exampleEn": "This ointment stops the itching. Once it's on, the itch goes away quickly."
+  },
+  {
+    "rank": 2270,
+    "hanzi": "毛",
+    "en": [
+      "hair (of animals), fur",
+      "feathers, down"
+    ],
+    "noteEn": "狗毛 = dog hair.",
+    "exampleEn": "There's dog hair on your clothes. Do you have a dog?"
+  },
+  {
+    "rank": 2271,
+    "hanzi": "牙套",
+    "en": [
+      "mouth guard, night guard",
+      "braces"
+    ],
+    "exampleEn": "I'll make you a night guard to wear while you sleep."
+  },
+  {
+    "rank": 2272,
+    "hanzi": "主人",
+    "en": [
+      "owner (of a pet)",
+      "host, master"
+    ],
+    "exampleEn": "Yeah, it doesn't have an owner anymore."
+  },
+  {
+    "rank": 2273,
+    "hanzi": "主角",
+    "en": [
+      "lead role, protagonist"
+    ],
+    "noteEn": "男主角 = male lead; dictionary reading zhǔ jué, but zhǔ jiǎo is very common in Taiwan.",
+    "exampleEn": "But the male lead is handsome."
+  },
+  {
+    "rank": 2274,
+    "hanzi": "付清",
+    "en": [
+      "to pay off (in full)"
+    ],
+    "exampleEn": "Okay, I'll pay it off next week."
+  },
+  {
+    "rank": 2275,
+    "hanzi": "以上",
+    "en": [
+      "or more, above",
+      "the above"
+    ],
+    "noteEn": "六杯以上 = six cups or more.",
+    "exampleEn": "Oh, and six drinks or more get ten percent off!"
+  },
+  {
+    "rank": 2276,
+    "hanzi": "充足",
+    "en": [
+      "sufficient, plenty",
+      "abundant"
+    ],
+    "exampleEn": "There's still plenty of time."
+  },
+  {
+    "rank": 2277,
+    "hanzi": "功能",
+    "en": [
+      "function, feature"
+    ],
+    "exampleEn": "This function is really convenient."
+  },
+  {
+    "rank": 2278,
+    "hanzi": "古亭",
+    "en": [
+      "Guting (Taipei MRT station and neighborhood)"
+    ],
+    "exampleEn": "I'm moving today. I'm going to Guting."
+  },
+  {
+    "rank": 2279,
+    "hanzi": "句",
+    "en": [
+      "classifier for sentences, lines (一句話 = one sentence)"
+    ],
+    "noteEn": "句子 = sentence (noun).",
+    "exampleEn": "And on top of that, he can't speak a word of French!"
+  },
+  {
+    "rank": 2280,
+    "hanzi": "台式",
+    "en": [
+      "Taiwanese-style"
+    ],
+    "noteEn": "日式 Japanese-style, 美式 American-style",
+    "exampleEn": "Yes, this is authentic Taiwanese cuisine."
+  },
+  {
+    "rank": 2281,
+    "hanzi": "外",
+    "en": [
+      "outside, out (往外 = outward)"
+    ],
+    "noteEn": "外面 = outside (more common on its own).",
+    "exampleEn": "No. Just protect your head with a pillow, and don't run outside."
+  },
+  {
+    "rank": 2282,
+    "hanzi": "平",
+    "en": [
+      "flat, level",
+      "equal, even"
+    ],
+    "exampleEn": "Your teeth are worn flat. Do you grind them at night?"
+  },
+  {
+    "rank": 2283,
+    "hanzi": "平方",
+    "en": [
+      "square (unit of area)",
+      "squared (math)"
+    ],
+    "noteEn": "平方公尺 = square meter; housing is also measured in 坪 (≈ 3.3 m²).",
+    "exampleEn": "About twenty-six square meters."
+  },
+  {
+    "rank": 2284,
+    "hanzi": "打包",
+    "en": [
+      "to pack (food) to go",
+      "to take leftovers home"
+    ],
+    "noteEn": "At a restaurant: 可以打包嗎？ (can you pack this to go?)",
+    "exampleEn": "I'll pack up some food for him."
+  },
+  {
+    "rank": 2285,
+    "hanzi": "正式",
+    "en": [
+      "formal",
+      "official"
+    ],
+    "exampleEn": "Why? In France, black is very formal."
+  },
+  {
+    "rank": 2286,
+    "hanzi": "犯",
+    "en": [
+      "to commit (a mistake, an offense)",
+      "to violate"
+    ],
+    "noteEn": "犯錯 = to make a mistake.",
+    "exampleEn": "In your previous jobs, did you ever make a mistake?"
+  },
+  {
+    "rank": 2287,
+    "hanzi": "玉米",
+    "en": [
+      "corn"
+    ],
+    "exampleEn": "Corn soup or miso soup?"
+  },
+  {
+    "rank": 2288,
+    "hanzi": "生意",
+    "en": [
+      "business, trade"
+    ],
+    "noteEn": "做生意 = to do business; 生意很好 = business is good.",
+    "exampleEn": "Business is especially good today."
+  },
+  {
+    "rank": 2289,
+    "hanzi": "用力",
+    "en": [
+      "to press hard, to use force",
+      "to make an effort"
+    ],
+    "exampleEn": "Too hard! You need to brush gently."
+  },
+  {
+    "rank": 2290,
+    "hanzi": "用品",
+    "en": [
+      "supplies, products (清潔用品: cleaning supplies)"
+    ],
+    "exampleEn": "What cleaning supplies do you need?"
+  },
+  {
+    "rank": 2291,
+    "hanzi": "交朋友",
+    "en": [
+      "to make friends"
+    ],
+    "noteEn": "交 alone = to hand in (交作業 = to hand in homework).",
+    "exampleEn": "Do you want to make friends?"
+  },
+  {
+    "rank": 2292,
+    "hanzi": "份量",
+    "en": [
+      "portion, amount"
+    ],
+    "noteEn": "Also written 分量; 量 is read liàng here",
+    "exampleEn": "The portion is big, it won't disappoint you."
+  },
+  {
+    "rank": 2293,
+    "hanzi": "休息室",
+    "en": [
+      "lounge",
+      "break room"
+    ],
+    "exampleEn": "There's a free lounge nearby with fast internet."
+  },
+  {
+    "rank": 2294,
+    "hanzi": "全身",
+    "en": [
+      "the whole body",
+      "all over"
+    ],
+    "exampleEn": "I'm sore all over. It hurts to walk."
+  },
+  {
+    "rank": 2295,
+    "hanzi": "冰敷",
+    "en": [
+      "to ice (an injury), to apply a cold compress"
+    ],
+    "noteEn": "熱敷 = to apply a hot compress.",
+    "exampleEn": "It's safer to ice it first."
+  },
+  {
+    "rank": 2296,
+    "hanzi": "合身",
+    "en": [
+      "well-fitting (clothes)"
+    ],
+    "exampleEn": "Does it fit well?"
+  },
+  {
+    "rank": 2297,
+    "hanzi": "合理",
+    "en": [
+      "reasonable"
+    ],
+    "exampleEn": "Sure, that's fair. I'll transfer it to you now."
+  },
+  {
+    "rank": 2298,
+    "hanzi": "合照",
+    "en": [
+      "group photo",
+      "to take a photo together"
+    ],
+    "exampleEn": "Let's take a group photo."
+  },
+  {
+    "rank": 2299,
+    "hanzi": "同感",
+    "en": [
+      "the same feeling"
+    ],
+    "noteEn": "我也有同感 = I feel the same way.",
+    "exampleEn": "Exactly, I feel the same."
+  },
+  {
+    "rank": 2300,
+    "hanzi": "名",
+    "en": [
+      "place (in a ranking)",
+      "measure word for people (formal)"
+    ],
+    "noteEn": "第一名 = first place; 名字 = name.",
+    "exampleEn": "You came first."
+  },
+  {
+    "rank": 2301,
+    "hanzi": "在職證明",
+    "en": [
+      "certificate of employment"
+    ],
+    "noteEn": "在職 = currently employed; 證明 = certificate.",
+    "exampleEn": "Do you have a certificate of employment from your company?"
+  },
+  {
+    "rank": 2302,
+    "hanzi": "地下室",
+    "en": [
+      "basement"
+    ],
+    "exampleEn": "Is the basement all flooded?"
+  },
+  {
+    "rank": 2303,
+    "hanzi": "地瓜葉",
+    "en": [
+      "sweet potato leaves (vegetable)"
+    ],
+    "noteEn": "Very common green vegetable in Taiwan, stir-fried with garlic",
+    "exampleEn": "The sweet potato leaves are really tender. Want some?"
+  },
+  {
+    "rank": 2304,
+    "hanzi": "好處",
+    "en": [
+      "benefit, advantage"
+    ],
+    "exampleEn": "Sure, what are the perks of being a member?"
+  },
+  {
+    "rank": 2305,
+    "hanzi": "安全帶",
+    "en": [
+      "seat belt"
+    ],
+    "exampleEn": "Okay, please fasten your seatbelt."
+  },
+  {
+    "rank": 2306,
+    "hanzi": "年夜飯",
+    "en": [
+      "Lunar New Year's Eve dinner"
+    ],
+    "exampleEn": "Then come to our place for the New Year's Eve dinner."
+  },
+  {
+    "rank": 2307,
+    "hanzi": "有空",
+    "en": [
+      "to be free, to have time"
+    ],
+    "noteEn": "空 is read kòng (free time) here; 沒空: no time",
+    "exampleEn": "Are you free this weekend?"
+  },
+  {
+    "rank": 2308,
+    "hanzi": "池塘",
+    "en": [
+      "pond"
+    ],
+    "exampleEn": "There were ducks swimming in the pond."
+  },
+  {
+    "rank": 2309,
+    "hanzi": "灰塵",
+    "en": [
+      "dust"
+    ],
+    "exampleEn": "There's a bit of dust on the floor."
+  },
+  {
+    "rank": 2310,
+    "hanzi": "自在",
+    "en": [
+      "at ease, free",
+      "relaxed, carefree"
+    ],
+    "exampleEn": "Yes, and life there was easy and free"
+  },
+  {
+    "rank": 2311,
+    "hanzi": "自我介紹",
+    "en": [
+      "to introduce oneself",
+      "self-introduction"
+    ],
+    "exampleEn": "Everyone, please introduce yourselves first."
+  },
+  {
+    "rank": 2312,
+    "hanzi": "自律",
+    "en": [
+      "self-disciplined"
+    ],
+    "exampleEn": "Oh, so you're quite disciplined."
+  },
+  {
+    "rank": 2313,
+    "hanzi": "自動",
+    "en": [
+      "automatic"
+    ],
+    "exampleEn": "No, this one is automatic."
+  },
+  {
+    "rank": 2314,
+    "hanzi": "行照",
+    "en": [
+      "vehicle registration (certificate)"
+    ],
+    "noteEn": "Short for 行車執照; kept with the driving licence (駕照)",
+    "exampleEn": "Go to the impound lot, and remember your license and registration."
+  },
+  {
+    "rank": 2315,
+    "hanzi": "衣櫥",
+    "en": [
+      "wardrobe, closet"
+    ],
+    "exampleEn": "I hung the hangers in the closet."
+  },
+  {
+    "rank": 2316,
+    "hanzi": "伸",
+    "en": [
+      "to stretch out, to extend",
+      "to stick out (the tongue)"
+    ],
+    "noteEn": "伸出舌頭 = to stick out one's tongue.",
+    "exampleEn": "Great, now please stick out your tongue."
+  },
+  {
+    "rank": 2317,
+    "hanzi": "作夢",
+    "en": [
+      "to dream",
+      "to have a dream"
+    ],
+    "noteEn": "Also written 做夢.",
+    "exampleEn": "Will I dream while I'm asleep?"
+  },
+  {
+    "rank": 2318,
+    "hanzi": "冷凍櫃",
+    "en": [
+      "freezer"
+    ],
+    "exampleEn": "There's steak in the freezer, want to take a look?"
+  },
+  {
+    "rank": 2319,
+    "hanzi": "利息",
+    "en": [
+      "interest (on money)"
+    ],
+    "exampleEn": "Yes, pay attention to the part about interest."
+  },
+  {
+    "rank": 2320,
+    "hanzi": "助眠",
+    "en": [
+      "to help sleep (助眠的藥 = sleeping pill)"
+    ],
+    "exampleEn": "This is sleep medicine, give it a try."
+  },
+  {
+    "rank": 2321,
+    "hanzi": "含",
+    "en": [
+      "to include, to contain",
+      "to keep in the mouth"
+    ],
+    "noteEn": "含稅 = tax included.",
+    "exampleEn": "The price already includes tax."
+  },
+  {
+    "rank": 2322,
+    "hanzi": "困難",
+    "en": [
+      "difficulty",
+      "difficult"
+    ],
+    "exampleEn": "When I run into difficulties, I hang in there."
+  },
+  {
+    "rank": 2323,
+    "hanzi": "坐墊",
+    "en": [
+      "seat (of a scooter, bike)",
+      "seat cushion"
+    ],
+    "exampleEn": "Won't the seat be too low?"
+  },
+  {
+    "rank": 2324,
+    "hanzi": "夾",
+    "en": [
+      "to pick up (with chopsticks or tongs)",
+      "to clip, to pinch"
+    ],
+    "noteEn": "Taiwanese pronunciation jiá (Mainland: jiā); 夾菜 = to help oneself to food.",
+    "exampleEn": "Across from the office. You serve yourself, and it's cheap."
+  },
+  {
+    "rank": 2325,
+    "hanzi": "忍耐",
+    "en": [
+      "to endure, to bear"
+    ],
+    "exampleEn": "It's okay, I can handle it."
+  },
+  {
+    "rank": 2326,
+    "hanzi": "戒",
+    "en": [
+      "to quit (a habit)",
+      "to give up"
+    ],
+    "noteEn": "戒菸 = to quit smoking.",
+    "exampleEn": "I used to smoke, but I quit now."
+  },
+  {
+    "rank": 2327,
+    "hanzi": "扭",
+    "en": [
+      "to twist, to sprain",
+      "to turn"
+    ],
+    "noteEn": "腳扭到了 = I twisted my ankle (扭傷 = sprain).",
+    "exampleEn": "Coming down just now, I twisted my ankle."
+  },
+  {
+    "rank": 2328,
+    "hanzi": "扶",
+    "en": [
+      "to hold on to, to lean on",
+      "to support (sb) with one's hand"
+    ],
+    "exampleEn": "Lean on me, and if it hurts too much, tell me."
+  },
+  {
+    "rank": 2329,
+    "hanzi": "折斷",
+    "en": [
+      "to snap, to break off"
+    ],
+    "exampleEn": "This branch is in the way. I can snap it in no time."
+  },
+  {
+    "rank": 2330,
+    "hanzi": "牠們",
+    "en": [
+      "they, them (animals)"
+    ],
+    "noteEn": "牠 = he, she, it (animal); 他們 for people.",
+    "exampleEn": "Don't look at them. Just walk on slowly."
+  },
+  {
+    "rank": 2331,
+    "hanzi": "男孩",
+    "en": [
+      "boy"
+    ],
+    "noteEn": "女孩 = girl; also 男孩子.",
+    "exampleEn": "That boy jumps very high."
+  },
+  {
+    "rank": 2332,
+    "hanzi": "秀逗",
+    "en": [
+      "to glitch, to go haywire",
+      "to lose it (slang)"
+    ],
+    "noteEn": "Taiwanese slang, from Japanese ショート (\"short circuit\", from English).",
+    "exampleEn": "The system's totally glitchy today, sorry."
+  },
+  {
+    "rank": 2333,
+    "hanzi": "角",
+    "en": [
+      "corner, angle",
+      "horn"
+    ],
+    "noteEn": "缺了一角 = chipped (a corner is missing); 轉角 = street corner.",
+    "exampleEn": "A piece of your tooth has chipped off? How did that happen?"
+  },
+  {
+    "rank": 2334,
+    "hanzi": "角落",
+    "en": [
+      "corner (of a room)"
+    ],
+    "noteEn": "Street corner: 轉角.",
+    "exampleEn": "It's right over there in the corner"
+  },
+  {
+    "rank": 2335,
+    "hanzi": "貝殼",
+    "en": [
+      "seashell"
+    ],
+    "exampleEn": "There are shells everywhere on the beach."
+  },
+  {
+    "rank": 2336,
+    "hanzi": "走廊",
+    "en": [
+      "corridor, hallway"
+    ],
+    "exampleEn": "The elevator is over there in the hallway."
+  },
+  {
+    "rank": 2337,
+    "hanzi": "車資",
+    "en": [
+      "fare"
+    ],
+    "exampleEn": "Okay, how much is the fare?"
+  },
+  {
+    "rank": 2338,
+    "hanzi": "防",
+    "en": [
+      "to protect against, anti- (防曬: sun protection)"
+    ],
+    "noteEn": "防曬 sunscreen, 防蚊 mosquito-proof",
+    "exampleEn": "OK, next time I'll definitely wear sunscreen."
+  },
+  {
+    "rank": 2339,
+    "hanzi": "防蚊",
+    "en": [
+      "to keep mosquitoes away, mosquito-repellent"
+    ],
+    "noteEn": "防蚊液 = mosquito repellent; 防曬 = sun protection.",
+    "exampleEn": "Great. Do you have anything to keep mosquitoes away?"
+  },
+  {
+    "rank": 2340,
+    "hanzi": "事情",
+    "en": [
+      "thing, matter",
+      "business, affair"
+    ],
+    "noteEn": "什麼事情？= what is it about?",
+    "exampleEn": "What was he complaining about?"
+  },
+  {
+    "rank": 2341,
+    "hanzi": "兩段式左轉",
+    "en": [
+      "two-stage left turn (scooters)"
+    ],
+    "noteEn": "At big junctions, scooters go straight, wait in the marked box, then cross",
+    "exampleEn": "At big intersections, you do a two-stage left turn."
+  },
+  {
+    "rank": 2342,
+    "hanzi": "券",
+    "en": [
+      "coupon, voucher",
+      "ticket"
+    ],
+    "noteEn": "優惠券 = discount coupon; 禮券 = gift voucher.",
+    "exampleEn": "Until when can I use this coupon?"
+  },
+  {
+    "rank": 2343,
+    "hanzi": "味",
+    "en": [
+      "smell (of…)",
+      "taste, flavor"
+    ],
+    "noteEn": "After a noun: 瓦斯味 = smell of gas; 味道 = smell, taste.",
+    "exampleEn": "You said you can smell gas? Where?"
+  },
+  {
+    "rank": 2344,
+    "hanzi": "姊妹",
+    "en": [
+      "sisters"
+    ],
+    "noteEn": "兄弟姊妹 = siblings; 姊 is read jiě in Taiwan.",
+    "exampleEn": "Do you have brothers or sisters?"
+  },
+  {
+    "rank": 2345,
+    "hanzi": "季",
+    "en": [
+      "season (梅雨季 = plum rain season)",
+      "quarter"
+    ],
+    "noteEn": "In compounds: 雨季 rainy season, 旺季 peak season; 季節 = season.",
+    "exampleEn": "The plum rain season is here — everything's so damp."
+  },
+  {
+    "rank": 2346,
+    "hanzi": "定居",
+    "en": [
+      "to settle (down), to take up residence"
+    ],
+    "exampleEn": "Welcome to Taiwan, your new home!"
+  },
+  {
+    "rank": 2347,
+    "hanzi": "定期",
+    "en": [
+      "regularly, periodically",
+      "fixed-term (定期存款 = time deposit)"
+    ],
+    "noteEn": "Taiwanese pronunciation of 期: qí (Mainland: qī).",
+    "exampleEn": "Okay, I'll tidy the room regularly."
+  },
+  {
+    "rank": 2348,
+    "hanzi": "宜人",
+    "en": [
+      "pleasant (climate, scenery)"
+    ],
+    "exampleEn": "The climate here is pleasant"
+  },
+  {
+    "rank": 2349,
+    "hanzi": "或",
+    "en": [
+      "or"
+    ],
+    "noteEn": "In questions, 'or' is 還是; 或 / 或者 are used in statements.",
+    "exampleEn": "If you're really hungry, have an egg or some soy milk."
+  },
+  {
+    "rank": 2350,
+    "hanzi": "房價",
+    "en": [
+      "housing prices"
+    ],
+    "exampleEn": "This year housing prices are all going up."
+  },
+  {
+    "rank": 2351,
+    "hanzi": "抹布",
+    "en": [
+      "cleaning rag, dishcloth"
+    ],
+    "exampleEn": "It knocked over its water. I'll go get a rag."
+  },
+  {
+    "rank": 2352,
+    "hanzi": "抽",
+    "en": [
+      "to pump, to draw (water)",
+      "to pull out, to draw"
+    ],
+    "noteEn": "抽菸 = to smoke; 抽屜 = drawer.",
+    "exampleEn": "If the power's out, the water can't be pumped up, so there's no water."
+  },
+  {
+    "rank": 2353,
+    "hanzi": "拔牙",
+    "en": [
+      "to pull a tooth"
+    ],
+    "exampleEn": "Does pulling a tooth hurt a lot? I'm so scared."
+  },
+  {
+    "rank": 2354,
+    "hanzi": "拖",
+    "en": [
+      "to mop (= 拖地)",
+      "to drag, to pull",
+      "to delay, to drag out"
+    ],
+    "exampleEn": "I'm home today anyway — I'll do it."
+  },
+  {
+    "rank": 2355,
+    "hanzi": "放鬆",
+    "en": [
+      "to relax",
+      "to loosen"
+    ],
+    "exampleEn": "OK, I hope I can relax a bit."
+  },
+  {
+    "rank": 2356,
+    "hanzi": "沾",
+    "en": [
+      "to dip, to moisten",
+      "to be stained with"
+    ],
+    "noteEn": "沾醬 = to dip in sauce.",
+    "exampleEn": "Wet the edge a little and press it shut with your fingers."
+  },
+  {
+    "rank": 2357,
+    "hanzi": "泳衣",
+    "en": [
+      "swimsuit"
+    ],
+    "exampleEn": "OK, did you bring your swimsuit too?"
+  },
+  {
+    "rank": 2358,
+    "hanzi": "直達",
+    "en": [
+      "to go directly, direct (non-stop)"
+    ],
+    "noteEn": "直達車 = direct train.",
+    "exampleEn": "This train goes direct to the airport, fastest option."
+  },
+  {
+    "rank": 2359,
+    "hanzi": "空位",
+    "en": [
+      "free spot, vacant seat"
+    ],
+    "noteEn": "空 is read kòng (unoccupied)",
+    "exampleEn": "There are still free seats at the front."
+  },
+  {
+    "rank": 2360,
+    "hanzi": "花園",
+    "en": [
+      "garden"
+    ],
+    "exampleEn": "There seems to be a cat in the flower garden."
+  },
+  {
+    "rank": 2361,
+    "hanzi": "表情",
+    "en": [
+      "(facial) expression"
+    ],
+    "exampleEn": "The look on your face just now was hilarious."
+  },
+  {
+    "rank": 2362,
+    "hanzi": "門牌",
+    "en": [
+      "house number plate"
+    ],
+    "noteEn": "門牌號碼: house number",
+    "exampleEn": "Do you know the house number?"
+  },
+  {
+    "rank": 2363,
+    "hanzi": "附上",
+    "en": [
+      "to attach, to enclose"
+    ],
+    "exampleEn": "OK. Do I need to attach my residence permit?"
+  },
+  {
+    "rank": 2364,
+    "hanzi": "青竹絲",
+    "en": [
+      "green bamboo viper"
+    ],
+    "noteEn": "A venomous snake common in Taiwan's mountains.",
+    "exampleEn": "It looks like a bamboo viper. It's venomous."
+  },
+  {
+    "rank": 2365,
+    "hanzi": "保管",
+    "en": [
+      "to keep (safe), to look after (sth for sb)"
+    ],
+    "exampleEn": "OK, thanks for keeping it for me."
+  },
+  {
+    "rank": 2366,
+    "hanzi": "南港",
+    "en": [
+      "Nangang (district of Taipei)"
+    ],
+    "noteEn": "In eastern Taipei; its station is served by high-speed rail, trains and the MRT.",
+    "exampleEn": "Towards Nangang, five minutes ago."
+  },
+  {
+    "rank": 2367,
+    "hanzi": "型",
+    "en": [
+      "type, model"
+    ],
+    "noteEn": "緊張型 = tension type; 血型 = blood type; 髮型 = hairstyle.",
+    "exampleEn": "Your headache is the tension type. You need more rest."
+  },
+  {
+    "rank": 2368,
+    "hanzi": "姪子",
+    "en": [
+      "nephew (brother's son)"
+    ],
+    "noteEn": "Sister's son: 外甥.",
+    "exampleEn": "This child is my nephew."
+  },
+  {
+    "rank": 2369,
+    "hanzi": "姿勢",
+    "en": [
+      "posture, position",
+      "(exercise) form"
+    ],
+    "exampleEn": "Your form just now was a bit terrible."
+  },
+  {
+    "rank": 2370,
+    "hanzi": "指引",
+    "en": [
+      "guidance, directions",
+      "to guide"
+    ],
+    "exampleEn": "Great, thanks for the guidance."
+  },
+  {
+    "rank": 2371,
+    "hanzi": "按鈕",
+    "en": [
+      "button"
+    ],
+    "exampleEn": "Just press this button."
+  },
+  {
+    "rank": 2372,
+    "hanzi": "故障",
+    "en": [
+      "to break down, to be out of order",
+      "breakdown"
+    ],
+    "exampleEn": "This ATM is temporarily out of order."
+  },
+  {
+    "rank": 2373,
+    "hanzi": "施工",
+    "en": [
+      "to be under construction, to do construction work"
+    ],
+    "exampleEn": "The road ahead is under construction."
+  },
+  {
+    "rank": 2374,
+    "hanzi": "星座",
+    "en": [
+      "star sign",
+      "constellation"
+    ],
+    "noteEn": "你是什麼星座？= what's your sign? (a very common topic in Taiwan)",
+    "exampleEn": "Really? I don't know anything about star signs."
+  },
+  {
+    "rank": 2375,
+    "hanzi": "昨晚",
+    "en": [
+      "last night, yesterday evening"
+    ],
+    "exampleEn": "Upstairs was so noisy last night, did you hear it?"
+  },
+  {
+    "rank": 2376,
+    "hanzi": "毒",
+    "en": [
+      "poison, venom",
+      "poisonous (有毒)"
+    ],
+    "noteEn": "有毒 = poisonous, venomous; 中毒 = to be poisoned.",
+    "exampleEn": "It looks like a bamboo viper. It's venomous."
+  },
+  {
+    "rank": 2377,
+    "hanzi": "洋芋片",
+    "en": [
+      "potato chips"
+    ],
+    "noteEn": "Taiwanese term.",
+    "exampleEn": "Is this bag of chips crab flavored?"
+  },
+  {
+    "rank": 2378,
+    "hanzi": "洋蔥圈",
+    "en": [
+      "onion rings"
+    ],
+    "noteEn": "圈 = circle, ring.",
+    "exampleEn": "Sure. Do you have onion rings?"
+  },
+  {
+    "rank": 2379,
+    "hanzi": "為",
+    "en": [
+      "for (someone)",
+      "because of"
+    ],
+    "noteEn": "Read wéi in 認為, 以為, 一言為定.",
+    "exampleEn": "You don't have to change anything for me."
+  },
+  {
+    "rank": 2380,
+    "hanzi": "相處",
+    "en": [
+      "to get along (with)",
+      "to spend time together"
+    ],
+    "noteEn": "很好相處 = easy to get along with.",
+    "exampleEn": "Everyone in our family is easy to get along with."
+  },
+  {
+    "rank": 2381,
+    "hanzi": "看診",
+    "en": [
+      "to see a doctor",
+      "(medical) consultation"
+    ],
+    "noteEn": "From the doctor's side: to see patients.",
+    "exampleEn": "Before the exam, I need to ask you a few questions."
+  },
+  {
+    "rank": 2382,
+    "hanzi": "科",
+    "en": [
+      "subject (at school)",
+      "department (hospital)"
+    ],
+    "noteEn": "At the hospital: 牙科 dentistry, 眼科 ophthalmology.",
+    "exampleEn": "I passed every subject."
+  },
+  {
+    "rank": 2383,
+    "hanzi": "紅燒",
+    "en": [
+      "braised in soy sauce"
+    ],
+    "noteEn": "紅燒魚, 紅燒肉: home-cooking classics",
+    "exampleEn": "This is braised fish, I added lots of ginger."
+  },
+  {
+    "rank": 2384,
+    "hanzi": "耐心",
+    "en": [
+      "patience",
+      "patient"
+    ],
+    "exampleEn": "OK, thank you for your patience."
+  },
+  {
+    "rank": 2385,
+    "hanzi": "限定",
+    "en": [
+      "limited edition, seasonal",
+      "to limit, to restrict"
+    ],
+    "noteEn": "新年限定 = New Year special.",
+    "exampleEn": "Thanks, do you have a special New Year drink?"
+  },
+  {
+    "rank": 2386,
+    "hanzi": "風箏",
+    "en": [
+      "kite"
+    ],
+    "exampleEn": "Their kite is flying so high!"
+  },
+  {
+    "rank": 2387,
+    "hanzi": "乘客",
+    "en": [
+      "passenger"
+    ],
+    "exampleEn": "Just now a passenger was complaining."
+  },
+  {
+    "rank": 2388,
+    "hanzi": "倉庫",
+    "en": [
+      "warehouse, storeroom"
+    ],
+    "exampleEn": "Then your parcel can wait in our storeroom downstairs."
+  },
+  {
+    "rank": 2389,
+    "hanzi": "倍",
+    "en": [
+      "times, -fold",
+      "double (一倍)"
+    ],
+    "noteEn": "貴一倍 = twice as expensive; 三倍 = three times as much.",
+    "exampleEn": "About double — a hundred for one head."
+  },
+  {
+    "rank": 2390,
+    "hanzi": "原因",
+    "en": [
+      "reason, cause"
+    ],
+    "exampleEn": "Remember to clearly state the reason for the leave."
+  },
+  {
+    "rank": 2391,
+    "hanzi": "原味",
+    "en": [
+      "original flavor, plain"
+    ],
+    "exampleEn": "Original is fine, not spicy."
+  },
+  {
+    "rank": 2392,
+    "hanzi": "哪些",
+    "en": [
+      "which (ones)"
+    ],
+    "exampleEn": "Which tourist spots do you want to visit?"
+  },
+  {
+    "rank": 2393,
+    "hanzi": "展覽",
+    "en": [
+      "exhibition"
+    ],
+    "exampleEn": "I want to go to the museum to see an exhibit."
+  },
+  {
+    "rank": 2394,
+    "hanzi": "效果",
+    "en": [
+      "effect, result"
+    ],
+    "exampleEn": "It works less well, so you'd better take it a bit earlier."
+  },
+  {
+    "rank": 2395,
+    "hanzi": "旅程",
+    "en": [
+      "journey, trip"
+    ],
+    "exampleEn": "Sure, I'm really enjoying this trip."
+  },
+  {
+    "rank": 2396,
+    "hanzi": "書架",
+    "en": [
+      "bookshelf"
+    ],
+    "exampleEn": "The kids are noisier. They keep hiding behind the shelves to play."
+  },
+  {
+    "rank": 2397,
+    "hanzi": "柴犬",
+    "en": [
+      "Shiba Inu (dog breed)"
+    ],
+    "exampleEn": "Yes, I have a Shiba Inu at home."
+  },
+  {
+    "rank": 2398,
+    "hanzi": "根",
+    "en": [
+      "classifier for long thin objects (branch, chopstick)",
+      "root"
+    ],
+    "noteEn": "根: thin rigid objects; 條: long flexible ones (road, fish).",
+    "exampleEn": "This branch is in the way. I can snap it in no time."
+  },
+  {
+    "rank": 2399,
+    "hanzi": "氣象局",
+    "en": [
+      "weather bureau"
+    ],
+    "noteEn": "Common name; officially 中央氣象署 since 2023.",
+    "exampleEn": "The weather bureau just issued a warning."
+  },
+  {
+    "rank": 2400,
+    "hanzi": "氣壓計",
+    "en": [
+      "barometer"
+    ],
+    "noteEn": "氣壓 = air pressure; 計 = gauge (體溫計 = thermometer).",
+    "exampleEn": "This is a barometer, do you understand it?"
+  },
+  {
+    "rank": 2401,
+    "hanzi": "海洋",
+    "en": [
+      "ocean"
+    ],
+    "exampleEn": "We should also protect the ocean."
+  },
+  {
+    "rank": 2402,
+    "hanzi": "消腫",
+    "en": [
+      "to reduce swelling"
+    ],
+    "exampleEn": "This ointment reduces swelling and eases pain."
+  },
+  {
+    "rank": 2403,
+    "hanzi": "疼",
+    "en": [
+      "to dote on, to love dearly",
+      "to hurt, to ache"
+    ],
+    "noteEn": "For pain, Taiwan mostly uses 痛.",
+    "exampleEn": "It's my son's. He dotes on it."
+  },
+  {
+    "rank": 2404,
+    "hanzi": "神經",
+    "en": [
+      "nerve",
+      "(colloquial) crazy (神經病)"
+    ],
+    "exampleEn": "Let me see… Good, the nerve isn't damaged."
+  },
+  {
+    "rank": 2405,
+    "hanzi": "笑話",
+    "en": [
+      "joke"
+    ],
+    "noteEn": "講笑話 = to tell jokes.",
+    "exampleEn": "I tell jokes sometimes too."
+  },
+  {
+    "rank": 2406,
+    "hanzi": "粉絲",
+    "en": [
+      "fan, follower",
+      "glass noodles"
+    ],
+    "noteEn": "粉絲頁 = fan page (Facebook).",
+    "exampleEn": "Will you like posts for the fan page?"
+  },
+  {
+    "rank": 2407,
+    "hanzi": "脆脆",
+    "en": [
+      "crispy, crunchy"
+    ],
+    "noteEn": "Reduplication of 脆 (crispy), usually with 的: 脆脆的.",
+    "exampleEn": "Wow, crispy outside and so soft inside!"
+  },
+  {
+    "rank": 2408,
+    "hanzi": "草叢",
+    "en": [
+      "bushes, tall grass"
+    ],
+    "exampleEn": "There seems to be a mouse in the bushes."
+  },
+  {
+    "rank": 2409,
+    "hanzi": "託運",
+    "en": [
+      "to check in (luggage)",
+      "to ship"
+    ],
+    "exampleEn": "Do you have any bags to check in?"
+  },
+  {
+    "rank": 2410,
+    "hanzi": "釘子",
+    "en": [
+      "nail"
+    ],
+    "exampleEn": "No. Nails will damage the walls."
+  },
+  {
+    "rank": 2411,
+    "hanzi": "針灸",
+    "en": [
+      "acupuncture"
+    ],
+    "exampleEn": "Yes. Massage and acupuncture can both help."
+  },
+  {
+    "rank": 2412,
+    "hanzi": "陣子",
+    "en": [
+      "a while, a period of time"
+    ],
+    "noteEn": "一陣子 = a while; 這陣子 = these days; 前陣子 = a while ago.",
+    "exampleEn": "Thanks, that'll last me a while."
+  },
+  {
+    "rank": 2413,
+    "hanzi": "除夕",
+    "en": [
+      "Lunar New Year's Eve"
+    ],
+    "noteEn": "夕 is read xì in Taiwan.",
+    "exampleEn": "Then come to our place for the New Year's Eve dinner."
+  },
+  {
+    "rank": 2414,
+    "hanzi": "高架橋",
+    "en": [
+      "overpass, viaduct"
+    ],
+    "exampleEn": "In a moment we'll go under the overpass."
+  },
+  {
+    "rank": 2415,
+    "hanzi": "動作",
+    "en": [
+      "movement, gesture",
+      "action"
+    ],
+    "exampleEn": "I really envy how standard other people's movements are."
+  },
+  {
+    "rank": 2416,
+    "hanzi": "參觀",
+    "en": [
+      "to visit (a place), to tour",
+      "to look around"
+    ],
+    "noteEn": "To visit a person: 拜訪 or 去看.",
+    "exampleEn": "Great, thanks for showing me around."
+  },
+  {
+    "rank": 2417,
+    "hanzi": "唸",
+    "en": [
+      "to read aloud, to pronounce",
+      "to study (唸書)"
+    ],
+    "noteEn": "Variant of 念, very common in Taiwan.",
+    "exampleEn": "Teacher, how do you pronounce this Chinese character?"
+  },
+  {
+    "rank": 2418,
+    "hanzi": "國內線",
+    "en": [
+      "domestic flights, domestic lines"
+    ],
+    "exampleEn": "For domestic flights, we need to see your ID card."
+  },
+  {
+    "rank": 2419,
+    "hanzi": "帳篷",
+    "en": [
+      "tent"
+    ],
+    "exampleEn": "Good idea, I'll bring a tent."
+  },
+  {
+    "rank": 2420,
+    "hanzi": "悠閒",
+    "en": [
+      "leisurely, relaxed"
+    ],
+    "exampleEn": "Country life is really relaxed."
+  },
+  {
+    "rank": 2421,
+    "hanzi": "採光",
+    "en": [
+      "natural light (of a room)"
+    ],
+    "noteEn": "A common point in rental listings.",
+    "exampleEn": "The room also has good natural light."
+  },
+  {
+    "rank": 2422,
+    "hanzi": "接駁車",
+    "en": [
+      "shuttle bus"
+    ],
+    "exampleEn": "The shuttle bus arrives in five minutes."
+  },
+  {
+    "rank": 2423,
+    "hanzi": "推薦",
+    "en": [
+      "to recommend"
+    ],
+    "noteEn": "你推薦什麼？= what do you recommend?",
+    "exampleEn": "Sure, I recommend every kind."
+  },
+  {
+    "rank": 2424,
+    "hanzi": "淺",
+    "en": [
+      "light (color)",
+      "shallow"
+    ],
+    "noteEn": "淺藍色 = light blue; ≠ 深 (dark, deep).",
+    "exampleEn": "If it were me, I'd go with this light blue jacket."
+  },
+  {
+    "rank": 2425,
+    "hanzi": "添",
+    "en": [
+      "to add",
+      "to serve more (rice)"
+    ],
+    "noteEn": "添飯 = to serve more rice.",
+    "exampleEn": "Do you want a bit more white rice?"
+  },
+  {
+    "rank": 2426,
+    "hanzi": "清理",
+    "en": [
+      "to clean up, to clear out"
+    ],
+    "exampleEn": "Do you want me to help clean up?"
+  },
+  {
+    "rank": 2427,
+    "hanzi": "清潔",
+    "en": [
+      "cleaning, cleanliness (清潔用品: cleaning supplies)"
+    ],
+    "exampleEn": "What cleaning supplies do you need?"
+  },
+  {
+    "rank": 2428,
+    "hanzi": "清潔隊",
+    "en": [
+      "sanitation team (garbage collection)"
+    ],
+    "noteEn": "In Taiwan the garbage truck plays music and people bring their own bags to it",
+    "exampleEn": "Whatever can be recycled gets recycled. The rest goes to the sanitation team."
+  },
+  {
+    "rank": 2429,
+    "hanzi": "現場",
+    "en": [
+      "on site, on the spot",
+      "live, the scene"
+    ],
+    "exampleEn": "Do you want to reserve ahead, or wait here?"
+  },
+  {
+    "rank": 2430,
+    "hanzi": "球",
+    "en": [
+      "ball",
+      "shuttlecock (badminton)"
+    ],
+    "noteEn": "打球 = to play ball; 羽球 = badminton.",
+    "exampleEn": "Here, the shuttlecock's yours. Don't be nervous!"
+  },
+  {
+    "rank": 2431,
+    "hanzi": "盒",
+    "en": [
+      "box (classifier: 兩盒 = two boxes)",
+      "box"
+    ],
+    "noteEn": "As a plain noun: 盒子.",
+    "exampleEn": "Yes, two boxes please."
+  },
+  {
+    "rank": 2432,
+    "hanzi": "眼前",
+    "en": [
+      "before one's eyes",
+      "at present"
+    ],
+    "exampleEn": "Wow, it's like the whole world is right in front of us."
+  },
+  {
+    "rank": 2433,
+    "hanzi": "眼藥水",
+    "en": [
+      "eye drops"
+    ],
+    "exampleEn": "Are you looking for eye drops?"
+  },
+  {
+    "rank": 2434,
+    "hanzi": "細",
+    "en": [
+      "fine (sand, powder)",
+      "thin, slender"
+    ],
+    "noteEn": "Opposite: 粗 (coarse, thick).",
+    "exampleEn": "Is the sand on the beach fine?"
+  },
+  {
+    "rank": 2435,
+    "hanzi": "細節",
+    "en": [
+      "details"
+    ],
+    "exampleEn": "Yes, I'd like to ask about the details."
+  },
+  {
+    "rank": 2436,
+    "hanzi": "處",
+    "en": [
+      "to get along (with someone)"
+    ],
+    "noteEn": "Short for 相處; read chù in 好處, 到處.",
+    "exampleEn": "Do you get along with your roommate?"
+  },
+  {
+    "rank": 2437,
+    "hanzi": "處方箋",
+    "en": [
+      "(medical) prescription"
+    ],
+    "noteEn": "處方 = prescription; 箋 = slip of paper.",
+    "exampleEn": "Yes, here's the prescription the doctor gave me."
+  },
+  {
+    "rank": 2438,
+    "hanzi": "袋",
+    "en": [
+      "bag (classifier: 兩袋 = two bags)",
+      "bag, pocket"
+    ],
+    "noteEn": "As a plain noun: 袋子.",
+    "exampleEn": "OK, I'll put them in two bags for you."
+  },
+  {
+    "rank": 2439,
+    "hanzi": "規格",
+    "en": [
+      "standard, format",
+      "specifications"
+    ],
+    "exampleEn": "This one's plug is the Taiwan standard."
+  },
+  {
+    "rank": 2440,
+    "hanzi": "規費",
+    "en": [
+      "(administrative) fee"
+    ],
+    "exampleEn": "Fine. The fee is one thousand dollars. Pay over there."
+  },
+  {
+    "rank": 2441,
+    "hanzi": "設",
+    "en": [
+      "to set (an alarm…)",
+      "to set up"
+    ],
+    "noteEn": "設鬧鐘 = to set an alarm; 設定 = settings.",
+    "exampleEn": "Then set an alarm on your phone to remind you."
+  },
+  {
+    "rank": 2442,
+    "hanzi": "設備",
+    "en": [
+      "equipment, facilities"
+    ],
+    "exampleEn": "Have you bought all your kitchen equipment?"
+  },
+  {
+    "rank": 2443,
+    "hanzi": "許可",
+    "en": [
+      "permit, permission",
+      "to permit"
+    ],
+    "noteEn": "工作許可 = work permit.",
+    "exampleEn": "You'll have to apply for a work permit first."
+  },
+  {
+    "rank": 2444,
+    "hanzi": "貨架",
+    "en": [
+      "(store) shelf"
+    ],
+    "exampleEn": "This shelf wasn't originally here."
+  },
+  {
+    "rank": 2445,
+    "hanzi": "通風",
+    "en": [
+      "to air out, to ventilate",
+      "well-ventilated"
+    ],
+    "exampleEn": "The window can be opened for airflow."
+  },
+  {
+    "rank": 2446,
+    "hanzi": "造成",
+    "en": [
+      "to cause, to bring about"
+    ],
+    "exampleEn": "Yesterday's typhoon caused flooding"
+  },
+  {
+    "rank": 2447,
+    "hanzi": "閉上",
+    "en": [
+      "to close (eyes, mouth)"
+    ],
+    "exampleEn": "Okay, I'll close my eyes."
+  },
+  {
+    "rank": 2448,
+    "hanzi": "備用",
+    "en": [
+      "spare, backup"
+    ],
+    "noteEn": "備用鑰匙 = spare key.",
+    "exampleEn": "Here's the spare key."
+  },
+  {
+    "rank": 2449,
+    "hanzi": "喪禮",
+    "en": [
+      "funeral"
+    ],
+    "exampleEn": "Because in Taiwan, black and white are funeral colors."
+  },
+  {
+    "rank": 2450,
+    "hanzi": "單子",
+    "en": [
+      "form, slip",
+      "list"
+    ],
+    "exampleEn": "It usually arrives the next day. Fill in this form first."
+  },
+  {
+    "rank": 2451,
+    "hanzi": "單純",
+    "en": [
+      "simple, innocent, pure"
+    ],
+    "exampleEn": "That's nice, children are all so innocent."
+  },
+  {
+    "rank": 2452,
+    "hanzi": "場地",
+    "en": [
+      "venue, space",
+      "field, court"
+    ],
+    "exampleEn": "Where's the venue?"
+  },
+  {
+    "rank": 2453,
+    "hanzi": "智齒",
+    "en": [
+      "wisdom tooth"
+    ],
+    "exampleEn": "This wisdom tooth has to come out!"
+  },
+  {
+    "rank": 2454,
+    "hanzi": "晾",
+    "en": [
+      "to hang out to dry, to air-dry"
+    ],
+    "noteEn": "晾衣服 = to hang out the laundry.",
+    "exampleEn": "Yeah, my laundry's been hanging for three days and it's still not dry."
+  },
+  {
+    "rank": 2455,
+    "hanzi": "期限",
+    "en": [
+      "deadline, time limit",
+      "validity period"
+    ],
+    "noteEn": "Taiwanese pronunciation of 期: qí (Mainland: qī).",
+    "exampleEn": "Yes, the permit lasts as long as the contract."
+  },
+  {
+    "rank": 2456,
+    "hanzi": "款",
+    "en": [
+      "model, style (of a product)"
+    ],
+    "noteEn": "新款 = new model; 這款 = this model; 付款 = to pay.",
+    "exampleEn": "These sneakers are a new model. Lots of people are buying them."
+  },
+  {
+    "rank": 2457,
+    "hanzi": "測",
+    "en": [
+      "to test, to measure"
+    ],
+    "noteEn": "測試 = test, to test.",
+    "exampleEn": "Can you test the internet with your tablet?"
+  },
+  {
+    "rank": 2458,
+    "hanzi": "港",
+    "en": [
+      "port, harbor"
+    ],
+    "noteEn": "基隆港 = the port of Keelung; 香港 = Hong Kong.",
+    "exampleEn": "Are you headed to Keelung Harbor?"
+  },
+  {
+    "rank": 2459,
+    "hanzi": "發布",
+    "en": [
+      "to issue, to release (an alert, a notice)"
+    ],
+    "exampleEn": "The weather bureau just issued a warning."
+  },
+  {
+    "rank": 2460,
+    "hanzi": "發霉",
+    "en": [
+      "to go moldy"
+    ],
+    "exampleEn": "Very. The walls have even gone mouldy."
+  },
+  {
+    "rank": 2461,
+    "hanzi": "程式",
+    "en": [
+      "(computer) program, code"
+    ],
+    "noteEn": "Taiwan usage (Mainland: 程序); 寫程式 = to code.",
+    "exampleEn": "I'm an engineer, I write code."
+  },
+  {
+    "rank": 2462,
+    "hanzi": "貼文",
+    "en": [
+      "(social media) post"
+    ],
+    "exampleEn": "Do you always like the company's posts?"
+  },
+  {
+    "rank": 2463,
+    "hanzi": "趁",
+    "en": [
+      "while, taking advantage of (趁熱 = while it's hot)"
+    ],
+    "exampleEn": "Here, eat it while it's hot. It's no good once it's cold."
+  },
+  {
+    "rank": 2464,
+    "hanzi": "超速",
+    "en": [
+      "to speed (exceed the speed limit)",
+      "speeding"
+    ],
+    "exampleEn": "There's a police car ahead catching speeders."
+  },
+  {
+    "rank": 2465,
+    "hanzi": "進步",
+    "en": [
+      "to improve, to make progress",
+      "progress"
+    ],
+    "exampleEn": "You've really improved a lot."
+  },
+  {
+    "rank": 2466,
+    "hanzi": "郵輪",
+    "en": [
+      "cruise ship"
+    ],
+    "exampleEn": "Yes, it's an international cruise ship."
+  },
+  {
+    "rank": 2467,
+    "hanzi": "集合",
+    "en": [
+      "to gather, to meet up (as a group)"
+    ],
+    "exampleEn": "Well said! Then Saturday, seven in the morning, we meet here."
+  },
+  {
+    "rank": 2468,
+    "hanzi": "順口",
+    "en": [
+      "smooth, easy to drink",
+      "easy to say"
+    ],
+    "exampleEn": "You can also drink green tea, it's very smooth."
+  },
+  {
+    "rank": 2469,
+    "hanzi": "順手",
+    "en": [
+      "handy, easy to use",
+      "while one is at it"
+    ],
+    "noteEn": "用得很順手 = to use it with ease.",
+    "exampleEn": "I use the mouse very smoothly."
+  },
+  {
+    "rank": 2470,
+    "hanzi": "順便",
+    "en": [
+      "while at it, on the way",
+      "conveniently"
+    ],
+    "exampleEn": "Great, I'll take a look while I'm at it."
+  },
+  {
+    "rank": 2471,
+    "hanzi": "嗨",
+    "en": [
+      "hi!, hey!"
+    ],
+    "exampleEn": "Hi! What can I get you today?"
+  },
+  {
+    "rank": 2472,
+    "hanzi": "塑膠",
+    "en": [
+      "plastic"
+    ],
+    "noteEn": "Taiwanese term.",
+    "exampleEn": "It looks clean, but there's a lot of plastic in the sand."
+  },
+  {
+    "rank": 2473,
+    "hanzi": "塑膠袋",
+    "en": [
+      "plastic bag"
+    ],
+    "exampleEn": "If everyone used fewer plastic bags, the beaches would be much cleaner."
+  },
+  {
+    "rank": 2474,
+    "hanzi": "塞",
+    "en": [
+      "to plug, to clog",
+      "to stuff, to cram"
+    ],
+    "noteEn": "被塞滿了 = completely clogged; 塞車 = traffic jam.",
+    "exampleEn": "Sigh. Look, the filter's completely clogged."
+  },
+  {
+    "rank": 2475,
+    "hanzi": "媽",
+    "en": [
+      "mom, mother"
+    ],
+    "noteEn": "我媽 = my mom (spoken); 媽媽 when calling her.",
+    "exampleEn": "Not at all, my mom loves having guests!"
+  },
+  {
+    "rank": 2476,
+    "hanzi": "微波",
+    "en": [
+      "to microwave"
+    ],
+    "noteEn": "微波爐 = microwave oven; 微 is read wéi in Taiwan.",
+    "exampleEn": "Shall I microwave the burger?"
+  },
+  {
+    "rank": 2477,
+    "hanzi": "想法",
+    "en": [
+      "idea, opinion, way of thinking"
+    ],
+    "noteEn": "很有想法 = to have one's own ideas.",
+    "exampleEn": "You have strong opinions about drinks."
+  },
+  {
+    "rank": 2478,
+    "hanzi": "感染",
+    "en": [
+      "infection",
+      "to infect"
+    ],
+    "exampleEn": "My doctor said it's a viral infection."
+  },
+  {
+    "rank": 2479,
+    "hanzi": "搞定",
+    "en": [
+      "to get (it) done, to sort out"
+    ],
+    "noteEn": "Colloquial: 搞定了！= done!",
+    "exampleEn": "I plan to get it done today."
+  },
+  {
+    "rank": 2480,
+    "hanzi": "新品",
+    "en": [
+      "new product, new arrival"
+    ],
+    "exampleEn": "Sure. The new arrivals are over here."
+  },
+  {
+    "rank": 2481,
+    "hanzi": "暖氣",
+    "en": [
+      "heating, heater"
+    ],
+    "noteEn": "Taiwanese homes rarely have heating.",
+    "exampleEn": "Houses in Taiwan have no heating, so you need a thick quilt."
+  },
+  {
+    "rank": 2482,
+    "hanzi": "溫馨",
+    "en": [
+      "warm, heartwarming"
+    ],
+    "exampleEn": "How lovely! I want to celebrate too."
+  },
+  {
+    "rank": 2483,
+    "hanzi": "獅子座",
+    "en": [
+      "Leo (zodiac sign)"
+    ],
+    "noteEn": "獅子 = lion; 座 = constellation.",
+    "exampleEn": "Then you're a Leo. Very self-confident!"
+  },
+  {
+    "rank": 2484,
+    "hanzi": "碎片",
+    "en": [
+      "pieces, fragments, shards"
+    ],
+    "exampleEn": "No. I've picked up all the pieces."
+  },
+  {
+    "rank": 2485,
+    "hanzi": "節目",
+    "en": [
+      "(TV, radio) program, show",
+      "act (in a show)"
+    ],
+    "exampleEn": "Did you like watching children's shows as a kid?"
+  },
+  {
+    "rank": 2486,
+    "hanzi": "綁",
+    "en": [
+      "to tie, to bind"
+    ],
+    "noteEn": "綁緊 = to tie tight; 綁頭髮 = to tie one's hair up.",
+    "exampleEn": "Then I'll tie the bag up tight and keep it in the kitchen."
+  },
+  {
+    "rank": 2487,
+    "hanzi": "聖誕",
+    "en": [
+      "Christmas"
+    ],
+    "noteEn": "聖誕節 = Christmas (Day); 聖誕樹 = Christmas tree.",
+    "exampleEn": "Look, the night market has Christmas lights."
+  },
+  {
+    "rank": 2488,
+    "hanzi": "腳踝",
+    "en": [
+      "ankle"
+    ],
+    "exampleEn": "Yeah, I sprained my ankle."
+  },
+  {
+    "rank": 2489,
+    "hanzi": "號碼牌",
+    "en": [
+      "queue number ticket"
+    ],
+    "noteEn": "At the bank or post office: 抽號碼牌 to take a number",
+    "exampleEn": "I'd like to take a number too."
+  },
+  {
+    "rank": 2490,
+    "hanzi": "補貨",
+    "en": [
+      "to restock"
+    ],
+    "exampleEn": "Really? When will it be restocked?"
+  },
+  {
+    "rank": 2491,
+    "hanzi": "路線圖",
+    "en": [
+      "route map"
+    ],
+    "exampleEn": "Right, do you want to take a route map?"
+  },
+  {
+    "rank": 2492,
+    "hanzi": "遇",
+    "en": [
+      "to experience, to go through",
+      "to encounter, to come across"
+    ],
+    "noteEn": "≈ 遇到; 遇過 = to have experienced.",
+    "exampleEn": "OK. Have you ever been through a tsunami?"
+  },
+  {
+    "rank": 2493,
+    "hanzi": "遍",
+    "en": [
+      "time (all the way through)"
+    ],
+    "noteEn": "Unlike 次, 遍 stresses doing the whole thing (再說一遍 = say it again).",
+    "exampleEn": "No problem! I'm going to try every Tainan snack!"
+  },
+  {
+    "rank": 2494,
+    "hanzi": "道地",
+    "en": [
+      "authentic, genuine"
+    ],
+    "exampleEn": "Yes, this is authentic Taiwanese cuisine."
+  },
+  {
+    "rank": 2495,
+    "hanzi": "電子鍋",
+    "en": [
+      "electric rice cooker"
+    ],
+    "noteEn": "子 keeps its full tone here (電子: electronic)",
+    "exampleEn": "Yes, I also want to buy a rice cooker."
+  },
+  {
+    "rank": 2496,
+    "hanzi": "電動",
+    "en": [
+      "video games (Taiwan)",
+      "electric"
+    ],
+    "noteEn": "打電動 = to play video games; 電動機車 = electric scooter.",
+    "exampleEn": "Yeah, I was playing video games."
+  },
+  {
+    "rank": 2497,
+    "hanzi": "電視劇",
+    "en": [
+      "TV series, TV drama"
+    ],
+    "exampleEn": "Some TV dramas, but he doesn't earn much."
+  },
+  {
+    "rank": 2498,
+    "hanzi": "電量",
+    "en": [
+      "battery level, charge"
+    ],
+    "exampleEn": "Your battery is almost dead."
+  },
+  {
+    "rank": 2499,
+    "hanzi": "電暖器",
+    "en": [
+      "electric heater"
+    ],
+    "exampleEn": "If it's still too cold, get an electric heater."
+  },
+  {
+    "rank": 2500,
+    "hanzi": "嘗試",
+    "en": [
+      "to try, to attempt"
+    ],
+    "noteEn": "嘗 alone means to taste (嘗嘗看 = have a taste).",
+    "exampleEn": "Being willing to try is already brave."
+  },
+  {
+    "rank": 2501,
+    "hanzi": "實用",
+    "en": [
+      "practical, useful"
+    ],
+    "exampleEn": "This course is very practical."
+  },
+  {
+    "rank": 2502,
+    "hanzi": "歌唱",
+    "en": [
+      "to sing, singing (歌唱比賽 = singing contest)"
+    ],
+    "noteEn": "In everyday speech, 'to sing' is 唱歌.",
+    "exampleEn": "Yes, I'm entering a singing competition."
+  },
+  {
+    "rank": 2503,
+    "hanzi": "漆",
+    "en": [
+      "paint, lacquer"
+    ],
+    "noteEn": "油漆 = (house) paint.",
+    "exampleEn": "No, the paint would come off with it."
+  },
+  {
+    "rank": 2504,
+    "hanzi": "漏",
+    "en": [
+      "to leak",
+      "to leave out"
+    ],
+    "noteEn": "漏水 = water leak.",
+    "exampleEn": "If it still leaks once you've changed it, give me a call."
+  },
+  {
+    "rank": 2505,
+    "hanzi": "漲",
+    "en": [
+      "to rise, to go up (prices)"
+    ],
+    "noteEn": "漲價 = to raise prices; opposite: 降價 / 跌.",
+    "exampleEn": "This year housing prices are all going up."
+  },
+  {
+    "rank": 2506,
+    "hanzi": "粽子",
+    "en": [
+      "zongzi (sticky rice dumpling in bamboo leaves)"
+    ],
+    "noteEn": "Eaten at the Dragon Boat Festival (端午節); 包粽子 = to wrap zongzi.",
+    "exampleEn": "I want to make zongzi at home."
+  },
+  {
+    "rank": 2507,
+    "hanzi": "罰",
+    "en": [
+      "to fine, to punish"
+    ],
+    "noteEn": "被罰錢 = to get fined; 罰單 = ticket.",
+    "exampleEn": "You get fined! I'll teach you — it's easy."
+  },
+  {
+    "rank": 2508,
+    "hanzi": "罰單",
+    "en": [
+      "(traffic) ticket, fine"
+    ],
+    "noteEn": "開罰單 = to write a ticket.",
+    "exampleEn": "The towing fee plus the fine comes to several hundred."
+  },
+  {
+    "rank": 2509,
+    "hanzi": "舞台",
+    "en": [
+      "stage"
+    ],
+    "exampleEn": "At the school auditorium, the stage is really wide."
+  },
+  {
+    "rank": 2510,
+    "hanzi": "蜘蛛網",
+    "en": [
+      "spider web, cobweb"
+    ],
+    "noteEn": "網 = net, network (網路 = internet).",
+    "exampleEn": "Careful, there's a spider web ahead."
+  },
+  {
+    "rank": 2511,
+    "hanzi": "誤點",
+    "en": [
+      "to be delayed (train, bus, plane)"
+    ],
+    "exampleEn": "The train delay isn't something I can manage."
+  },
+  {
+    "rank": 2512,
+    "hanzi": "遠方",
+    "en": [
+      "the distance, far away"
+    ],
+    "exampleEn": "That island over there is famous."
+  },
+  {
+    "rank": 2513,
+    "hanzi": "齊全",
+    "en": [
+      "complete, well-stocked"
+    ],
+    "exampleEn": "No wonder, your goods are so complete."
+  },
+  {
+    "rank": 2514,
+    "hanzi": "價格",
+    "en": [
+      "price"
+    ],
+    "noteEn": "≈ 價錢, slightly more formal.",
+    "exampleEn": "The price already includes tax."
+  },
+  {
+    "rank": 2515,
+    "hanzi": "噴",
+    "en": [
+      "to spray",
+      "to spurt, to gush"
+    ],
+    "noteEn": "打噴嚏 = to sneeze.",
+    "exampleEn": "There's repellent. Spray it on your skin before going out."
+  },
+  {
+    "rank": 2516,
+    "hanzi": "層",
+    "en": [
+      "layer, level (classifier)",
+      "floor, story"
+    ],
+    "noteEn": "For building floors, 樓 is more common: 三樓.",
+    "exampleEn": "It has three shelves, do you also need a knife?"
+  },
+  {
+    "rank": 2517,
+    "hanzi": "撐",
+    "en": [
+      "to hold out, to bear",
+      "to prop up",
+      "to open (an umbrella)"
+    ],
+    "noteEn": "撐不住 = can't hold on any longer; 撐傘 = to open an umbrella.",
+    "exampleEn": "Good idea, I can barely hold on."
+  },
+  {
+    "rank": 2518,
+    "hanzi": "撕",
+    "en": [
+      "to tear off, to peel off",
+      "to tear"
+    ],
+    "exampleEn": "No, the paint would come off with it."
+  },
+  {
+    "rank": 2519,
+    "hanzi": "數",
+    "en": [
+      "to count"
+    ],
+    "noteEn": "Read shù in 點數 (points) and 數字 (digit)",
+    "exampleEn": "No problem. Our machine counts them in no time."
+  },
+  {
+    "rank": 2520,
+    "hanzi": "樂透",
+    "en": [
+      "lottery, lotto"
+    ],
+    "noteEn": "中樂透 (zhòng) = to win the lottery.",
+    "exampleEn": "I won the lottery yesterday!"
+  },
+  {
+    "rank": 2521,
+    "hanzi": "樂趣",
+    "en": [
+      "pleasure, delight"
+    ],
+    "exampleEn": "It's my little pleasure."
+  },
+  {
+    "rank": 2522,
+    "hanzi": "標籤",
+    "en": [
+      "label, tag"
+    ],
+    "noteEn": "行李標籤 = luggage tag.",
+    "exampleEn": "By the way, remember to stick the luggage tag on properly."
+  },
+  {
+    "rank": 2523,
+    "hanzi": "獎品",
+    "en": [
+      "prize"
+    ],
+    "exampleEn": "Did he receive a prize?"
+  },
+  {
+    "rank": 2524,
+    "hanzi": "獎勵",
+    "en": [
+      "reward"
+    ],
+    "exampleEn": "What reward do you get after collecting points?"
+  },
+  {
+    "rank": 2525,
+    "hanzi": "皺",
+    "en": [
+      "to frown, to wrinkle",
+      "wrinkled, creased"
+    ],
+    "noteEn": "皺眉頭 = to frown.",
+    "exampleEn": "Your eyebrows are furrowed so tight."
+  },
+  {
+    "rank": 2526,
+    "hanzi": "確實",
+    "en": [
+      "indeed, really"
+    ],
+    "exampleEn": "At night the mosquitoes really are dreadful."
+  },
+  {
+    "rank": 2527,
+    "hanzi": "碼",
+    "en": [
+      "digit (of a number)",
+      "code"
+    ],
+    "noteEn": "後三碼 = the last three digits.",
+    "exampleEn": "What are the last three digits of your phone number?"
+  },
+  {
+    "rank": 2528,
+    "hanzi": "蔥抓餅",
+    "en": [
+      "flaky scallion pancake"
+    ],
+    "noteEn": "A typical Taiwanese snack, often with an egg (加蛋).",
+    "exampleEn": "Want an egg in your scallion pancake?"
+  },
+  {
+    "rank": 2529,
+    "hanzi": "衛星",
+    "en": [
+      "satellite (衛星導航 = GPS navigation)"
+    ],
+    "exampleEn": "This GPS of mine is a bit old."
+  },
+  {
+    "rank": 2530,
+    "hanzi": "踢",
+    "en": [
+      "to kick",
+      "to play (soccer)"
+    ],
+    "noteEn": "踢足球 = to play soccer.",
+    "exampleEn": "I fell down playing soccer."
+  },
+  {
+    "rank": 2531,
+    "hanzi": "整修",
+    "en": [
+      "to renovate, to be under repair"
+    ],
+    "exampleEn": "Exit 2 is currently under renovation."
+  },
+  {
+    "rank": 2532,
+    "hanzi": "整潔",
+    "en": [
+      "neat and tidy"
+    ],
+    "exampleEn": "I guarantee I'll keep it tidy."
+  },
+  {
+    "rank": 2533,
+    "hanzi": "機車行",
+    "en": [
+      "scooter shop, scooter repair shop"
+    ],
+    "noteEn": "行 is read háng (shop) here",
+    "exampleEn": "The scooter shop at the end of the lane can replace the mirror."
+  },
+  {
+    "rank": 2534,
+    "hanzi": "機會",
+    "en": [
+      "chance, opportunity"
+    ],
+    "exampleEn": "Great, hopefully I'll get a chance to meet them."
+  },
+  {
+    "rank": 2535,
+    "hanzi": "澡",
+    "en": [
+      "bath (in 洗澡, to bathe)"
+    ],
+    "noteEn": "洗澡 splits: 洗完澡 = after showering, 洗個澡 = to take a shower.",
+    "exampleEn": "After you shower, remember to turn off the gas."
+  },
+  {
+    "rank": 2536,
+    "hanzi": "燈籠",
+    "en": [
+      "lantern"
+    ],
+    "noteEn": "Symbol of the Lantern Festival (元宵節).",
+    "exampleEn": "Yeah, the lanterns look beautiful hung up."
+  },
+  {
+    "rank": 2537,
+    "hanzi": "糖漿",
+    "en": [
+      "(cough) syrup",
+      "syrup"
+    ],
+    "exampleEn": "A little. Do you have a sweet syrup?"
+  },
+  {
+    "rank": 2538,
+    "hanzi": "融入",
+    "en": [
+      "to fit in, to integrate"
+    ],
+    "exampleEn": "Great, I also want to fit in quickly."
+  },
+  {
+    "rank": 2539,
+    "hanzi": "辦理",
+    "en": [
+      "to handle, to process (paperwork)",
+      "to apply for"
+    ],
+    "exampleEn": "You need to go to the immigration office."
+  },
+  {
+    "rank": 2540,
+    "hanzi": "隨時",
+    "en": [
+      "at any time, anytime"
+    ],
+    "exampleEn": "If there's a problem, feel free to contact me anytime."
+  },
+  {
+    "rank": 2541,
+    "hanzi": "靜音",
+    "en": [
+      "silent mode, mute"
+    ],
+    "noteEn": "調靜音 = to switch to silent.",
+    "exampleEn": "No worries, please set it to silent."
+  },
+  {
+    "rank": 2542,
+    "hanzi": "壓",
+    "en": [
+      "to press, to push down",
+      "to crush"
+    ],
+    "noteEn": "壓緊 = to press firmly; 壓力 = pressure, stress.",
+    "exampleEn": "Wet the edge a little and press it shut with your fingers."
+  },
+  {
+    "rank": 2543,
+    "hanzi": "檔車",
+    "en": [
+      "manual-gear motorcycle"
+    ],
+    "noteEn": "Most scooters in Taiwan are automatic; 檔 = gear (read dǎng in Taiwan).",
+    "exampleEn": "Is this a traditional manual scooter?"
+  },
+  {
+    "rank": 2544,
+    "hanzi": "檢定",
+    "en": [
+      "proficiency test, certification exam"
+    ],
+    "noteEn": "中文檢定 = Chinese proficiency test (TOCFL in Taiwan).",
+    "exampleEn": "I have a Chinese proficiency test next week. I'm really nervous."
+  },
+  {
+    "rank": 2545,
+    "hanzi": "臉皮",
+    "en": [
+      "sense of shame (fig.)",
+      "skin of the face"
+    ],
+    "noteEn": "臉皮很厚 = shameless, cheeky; 臉皮很薄 = shy, easily embarrassed.",
+    "exampleEn": "He's really shameless."
+  },
+  {
+    "rank": 2546,
+    "hanzi": "臉頰",
+    "en": [
+      "cheek"
+    ],
+    "noteEn": "親臉頰 = to kiss on the cheek.",
+    "exampleEn": "By the way, do French people kiss on the cheek when they meet?"
+  },
+  {
+    "rank": 2547,
+    "hanzi": "臨時",
+    "en": [
+      "temporarily, briefly",
+      "at the last minute"
+    ],
+    "exampleEn": "You can't park on a yellow line! You can only stop briefly."
+  },
+  {
+    "rank": 2548,
+    "hanzi": "講究",
+    "en": [
+      "particular, discerning",
+      "to be particular about"
+    ],
+    "noteEn": "究 is read jiù in Taiwan.",
+    "exampleEn": "Not picky, but rather particular."
+  },
+  {
+    "rank": 2549,
+    "hanzi": "講解",
+    "en": [
+      "to explain"
+    ],
+    "exampleEn": "I can explain it — have you studied Chinese before?"
+  },
+  {
+    "rank": 2550,
+    "hanzi": "邀",
+    "en": [
+      "to invite"
+    ],
+    "noteEn": "Short spoken form of 邀請.",
+    "exampleEn": "Very satisfied, next time let's invite friends too."
+  },
+  {
+    "rank": 2551,
+    "hanzi": "鍵",
+    "en": [
+      "key, button (on a device)"
+    ],
+    "noteEn": "鍵盤 = keyboard.",
+    "exampleEn": "I press this button, and the rice will be cooked?"
+  },
+  {
+    "rank": 2552,
+    "hanzi": "擺",
+    "en": [
+      "to arrange, to lay out",
+      "to put, to place"
+    ],
+    "noteEn": "擺攤 = to run a stall.",
+    "exampleEn": "Your stall is arranged so neatly."
+  },
+  {
+    "rank": 2553,
+    "hanzi": "斷",
+    "en": [
+      "to break, to snap",
+      "to cut off"
+    ],
+    "noteEn": "骨頭斷了 = the bone is broken; 斷電 = power cut.",
+    "exampleEn": "I think your bone is broken."
+  },
+  {
+    "rank": 2554,
+    "hanzi": "禮堂",
+    "en": [
+      "auditorium, assembly hall"
+    ],
+    "exampleEn": "At the school auditorium, the stage is really wide."
+  },
+  {
+    "rank": 2555,
+    "hanzi": "繞路",
+    "en": [
+      "to make a detour"
+    ],
+    "noteEn": "繞 = to go around.",
+    "exampleEn": "Then I'll need to plan for a detour."
+  },
+  {
+    "rank": 2556,
+    "hanzi": "轉角",
+    "en": [
+      "(street) corner"
+    ],
+    "exampleEn": "The post office is just around the corner"
+  },
+  {
+    "rank": 2557,
+    "hanzi": "穩",
+    "en": [
+      "steady, smooth",
+      "stable, sure"
+    ],
+    "noteEn": "開得很穩 = to drive smoothly.",
+    "exampleEn": "You drive very smoothly."
+  },
+  {
+    "rank": 2558,
+    "hanzi": "穩定",
+    "en": [
+      "stable, steady"
+    ],
+    "exampleEn": "This month the schedule has been very stable."
+  },
+  {
+    "rank": 2559,
+    "hanzi": "繫",
+    "en": [
+      "to fasten, to tie (belt, laces)"
+    ],
+    "noteEn": "Read jì for 'to tie'; xì in 聯繫 (to contact).",
+    "exampleEn": "Okay, please fasten your seatbelt."
+  },
+  {
+    "rank": 2560,
+    "hanzi": "藥物",
+    "en": [
+      "medication, drugs"
+    ],
+    "noteEn": "More formal than 藥; 藥物過敏 = drug allergy.",
+    "exampleEn": "This is a kind of drug allergy."
+  },
+  {
+    "rank": 2561,
+    "hanzi": "關掉",
+    "en": [
+      "to turn off, to switch off"
+    ],
+    "exampleEn": "Yes, and we have to remember to turn the AC off before going out."
+  },
+  {
+    "rank": 2562,
+    "hanzi": "難免",
+    "en": [
+      "inevitably, bound to"
+    ],
+    "exampleEn": "Lying in the chair too long, that's normal."
+  },
+  {
+    "rank": 2563,
+    "hanzi": "籃子",
+    "en": [
+      "basket"
+    ],
+    "exampleEn": "Take a basket and pick your own."
+  },
+  {
+    "rank": 2564,
+    "hanzi": "警車",
+    "en": [
+      "police car"
+    ],
+    "exampleEn": "There's a police car ahead catching speeders."
+  },
+  {
+    "rank": 2565,
+    "hanzi": "顧",
+    "en": [
+      "to look after, to mind (a shop, kids)"
+    ],
+    "noteEn": "顧店 = to mind the store; ≈ 照顧.",
+    "exampleEn": "Do you get lonely running the store alone?"
+  },
+  {
+    "rank": 2566,
+    "hanzi": "攤子",
+    "en": [
+      "stall, stand"
+    ],
+    "exampleEn": "There's a little stall next to the parking lot."
+  },
+  {
+    "rank": 2567,
+    "hanzi": "體溫計",
+    "en": [
+      "(clinical) thermometer"
+    ],
+    "exampleEn": "Does this thermometer have a warranty?"
+  }
+]

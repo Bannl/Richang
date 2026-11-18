@@ -19,7 +19,11 @@ pay artists and voice actors.
 ## How it plays
 
 Rìcháng presents itself as a roguelike deckbuilder, where every 'run' is a journey in which you choose your path
-through everyday life situations. A tutorial is available in-game to learn the mechanics.
+through everyday life situations. Each run is a series of days in Taiwan, each ending with a different evening event:
+the score is the number of days you get through before running out of lives, and the conversations grow longer and
+richer from one day to the next. A Situations mode lets you practise any conversation your deck can play, and a
+Writing challenge asks you to write your words from memory, five mistakes and you're out. A tutorial is available
+in-game to learn the mechanics.
 
 ## TT File Format as a proof of concept
 

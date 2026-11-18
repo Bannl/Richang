@@ -6,6 +6,7 @@ import { TIER_LIMITS, THEMES, WORDS, themeOf } from '../data/words';
 import { SKILL_KEYS, glosses, noteOf, posLabel, themeLabel, useLang, useT, type StringKey } from '../i18n';
 import { speak } from '../platform/tts';
 import { Example, HanziText, Icon, Reading, TopBar } from '../ui/basics';
+import { StarMark } from '../ui/cards';
 
 const STATUS_KEY: Record<WordStatus, StringKey> = { new: 'statusNew', learning: 'statusLearning', review: 'statusReview', mastered: 'statusMastered' };
 
@@ -21,10 +22,10 @@ export function WordsScreen({ state, onBack, deckOnly = false }: { state: AppSta
 
   return (
     <div className="app words">
-      <TopBar left={<button type="button" className="icon-btn" onClick={onBack} aria-label={t('back')}><Icon name="back" /></button>} title={deckOnly ? t('deck') : t('words')} />
+      <TopBar left={<button type="button" className="icon-btn" onClick={onBack} aria-label={t('back')}><Icon name="back" /></button>} title={deckOnly ? t('deck') : t('words')} zh={deckOnly ? '牌組' : '詞彙'} />
       <div className="chips">
         {TIER_LIMITS.map((l, i) => (
-          <button type="button" key={l} className={`chip ${tier === i + 1 ? 'on' : ''}`} onClick={() => setTier(i + 1)}>{l}</button>
+          <button type="button" key={l} className={`chip ${tier === i + 1 ? 'on' : ''}`} onClick={() => setTier(i + 1)}>{i === 6 ? `${TIER_LIMITS[5]}+` : l}</button>
         ))}
       </div>
       <div className="chips">
@@ -44,7 +45,7 @@ export function WordsScreen({ state, onBack, deckOnly = false }: { state: AppSta
                 <span className="dot" />
                 <HanziText text={w.hanzi} pinyin={w.pinyin} size="md" />
                 <span className="fr">{glosses(w, lang)[0]}</span>
-                <span className="status">{t(STATUS_KEY[st])}</span>
+                <span className="status">{p?.star && <StarMark className="inline" />}{t(STATUS_KEY[st])}</span>
               </div>
               {open === w.rank && (
                 <div className="detail">

@@ -1,0 +1,24 @@
+{"situation":"family-dinner","scenes":[
+{"id":"family-dinner__cov-s1","topic":"La recette de la belle-mère","lines":[
+{"speaker":"enemy","zh":"來，多吃一點，這是我婆婆教我的菜。","pinyin":"lái duō chī yì diǎn zhè shì wǒ pó po jiāo wǒ de cài","en":"Here, have some more. My mother-in-law taught me this dish.","fr":"Tiens, reprends-en. C'est ma belle-mère qui m'a appris ce plat."},
+{"speaker":"player","zh":"好好吃！阿姨，你可以當廚師了！","pinyin":"hǎo hǎo chī ā yí nǐ kě yǐ dāng chú shī le","en":"It's delicious! Auntie, you could be a chef!","fr":"C'est délicieux ! Tatie, tu pourrais être cheffe !"},
+{"speaker":"enemy","zh":"沒有啦，我只是常常煮而已。","pinyin":"méi yǒu la wǒ zhǐ shì cháng cháng zhǔ ér yǐ","en":"Oh, come on. I just cook a lot, that's all.","fr":"Mais non, je cuisine souvent, c'est tout."},
+{"speaker":"player","zh":"你婆婆也住在台北嗎？","pinyin":"nǐ pó po yě zhù zài tái běi ma","en":"Does your mother-in-law live in Taipei too?","fr":"Ta belle-mère habite aussi à Taipei ?"},
+{"speaker":"enemy","zh":"她住台南，每年過年都會教我做菜。","pinyin":"tā zhù tái nán měi nián guò nián dōu huì jiāo wǒ zuò cài","en":"She lives in Tainan. Every Lunar New Year she teaches me some cooking.","fr":"Elle habite à Tainan. Chaque Nouvel An, elle m'apprend des recettes."},
+{"speaker":"player","zh":"她一定是個很善良的人。","pinyin":"tā yí dìng shì ge hěn shàn liáng de rén","en":"She must be a very kind person.","fr":"Ça doit être quelqu'un de très bon."},
+{"speaker":"enemy","zh":"對，我兒子很像她，也很善良。","pinyin":"duì wǒ ér zi hěn xiàng tā yě hěn shàn liáng","en":"Yes. My son is a lot like her — very kind too.","fr":"Oui. Mon fils lui ressemble beaucoup, il a très bon cœur, lui aussi."},
+{"speaker":"player","zh":"真的，他在台灣常常幫我。","pinyin":"zhēn de tā zài tái wān cháng cháng bāng wǒ","en":"It's true. He's always helping me out here in Taiwan.","fr":"C'est vrai, il m'aide souvent ici, à Taïwan."},
+{"speaker":"enemy","zh":"看你吃得這麼開心，我就很滿足了。","pinyin":"kàn nǐ chī de zhè me kāi xīn wǒ jiù hěn mǎn zú le","en":"Seeing you enjoy your food so much makes me happy.","fr":"Te voir manger avec autant de plaisir, ça me comble."},
+{"speaker":"player","zh":"謝謝阿姨，我吃得好飽！","pinyin":"xiè xie ā yí wǒ chī de hǎo bǎo","en":"Thank you, Auntie. I'm so full!","fr":"Merci tatie, j'ai super bien mangé !"}],
+"keywords":["婆婆","廚師","善良","滿足"]},
+{"id":"family-dinner__cov-s2","topic":"Les hommes et le ménage","lines":[
+{"speaker":"enemy","zh":"我兒子在家都不做家事。","pinyin":"wǒ ér zi zài jiā dōu bú zuò jiā shì","en":"My son never does any housework at home.","fr":"Mon fils ne fait jamais le ménage à la maison."},
+{"speaker":"player","zh":"真的嗎？我以為他很會打掃。","pinyin":"zhēn de ma wǒ yǐ wéi tā hěn huì dǎ sǎo","en":"Really? I thought he was good at cleaning.","fr":"C'est vrai ? Je croyais qu'il était doué pour le ménage."},
+{"speaker":"enemy","zh":"以前在台灣，家事都是女人做的。","pinyin":"yǐ qián zài tái wān jiā shì dōu shì nǚ rén zuò de","en":"In the old days in Taiwan, the housework was all done by women.","fr":"Autrefois, à Taïwan, c'étaient les femmes qui faisaient tout le ménage."},
+{"speaker":"player","zh":"在法國也是，可是現在不一樣了。","pinyin":"zài fà guó yě shì kě shì xiàn zài bù yí yàng le","en":"Same in France, but things are different now.","fr":"En France aussi, mais aujourd'hui, ça a changé."},
+{"speaker":"enemy","zh":"對啊，現在的男人也要會做家事。","pinyin":"duì a xiàn zài de nán rén yě yào huì zuò jiā shì","en":"Right. Nowadays men have to know how to do housework too.","fr":"Oui. De nos jours, les hommes aussi doivent savoir faire le ménage."},
+{"speaker":"player","zh":"我父母都一起做，我爸爸負責煮飯。","pinyin":"wǒ fù mǔ dōu yì qǐ zuò wǒ bà ba fù zé zhǔ fàn","en":"My parents do it together. My dad is in charge of cooking.","fr":"Mes parents s'y mettent tous les deux. Mon père s'occupe de la cuisine."},
+{"speaker":"enemy","zh":"真好，那你要教教我兒子。","pinyin":"zhēn hǎo nà nǐ yào jiāo jiao wǒ ér zi","en":"How nice. Then you'll have to teach my son a thing or two.","fr":"Comme c'est bien. Alors il faudra que tu donnes des leçons à mon fils."},
+{"speaker":"player","zh":"好啊，我先教他洗碗！","pinyin":"hǎo a wǒ xiān jiāo tā xǐ wǎn","en":"Sure — I'll start by teaching him to do the dishes!","fr":"Avec plaisir, je vais commencer par lui apprendre à faire la vaisselle !"}],
+"keywords":["家事","女人","男人","父母"]}
+]}

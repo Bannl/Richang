@@ -1,0 +1,22 @@
+{"situation":"landlord","scenes":[
+{"id":"landlord__cov-s1","topic":"Visite d'un studio meublé","lines":[
+{"speaker":"enemy","zh":"這間套房八坪，窗戶很大。","pinyin":"zhè jiān tào fáng bā píng chuāng hù hěn dà","en":"This studio is eight ping, and the window is big.","fr":"Ce studio fait huit pings, et la fenêtre est grande."},
+{"speaker":"player","zh":"八坪是多大？","pinyin":"bā píng shì duō dà","en":"How big is eight ping?","fr":"Huit pings, ça fait combien ?"},
+{"speaker":"enemy","zh":"大概二十六平方公尺。","pinyin":"dà gài èr shí liù píng fāng gōng chǐ","en":"About twenty-six square meters.","fr":"Environ vingt-six mètres carrés."},
+{"speaker":"player","zh":"家具都有嗎？","pinyin":"jiā jù dōu yǒu ma","en":"Is it furnished?","fr":"Il y a tous les meubles ?"},
+{"speaker":"enemy","zh":"床、衣櫃和冰箱都有提供。","pinyin":"chuáng yī guì hàn bīng xiāng dōu yǒu tí gōng","en":"The bed, wardrobe and fridge are all provided.","fr":"Le lit, l'armoire et le frigo sont fournis."},
+{"speaker":"player","zh":"床單和棉被也有嗎？","pinyin":"chuáng dān hàn mián bèi yě yǒu ma","en":"Are sheets and a duvet included too?","fr":"Les draps et la couette aussi ?"},
+{"speaker":"enemy","zh":"那些要自己買，我不提供。","pinyin":"nà xiē yào zì jǐ mǎi wǒ bù tí gōng","en":"You buy those yourself. I don't provide them.","fr":"Ça, c'est à vous de l'acheter. Je ne le fournis pas."},
+{"speaker":"player","zh":"好，那我週末去買床單。","pinyin":"hǎo nà wǒ zhōu mò qù mǎi chuáng dān","en":"OK, then I'll go buy sheets this weekend.","fr":"D'accord, alors j'irai acheter des draps ce week-end."}],
+"keywords":["坪","提供","床單","套房"]},
+{"id":"landlord__cov-s2","topic":"Le chien d'un ami","lines":[
+{"speaker":"enemy","zh":"你說有事要問我？","pinyin":"nǐ shuō yǒu shì yào wèn wǒ","en":"You said you had something to ask me?","fr":"Vous vouliez me demander quelque chose ?"},
+{"speaker":"player","zh":"我朋友要出國，他的狗可以來住嗎？","pinyin":"wǒ péng yǒu yào chū guó tā de gǒu kě yǐ lái zhù ma","en":"My friend is going abroad. Can his dog come and stay with me?","fr":"Un ami part à l'étranger. Son chien peut venir habiter chez moi ?"},
+{"speaker":"enemy","zh":"合約寫了，養寵物要先得到我的同意。","pinyin":"hé yuē xiě le yǎng chǒng wù yào xiān dé dào wǒ de tóng yì","en":"It's in the lease: keeping a pet requires my approval first.","fr":"C'est écrit dans le bail : pour avoir un animal, il faut d'abord obtenir mon accord."},
+{"speaker":"player","zh":"所以我來問你，只住兩個星期。","pinyin":"suǒ yǐ wǒ lái wèn nǐ zhǐ zhù liǎng ge xīng qí","en":"That's why I'm asking you. It's only for two weeks.","fr":"C'est pour ça que je viens vous le demander. Ce serait seulement pour deux semaines."},
+{"speaker":"enemy","zh":"狗太吵，鄰居會不高興。","pinyin":"gǒu tài chǎo lín jū huì bù gāo xìng","en":"Dogs are too noisy. The neighbors won't be happy.","fr":"Un chien, c'est trop bruyant. Les voisins ne vont pas être contents."},
+{"speaker":"player","zh":"牠很安靜，很乖。","pinyin":"tā hěn ān jìng hěn guāi","en":"He's very quiet and well-behaved.","fr":"Il est très calme et très sage."},
+{"speaker":"enemy","zh":"不行，我不會同意的。","pinyin":"bù xíng wǒ bú huì tóng yì de","en":"No. I won't agree to it.","fr":"Non. Je ne donnerai pas mon accord."},
+{"speaker":"player","zh":"好吧，那我只能拒絕我朋友了。","pinyin":"hǎo ba nà wǒ zhǐ néng jù jué wǒ péng yǒu le","en":"All right, then I'll just have to say no to my friend.","fr":"Bon, alors je n'ai plus qu'à dire non à mon ami."}],
+"keywords":["得到","同意","拒絕","寵物"]}
+]}

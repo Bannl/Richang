@@ -9,6 +9,7 @@ const loaders: Record<number, () => Promise<{ default: Bundle }>> = {
   4: () => import('./generated/hanzi-t4.json'),
   5: () => import('./generated/hanzi-t5.json'),
   6: () => import('./generated/hanzi-t6.json'),
+  7: () => import('./generated/hanzi-t7.json'),
 };
 const cache = new Map<number, Promise<Bundle>>();
 

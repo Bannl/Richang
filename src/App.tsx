@@ -10,15 +10,18 @@ import { BattleScreen } from './screens/Battle';
 import { HomeScreen } from './screens/Home';
 import { LearnScreen } from './screens/Learn';
 import { MapScreen } from './screens/MapScreen';
-import { RestScreen, RewardScreen, RunEndScreen } from './screens/RunScreens';
+import { DayEndScreen, RestScreen, RewardScreen, RunEndScreen } from './screens/RunScreens';
 import { PracticeScreen } from './screens/Practice';
+import { DrillEndScreen, SituationsScreen } from './screens/Situations';
+import { WritingChallengeScreen } from './screens/WritingChallenge';
+import { applyDrill, drillView, endDrill } from './game/drill';
 import { SettingsScreen } from './screens/Settings';
 import { TutorialScreen } from './screens/Tutorial';
 import { configureVoices } from './platform/tts';
 import { PhoneticContext } from './ui/Phonetic';
 import { WordsScreen } from './screens/Words';
 
-type Screen = 'home' | 'learn' | 'run' | 'deck' | 'practice' | 'settings';
+type Screen = 'home' | 'learn' | 'run' | 'deck' | 'practice' | 'situations' | 'challenge' | 'settings';
 
 export default function App() {
   const [state, setState] = useState<AppState | null>(null);
@@ -92,10 +95,24 @@ export default function App() {
       case 'battle': content = state.run.encounter ? <BattleScreen state={state} update={update} /> : <MapScreen {...props} />; break;
       case 'reward': content = state.run.reward ? <RewardScreen {...props} /> : <MapScreen {...props} />; break;
       case 'rest': content = <RestScreen {...props} />; break;
-      case 'won':
+      case 'dayEnd':
+      case 'won': content = <DayEndScreen {...props} />; break;
       case 'lost': content = <RunEndScreen {...props} />; break;
       default: content = <MapScreen {...props} />;
     }
+  } else if (screen === 'situations') {
+    // Mode Situation : la rencontre choisie se joue sur l'ecran de combat (run fictif), puis son bilan ; sinon la liste.
+    const drill = state.drill;
+    if (drill?.status === 'battle' && drill.encounter) {
+      const quit = <button type="button" className="btn ghost small" onClick={() => update(endDrill)}>{translate(state.settings.language, 'quitDrill')}</button>;
+      content = <BattleScreen state={drillView(state)} update={(fn) => update((s) => applyDrill(s, fn))} corner={quit} />;
+    } else if (drill) {
+      content = <DrillEndScreen state={state} update={update} onBack={goHome} />;
+    } else {
+      content = <SituationsScreen state={state} update={update} onBack={goHome} />;
+    }
+  } else if (screen === 'challenge') {
+    content = <WritingChallengeScreen state={state} update={update} onBack={goHome} />;
   } else if (screen === 'learn') {
     content = <LearnScreen state={state} update={update} onBack={goHome} toast={setToast} />;
   } else if (screen === 'deck') {
@@ -113,6 +130,8 @@ export default function App() {
         onContinueRun={() => setScreen('run')}
         onDeck={() => setScreen('deck')}
         onPractice={() => setScreen('practice')}
+        onSituations={() => setScreen('situations')}
+        onChallenge={() => setScreen('challenge')}
         onSettings={() => setScreen('settings')}
         onVoice={(v) => update((s) => ({ ...s, settings: { ...s.settings, playerVoice: v } }))}
       />

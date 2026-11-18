@@ -1,0 +1,8 @@
+{"situation":"moving-in","scenes":[
+{"id":"moving-in__cov-s1","topic":"La table ronde","lines":[
+{"speaker":"enemy","zh":"這張餐桌放哪裡？","pinyin":"zhè zhāng cān zhuō fàng nǎ lǐ","en":"Where does this dining table go?","fr":"Cette table, je la mets où ?"},
+{"speaker":"player","zh":"放窗戶旁邊。","pinyin":"fàng chuāng hù páng biān","en":"Next to the window.","fr":"À côté de la fenêtre."},
+{"speaker":"enemy","zh":"圓的很好看耶！","pinyin":"yuán de hěn hǎo kàn ye","en":"A round one looks really nice!","fr":"Une table ronde, c'est vraiment joli !"},
+{"speaker":"player","zh":"對啊，我很喜歡。","pinyin":"duì a wǒ hěn xǐ huān","en":"Yeah, I really like it.","fr":"Oui, je l'adore."}],
+"keywords":["餐桌","圓","旁邊"]}
+]}

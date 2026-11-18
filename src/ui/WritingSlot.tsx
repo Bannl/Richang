@@ -16,16 +16,21 @@ interface Props {
   single?: boolean;
   /** Mot ecrit en entier : juste si peu d'erreurs de traits. */
   onResult: (ok: boolean, mistakes: number) => void;
+  /** Chaque erreur de trait, au moment ou elle est faite (defi d'ecriture : une vie perdue). */
+  onMistake?: () => void;
+  /** Erreurs sur un trait avant que Hanzi Writer le montre (3 par defaut). */
+  hintAfterMisses?: number;
 }
 
 /**
  * Cases d'ecriture : le mot manquant se trace de memoire, trait par trait, sans modele.
  * Chaque trait est verifie (ordre, forme, sens) ; apres trois essais rates un trait est suggere.
  */
-export function WritingSlot({ word, size, single = false, onResult }: Props) {
+export function WritingSlot({ word, size, single = false, onResult, onMistake, hintAfterMisses = 3 }: Props) {
   const chars = useMemo(() => [...word.hanzi].filter((c) => isHan(c) && hasCharData(c)), [word.hanzi]);
   const [active, setActive] = useState(0);
-  const [mistakes, setMistakes] = useState(0);
+  const [mistakes, setMistakesState] = useState(0);
+  const setMistakes = (fn: (m: number) => number) => { setMistakesState(fn); onMistake?.(); };
   const n = chars.length;
   const done = active >= n;
 
@@ -61,6 +66,7 @@ export function WritingSlot({ word, size, single = false, onResult }: Props) {
               size={box}
               quiz={!done}
               showCharacter={done}
+              hintAfterMisses={hintAfterMisses}
               onMistake={() => setMistakes((m) => m + 1)}
               onComplete={() => setActive((a) => a + 1)}
             />
@@ -79,6 +85,7 @@ export function WritingSlot({ word, size, single = false, onResult }: Props) {
             size={size}
             quiz={k === active}
             showCharacter={k < active}
+            hintAfterMisses={hintAfterMisses}
             onMistake={() => setMistakes((m) => m + 1)}
             onComplete={() => setActive((a) => a + 1)}
           />

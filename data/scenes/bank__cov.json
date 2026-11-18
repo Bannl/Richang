@@ -1,0 +1,12 @@
+{"situation":"bank","scenes":[
+{"id":"bank__cov-s1","topic":"Un numéro taïwanais pour ouvrir un compte","lines":[
+{"speaker":"enemy","zh":"開戶必須有台灣的手機門號。","pinyin":"kāi hù bì xū yǒu tái wān de shǒu jī mén hào","en":"To open an account, you must have a Taiwanese mobile number.","fr":"Pour ouvrir un compte, il faut obligatoirement un numéro de portable taïwanais."},
+{"speaker":"player","zh":"我有，上個月剛辦的。","pinyin":"wǒ yǒu shàng ge yuè gāng bàn de","en":"I have one. I just got it last month.","fr":"J'en ai un, je l'ai pris le mois dernier."},
+{"speaker":"enemy","zh":"好，我們的系統很快，馬上會收到簡訊。","pinyin":"hǎo wǒ men de xì tǒng hěn kuài mǎ shàng huì shōu dào jiǎn xùn","en":"Good. Our system is very fast — you'll get a text right away.","fr":"Bien. Notre système est très rapide, vous allez recevoir un SMS tout de suite."},
+{"speaker":"player","zh":"收到了，上面有六個數字。","pinyin":"shōu dào le shàng miàn yǒu liù ge shù zì","en":"Got it. There are six digits in it.","fr":"Je l'ai reçu, il y a six chiffres dedans."},
+{"speaker":"enemy","zh":"開戶要先存一點錢，你要存多少？","pinyin":"kāi hù yào xiān cún yì diǎn qián nǐ yào cún duō shǎo","en":"You need to deposit some money to open the account. How much would you like to put in?","fr":"Pour ouvrir le compte, il faut déposer un peu d'argent. Combien voulez-vous déposer ?"},
+{"speaker":"player","zh":"先存五千塊。","pinyin":"xiān cún wǔ qiān kuài","en":"Five thousand to start with.","fr":"Cinq mille pour commencer."},
+{"speaker":"enemy","zh":"請在這裡寫金額，在下面簽名。","pinyin":"qǐng zài zhè lǐ xiě jīn é zài xià miàn qiān míng","en":"Please write the amount here and sign below.","fr":"Veuillez écrire le montant ici, et signer en dessous."},
+{"speaker":"player","zh":"好，寫好了，這樣可以嗎？","pinyin":"hǎo xiě hǎo le zhè yàng kě yǐ ma","en":"OK, done. Is this all right?","fr":"D'accord, c'est fait. Ça va comme ça ?"}],
+"keywords":["必須","門號","金額","開戶"]}
+]}

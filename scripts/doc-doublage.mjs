@@ -1,6 +1,7 @@
 // Genere "Doublage - Repliques des voix.md" : script de doublage / revue des dialogues.
 // Situations converties en scenes coherentes -> affichees comme conversations ; les autres -> echanges (ancien format).
 import fs from 'node:fs';
+import { dubState, recordedVoices } from './lib/tt-index.mjs';
 
 const words = JSON.parse(fs.readFileSync('src/data/generated/words.json', 'utf8'));
 const wByRank = new Map(words.map((w) => [w.rank, w]));
@@ -14,6 +15,11 @@ const esc = (s) => (s ?? '').replace(/\r?\n/g, ' ').trim();
 const kw = (ranks) => (ranks || []).map((r) => wByRank.get(r)?.hanzi ?? '?').join('  ');
 const ordered = SIT.filter((s) => DIAL[s.id] || SCENES[s.id]);
 const isScene = (id) => (SCENES[id]?.length ?? 0) > 0;
+// Etat du doublage de chaque replique (voix enregistrees dans public/voices) : nouvelle ou modifiee = a (re)doubler.
+const RECORDED = recordedVoices();
+const DUB_MARK = { new: ' — *à doubler*', changed: ' — *à redoubler (texte modifié)*', ok: '' };
+let toDub = 0, toRedub = 0;
+for (const sc of Object.values(SCENES).flat()) sc.lines.forEach((l, i) => { const st = dubState(RECORDED, sc.id, i, l); if (st === 'new') toDub++; else if (st === 'changed') toRedub++; });
 
 const out = [];
 out.push('# 日常 Rìcháng — Script de doublage (voix)');
@@ -24,7 +30,10 @@ out.push('Les situations marquées **[scènes]** sont converties au nouveau form
 out.push('');
 out.push('Pour chaque réplique : **le texte à dire** (traditionnel), le *pinyin*, la traduction FR puis EN.');
 out.push('');
-out.push(`Généré le ${new Date().toISOString().slice(0, 10)}.`);
+// Date locale (toISOString donne la date UTC : la veille, le matin a Taiwan).
+const now = new Date();
+const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+out.push(`Généré le ${today}. Répliques à doubler : ${toDub} (nouvelles scènes) ; à redoubler : ${toRedub} (texte modifié depuis l’enregistrement). Les autres sont enregistrées ; en attendant, le jeu lit les répliques non doublées avec la voix de synthèse.`);
 out.push(''); out.push('---'); out.push('');
 
 // Récapitulatif
@@ -48,7 +57,7 @@ out.push('# Partie 1 — Situations et interlocuteurs');
 out.push('');
 ordered.forEach((s, i) => {
   const scene = isScene(s.id);
-  out.push(`## ${i + 1}. ${s.person.fr} — ${s.fr}${s.boss ? ' (boss)' : ''} ${scene ? '[scènes]' : ''}`);
+  out.push(`## ${i + 1}. ${s.person.fr} — ${s.fr} ${scene ? '[scènes]' : ''}`);
   out.push('');
   out.push(`**Lieu :** ${s.fr} (${s.en}) · **Sujet :** ${s.topic.fr}`);
   out.push('');
@@ -57,12 +66,12 @@ ordered.forEach((s, i) => {
       out.push(`### Scène ${k + 1} — ${sc.topic || sc.id}`);
       if (sc.keywords?.length) out.push(`*Mots travaillés : ${kw(sc.keywords)}*`);
       out.push('');
-      for (const l of sc.lines) {
+      sc.lines.forEach((l, idx) => {
         const who = l.speaker === 'enemy' ? s.person.fr : 'Le joueur';
-        out.push(`- **${who}** — ${esc(l.zh)}`);
+        out.push(`- **${who}** — ${esc(l.zh)}${DUB_MARK[dubState(RECORDED, sc.id, idx, l)]}`);
         out.push(`  - *${esc(l.pinyin)}*`);
         out.push(`  - ${esc(l.fr)} · ${esc(l.en)}`);
-      }
+      });
       out.push('');
     });
   } else {

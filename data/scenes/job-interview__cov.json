@@ -1,0 +1,22 @@
+{"situation":"job-interview","scenes":[
+{"id":"job-interview__cov-s1","topic":"Une ancienne carrière de journaliste","lines":[
+{"speaker":"enemy","zh":"你為什麼選擇我們公司？","pinyin":"nǐ wèi shén me xuǎn zé wǒ men gōng sī","en":"Why did you choose our company?","fr":"Pourquoi avez-vous choisi notre entreprise ?"},
+{"speaker":"player","zh":"因為你們在亞洲很有名。","pinyin":"yīn wèi nǐ men zài yà zhōu hěn yǒu míng","en":"Because you're very well known in Asia.","fr":"Parce que vous êtes très connus en Asie."},
+{"speaker":"enemy","zh":"你以前在法國做什麼？","pinyin":"nǐ yǐ qián zài fà guó zuò shén me","en":"What did you do in France before?","fr":"Que faisiez-vous en France avant ?"},
+{"speaker":"player","zh":"我當了五年的記者。","pinyin":"wǒ dāng le wǔ nián de jì zhě","en":"I was a journalist for five years.","fr":"J'ai été journaliste pendant cinq ans."},
+{"speaker":"enemy","zh":"記者跟這個工作很不一樣。","pinyin":"jì zhě gēn zhè ge gōng zuò hěn bù yí yàng","en":"Journalism is very different from this job.","fr":"Le métier de journaliste est très différent de ce poste."},
+{"speaker":"player","zh":"對，可是我很會跟人溝通。","pinyin":"duì kě shì wǒ hěn huì gēn rén gōu tōng","en":"Yes, but I'm very good at communicating with people.","fr":"Oui, mais je sais très bien communiquer avec les gens."},
+{"speaker":"enemy","zh":"那你將來有什麼計畫？","pinyin":"nà nǐ jiāng lái yǒu shén me jì huà","en":"And what are your plans for the future?","fr":"Et quels sont vos projets pour l'avenir ?"},
+{"speaker":"player","zh":"我想留在台灣，把中文學好。","pinyin":"wǒ xiǎng liú zài tái wān bǎ zhōng wén xué hǎo","en":"I want to stay in Taiwan and get good at Chinese.","fr":"Je veux rester à Taïwan et bien apprendre le chinois."}],
+"keywords":["選擇","亞洲","記者","將來"]},
+{"id":"job-interview__cov-s2","topic":"Le poste est à vous","lines":[
+{"speaker":"enemy","zh":"恭喜，你得到這個工作了。","pinyin":"gōng xǐ nǐ dé dào zhè ge gōng zuò le","en":"Congratulations, you've got the job.","fr":"Félicitations, vous avez obtenu le poste."},
+{"speaker":"player","zh":"真的嗎？太好了，謝謝您！","pinyin":"zhēn de ma tài hǎo le xiè xie nín","en":"Really? That's wonderful, thank you!","fr":"C'est vrai ? Génial, merci beaucoup !"},
+{"speaker":"enemy","zh":"我們選你，因為你很樂觀。","pinyin":"wǒ men xuǎn nǐ yīn wèi nǐ hěn lè guān","en":"We picked you because you're very positive.","fr":"Nous avons retenu votre candidature parce que vous êtes très optimiste."},
+{"speaker":"player","zh":"我會努力的。什麼時候開始上班？","pinyin":"wǒ huì nǔ lì de shén me shí hòu kāi shǐ shàng bān","en":"I'll work hard. When do I start?","fr":"Je ferai de mon mieux. Je commence quand ?"},
+{"speaker":"enemy","zh":"下個月一號。公司有提供宿舍。","pinyin":"xià ge yuè yī hào gōng sī yǒu tí gōng sù shè","en":"On the first of next month. The company provides staff housing.","fr":"Le premier du mois prochain. L'entreprise fournit un logement."},
+{"speaker":"player","zh":"不用，我已經租了房子。","pinyin":"bú yòng wǒ yǐ jīng zū le fáng zi","en":"No need, I've already rented a place.","fr":"Pas besoin, j'ai déjà loué un logement."},
+{"speaker":"enemy","zh":"好，你可以利用這個月多練習中文。","pinyin":"hǎo nǐ kě yǐ lì yòng zhè ge yuè duō liàn xí zhōng wén","en":"Good. You can use this month to practice your Chinese.","fr":"Bien. Vous pouvez profiter de ce mois pour pratiquer votre chinois."},
+{"speaker":"player","zh":"好，我每天都會練習。","pinyin":"hǎo wǒ měi tiān dōu huì liàn xí","en":"OK, I'll practice every day.","fr":"D'accord, je m'entraînerai tous les jours."}],
+"keywords":["得到","樂觀","提供","利用"]}
+]}

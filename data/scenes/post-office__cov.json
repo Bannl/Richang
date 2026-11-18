@@ -1,0 +1,12 @@
+{"situation":"post-office","scenes":[
+{"id":"post-office__cov-s1","topic":"Renvoyer des chaussures à échanger","lines":[
+{"speaker":"enemy","zh":"下一位。要寄什麼？","pinyin":"xià yí wèi yào jì shén me","en":"Next. What are you sending?","fr":"Au suivant. Qu'est-ce que vous envoyez ?"},
+{"speaker":"player","zh":"鞋子太小，要寄回店家換貨。","pinyin":"xié zi tài xiǎo yào jì huí diàn jiā huàn huò","en":"The shoes are too small. I'm sending them back to the shop to exchange them.","fr":"Les chaussures sont trop petites, je les renvoie au magasin pour les échanger."},
+{"speaker":"enemy","zh":"要先裝進箱子裡。","pinyin":"yào xiān zhuāng jìn xiāng zi lǐ","en":"They have to go in a carton first.","fr":"Il faut d'abord les mettre dans un carton."},
+{"speaker":"player","zh":"箱子在哪裡買？","pinyin":"xiāng zi zài nǎ lǐ mǎi","en":"Where can I buy a carton?","fr":"Où est-ce que je peux acheter un carton ?"},
+{"speaker":"enemy","zh":"那邊有賣，包好再來排隊。","pinyin":"nà biān yǒu mài bāo hǎo zài lái pái duì","en":"They're sold over there. Pack it, then come back and queue.","fr":"Il y en a en vente là-bas. Faites le paquet, puis revenez faire la queue."},
+{"speaker":"player","zh":"現在四點半，還可以寄嗎？","pinyin":"xiàn zài sì diǎn bàn hái kě yǐ jì ma","en":"It's half past four — can I still send it today?","fr":"Il est quatre heures et demie, je peux encore l'envoyer ?"},
+{"speaker":"enemy","zh":"營業時間到五點，快一點。","pinyin":"yíng yè shí jiān dào wǔ diǎn kuài yì diǎn","en":"We're open until five. Hurry up.","fr":"Nous sommes ouverts jusqu'à cinq heures. Faites vite."},
+{"speaker":"player","zh":"好，我十分鐘就回來！","pinyin":"hǎo wǒ shí fēn zhōng jiù huí lái","en":"OK, I'll be back in ten minutes!","fr":"D'accord, je reviens dans dix minutes !"}],
+"keywords":["換貨","營業時間","寄","排隊"]}
+]}

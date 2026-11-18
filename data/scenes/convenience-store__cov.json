@@ -1,0 +1,8 @@
+{"situation":"convenience-store","scenes":[
+{"id":"convenience-store__cov-s1","topic":"Un hamburger et des lattes en promo","lines":[
+{"speaker":"enemy","zh":"漢堡要微波嗎？","pinyin":"hàn bǎo yào wéi bō ma","en":"Shall I microwave the burger?","fr":"Je vous passe le hamburger au micro-ondes ?"},
+{"speaker":"player","zh":"要，謝謝。","pinyin":"yào xiè xie","en":"Yes, thanks.","fr":"Oui, merci."},
+{"speaker":"enemy","zh":"拿鐵買一送一喔！","pinyin":"ná tiě mǎi yí sòng yī o","en":"Lattes are buy one, get one free!","fr":"Les lattes sont à un acheté, un offert !"},
+{"speaker":"player","zh":"那給我兩杯！","pinyin":"nà gěi wǒ liǎng bēi","en":"Then give me two!","fr":"Alors donnez-m'en deux !"}],
+"keywords":["漢堡","買一送一","拿鐵"]}
+]}

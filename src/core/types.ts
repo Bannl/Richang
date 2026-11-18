@@ -1,12 +1,12 @@
-import type { Encounter, RunState } from '../game/types';
+import type { DrillState, Encounter, RunState } from '../game/types';
 import type { PhoneticSystem } from './phonetics';
 export interface ThemeInfo { id: string; label: string; labelEn: string; hue: number }
 
 export interface Example { zh: string; pinyin: string; fr: string; en?: string }
 
 export interface Word {
-  rank: number;       // 1..2000, ordre de frequence/utilite
-  tier: number;       // 1..6 (paliers 100/200/400/600/1000/2000)
+  rank: number;       // 1..2000 ordre de frequence/utilite, puis 2001+ : mots des dialogues hors des 2000 (palier 7)
+  tier: number;       // 1..7 (paliers 100/200/400/600/1000/2000, puis les mots des dialogues)
   hanzi: string;
   pinyin: string;     // "nǐ hǎo"
   zhuyin: string[];   // ["ㄋㄧˇ", "ㄏㄠˇ"]
@@ -37,7 +37,11 @@ export interface SkillState {
   last: number;      // derniere revision (ms)
 }
 
-export interface WordProgress { intro: number; skills: Record<Skill, SkillState> }
+/**
+ * streak : traces complets du mot sans aucune erreur, d'affilee, tous modes confondus (le trace sur pointilles de
+ * l'apprentissage ne compte pas) ; star : maitrise atteinte (MASTERY_STREAK d'affilee), etoile gardee ensuite.
+ */
+export interface WordProgress { intro: number; skills: Record<Skill, SkillState>; streak?: number; star?: boolean }
 
 export type WordStatus = 'new' | 'learning' | 'review' | 'mastered';
 
@@ -89,7 +93,14 @@ export interface AppState {
   unlocked: number[];                     // deck : rangs des cartes debloquees, dans l'ordre
   run: RunState | null;                   // run en cours
   runsPlayed: number;
+  /** Ancien compteur (runs gagnes contre le boss), garde pour les sauvegardes ; le score est maintenant bestDays. */
   runsWon: number;
+  /** Record de l'aventure : journees reussies d'affilee dans un run. */
+  bestDays: number;
+  /** Record du defi d'ecriture : mots traces avant de perdre ses 5 vies. */
+  bestWriting: number;
+  /** Mode Situation en cours (rencontre d'entrainement choisie dans le menu). */
+  drill: DrillState | null;
   /** Tutoriel en cours (null : aucun). */
   tutorial: TutorialState | null;
   /** Tutoriel vu ou passe : il ne se relance plus tout seul (rejouable depuis les reglages). */
@@ -126,6 +137,9 @@ export function emptyState(): AppState {
     run: null,
     runsPlayed: 0,
     runsWon: 0,
+    bestDays: 0,
+    bestWriting: 0,
+    drill: null,
     tutorial: null,
     tutorialDone: false,
   };

@@ -1,0 +1,22 @@
+{"situation":"daily-life","scenes":[
+{"id":"daily-life__cov-s1","topic":"La salle de bain occupée","lines":[
+{"speaker":"enemy","zh":"你在浴室好久了！","pinyin":"nǐ zài yù shì hǎo jiǔ le","en":"You've been in the bathroom forever!","fr":"Ça fait une éternité que tu es dans la salle de bain !"},
+{"speaker":"player","zh":"快好了，我在洗臉。","pinyin":"kuài hǎo le wǒ zài xǐ liǎn","en":"Almost done. I'm washing my face.","fr":"J'ai presque fini, je me lave le visage."},
+{"speaker":"enemy","zh":"快一點，我要遲到了！","pinyin":"kuài yì diǎn wǒ yào chí dào le","en":"Hurry up, I'm going to be late!","fr":"Dépêche-toi, je vais être en retard !"},
+{"speaker":"player","zh":"好了，換你。對了，今天誰拖地？","pinyin":"hǎo le huàn nǐ duì le jīn tiān shéi tuō dì","en":"Done, your turn. By the way, who's mopping today?","fr":"C'est bon, à toi. Au fait, qui passe la serpillière aujourd'hui ?"},
+{"speaker":"enemy","zh":"是我，可是我今天要加班。","pinyin":"shì wǒ kě shì wǒ jīn tiān yào jiā bān","en":"Me, but I have to work late today.","fr":"Moi, mais je fais des heures sup aujourd'hui."},
+{"speaker":"player","zh":"反正我今天在家，我拖就好。","pinyin":"fǎn zhèng wǒ jīn tiān zài jiā wǒ tuō jiù hǎo","en":"I'm home today anyway — I'll do it.","fr":"De toute façon, je suis à la maison aujourd'hui, je m'en occupe."},
+{"speaker":"enemy","zh":"謝啦，下次我幫你倒垃圾。","pinyin":"xiè la xià cì wǒ bāng nǐ dào lè sè","en":"Thanks. Next time I'll take out the trash for you.","fr":"Merci. La prochaine fois, je sors les poubelles à ta place."},
+{"speaker":"player","zh":"好，不要忘記喔！","pinyin":"hǎo bú yào wàng jì o","en":"Deal. Don't forget!","fr":"Ça marche. N'oublie pas !"}],
+"keywords":["洗臉","拖地","反正","倒垃圾"]},
+{"id":"daily-life__cov-s2","topic":"La Saint-Valentin oubliée","lines":[
+{"speaker":"enemy","zh":"慘了，我忘記情人節了！","pinyin":"cǎn le wǒ wàng jì qíng rén jié le","en":"I'm in trouble — I forgot Valentine's Day!","fr":"C'est la cata, j'ai oublié la Saint-Valentin !"},
+{"speaker":"player","zh":"真的假的？你女朋友一定很不爽。","pinyin":"zhēn de jiǎ de nǐ nǚ péng yǒu yí dìng hěn bù shuǎng","en":"Seriously? Your girlfriend must be really annoyed.","fr":"Sans blague ? Ta copine doit être super énervée."},
+{"speaker":"enemy","zh":"對，她說不會原諒我。","pinyin":"duì tā shuō bú huì yuán liàng wǒ","en":"Yeah. She says she won't forgive me.","fr":"Oui, elle dit qu'elle ne me pardonnera pas."},
+{"speaker":"player","zh":"今天買花送她吧。","pinyin":"jīn tiān mǎi huā sòng tā ba","en":"Buy her flowers today.","fr":"Achète-lui des fleurs aujourd'hui."},
+{"speaker":"enemy","zh":"花就夠了嗎？","pinyin":"huā jiù gòu le ma","en":"Will flowers be enough?","fr":"Des fleurs, ça suffira ?"},
+{"speaker":"player","zh":"再帶她去好餐廳吃飯。","pinyin":"zài dài tā qù hǎo cān tīng chī fàn","en":"Then take her out to a nice restaurant too.","fr":"Emmène-la aussi manger dans un bon restaurant."},
+{"speaker":"enemy","zh":"好主意，我馬上打電話訂。","pinyin":"hǎo zhǔ yì wǒ mǎ shàng dǎ diàn huà dìng","en":"Good idea. I'll call and book right away.","fr":"Bonne idée, j'appelle tout de suite pour réserver."},
+{"speaker":"player","zh":"加油，她會原諒你的！","pinyin":"jiā yóu tā huì yuán liàng nǐ de","en":"Good luck — she'll forgive you!","fr":"Courage, elle va te pardonner !"}],
+"keywords":["情人","不爽","原諒","真的假的"]}
+]}

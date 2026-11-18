@@ -1,0 +1,32 @@
+{"situation":"clothes-shopping","scenes":[
+{"id":"clothes-shopping__cov-s1","topic":"Une robe pour maman","lines":[
+{"speaker":"enemy","zh":"歡迎光臨！想找什麼？","pinyin":"huān yíng guāng lín xiǎng zhǎo shén me","en":"Welcome! What are you looking for?","fr":"Bienvenue ! Vous cherchez quelque chose ?"},
+{"speaker":"player","zh":"我想買洋裝送媽媽。","pinyin":"wǒ xiǎng mǎi yáng zhuāng sòng mā ma","en":"I'd like to buy a dress for my mom.","fr":"Je voudrais acheter une robe pour ma mère."},
+{"speaker":"enemy","zh":"我們的選擇最多，你看這件。","pinyin":"wǒ men de xuǎn zé zuì duō nǐ kàn zhè jiàn","en":"Nobody has a wider choice than us. Look at this one.","fr":"C'est chez nous qu'il y a le plus de choix. Regardez celle-ci."},
+{"speaker":"player","zh":"太長了，我媽媽比較矮。","pinyin":"tài cháng le wǒ mā ma bǐ jiào ǎi","en":"It's too long. My mom is rather short.","fr":"Elle est trop longue, ma mère est plutôt petite."},
+{"speaker":"enemy","zh":"那這條裙子呢？配白襯衫很好看。","pinyin":"nà zhè tiáo qún zi ne pèi bái chèn shān hěn hǎo kàn","en":"Then how about this skirt? It looks great with a white blouse.","fr":"Et cette jupe, alors ? Elle va très bien avec un chemisier blanc."},
+{"speaker":"player","zh":"好看！這條多少錢？","pinyin":"hǎo kàn zhè tiáo duō shǎo qián","en":"Nice! How much is this one?","fr":"Elle est jolie ! Combien coûte celle-ci ?"},
+{"speaker":"enemy","zh":"一千二，我幫你包好。","pinyin":"yì qiān èr wǒ bāng nǐ bāo hǎo","en":"Twelve hundred. I'll gift-wrap it for you.","fr":"Mille deux cents. Je vous fais un paquet cadeau."},
+{"speaker":"player","zh":"好，她一定會很喜歡。","pinyin":"hǎo tā yí dìng huì hěn xǐ huān","en":"Great. She's sure to love it.","fr":"Parfait. Elle va sûrement l'adorer."}],
+"keywords":["洋裝","裙子","矮","選擇"]},
+{"id":"clothes-shopping__cov-s2","topic":"Un pull gris pour l'hiver","lines":[
+{"speaker":"enemy","zh":"天冷了，要不要看看毛衣？","pinyin":"tiān lěng le yào bú yào kàn kan máo yī","en":"It's getting cold. Would you like to look at our sweaters?","fr":"Il commence à faire froid. Vous voulez voir nos pulls ?"},
+{"speaker":"player","zh":"好啊，有灰色的嗎？","pinyin":"hǎo a yǒu huī sè de ma","en":"Sure. Do you have grey ones?","fr":"Volontiers. Vous en avez en gris ?"},
+{"speaker":"enemy","zh":"有，我們的灰色毛衣最好看！","pinyin":"yǒu wǒ men de huī sè máo yī zuì hǎo kàn","en":"Yes, and our grey sweaters are the nicest around!","fr":"Oui, et nos pulls gris sont les plus beaux !"},
+{"speaker":"player","zh":"這件好軟，我可以試穿嗎？","pinyin":"zhè jiàn hǎo ruǎn wǒ kě yǐ shì chuān ma","en":"This one is so soft. Can I try it on?","fr":"Celui-ci est tout doux. Je peux l'essayer ?"},
+{"speaker":"enemy","zh":"當然，鏡子在那邊。","pinyin":"dāng rán jìng zi zài nà biān","en":"Of course. The mirror is over there.","fr":"Bien sûr. Le miroir est là-bas."},
+{"speaker":"player","zh":"尺寸剛好，我要這件。","pinyin":"chǐ cùn gāng hǎo wǒ yào zhè jiàn","en":"It's exactly my size. I'll take it.","fr":"C'est exactement ma taille. Je le prends."},
+{"speaker":"enemy","zh":"襪子買一送一，要不要帶幾雙？","pinyin":"wà zi mǎi yí sòng yī yào bú yào dài jǐ shuāng","en":"Socks are buy one, get one free. Want to take a few pairs?","fr":"Les chaussettes sont à une paire achetée, une offerte. Vous en prenez quelques-unes ?"},
+{"speaker":"player","zh":"好啊，我拿兩雙黑色的。","pinyin":"hǎo a wǒ ná liǎng shuāng hēi sè de","en":"Sure, I'll take two black pairs.","fr":"Volontiers, je prends deux paires noires."}],
+"keywords":["毛衣","灰","襪子","買一送一"]},
+{"id":"clothes-shopping__cov-s3","topic":"Commander en ligne ou essayer ?","lines":[
+{"speaker":"enemy","zh":"這雙球鞋是新款，很多人買喔。","pinyin":"zhè shuāng qiú xié shì xīn kuǎn hěn duō rén mǎi o","en":"These sneakers are a new model. Lots of people are buying them.","fr":"Ces baskets sont un nouveau modèle, beaucoup de gens les achètent."},
+{"speaker":"player","zh":"網路上比較便宜。","pinyin":"wǎng lù shàng bǐ jiào pián yí","en":"They're cheaper online.","fr":"C'est moins cher sur Internet."},
+{"speaker":"enemy","zh":"網路下單不能試穿，買錯尺寸怎麼辦？","pinyin":"wǎng lù xià dān bù néng shì chuān mǎi cuò chǐ cùn zěn me bàn","en":"If you order online you can't try them on. What if you get the wrong size?","fr":"Si vous commandez en ligne, vous ne pouvez pas les essayer. Et si vous vous trompez de pointure ?"},
+{"speaker":"player","zh":"也對，那我先試穿看看。","pinyin":"yě duì nà wǒ xiān shì chuān kàn kan","en":"True. Then I'll try them on first.","fr":"C'est vrai. Alors je vais d'abord les essayer."},
+{"speaker":"enemy","zh":"怎麼樣？我們的鞋子最舒服吧？","pinyin":"zěn me yàng wǒ men de xié zi zuì shū fú ba","en":"Well? Our shoes are the most comfortable, aren't they?","fr":"Alors ? Nos chaussures sont les plus confortables, non ?"},
+{"speaker":"player","zh":"很舒服，可以算便宜一點嗎？","pinyin":"hěn shū fú kě yǐ suàn pián yí yì diǎn ma","en":"Very. Could you give me a better price?","fr":"Très. Vous pouvez me faire un petit prix ?"},
+{"speaker":"enemy","zh":"我們不打折，可是送你一雙襪子。","pinyin":"wǒ men bù dǎ zhé kě shì sòng nǐ yì shuāng wà zi","en":"We don't do discounts, but I'll throw in a pair of socks.","fr":"On ne fait pas de remise, mais je vous offre une paire de chaussettes."},
+{"speaker":"player","zh":"好吧，那我買這雙。","pinyin":"hǎo ba nà wǒ mǎi zhè shuāng","en":"All right, I'll take this pair.","fr":"Bon, d'accord, je prends cette paire."}],
+"keywords":["球鞋","下單","試穿","尺寸"]}
+]}

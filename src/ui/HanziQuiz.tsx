@@ -34,9 +34,20 @@ const padFor = (size: number) => Math.max(6, Math.round(size * 0.04));
 const GLYPH_Y_MIN = -124;
 const GLYPH_SIZE = 1024;
 
-/** Couleur lue sur l'element (les conteneurs peuvent redefinir --fg, --line, --muted : case claire en combat). */
-function cssVar(el: Element, name: string, fallback: string): string {
-  return getComputedStyle(el).getPropertyValue(name).trim() || fallback;
+/**
+ * Couleur d'une variable CSS lue sur l'element (les conteneurs peuvent redefinir --fg, --line, --muted : case claire en
+ * combat), normalisee par le navigateur en rgb() ou rgba(). Hanzi Writer ne lit que #rgb, #rrggbb, rgb() et rgba() et
+ * plante sur le reste : le CSS minifie de la version publiee ecrit les couleurs translucides en #rrggbbaa (la couleur
+ * des filets, 2026-11-18 : plus d'animation ni de trace dans les apps, alors que le serveur de developpement marchait).
+ */
+function cssColor(el: Element, name: string, fallback: string): string {
+  const probe = document.createElement('span');
+  probe.style.display = 'none';
+  probe.style.color = `var(${name}, ${fallback})`;
+  el.appendChild(probe);
+  const color = getComputedStyle(probe).color;
+  probe.remove();
+  return /^rgba?\(/.test(color) ? color : fallback;
 }
 
 /** Canvas d'ecriture (Hanzi Writer) : animation des traits et quiz trait par trait au doigt, stylet ou souris. */
@@ -63,9 +74,9 @@ export const HanziQuiz = forwardRef<HanziQuizHandle, Props>(function HanziQuiz(
     const el = host.current;
     if (!el) return;
     el.innerHTML = '';
-    const fg = cssVar(el, '--fg', '#222');
-    const line = cssVar(el, '--line', '#ddd');
-    const muted = cssVar(el, '--muted', '#888');
+    const fg = cssColor(el, '--fg', '#222');
+    const line = cssColor(el, '--line', '#ddd');
+    const muted = cssColor(el, '--muted', '#888');
     const w = HanziWriter.create(el, char, {
       width: size, height: size, padding: padFor(size),
       showOutline, showCharacter,

@@ -4,6 +4,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { findSimplified } from './lib/master.mjs';
 import { splitSyllables } from './lib/pinyin.mjs';
+import { segmentRanks } from './lib/segment.mjs';
+import { hasLatinPunct } from './lib/punct.mjs';
 
 const words = JSON.parse(fs.readFileSync('data/words-final.json', 'utf8'));
 const dict = new Map(words.map((w) => [w.hanzi, w.rank]));
@@ -11,25 +13,15 @@ const wByRank = new Map(words.map((w) => [w.rank, w]));
 const isHan = (c) => /\p{Script=Han}/u.test(c);
 const MAX_LEN = 5;
 
-function segment(zh) {
-  const chars = [...zh]; const out = []; let i = 0;
-  while (i < chars.length) {
-    if (!isHan(chars[i])) { i++; continue; }
-    let hit = false;
-    for (let len = Math.min(MAX_LEN, chars.length - i); len >= 1; len--) {
-      const cand = chars.slice(i, i + len).join('');
-      if (dict.has(cand)) { out.push(dict.get(cand)); i += len; hit = true; break; }
-    }
-    if (!hit) i++;
-  }
-  return out;
-}
+/** Mots de la liste presents dans la replique, decoupee comme le jeu (exceptions comprises). */
+const segment = (zh) => segmentRanks(zh, dict).ranks;
 
 function checkLine(line, tag, errors) {
   if (!line || !line.zh || !line.pinyin || !line.en || !line.fr) { errors.push(`${tag} : champs manquants`); return false; }
   if (line.speaker !== 'enemy' && line.speaker !== 'player') { errors.push(`${tag} : speaker invalide (${line.speaker})`); return false; }
   const han = [...line.zh].filter(isHan);
   if (han.length < 2 || han.length > 16) errors.push(`${tag} : longueur ${han.length} ("${line.zh}")`);
+  if (hasLatinPunct(line.zh)) errors.push(`${tag} : ponctuation latine dans le chinois ("${line.zh}") : node scripts/normalize-punct.mjs --write`);
   const bad = findSimplified(line.zh);
   if (bad.length) { errors.push(`${tag} : simplifie [${bad.join('')}] ("${line.zh}")`); return false; }
   const syl = splitSyllables(line.pinyin.replace(/[,，.。!！?？;；:：、]/g, ' '));

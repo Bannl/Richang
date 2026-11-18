@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
+import { hasStar } from '../core/mastery';
 import { enabledSkills } from '../core/session';
 import { wordStatus } from '../core/srs';
 import type { AppState } from '../core/types';
@@ -370,7 +371,7 @@ export function BattleScreen({ state, update, coach, corner }: Props) {
             {native ? (
               <div className="write-pad" ref={padRef}>
                 {writingWord && padSize > 0
-                  ? <WritingSlot key={`${enc.index}-${writingSlot}`} word={writingWord} size={padSize} single onResult={(ok) => update((s) => resolveSlot(s, writingSlot, ok, Date.now()))} />
+                  ? <WritingSlot key={`${enc.index}-${writingSlot}`} word={writingWord} size={padSize} single onResult={(ok, mistakes) => update((s) => resolveSlot(s, writingSlot, ok, Date.now(), mistakes))} />
                   : <div className="write-wait" style={{ width: padSize, height: padSize }}><span>{hint || t('listening2')}</span></div>}
               </div>
             ) : (
@@ -379,6 +380,7 @@ export function BattleScreen({ state, update, coach, corner }: Props) {
                 difficulty={run.difficulty}
                 locked={locked}
                 isMastered={(rank) => wordStatus(state.progress[rank], enabled) === 'mastered'}
+                isStarred={(rank) => hasStar(state, rank)}
                 onDrop={drop}
                 getDropTargets={getDropTargets}
               />

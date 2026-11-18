@@ -1,0 +1,10 @@
+{"situation":"drink-shop","scenes":[
+{"id":"drink-shop__cov-s1","topic":"Ma propre paille","lines":[
+{"speaker":"enemy","zh":"你的珍珠奶茶好了！","pinyin":"nǐ de zhēn zhū nǎi chá hǎo le","en":"Your bubble tea is ready!","fr":"Votre thé aux perles est prêt !"},
+{"speaker":"player","zh":"小姐，我不用吸管，謝謝。","pinyin":"xiǎo jiě wǒ bú yòng xī guǎn xiè xie","en":"Miss, I don't need a straw, thanks.","fr":"Mademoiselle, je n'ai pas besoin de paille, merci."},
+{"speaker":"enemy","zh":"你自己有吸管嗎？","pinyin":"nǐ zì jǐ yǒu xī guǎn ma","en":"Do you have your own straw?","fr":"Vous avez votre propre paille ?"},
+{"speaker":"player","zh":"有，這樣可以減少垃圾。","pinyin":"yǒu zhè yàng kě yǐ jiǎn shǎo lè sè","en":"Yes. That way there's less waste.","fr":"Oui. Comme ça, on réduit les déchets."},
+{"speaker":"enemy","zh":"好棒！帶杯子來還可以便宜五塊喔！","pinyin":"hǎo bàng dài bēi zi lái hái kě yǐ pián yí wǔ kuài o","en":"Great! And if you bring a cup, you get five dollars off!","fr":"Super ! Et si vous apportez un gobelet, vous avez cinq dollars de réduction !"},
+{"speaker":"player","zh":"真的嗎？那下次我帶。","pinyin":"zhēn de ma nà xià cì wǒ dài","en":"Really? Then I'll bring one next time.","fr":"C'est vrai ? Alors la prochaine fois, j'en apporte un."}],
+"keywords":["小姐","吸管","減少","垃圾"]}
+]}

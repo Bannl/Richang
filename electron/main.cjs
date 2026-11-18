@@ -1,6 +1,6 @@
 // Processus principal Electron (Windows). Sert le build Vite via le protocole privilegie app://
 // et expose un stockage fichier JSON pour la progression.
-const { app, BrowserWindow, protocol, net, ipcMain, dialog, shell } = require('electron');
+const { app, BrowserWindow, protocol, net, ipcMain, dialog, shell, nativeTheme } = require('electron');
 const path = require('node:path');
 const fs = require('node:fs/promises');
 const { pathToFileURL } = require('node:url');
@@ -73,7 +73,8 @@ function createWindow() {
     minHeight: 680,
     title: 'Richang',
     autoHideMenuBar: true,
-    backgroundColor: '#f7f6f2',
+    // Fond avant le chargement : la table de jade du jeu, claire ou sombre selon le theme de Windows.
+    backgroundColor: nativeTheme.shouldUseDarkColors ? '#0e2722' : '#d3e0d6',
     webPreferences: {
       preload: path.join(__dirname, 'preload.cjs'),
       contextIsolation: true,

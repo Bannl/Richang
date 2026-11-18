@@ -1,12 +1,14 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { creditWriting, hasStar } from '../core/mastery';
 import { enabledSkills } from '../core/session';
-import { newProgress, review, wordStatus } from '../core/srs';
-import { SKILLS, type AppState, type Grade, type Word } from '../core/types';
+import { wordStatus } from '../core/srs';
+import type { AppState, Word } from '../core/types';
 import { hasCharData } from '../data/hanzi';
 import { WORDS, WORD_BY_RANK } from '../data/words';
 import { noteOf, useLang, useT } from '../i18n';
 import { Card, Example, HanziText, Icon, Meaning, Reading, SpeakButton, TopBar } from '../ui/basics';
 import { GameCard } from '../ui/cards';
+import { MasteryLine } from '../ui/Mastery';
 import { HanziQuiz, type HanziQuizHandle } from '../ui/HanziQuiz';
 import { useElementSize } from '../ui/useElementSize';
 import { PHONE_QUERY, TOUCH_QUERY, useMediaQuery } from '../ui/useMediaQuery';
@@ -28,14 +30,6 @@ const CHARS_ROW = 44;
 const LABEL_ROW = 30;
 /** Taille de la vignette du modele par rapport a la grande case (ecran tactile). */
 const MODEL_RATIO = 0.4;
-
-/** Mot trace en entier : la competence d'ecriture progresse selon les erreurs. */
-function creditWriting(state: AppState, rank: number, mistakes: number, now: number): AppState {
-  const grade: Grade = mistakes === 0 ? 3 : mistakes <= 2 ? 2 : 1;
-  const p = state.progress[rank] ?? newProgress(now, SKILLS);
-  const write = p.skills.write ?? newProgress(now, SKILLS).skills.write;
-  return { ...state, progress: { ...state.progress, [rank]: { ...p, skills: { ...p.skills, write: review(write, grade, now) } } } };
-}
 
 /** Entrainement : parcourir ses cartes avec toutes leurs informations et tracer chaque caractere dans une case vide, modele a cote. */
 export function PracticeScreen({ state, update, onBack }: Props) {
@@ -75,11 +69,11 @@ export function PracticeScreen({ state, update, onBack }: Props) {
 
   return (
     <div className="app wide practice">
-      <TopBar left={back} title={t('practice')} right={toggle} />
+      <TopBar left={back} title={t('practice')} zh="練習" right={toggle} />
       <div className="practice-list" ref={listRef}>
         {list.map((w, i) => (
           <div key={w.rank} className={`practice-item ${i === current ? 'selected' : ''}`}>
-            <GameCard word={w} difficulty="newcomer" full mastered={isMastered(w.rank)} onClick={() => setIndex(i)} />
+            <GameCard word={w} difficulty="newcomer" full mastered={isMastered(w.rank)} star={hasStar(state, w.rank)} onClick={() => setIndex(i)} />
           </div>
         ))}
         {list.length === 0 && <p className="muted small center">{t('emptyDeck')}</p>}
@@ -202,6 +196,7 @@ function PracticeCard({ word, state, mastered, hasPrev, hasNext, onPrev, onNext,
           <Meaning word={word} />
           {note && <p className="note">{note}</p>}
           <Example word={word} settings={settings} />
+          <MasteryLine state={state} rank={word.rank} />
           <span className="prompt">{verdict}</span>
           <div className="learn-actions">
             <button type="button" className="btn ghost" disabled={n === 0} onClick={() => model.current?.animate()}><Icon name="replay" /> {t('showStrokes')}</button>

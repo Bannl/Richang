@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import { findSimplified } from './lib/master.mjs';
 import { applySandhi, pinyinToNumbered, pinyinToZhuyin, splitSyllables } from './lib/pinyin.mjs';
+import { hasLatinPunct } from './lib/punct.mjs';
 
 const OVERRIDES = fs.existsSync('data/pinyin-overrides.json') ? JSON.parse(fs.readFileSync('data/pinyin-overrides.json', 'utf8')) : {};
 
@@ -30,7 +31,9 @@ if (fs.existsSync('data/external/cedict.txt')) {
 const errors = [];
 const warns = [];
 const entries = [];
-for (let i = 1; i <= 8; i++) {
+// Parties d'enrichissement : part-1 a part-8 (les 2000 mots), part-9 (palier 7 : mots des dialogues).
+const PARTS = fs.readdirSync('data/enriched').filter((f) => /^part-\d+\.json$/.test(f)).length;
+for (let i = 1; i <= PARTS; i++) {
   const f = `data/enriched/part-${i}.json`;
   if (!fs.existsSync(f)) { errors.push(`fichier manquant : ${f}`); continue; }
   try { entries.push(...JSON.parse(fs.readFileSync(f, 'utf8'))); } catch (e) { errors.push(`${f} : JSON invalide (${e.message})`); }
@@ -38,7 +41,7 @@ for (let i = 1; i <= 8; i++) {
 
 // Traductions anglaises (optionnelles) : rank -> { en, noteEn, exampleEn }
 const EN = new Map();
-for (let i = 1; i <= 8; i++) {
+for (let i = 1; i <= PARTS; i++) {
   const f = `data/enriched-en/part-${i}.json`;
   if (!fs.existsSync(f)) { warns.push(`traductions anglaises manquantes : ${f}`); continue; }
   try { for (const e of JSON.parse(fs.readFileSync(f, 'utf8'))) EN.set(e.rank, e); } catch (err) { errors.push(`${f} : JSON invalide (${err.message})`); }
@@ -75,6 +78,7 @@ for (const e of entries) {
     else if (exSyl.length !== exChars.length) warns.push(`${tag} : exemple ${exChars.length} car. / ${exSyl.length} syllabes`);
     const bad = findSimplified(ex.zh);
     if (bad.length) errors.push(`${tag} : simplifié dans l'exemple [${bad.join('')}]`);
+    if (hasLatinPunct(ex.zh)) errors.push(`${tag} : ponctuation latine dans l'exemple "${ex.zh}" (node scripts/normalize-punct.mjs --write)`);
     if (exChars.length > 16) warns.push(`${tag} : exemple long (${exChars.length} car.)`);
   }
   if (cedict.size && syls && syls.length === chars.length) {

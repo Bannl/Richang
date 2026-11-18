@@ -54,6 +54,7 @@ export function tutorialView(state: AppState): AppState {
     seed: 1, difficulty: 'newcomer', hp: RUN_MAX_HP, maxHp: RUN_MAX_HP, map: { layers: 1, nodes: [] },
     current: enc.nodeId, visited: [enc.nodeId], encounter: enc, reward: null, restHealed: 0, phase: 'battle',
     startedAt: 0, cardsUnlocked: 0, correct: 0, wrong: 0,
+    day: 1, finals: [], seen: [], bestBefore: 0, dayStart: { correct: 0, wrong: 0, cards: 0 },
   };
   return { ...state, unlocked: [TUTORIAL_RANK], run };
 }

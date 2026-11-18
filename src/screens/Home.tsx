@@ -5,7 +5,7 @@ import { canStartRun, nextUnlockables } from '../game/run';
 import { MIN_DECK_FOR_RUN } from '../game/types';
 import { DIFF_HINT, DIFF_KEY, useT } from '../i18n';
 import { backgroundFor } from '../ui/backgrounds';
-import { HanziText } from '../ui/basics';
+import { SectionTitle } from '../ui/basics';
 
 interface Props {
   state: AppState;
@@ -14,6 +14,8 @@ interface Props {
   onContinueRun: () => void;
   onDeck: () => void;
   onPractice: () => void;
+  onSituations: () => void;
+  onChallenge: () => void;
   onSettings: () => void;
   /** Voix des repliques du joueur, choisie au debut de l'aventure. */
   onVoice: (v: Settings['playerVoice']) => void;
@@ -22,7 +24,7 @@ interface Props {
 const DIFFICULTIES: Difficulty[] = ['newcomer', 'seasoned', 'resident', 'native'];
 
 /** Camp : deck, apprentissage de cartes, lancement ou reprise d'un run. */
-export function HomeScreen({ state, onLearn, onStartRun, onContinueRun, onDeck, onPractice, onSettings, onVoice }: Props) {
+export function HomeScreen({ state, onLearn, onStartRun, onContinueRun, onDeck, onPractice, onSituations, onChallenge, onSettings, onVoice }: Props) {
   const t = useT();
   const [choosing, setChoosing] = useState(false);
   const deck = state.unlocked.length;
@@ -33,7 +35,7 @@ export function HomeScreen({ state, onLearn, onStartRun, onContinueRun, onDeck, 
   return (
     <div className="app home on-photo">
       <div className="scene-bg" style={{ backgroundImage: `url(${backgroundFor('home')})` }} aria-hidden="true" />
-      <h1><HanziText text="日常" size="lg" />Rìcháng</h1>
+      <h1><span className="logo-seal" lang="zh-Hant-TW">日常</span>Rìcháng</h1>
       <p className="subtitle">{t('tagline')}</p>
 
       <span className="badge big">{t('deckCount', { n: deck, total: WORDS.length })}</span>
@@ -47,7 +49,7 @@ export function HomeScreen({ state, onLearn, onStartRun, onContinueRun, onDeck, 
         {run ? (
           <button type="button" className="btn primary" onClick={onContinueRun}>
             <span>{t('continueRun')}</span>
-            <span className="sub">{t(DIFF_KEY[run.difficulty])} · {t('hp')} {run.hp}/{run.maxHp}</span>
+            <span className="sub">{t('dayN', { n: run.day })} · {t(DIFF_KEY[run.difficulty])} · {t('hp')} {run.hp}/{run.maxHp}</span>
           </button>
         ) : !choosing ? (
           <button type="button" className="btn primary" disabled={!canStartRun(state)} onClick={() => setChoosing(true)}>
@@ -56,13 +58,13 @@ export function HomeScreen({ state, onLearn, onStartRun, onContinueRun, onDeck, 
           </button>
         ) : (
           <div className="difficulty-list">
-            <p className="section">{t('yourVoice')}</p>
+            <SectionTitle zh="聲音">{t('yourVoice')}</SectionTitle>
             <div className="voice-choice">
               {(['female', 'male'] as const).map((v) => (
                 <button type="button" key={v} className={`chip ${state.settings.playerVoice === v ? 'on' : ''}`} onClick={() => onVoice(v)}>{t(v === 'male' ? 'voiceMan' : 'voiceWoman')}</button>
               ))}
             </div>
-            <p className="section">{t('chooseDifficulty')}</p>
+            <SectionTitle zh="難度">{t('chooseDifficulty')}</SectionTitle>
             {DIFFICULTIES.map((d) => (
               <button type="button" key={d} className={`btn ${d === state.settings.difficulty ? 'primary' : ''}`} onClick={() => onStartRun(d)}>
                 <span>{t(DIFF_KEY[d])}</span>
@@ -72,14 +74,27 @@ export function HomeScreen({ state, onLearn, onStartRun, onContinueRun, onDeck, 
             <button type="button" className="btn ghost" onClick={() => setChoosing(false)}>{t('back')}</button>
           </div>
         )}
+
+        {!choosing && (
+          <div className="mode-row">
+            <button type="button" className="btn" disabled={deck === 0} onClick={onSituations}>
+              <span>{t('situations')}</span>
+              <span className="sub">{t('situationsSub')}</span>
+            </button>
+            <button type="button" className="btn" disabled={deck === 0} onClick={onChallenge}>
+              <span>{t('writingChallenge')}</span>
+              <span className="sub">{state.bestWriting > 0 ? t('challengeBest', { n: state.bestWriting }) : t('writingChallengeSub')}</span>
+            </button>
+          </div>
+        )}
       </div>
 
-      {state.runsPlayed > 0 && <p className="muted small center">{t('runsSummary', { n: state.runsPlayed, w: state.runsWon })}</p>}
+      {state.bestDays > 0 && <p className="muted small center">{t('bestDays', { n: state.bestDays })}</p>}
 
       <div className="footer">
-        <button type="button" className="link" onClick={onDeck}>{t('deck')}</button>
-        <button type="button" className="link" onClick={onPractice}>{t('practice')}</button>
-        <button type="button" className="link" onClick={onSettings}>{t('settings')}</button>
+        <button type="button" className="link" onClick={onDeck}><span className="link-seal" lang="zh-Hant-TW" aria-hidden="true">牌</span>{t('deck')}</button>
+        <button type="button" className="link" onClick={onPractice}><span className="link-seal" lang="zh-Hant-TW" aria-hidden="true">練</span>{t('practice')}</button>
+        <button type="button" className="link" onClick={onSettings}><span className="link-seal" lang="zh-Hant-TW" aria-hidden="true">設</span>{t('settings')}</button>
       </div>
     </div>
   );

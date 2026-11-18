@@ -1,6 +1,6 @@
 // Construit l'APK avec le JDK d'Android Studio et un cache Gradle dans le projet (C: manque de place).
 import { spawnSync } from 'node:child_process';
-import { existsSync } from 'node:fs';
+import { existsSync, rmSync } from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
 
@@ -18,6 +18,9 @@ const env = {
 if (!existsSync(jbr)) { console.error('JDK introuvable : ' + jbr + ' (definir JAVA_HOME)'); process.exit(1); }
 if (!existsSync(sdk)) { console.error('SDK Android introuvable : ' + sdk + ' (definir ANDROID_HOME)'); process.exit(1); }
 const task = process.argv[2] || 'assembleDebug';
+// Gradle met a jour l'APK de debug sur place : des ressources qui retrecissent y laissent leurs anciens octets (89 Mo
+// pour 84 Mo de contenu, 2026-11-18). Sans l'ancien APK, il est reconstruit en entier.
+if (task === 'assembleDebug') rmSync(path.join(root, 'android/app/build/outputs/apk/debug/app-debug.apk'), { force: true });
 const gradlew = path.join(root, 'android', 'gradlew.bat');
 const r = spawnSync(`"${gradlew}"`, [task, '--no-daemon'], {
   cwd: path.join(root, 'android'), stdio: 'inherit', env, shell: true,

@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 
 // Seuils cumulés des paliers : 100, 200, 400, 600, 1000, 2000.
-export const TIER_LIMITS = [100, 200, 400, 600, 1000, 2000];
+// 7e palier : les mots des dialogues ajoutes apres les 2000 (rangs 2001 et suivants).
+export const TIER_LIMITS = [100, 200, 400, 600, 1000, 2000, 99999];
 export const TIER_SIZES = [100, 100, 200, 200, 400, 1000];
 
 export function tierOfRank(rank) {

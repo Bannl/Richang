@@ -21,7 +21,7 @@ export function LearnScreen({ state, update, onBack, toast }: Props) {
   if (!next) {
     return (
       <div className="app">
-        <TopBar left={back} title={t('learnTitle')} />
+        <TopBar left={back} title={t('learnTitle')} zh="學習" />
         <div className="done"><span className="big">✓</span><p>{t('allUnlocked')}</p></div>
       </div>
     );
@@ -33,7 +33,7 @@ export function LearnScreen({ state, update, onBack, toast }: Props) {
       <IntroMode
         key={next.rank}
         word={next}
-        head={<>{back}<span className="title">{t('learnTitle')}</span><span className="badge">{state.unlocked.length}/{WORDS.length}</span></>}
+        head={<>{back}<span className="title"><span className="title-zh" lang="zh-Hant-TW">學習</span>{t('learnTitle')}</span><span className="badge">{state.unlocked.length}/{WORDS.length}</span></>}
         settings={state.settings}
         continueLabel={t('addToDeck')}
         onNext={() => { update((s) => unlockWord(s, next.rank, Date.now())); toast(`${t('cardUnlocked')} · ${next.hanzi}`); }}

@@ -16,8 +16,9 @@ interface Props {
   onExit: () => void;
 }
 
-const NODE_KEY: Record<NodeType, StringKey> = { start: 'nodeStart', fight: 'nodeFight', elite: 'nodeElite', rest: 'nodeRest', boss: 'nodeBoss' };
-const NODE_ICON: Record<NodeType, string> = { start: '', fight: '!', elite: '✦', rest: '♥', boss: 'B' };
+const NODE_KEY: Record<NodeType, StringKey> = { start: 'nodeStart', fight: 'nodeFight', elite: 'nodeElite', rest: 'nodeRest', boss: 'nodeFinal' };
+// Le noeud « boss » est l'evenement qui termine la journee (une lune).
+const NODE_ICON: Record<NodeType, string> = { start: '', fight: '!', elite: '✦', rest: '♥', boss: '☾' };
 
 const HEART = 'M12 21.2C5.2 15.8 1 12.2 1 7.2 1 3.8 3.6 1.2 7 1.2c2.1 0 3.9 1.1 5 2.8 1.1-1.7 2.9-2.8 5-2.8 3.4 0 6 2.6 6 6 0 5-4.2 8.6-11 14Z';
 
@@ -72,7 +73,7 @@ export function MapScreen({ state, update, onExit }: Props) {
       <div className="scene-bg" style={{ backgroundImage: `url(${backgroundFor('directions')})` }} aria-hidden="true" />
       <TopBar
         left={<HpBar hp={run.hp} max={run.maxHp} />}
-        title={<span className="small muted">{t('mapHint')}</span>}
+        title={<span className="map-title"><span className="day-badge">{t('dayN', { n: run.day })}</span><span className="small muted">{t('mapHint')}</span></span>}
         right={<span className="badge">{t('deckCount', { n: state.unlocked.length, total: WORDS.length })}</span>}
       />
       <div className="map-area" role="group" aria-label={t('mapHint')}>

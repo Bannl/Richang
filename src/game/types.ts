@@ -71,7 +71,8 @@ export interface RewardState {
   learning: number | null;  // carte choisie, en cours de tracage
 }
 
-export type RunPhase = 'map' | 'battle' | 'reward' | 'rest' | 'won' | 'lost';
+/** dayEnd : evenement de fin de journee reussi (nuit de sommeil, puis journee suivante) ; won : ancien format (fin du run), lu comme dayEnd. */
+export type RunPhase = 'map' | 'battle' | 'reward' | 'rest' | 'dayEnd' | 'won' | 'lost';
 
 export interface RunState {
   seed: number;
@@ -89,9 +90,38 @@ export interface RunState {
   cardsUnlocked: number;
   correct: number;
   wrong: number;
+  /** Journee en cours (1 = la premiere) : le score est le nombre de journees reussies. */
+  day: number;
+  /** Situations des evenements de fin de journee deja joues, dans l'ordre (le dernier : celui de la veille). */
+  finals: string[];
+  /** Scenes deja jouees pendant ce run (on evite de les rejouer tant qu'il en reste d'autres). */
+  seen: string[];
+  /** Record (journees) au debut du run, pour annoncer un nouveau record. */
+  bestBefore: number;
+  /** Compteurs du run au debut de la journee (bilan de la journee). */
+  dayStart: { correct: number; wrong: number; cards: number };
+}
+
+/**
+ * Mode Situation : une rencontre choisie dans le menu pour s'entrainer, hors aventure (le run en cours n'est pas touche).
+ * status : battle (en cours), done (conversation terminee), lost (plus de vies).
+ */
+export interface DrillState {
+  situation: string;
+  difficulty: Difficulty;
+  encounter: Encounter | null;
+  hp: number;
+  status: 'battle' | 'done' | 'lost';
+  correct: number;
+  wrong: number;
+  seen: string[];
 }
 
 export const RUN_MAX_HP = 5;
+/** Vies rendues par la nuit, entre deux journees. */
+export const NIGHT_HEAL = 1;
+/** Vies rendues par une halte de repos sur la carte. */
+export const REST_HEAL = 2;
 export const MIN_DECK_FOR_RUN = 10;
 export const HAND_SIZE = 5;
 /** Repetitions de la replique courante autorisees par rencontre. */

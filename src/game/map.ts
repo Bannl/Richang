@@ -1,14 +1,14 @@
 import { mulberry32, pick, shuffleWith } from './rng';
-import { BOSS_SITUATION } from './situations';
 import type { MapNode, NodeType, RunMap } from './types';
 
-const LAYERS = 8; // 0 = depart, 7 = boss
+const LAYERS = 8; // 0 = depart, 7 = evenement de fin de journee
 
 /**
- * Carte de run : rangees de 2 a 4 noeuds entre le depart et le boss, chaque noeud relie a 1-2 noeuds
- * de la rangee suivante, tous atteignables. Les situations sont tirees parmi celles jouables.
+ * Carte d'une journee : rangees de 2 a 4 noeuds entre le depart et l'evenement de fin de journee (noeud « boss », dont
+ * la situation change chaque jour : `final`), chaque noeud relie a 1-2 noeuds de la rangee suivante, tous atteignables.
+ * Les situations des rencontres sont tirees parmi celles jouables, sans celle de la fin de journee (tant qu'il y a le choix).
  */
-export function generateMap(seed: number, situations: string[]): RunMap {
+export function generateMap(seed: number, situations: string[], final: string): RunMap {
   const rng = mulberry32(seed);
   const sizes = [1, ...Array.from({ length: LAYERS - 2 }, () => 2 + Math.floor(rng() * 3)), 1];
   const nodes: MapNode[] = [];
@@ -28,9 +28,11 @@ export function generateMap(seed: number, situations: string[]): RunMap {
     return out;
   };
 
-  let pool = shuffleWith(rng, situations);
+  const others = situations.filter((s) => s !== final);
+  const source = others.length ? others : situations;
+  let pool = shuffleWith(rng, source);
   const nextSituation = (): string => {
-    if (pool.length === 0) pool = shuffleWith(rng, situations);
+    if (pool.length === 0) pool = shuffleWith(rng, source);
     return pool.shift()!;
   };
 
@@ -44,7 +46,7 @@ export function generateMap(seed: number, situations: string[]): RunMap {
       row.push({
         id: `L${layer}-${col}`,
         layer, col, type,
-        situation: type === 'fight' || type === 'elite' ? nextSituation() : type === 'boss' ? BOSS_SITUATION.id : null,
+        situation: type === 'fight' || type === 'elite' ? nextSituation() : type === 'boss' ? final : null,
         next: [],
         x: n === 1 ? 0.5 : (col + 0.5) / n + jitter,
       });

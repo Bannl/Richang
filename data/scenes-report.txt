@@ -1,43 +1,20 @@
-ERREUR bank/bank__3-s1 : aucun mot-cle valide, scene rejetee
-ERREUR bank/bank__3-s5 : aucun mot-cle valide, scene rejetee
-ERREUR convenience-store/convenience-store__3-s1 : aucun mot-cle valide, scene rejetee
-ERREUR convenience-store/convenience-store__3-s5 : aucun mot-cle valide, scene rejetee
-ERREUR daily-life/daily-life__3-s2 : aucun mot-cle valide, scene rejetee
-ERREUR drink-shop/drink-shop__3-s2 : aucun mot-cle valide, scene rejetee
-ERREUR greetings/greetings__3-s4 : aucun mot-cle valide, scene rejetee
-ERREUR greetings/greetings__3-s5 : aucun mot-cle valide, scene rejetee
-ERREUR night-market/night-market__3-s4 : aucun mot-cle valide, scene rejetee
-ERREUR night-market/night-market__3-s5 : aucun mot-cle valide, scene rejetee
-ERREUR small-talk/small-talk__3-s1 : aucun mot-cle valide, scene rejetee
-AVERT  bank/bank__1-s3 : mot-cle "分" absent des repliques (ignore)
-AVERT  beach/beach__1-s4 : mot-cle "奇怪" absent des repliques (ignore)
-AVERT  beach/beach__2-s3 : mot-cle "雪" absent des repliques (ignore)
-AVERT  classroom/classroom__1-s4 : mot-cle "網路" absent des repliques (ignore)
-AVERT  clothes-shopping/clothes-shopping__1-s1 : mot-cle "進" absent des repliques (ignore)
-AVERT  clothes-shopping/clothes-shopping__1-s6 : mot-cle "停" absent des repliques (ignore)
-AVERT  daily-life/daily-life__1-s6 : mot-cle "不" absent des repliques (ignore)
-AVERT  dentist/dentist__1-s1 : mot-cle "第一" absent des repliques (ignore)
-AVERT  dentist/dentist__2-s2 : mot-cle "血" absent des repliques (ignore)
-AVERT  directions/directions__1-s2 : mot-cle "多少" absent des repliques (ignore)
-AVERT  drink-shop/drink-shop__1-s1 : mot-cle "多" absent des repliques (ignore)
-AVERT  drink-shop/drink-shop__1-s1 : mot-cle "一下" absent des repliques (ignore)
-AVERT  family-dinner/family-dinner__1-s4 : mot-cle "沒" absent des repliques (ignore)
-AVERT  gym/gym__1-s1 : mot-cle "請" absent des repliques (ignore)
-AVERT  gym/gym__1-s3 : mot-cle "真" absent des repliques (ignore)
-AVERT  hardware-store/hardware-store__1-s2 : mot-cle "現金" absent des repliques (ignore)
-AVERT  job-interview/job-interview__1-s2 : mot-cle "打" absent des repliques (ignore)
-AVERT  landlord/landlord__1-s4 : mot-cle "垃圾" absent des repliques (ignore)
-AVERT  landlord/landlord__3-s2 : mot-cle "瓦斯" absent des repliques (ignore)
-AVERT  library/library__1-s2 : mot-cle "時候" absent des repliques (ignore)
-AVERT  making-friends/making-friends__1-s5 : mot-cle "收" absent des repliques (ignore)
-AVERT  market/market__1-s4 : mot-cle "見面" absent des repliques (ignore)
-AVERT  market/market__1-s5 : mot-cle "出" absent des repliques (ignore)
-AVERT  moving-in/moving-in__1-s1 : mot-cle "個" absent des repliques (ignore)
-AVERT  mrt/mrt__2-s2 : mot-cle "直" absent des repliques (ignore)
-AVERT  neighbors/neighbors__2-s4 : mot-cle "碰" absent des repliques (ignore)
-AVERT  night-market/night-market__1-s1 : mot-cle "只" absent des repliques (ignore)
-AVERT  night-market/night-market__1-s2 : mot-cle "走" absent des repliques (ignore)
-AVERT  pharmacy/pharmacy__1-s3 : mot-cle "付" absent des repliques (ignore)
-AVERT  pharmacy/pharmacy__1-s5 : mot-cle "零" absent des repliques (ignore)
-AVERT  scooter-rental/scooter-rental__2-s1 : mot-cle "第" absent des repliques (ignore)
-AVERT  weather/weather__1-s5 : mot-cle "回" absent des repliques (ignore)
+AVERT  airport/airport__v2-s4 : mot-cle "鳳梨" absent des repliques (ignore)
+AVERT  beach/beach__1-s3 : mot-cle "草" absent des repliques (ignore)
+AVERT  clothes-shopping/clothes-shopping__v2-s2 : mot-cle "新" absent des repliques (ignore)
+AVERT  convenience-store/convenience-store-cs2b : mot-cle "洋蔥" absent des repliques (ignore)
+AVERT  convenience-store/convenience-store-cs2d : mot-cle "冰" absent des repliques (ignore)
+AVERT  daily-life/daily-life__v2-s7 : mot-cle "關" absent des repliques (ignore)
+AVERT  dentist/dentist__3-s4 : mot-cle "夢" absent des repliques (ignore)
+AVERT  directions/directions__2-s2 : mot-cle "美國" absent des repliques (ignore)
+AVERT  drink-shop/drink-shop-ds2a : mot-cle "糖" absent des repliques (ignore)
+AVERT  family-dinner/family-dinner__1-s5 : mot-cle "聽" absent des repliques (ignore)
+AVERT  greetings/greetings__v2-s2 : mot-cle "紅" absent des repliques (ignore)
+AVERT  gym/gym__v2-s6 : mot-cle "拉" absent des repliques (ignore)
+AVERT  hardware-store/hardware-store__v2-s2 : mot-cle "燈" absent des repliques (ignore)
+AVERT  hiking/hiking__1-s3 : mot-cle "酸" absent des repliques (ignore)
+AVERT  hiking/hiking__2-s2 : mot-cle "曬" absent des repliques (ignore)
+AVERT  making-friends/making-friends__1-s1 : mot-cle "朋友" absent des repliques (ignore)
+AVERT  market/market__v2-s4 : mot-cle "地瓜" absent des repliques (ignore)
+AVERT  mrt/mrt__3-s3 : mot-cle "直" absent des repliques (ignore)
+AVERT  pharmacy/pharmacy__3-s4 : mot-cle "種" absent des repliques (ignore)
+AVERT  taxi/taxi__2-s4 : mot-cle "空" absent des repliques (ignore)

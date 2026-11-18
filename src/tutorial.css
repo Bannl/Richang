@@ -15,7 +15,7 @@
 .scene-corner .tutorial-skip:hover { background: rgba(12, 12, 28, .85); border-color: rgba(255, 255, 255, .7); }
 
 /* --- Trace de 我 : le titre de bienvenue en tete de la colonne d'informations. --- */
-.tutorial-learn .learn-head .title { font-size: max(calc(19 * var(--u)), 14px); font-weight: 900; color: var(--brand); }
+.tutorial-learn .learn-head .title { font-size: max(calc(19 * var(--u)), 14px); font-weight: 900; color: var(--accent-text); text-transform: none; letter-spacing: .01em; }
 
 /* --- Scene : elle apparait en fondu depuis l'ecran d'apprentissage. --- */
 .tutorial-fadein { position: fixed; inset: 0; z-index: 450; background: var(--bg); pointer-events: none; animation: tutorial-fadein .7s ease-out forwards; }

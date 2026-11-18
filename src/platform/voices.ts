@@ -66,13 +66,26 @@ export function preloadVoices(situation: string, playerVoice: 'auto' | 'male' | 
   });
 }
 
-/** Segments decodes recemment (les repliques reviennent : repetitions, bulles de l'historique). */
+/** Caracteres chinois d'un texte (ponctuation et espaces ignores), pour comparer une replique a son enregistrement. */
+const hanOnly = (s: string) => [...s].filter((c) => /\p{Script=Han}/u.test(c)).join('');
+
+/**
+ * Segments decodes recemment (les repliques reviennent : repetitions, bulles de l'historique). Un segment dont le texte
+ * enregistre (TEXT_ZH) n'est plus celui de la replique (replique corrigee depuis le doublage) n'est pas joue : la
+ * synthese vocale prend le relais jusqu'au prochain doublage.
+ */
 const buffers = new Map<string, Promise<AudioBuffer | null>>();
-function segmentBuffer(ref: DubRef): Promise<AudioBuffer | null> {
+function segmentBuffer(ref: DubRef, text: string): Promise<AudioBuffer | null> {
   const key = `${ref.file}#${ref.name}`;
   let p = buffers.get(key);
   if (!p) {
-    p = openTT(ref.file).then((f) => { const seg = f.byName.get(ref.name); return seg ? decodeSegment(f, seg) : null; });
+    p = openTT(ref.file).then((f) => {
+      const seg = f.byName.get(ref.name);
+      if (!seg) return null;
+      const recorded = seg.fields?.TEXT_ZH;
+      if (recorded && hanOnly(recorded) !== hanOnly(text)) return null;
+      return decodeSegment(f, seg);
+    });
     p.catch(() => buffers.delete(key));
     buffers.set(key, p);
     if (buffers.size > 48) buffers.delete(buffers.keys().next().value!);
@@ -136,7 +149,7 @@ export function speakLine(text: string, rate: number, onProgress: (charIndex: nu
       fallback = speakSync(text, rate, onProgress, role);
       fallback.done.then(resolve);
     };
-    segmentBuffer(ref).then((buf) => {
+    segmentBuffer(ref, text).then((buf) => {
       if (cancelled) { resolve(); return; }
       if (!buf) { toTts(); return; }
       node = play(buf, resolve);
@@ -164,7 +177,7 @@ export function speakLine(text: string, rate: number, onProgress: (charIndex: nu
 /** Rejoue une replique (bulles de la conversation) : voix enregistree si disponible, sinon synthese. */
 export function playLine(text: string, rate: number, role: VoiceRole | null, ref: DubRef | null): void {
   if (!ref) { void speak(text, rate, role); return; }
-  segmentBuffer(ref).then((buf) => {
+  segmentBuffer(ref, text).then((buf) => {
     if (buf) play(buf, () => {});
     else void speak(text, rate, role);
   }, () => { void speak(text, rate, role); });

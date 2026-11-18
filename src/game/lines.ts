@@ -1,4 +1,5 @@
 import type { Word } from '../core/types';
+import splits from '../data/segment-splits.json';
 import type { Line } from './types';
 
 const isHan = (c: string) => /\p{Script=Han}/u.test(c);
@@ -13,13 +14,36 @@ export function buildDictionary(words: Word[]): Map<string, number> {
 
 export interface Segment { text: string; rank: number | null }
 
-/** Decoupage par plus longue correspondance (les caracteres inconnus restent isoles). */
+/**
+ * Exceptions au decoupage (src/data/segment-splits.json) : groupe de caracteres -> morceaux, les plus longs d'abord.
+ * Un morceau prefixe de ~ reste du texte (jamais un trou). Evite les trous trompeurs, quand le plus long mot de la liste
+ * n'est pas le bon mot dans la phrase (也是喔 n'est pas 是喔, 天氣好的時候 ne contient pas 好的, 電影 n'est pas 電).
+ */
+const SPLITS: [string[], string[]][] = Object.entries(splits as Record<string, string | string[]>)
+  .filter((e): e is [string, string[]] => !e[0].startsWith('_') && Array.isArray(e[1]))
+  .map(([k, parts]): [string[], string[]] => [[...k], parts])
+  .sort((a, b) => b[0].length - a[0].length);
+
+function splitAt(chars: string[], i: number): [string[], string[]] | undefined {
+  return SPLITS.find(([key]) => key.every((c, k) => chars[i + k] === c));
+}
+
+/** Decoupage par plus longue correspondance (les caracteres inconnus restent isoles), exceptions comprises. */
 export function segment(zh: string, dict: Map<string, number>): Segment[] {
   const chars = [...zh];
   const out: Segment[] = [];
   let i = 0;
   while (i < chars.length) {
     if (!isHan(chars[i])) { out.push({ text: chars[i], rank: null }); i++; continue; }
+    const ex = splitAt(chars, i);
+    if (ex) {
+      for (const part of ex[1]) {
+        const text = part.startsWith('~') ? part.slice(1) : part;
+        out.push({ text, rank: part.startsWith('~') ? null : dict.get(text) ?? null });
+      }
+      i += ex[0].length;
+      continue;
+    }
     let matched = false;
     for (let len = Math.min(MAX_WORD_LEN, chars.length - i); len >= 1; len--) {
       const candidate = chars.slice(i, i + len).join('');

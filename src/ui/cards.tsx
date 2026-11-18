@@ -12,6 +12,8 @@ interface CardProps {
   difficulty: Difficulty;
   focused?: boolean;
   mastered?: boolean;
+  /** Etoile de maitrise : 10 traces d'affilee sans erreur (dans le coin haut droit). */
+  star?: boolean;
   state?: CardState;
   /** Affiche toutes les informations quelle que soit la difficulte (choix de recompense). */
   full?: boolean;
@@ -23,7 +25,7 @@ interface CardProps {
  * maitrisee devient « doree ». Pinyin et sens selon la difficulte, sur la carte mise en avant ; l'annotation
  * phonetique (option) accompagne chaque caractere des que la difficulte montre la prononciation.
  */
-export function GameCard({ word, difficulty, focused = false, mastered = false, state, full = false, onClick }: CardProps) {
+export function GameCard({ word, difficulty, focused = false, mastered = false, star = false, state, full = false, onClick }: CardProps) {
   const lang = useLang();
   const system = usePhonetic();
   const showPinyin = full || (difficulty !== 'resident' && difficulty !== 'native');
@@ -45,6 +47,7 @@ export function GameCard({ word, difficulty, focused = false, mastered = false, 
       <span className="gcard-frame" aria-hidden="true" />
       <span className="gcard-pip tl" aria-hidden="true" />
       <span className="gcard-pip br" aria-hidden="true" />
+      {star && <StarMark className="gcard-star" />}
       <span className="gcard-hanzi" lang="zh-Hant-TW">{zy ? <ZhuyinRun text={word.hanzi} pinyin={word.pinyin} /> : word.hanzi}</span>
       {/* Annotation phonetique (option) : sur toutes les cartes ; sinon pinyin sur la carte mise en avant. */}
       {anno
@@ -53,6 +56,15 @@ export function GameCard({ word, difficulty, focused = false, mastered = false, 
       {(focused || full) && showGloss && <span className="gcard-gloss">{glosses(word, lang)[0]}</span>}
       <span className="gcard-shine" aria-hidden="true" />
     </button>
+  );
+}
+
+/** Etoile de maitrise (cartes, listes) : dessinee en SVG pour rester nette a toutes les tailles. */
+export function StarMark({ className = '' }: { className?: string }) {
+  return (
+    <svg className={`star-mark ${className}`} viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 1.8l2.9 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.3 5.7 21l1.6-7.1L1.9 9.1l7.2-.7L12 1.8z" />
+    </svg>
   );
 }
 
@@ -82,6 +94,8 @@ interface HandProps {
   /** Interactions desactivees (replique terminee, animation en cours). */
   locked: boolean;
   isMastered: (rank: number) => boolean;
+  /** Etoile de maitrise (10 traces d'affilee sans erreur). */
+  isStarred?: (rank: number) => boolean;
   /** Carte deposee dans un trou precis. */
   onDrop: (rank: number, slot: number) => void;
   /** Trous vides disponibles. */
@@ -112,7 +126,7 @@ function untilt(e: ReactPointerEvent<HTMLElement>) {
  * clic : elle se met en avant et montre ses informations ; pour la jouer, on la glisse jusqu'a un trou de la replique
  * (pas de jeu au clic) ; pendant le glisser, elle se balance selon la vitesse.
  */
-export function Hand({ ranks, difficulty, locked, isMastered, onDrop, getDropTargets }: HandProps) {
+export function Hand({ ranks, difficulty, locked, isMastered, isStarred = () => false, onDrop, getDropTargets }: HandProps) {
   const u = useUnit();
   const [selected, setSelected] = useState<number | null>(null);
   const [drag, setDragState] = useState<DragState | null>(null);
@@ -197,14 +211,14 @@ export function Hand({ ranks, difficulty, locked, isMastered, onDrop, getDropTar
             onPointerCancel={endDrag}
           >
             <div className="hand-float">
-              <GameCard word={word} difficulty={difficulty} focused={selected === i} mastered={isMastered(rank)} state={locked ? 'dim' : undefined} />
+              <GameCard word={word} difficulty={difficulty} focused={selected === i} mastered={isMastered(rank)} star={isStarred(rank)} state={locked ? 'dim' : undefined} />
             </div>
           </div>
         );
       })}
       {lifted && drag && (
         <div ref={ghost} className={`drag-ghost ${drag.over ? 'over' : ''}`} style={{ left: drag.x, top: drag.y }}>
-          <GameCard word={lifted} difficulty={difficulty} focused mastered={isMastered(lifted.rank)} />
+          <GameCard word={lifted} difficulty={difficulty} focused mastered={isMastered(lifted.rank)} star={isStarred(lifted.rank)} />
         </div>
       )}
     </div>

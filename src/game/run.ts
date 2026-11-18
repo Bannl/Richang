@@ -1,4 +1,5 @@
 import { introduceWord } from '../core/apply';
+import { recordDrawing } from '../core/mastery';
 import { orderMixed } from '../core/session';
 import { newProgress, review } from '../core/srs';
 import { SKILLS, type AppState, type Difficulty, type Word } from '../core/types';
@@ -7,10 +8,11 @@ import { SCENES } from '../data/scenes';
 import { WORDS } from '../data/words';
 import { buildDictionary, buildLinePool, segment } from './lines';
 import { generateMap, nodeById } from './map';
+import { dayRules, scenePenalty, type DayRules } from './progression';
 import { mulberry32, shuffleWith } from './rng';
-import { SITUATIONS, SITUATION_BY_ID } from './situations';
+import { BOSS_SITUATION, SITUATIONS, SITUATION_BY_ID } from './situations';
 import {
-  BLANKS_PER_TYPE, EXCHANGES_PER_TYPE, HAND_SIZE, MIN_DECK_FOR_RUN, REPLAYS_PER_ENCOUNTER, REWARD_PER_TYPE, RUN_MAX_HP,
+  EXCHANGES_PER_TYPE, HAND_SIZE, MIN_DECK_FOR_RUN, NIGHT_HEAL, REPLAYS_PER_ENCOUNTER, REST_HEAL, REWARD_PER_TYPE, RUN_MAX_HP,
   type DialogueLine, type Encounter, type FightType, type Line, type RunState, type Scene, type SceneLine, type Segment, type Speaker,
 } from './types';
 
@@ -95,19 +97,66 @@ export function unlockWord(state: AppState, rank: number, now: number): AppState
 
 export const canStartRun = (state: AppState): boolean => state.unlocked.length >= MIN_DECK_FOR_RUN;
 
-export function startRun(state: AppState, difficulty: Difficulty, now: number): AppState {
-  if (!canStartRun(state)) return state;
+/**
+ * Situations possibles pour l'evenement de fin de journee (et pour le mode Situation) : celles jouables avec le deck,
+ * plus l'entretien de residence (situation reservee a la fin de journee) quand une de ses scenes est jouable.
+ */
+export function finalCandidates(state: AppState): string[] {
+  const deck = deckSet(state);
+  const out = availableSituations(state);
+  for (const s of SITUATIONS) if (s.boss && (SCENES[s.id] ?? []).some((sc) => sceneFull(sc, deck))) out.push(s.id);
+  return out;
+}
+
+/** Evenement de fin de journee : jamais celui de la veille, et les plus recents evites tant qu'il reste du choix. */
+function pickFinal(state: AppState, rng: () => number, previous: string[]): string {
+  const all = finalCandidates(state);
+  if (all.length === 0) return BOSS_SITUATION.id;
+  for (const keep of [Math.min(3, all.length - 1), 1, 0]) {
+    const recent = new Set(keep > 0 ? previous.slice(-keep) : []);
+    const pool = all.filter((id) => !recent.has(id));
+    if (pool.length) return pool[Math.floor(rng() * pool.length)];
+  }
+  return all[0];
+}
+
+/** Carte de la journee : rencontres parmi les situations jouables, et l'evenement qui termine la journee. */
+function dayMap(state: AppState, run: RunState): RunState {
+  const seed = (run.seed + (run.day - 1) * 104729) >>> 0;
   let situations = availableSituations(state);
   if (situations.length === 0) situations = ['small-talk'];
+  const final = pickFinal(state, mulberry32(seed ^ 0x5bd1e995), run.finals);
+  return { ...run, map: generateMap(seed, situations, final), current: 'L0-0', visited: ['L0-0'], encounter: null, reward: null, phase: 'map' };
+}
+
+/** Nouveau run : la premiere journee. Le score sera le nombre de journees reussies avant de perdre toutes ses vies. */
+export function startRun(state: AppState, difficulty: Difficulty, now: number): AppState {
+  if (!canStartRun(state)) return state;
   const seed = (now ^ (state.runsPlayed * 7919)) >>> 0;
   const run: RunState = {
     seed, difficulty, hp: RUN_MAX_HP, maxHp: RUN_MAX_HP,
-    map: generateMap(seed, situations),
+    map: { layers: 0, nodes: [] },
     current: 'L0-0', visited: ['L0-0'],
     encounter: null, reward: null, restHealed: 0, phase: 'map',
     startedAt: now, cardsUnlocked: 0, correct: 0, wrong: 0,
+    day: 1, finals: [], seen: [], bestBefore: state.bestDays, dayStart: { correct: 0, wrong: 0, cards: 0 },
   };
-  return { ...state, run, runsPlayed: state.runsPlayed + 1, settings: { ...state.settings, difficulty } };
+  return { ...state, run: dayMap(state, run), runsPlayed: state.runsPlayed + 1, settings: { ...state.settings, difficulty } };
+}
+
+/** Journee reussie : une nuit de sommeil (+1 vie, jusqu'au maximum), puis la journee suivante sur une nouvelle carte. */
+export function nextDay(state: AppState): AppState {
+  const run = state.run;
+  if (!run || (run.phase !== 'dayEnd' && run.phase !== 'won')) return state;
+  const final = run.map.nodes.find((n) => n.type === 'boss')?.situation;
+  const next: RunState = {
+    ...run,
+    day: run.day + 1,
+    hp: Math.min(run.maxHp, run.hp + NIGHT_HEAL),
+    finals: final ? [...run.finals, final] : run.finals,
+    dayStart: { correct: run.correct, wrong: run.wrong, cards: run.cardsUnlocked },
+  };
+  return { ...state, run: dayMap(state, next) };
 }
 
 // --- Rencontre : dialogue ---
@@ -128,6 +177,40 @@ function prepareLine(speaker: Speaker, speech: Speech, deck: Set<number>, maxBla
   }
   const blanks = chosen.map((x) => x.i).sort((a, b) => a - b);
   return { speaker, speech, segments, blanks, filled: blanks.map(() => null), results: blanks.map(() => null) };
+}
+
+// --- Complexite des scenes ---
+
+const isHan = (c: string) => /\p{Script=Han}/u.test(c);
+
+/**
+ * Complexite d'une scene : longueur moyenne de ses repliques (caracteres), rarete de son vocabulaire (rang du mot au
+ * 80e centile) et part de mots hors des 2000 mots du jeu.
+ */
+function complexity(scene: Scene): number {
+  let han = 0;
+  let unknown = 0;
+  const ranks: number[] = [];
+  for (const l of scene.lines) {
+    for (const s of segmentsOf(l.zh)) {
+      const n = [...s.text].filter(isHan).length;
+      han += n;
+      if (s.rank !== null) ranks.push(s.rank); else unknown += n;
+    }
+  }
+  ranks.sort((a, b) => a - b);
+  const r80 = ranks.length ? ranks[Math.floor(0.8 * (ranks.length - 1))] : 1;
+  return han / Math.max(1, scene.lines.length) / 8 + Math.log2(1 + r80) / 11 + (unknown / Math.max(1, han)) * 0.8;
+}
+
+let LEVELS: Map<string, number> | null = null;
+/** Niveau d'une scene, de 1 (simple) a 5 (riche) : quintiles de complexite sur tout le corpus. */
+export function sceneLevel(scene: Scene): number {
+  if (!LEVELS) {
+    const all = Object.values(SCENES).flat().map((sc) => ({ id: sc.id, c: complexity(sc) })).sort((a, b) => a.c - b.c);
+    LEVELS = new Map(all.map((x, i) => [x.id, 1 + Math.floor((5 * i) / Math.max(1, all.length))]));
+  }
+  return LEVELS.get(scene.id) ?? 3;
 }
 
 /** Echanges d'une rencontre : dialogues de la situation, puis des autres situations, puis phrases d'exemple. */
@@ -197,18 +280,22 @@ function sceneHits(scene: Scene, deck: Set<number>): number {
 
 /**
  * Transforme une replique de scene en replique jouable. Trous : les mots du deck presents dans la phrase, les mots-cles
- * de la scene en premier (le vocabulaire qu'elle fait travailler), puis les autres ; au moins un trou des que la
- * replique contient un mot du deck (les scenes retenues en ont un a chaque replique).
+ * de la scene en premier (le vocabulaire qu'elle fait travailler), puis les autres ; les mots tres frequents (rang
+ * <= commonCut, qui monte au fil des journees) passent en dernier. Au moins un trou des que la replique contient un mot
+ * du deck (les scenes retenues en ont un a chaque replique).
  */
-function prepareSceneLine(line: SceneLine, deck: Set<number>, keywords: Set<number>, maxBlanks: number, rng: () => number, voice?: string): DialogueLine {
+function prepareSceneLine(line: SceneLine, deck: Set<number>, keywords: Set<number>, maxBlanks: number, commonCut: number, rng: () => number, voice?: string): DialogueLine {
   const speech: Speech = { zh: line.zh, pinyin: line.pinyin, en: line.en, fr: line.fr };
   const segments = segmentsOf(line.zh);
   const inDeck = segments
     .map((s, i) => ({ rank: s.rank, i }))
     .filter((x): x is { rank: number; i: number } => x.rank !== null && deck.has(x.rank));
+  const rare = (x: { rank: number }) => x.rank > commonCut;
   const candidates = [
-    ...shuffleWith(rng, inDeck.filter((x) => keywords.has(x.rank))),
-    ...shuffleWith(rng, inDeck.filter((x) => !keywords.has(x.rank))),
+    ...shuffleWith(rng, inDeck.filter((x) => keywords.has(x.rank) && rare(x))),
+    ...shuffleWith(rng, inDeck.filter((x) => !keywords.has(x.rank) && rare(x))),
+    ...shuffleWith(rng, inDeck.filter((x) => keywords.has(x.rank) && !rare(x))),
+    ...shuffleWith(rng, inDeck.filter((x) => !keywords.has(x.rank) && !rare(x))),
   ];
   const seen = new Set<number>();
   const chosen: { rank: number; i: number }[] = [];
@@ -222,62 +309,76 @@ function prepareSceneLine(line: SceneLine, deck: Set<number>, keywords: Set<numb
   return { speaker: line.speaker, speech, segments, blanks, filled: blanks.map(() => null), results: blanks.map(() => null), voice };
 }
 
-/** Rencontre a partir de scenes coherentes : on enchaine une ou plusieurs scenes jouables avec le deck. */
-function buildSceneEncounter(state: AppState, nodeId: string, type: FightType, situationId: string, rng: () => number): Encounter | null {
+/**
+ * Rencontre a partir d'UNE scene coherente jouable avec le deck (on ne colle jamais deux scenes : la conversation
+ * resterait decousue). On choisit la plus proche des regles du jour (longueur, complexite), en preferant les scenes
+ * pas encore jouees et celles dont les mots-cles sont dans le deck ; au hasard parmi les meilleures.
+ */
+function buildSceneEncounter(
+  state: AppState, nodeId: string, type: FightType, situationId: string, rng: () => number,
+  rules: DayRules, seen: string[], difficulty: Difficulty,
+): { encounter: Encounter; scene: string } | null {
   const deck = deckSet(state);
   // Seulement des scenes jouables de bout en bout : un mot a trouver a chaque replique, de l'interlocuteur comme du
-  // joueur. Aucune (deck trop petit pour ce lieu, boss) : ancien moteur de phrases, ou chaque replique a aussi un trou.
-  const eligible = (SCENES[situationId] ?? [])
-    .filter((scene) => sceneFull(scene, deck))
-    .map((scene) => ({ scene, hits: sceneHits(scene, deck) }));
+  // joueur. Aucune (deck trop petit pour ce lieu) : ancien moteur de phrases, ou chaque replique a aussi un trou.
+  const eligible = (SCENES[situationId] ?? []).filter((scene) => sceneFull(scene, deck));
   if (eligible.length === 0) return null;
-  // On privilegie les scenes dont les mots-cles sont le plus dans le deck, puis on melange.
-  const ordered = shuffleWith(rng, eligible).sort((a, b) => b.hits - a.hits);
-  const targetLines = EXCHANGES_PER_TYPE[type] * 2;
-  const picked: Scene[] = [];
-  let count = 0;
-  for (const { scene } of ordered) {
-    picked.push(scene);
-    count += scene.lines.length;
-    if (count >= targetLines) break;
-  }
-  const lines: DialogueLine[] = [];
-  for (const scene of picked) {
-    const kw = new Set(scene.keywords);
-    scene.lines.forEach((l, i) => lines.push(prepareSceneLine(l, deck, kw, BLANKS_PER_TYPE[type], rng, `${scene.id}-${i}`)));
-  }
+  const unseen = eligible.filter((sc) => !seen.includes(sc.id));
+  const scored = shuffleWith(rng, unseen.length ? unseen : eligible).map((scene) => ({
+    scene,
+    p: scenePenalty(scene.lines.length, sceneLevel(scene), rules, type) - 0.15 * Math.min(4, sceneHits(scene, deck)),
+  }));
+  scored.sort((a, b) => a.p - b.p);
+  const near = scored.filter((x) => x.p <= scored[0].p + 0.5);
+  const scene = near[Math.floor(rng() * near.length)].scene;
+  const kw = new Set(scene.keywords);
+  const lines = scene.lines.map((l, i) => prepareSceneLine(l, deck, kw, rules.blanks[type], rules.commonCut, rng, `${scene.id}-${i}`));
   const enc: Encounter = { nodeId, type, situation: situationId, lines, index: 0, hand: [], pile: shuffleWith(rng, state.unlocked), replaysLeft: REPLAYS_PER_ENCOUNTER, correct: 0, wrong: 0 };
-  return refillHand(enc, state.unlocked, rng, state.run?.difficulty ?? state.settings.difficulty);
+  return { encounter: refillHand(enc, state.unlocked, rng, difficulty), scene: scene.id };
 }
 
-function buildEncounter(state: AppState, nodeId: string, type: FightType, situationId: string, rng: () => number): Encounter {
+function buildEncounter(state: AppState, nodeId: string, type: FightType, situationId: string, rng: () => number, rules: DayRules, difficulty: Difficulty): Encounter {
   const deck = deckSet(state);
   const lines: DialogueLine[] = [];
-  for (const ex of pickExchanges(state, situationId, EXCHANGES_PER_TYPE[type], rng)) {
-    lines.push(prepareLine('enemy', ex.enemy, deck, BLANKS_PER_TYPE[type], rng));
-    if (ex.player) lines.push(prepareLine('player', ex.player, deck, BLANKS_PER_TYPE[type], rng));
+  const exchanges = rules.lines[type] > 0 ? Math.max(2, Math.round(rules.lines[type] / 2)) : EXCHANGES_PER_TYPE[type];
+  for (const ex of pickExchanges(state, situationId, exchanges, rng)) {
+    lines.push(prepareLine('enemy', ex.enemy, deck, rules.blanks[type], rng));
+    if (ex.player) lines.push(prepareLine('player', ex.player, deck, rules.blanks[type], rng));
   }
   const enc: Encounter = { nodeId, type, situation: situationId, lines, index: 0, hand: [], pile: shuffleWith(rng, state.unlocked), replaysLeft: REPLAYS_PER_ENCOUNTER, correct: 0, wrong: 0 };
-  return refillHand(enc, state.unlocked, rng, state.run?.difficulty ?? state.settings.difficulty);
+  return refillHand(enc, state.unlocked, rng, difficulty);
 }
 
-/** Deplacement vers un noeud atteignable : repos ou rencontre. */
+/**
+ * Rencontre d'une situation selon des regles (journee de l'aventure, ou mode Situation) : une scene jouable, sinon
+ * l'ancien moteur de phrases. `scene` : la scene jouee (null pour l'ancien moteur).
+ */
+export function situationEncounter(
+  state: AppState, nodeId: string, type: FightType, situationId: string, rng: () => number,
+  rules: DayRules, seen: string[], difficulty: Difficulty,
+): { encounter: Encounter; scene: string | null } {
+  return buildSceneEncounter(state, nodeId, type, situationId, rng, rules, seen, difficulty)
+    ?? { encounter: buildEncounter(state, nodeId, type, situationId, rng, rules, difficulty), scene: null };
+}
+
+/** Deplacement vers un noeud atteignable : repos ou rencontre (regles de la journee en cours). */
 export function enterNode(state: AppState, nodeId: string): AppState {
   const run = state.run;
   if (!run || run.phase !== 'map') return state;
   const cur = nodeById(run.map, run.current);
   if (!cur.next.includes(nodeId)) return state;
   const node = nodeById(run.map, nodeId);
-  const rng = mulberry32((run.seed + node.layer * 131 + node.col * 17 + run.visited.length * 7) >>> 0);
+  const rng = mulberry32((run.seed + run.day * 7349 + node.layer * 131 + node.col * 17 + run.visited.length * 7) >>> 0);
   const moved: RunState = { ...run, current: nodeId, visited: [...run.visited, nodeId] };
   if (node.type === 'rest') {
-    const healed = Math.min(run.maxHp - run.hp, 2);
+    const healed = Math.min(run.maxHp - run.hp, REST_HEAL);
     return { ...state, run: { ...moved, hp: run.hp + healed, restHealed: healed, phase: 'rest' } };
   }
   const type: FightType = node.type === 'boss' ? 'boss' : node.type === 'elite' ? 'elite' : 'fight';
   const sit = node.situation ?? 'small-talk';
-  const encounter = buildSceneEncounter(state, nodeId, type, sit, rng) ?? buildEncounter(state, nodeId, type, sit, rng);
-  return { ...state, run: { ...moved, encounter, phase: 'battle' } };
+  const { encounter, scene } = situationEncounter(state, nodeId, type, sit, rng, dayRules(run.day), run.seen, run.difficulty);
+  const seen = scene ? [...run.seen, scene].slice(-400) : run.seen;
+  return { ...state, run: { ...moved, encounter, seen, phase: 'battle' } };
 }
 
 export const currentLine = (enc: Encounter): DialogueLine | undefined => enc.lines[enc.index];
@@ -314,8 +415,11 @@ export function dropCard(state: AppState, slot: number, rank: number, now: numbe
   };
 }
 
-/** Native : le mot d'un trou a ete ecrit (juste ou non) ; la bonne carte est revelee et l'ecriture creditee. */
-export function resolveSlot(state: AppState, slot: number, ok: boolean, now: number): AppState {
+/**
+ * Native : le mot d'un trou a ete ecrit (juste ou non) ; la bonne carte est revelee et l'ecriture creditee. `mistakes` :
+ * erreurs de traits (serie de maitrise : sans aucune erreur, elle continue ; reponse abandonnee ou ratee, elle repart a 0).
+ */
+export function resolveSlot(state: AppState, slot: number, ok: boolean, now: number, mistakes = 0): AppState {
   const run = state.run;
   const enc = run?.encounter;
   const line = enc ? currentLine(enc) : undefined;
@@ -326,9 +430,10 @@ export function resolveSlot(state: AppState, slot: number, ok: boolean, now: num
   filled[slot] = answer;
   results[slot] = ok ? 'ok' : 'bad';
   const lines = enc.lines.map((l, i) => (i === enc.index ? { ...l, filled, results } : l));
-  const p = state.progress[answer] ?? newProgress(now, SKILLS);
+  const drawn = recordDrawing(state, answer, ok ? mistakes : Math.max(1, mistakes), now);
+  const p = drawn.progress[answer];
   const write = p.skills.write ?? newProgress(now, SKILLS).skills.write;
-  const progress = { ...state.progress, [answer]: { ...p, skills: { ...p.skills, write: review(write, ok ? 2 : 0, now) } } };
+  const progress = { ...drawn.progress, [answer]: { ...p, skills: { ...p.skills, write: review(write, ok ? 2 : 0, now) } } };
   return {
     ...state,
     progress,
@@ -370,7 +475,8 @@ export function nextLine(state: AppState): AppState {
     const rng = mulberry32((run.seed + next * 977 + run.visited.length * 31) >>> 0);
     return { ...state, run: { ...run, encounter: refillHand({ ...enc, index: next }, state.unlocked, rng, run.difficulty) } };
   }
-  if (enc.type === 'boss') return { ...state, runsWon: state.runsWon + 1, run: { ...run, encounter: null, phase: 'won' } };
+  // Evenement de fin de journee reussi : la journee compte pour le score (record mis a jour), puis la nuit.
+  if (enc.type === 'boss') return { ...state, bestDays: Math.max(state.bestDays, run.day), run: { ...run, encounter: null, phase: 'dayEnd' } };
   const remaining = REWARD_PER_TYPE[enc.type];
   const choices = nextUnlockables(state, 3).map((w) => w.rank);
   if (remaining === 0 || choices.length === 0) return { ...state, run: { ...run, encounter: null, phase: 'map' } };

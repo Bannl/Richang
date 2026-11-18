@@ -33,8 +33,13 @@
 @keyframes gold-sheen { 0%, 55% { background-position: 130% 0; } 100% { background-position: -130% 0; } }
 
 /* --- Badges, vies --- */
-.badge { display: inline-block; border: calc(2.5 * var(--u)) solid var(--edge); border-radius: calc(8 * var(--u)); padding: calc(6 * var(--u)) calc(12 * var(--u)); font-weight: 900; font-size: calc(14 * var(--u)); letter-spacing: .04em; background: var(--card); box-shadow: 0 calc(3 * var(--u)) 0 var(--edge); }
-.badge.big { font-size: calc(18 * var(--u)); padding: calc(10 * var(--u)) calc(18 * var(--u)); align-self: center; margin: calc(4 * var(--u)) 0 calc(18 * var(--u)); }
+/* Plaque (compteurs) : comme les boutons, papier ou laque noire a filet interieur. */
+.badge {
+  position: relative; display: inline-block; border: calc(1.6 * var(--u)) solid var(--edge); border-radius: calc(8 * var(--u)); padding: calc(6 * var(--u)) calc(12 * var(--u));
+  font-weight: 900; font-size: calc(14 * var(--u)); letter-spacing: .06em; background: var(--btn-face); color: var(--btn-ink); box-shadow: 0 calc(3 * var(--u)) 0 var(--btn-drop);
+}
+.badge.big { font-size: calc(17 * var(--u)); letter-spacing: .1em; padding: calc(10 * var(--u)) calc(20 * var(--u)); align-self: center; margin: calc(4 * var(--u)) 0 calc(18 * var(--u)); }
+.badge.big::after { content: ''; position: absolute; inset: calc(3 * var(--u)); border: 1px solid var(--btn-line); border-radius: calc(5 * var(--u)); pointer-events: none; }
 .hp { display: inline-flex; gap: calc(4 * var(--u)); align-items: center; }
 .hp .heart { width: calc(22 * var(--u)); height: calc(20 * var(--u)); fill: #e8454f; stroke: var(--panel-edge, var(--edge)); stroke-width: 2.2px; overflow: visible; transition: fill .3s, transform .3s; }
 .hp .heart.off { fill: rgba(127, 120, 140, .25); }
@@ -131,7 +136,8 @@
 .learn-layout > .learn-canvases { grid-area: canvas; }
 .learn-layout > .learn-info { grid-area: info; }
 .learn-head { display: flex; align-items: center; gap: calc(10 * var(--u)); min-width: 0; }
-.learn-head .title { flex: 1; min-width: 0; font-size: calc(14 * var(--u)); font-weight: 800; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.learn-head .title { flex: 1; min-width: 0; font-size: calc(14 * var(--u)); font-weight: 900; letter-spacing: .02em; color: var(--fg); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.learn-head .title-zh { margin-right: calc(10 * var(--u)); vertical-align: -.12em; }
 .learn-kicker { display: flex; align-items: center; flex-wrap: wrap; gap: calc(8 * var(--u)); }
 .card .tag.inline { position: static; }
 /* Surface d'ecriture en creux dans la fenetre : un ton plus profond que le fond de la fenetre. */
@@ -240,14 +246,19 @@
 .draw-pile .pile i:nth-child(1) { translate: calc(6 * var(--u)) calc(6 * var(--u)); }
 .draw-pile .pile i:nth-child(2) { translate: calc(3 * var(--u)) calc(3 * var(--u)); }
 .tb-hint { flex: none; min-height: calc(18 * var(--u)); padding: 0 calc(6 * var(--u)); font-size: calc(13 * var(--u)); color: var(--panel-muted); font-weight: 800; }
+/* Suivant : laque rouge a filet dore (bouton principal) ; Donner : couleur du panneau a filet, comme les boutons des menus. */
 .tb-next, .tb-give {
-  display: inline-flex; align-items: center; gap: calc(8 * var(--u)); height: calc(38 * var(--u)); padding: 0 calc(18 * var(--u)); border-radius: calc(10 * var(--u));
-  border: calc(2.5 * var(--u)) solid var(--panel-edge); background: var(--brand); color: #fff; font-weight: 900; font-size: calc(16 * var(--u)); cursor: pointer;
-  box-shadow: 0 calc(4 * var(--u)) 0 var(--panel-edge); transition: transform .06s, box-shadow .06s;
+  position: relative; display: inline-flex; align-items: center; gap: calc(8 * var(--u)); height: calc(38 * var(--u)); padding: 0 calc(18 * var(--u)); border-radius: calc(10 * var(--u));
+  border: calc(2 * var(--u)) solid var(--panel-edge); background: var(--lacquer); color: var(--lacquer-ink); font-weight: 900; font-size: calc(16 * var(--u)); cursor: pointer;
+  text-shadow: 0 1px 0 rgba(80, 14, 8, .55); box-shadow: 0 calc(4 * var(--u)) 0 var(--lacquer-drop); transition: transform .06s, box-shadow .06s, filter .15s;
 }
-.tb-give { background: var(--panel-bg); color: var(--panel-fg); }
+.tb-next::after, .tb-give::after { content: ''; position: absolute; inset: calc(3 * var(--u)); border: 1px solid var(--lacquer-line); border-radius: calc(7 * var(--u)); pointer-events: none; }
+.tb-next:hover, .tb-give:hover:not(:disabled) { filter: brightness(1.06); }
+.tb-give { background: var(--panel-bg); color: var(--panel-fg); text-shadow: none; box-shadow: 0 calc(4 * var(--u)) 0 var(--panel-edge); }
+.tb-give::after { border-color: var(--panel-inner); }
 .tb-give:disabled { opacity: .5; cursor: default; }
-.tb-next:active, .tb-give:active:not(:disabled) { transform: translateY(calc(2 * var(--u))); box-shadow: 0 calc(1 * var(--u)) 0 var(--panel-edge); }
+.tb-next:active { transform: translateY(calc(2 * var(--u))); box-shadow: 0 calc(1 * var(--u)) 0 var(--lacquer-drop); }
+.tb-give:active:not(:disabled) { transform: translateY(calc(2 * var(--u))); box-shadow: 0 calc(1 * var(--u)) 0 var(--panel-edge); }
 .tb-next .arrow { display: inline-block; font-size: .7em; animation: arrow-bob .7s ease-in-out infinite; }
 @keyframes arrow-bob { 50% { transform: translateY(calc(3 * var(--u))); } }
 

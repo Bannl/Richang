@@ -133,6 +133,8 @@ export function applySandhi(hanzi, syllables) {
   const out = [...syllables];
   for (let i = 0; i < chars.length - 1; i++) {
     const next = syllableToNumbered(out[i + 1]).tone;
+    // 一 ordinal (第一, 第一次...) : pas de sandhi, il garde le premier ton.
+    if (chars[i] === '一' && i > 0 && chars[i - 1] === '第') { out[i] = 'yī'; continue; }
     if (chars[i] === '一' && syllableToNumbered(out[i]).base === 'yi') {
       if (next === 4) out[i] = 'yí'; else if (next >= 1 && next <= 3) out[i] = 'yì';
     } else if (chars[i] === '不' && syllableToNumbered(out[i]).base === 'bu') {

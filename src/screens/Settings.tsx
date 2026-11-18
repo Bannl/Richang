@@ -6,7 +6,7 @@ import { LANGS, SKILL_KEYS, useT } from '../i18n';
 import { exportState, importState, platformName } from '../platform/storage';
 import { listChineseVoices, openTtsInstall, speak, ttsDescription, type TtsInfo, type VoiceOption } from '../platform/tts';
 import { PHOTO_CREDITS } from '../ui/backgrounds';
-import { Icon, Switch, TopBar } from '../ui/basics';
+import { Icon, SectionTitle, Switch, TopBar } from '../ui/basics';
 
 /** Depot public du jeu (code source, licences : LICENSE, LICENSE-MIT, COPYRIGHT.md). */
 const REPO_URL = 'https://github.com/Bannl/Richang';
@@ -46,10 +46,10 @@ export function SettingsScreen({ state, update, onBack, toast }: Props) {
 
   return (
     <div className="app settings">
-      <TopBar left={<button type="button" className="icon-btn" onClick={onBack} aria-label={t('back')}><Icon name="back" /></button>} title={t('settings')} />
+      <TopBar left={<button type="button" className="icon-btn" onClick={onBack} aria-label={t('back')}><Icon name="back" /></button>} title={t('settings')} zh="設定" />
       <div className="settings-body">
 
-      <p className="section">{t('learning')}</p>
+      <SectionTitle zh="學習">{t('learning')}</SectionTitle>
       <div className="field">
         <label>{t('language')}</label>
         <select value={s.language} onChange={(e) => set('language', e.target.value as Settings['language'])}>
@@ -83,7 +83,7 @@ export function SettingsScreen({ state, update, onBack, toast }: Props) {
         </div>
       ))}
 
-      <p className="section">{t('display')}</p>
+      <SectionTitle zh="顯示">{t('display')}</SectionTitle>
       <div className="field"><label>{t('phonetic')}<span className="hint">{t('phoneticHint')}</span></label><Switch on={s.phonetic} onChange={(v) => set('phonetic', v)} /></div>
       {s.phonetic && (
         <div className="field">
@@ -114,7 +114,7 @@ export function SettingsScreen({ state, update, onBack, toast }: Props) {
         </select>
       </div>
 
-      <p className="section">{t('audio')}</p>
+      <SectionTitle zh="聲音">{t('audio')}</SectionTitle>
       <div className="field"><label>{t('autoPlay')}</label><Switch on={s.autoPlay} onChange={(v) => set('autoPlay', v)} /></div>
       <div className="field">
         <label>{t('voiceRate')}<span className="hint">{voiceText}</span></label>
@@ -151,7 +151,7 @@ export function SettingsScreen({ state, update, onBack, toast }: Props) {
         </select>
       </div>
 
-      <p className="section">{t('data')}</p>
+      <SectionTitle zh="資料">{t('data')}</SectionTitle>
       <div className="field">
         <label>{t('progress')}<span className="hint">{t('wordsStarted', { n: learned })} · {platformName()}</span></label>
         <div className="row">

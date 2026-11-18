@@ -1,12 +1,25 @@
 :root {
   /* Unite de design : 1 px pour une fenetre de 1400 x 900, proportionnelle a la fenetre (bornee). */
   --u: clamp(0.5px, min(calc(100vw / 1400), calc(100vh / 900)), 2px);
-  --bg: #f1ebdf; --fg: #1f1b2d; --muted: #6f6979; --card: #fffaf1; --line: #e2d9c8;
+  --bg: #d3e0d6; --fg: #1f1b2d; --muted: #56625c; --card: #fbf6ea; --line: rgba(28, 78, 62, .17);
   --ok: #24935a; --bad: #d4422f;
-  /* Palette du jeu : encre des contours, vermillon (temples), jade, or ; cadres facon console portable. */
-  --ink: #1f1b2d; --edge: #1f1b2d; --brand: #e5533d; --brand-dark: #b23a28; --jade: #23897c; --gold: #f2b53a;
-  --panel-bg: #fffaf0; --panel-fg: #1f1b2d; --panel-muted: #6d6578; --panel-edge: #1f1b2d; --panel-inner: #d9ccb2;
+  /* Palette du jeu : encre des contours, vermillon (laque des temples, sceaux), jade, or ; cadres facon console portable. */
+  --ink: #1f1b2d; --edge: #1f1b2d; --brand: #c63a2b; --brand-dark: #8f2319; --jade: #23897c; --gold: #f2b53a;
+  --accent-text: #b2342a; /* titres de section et titres chinois : vermillon (clair), or (sombre) */
+  --panel-bg: #fffaf0; --panel-fg: #1f1b2d; --panel-muted: #6d6578; --panel-edge: #1f1b2d; --panel-inner: #dcc7a0;
   --drop: rgba(18, 14, 34, .5);
+  /* Boutons : papier (theme clair) ou laque noire (theme sombre), filet interieur vermillon ou dore. Le principal est
+     en laque rouge porte-bonheur a filet dore, comme le dos des cartes. */
+  --btn-face: linear-gradient(180deg, #fffcf5, #f3eadb); --btn-ink: #1f1b2d; --btn-line: rgba(198, 58, 43, .42); --btn-drop: #1f1b2d;
+  --lacquer: repeating-linear-gradient(45deg, rgba(255, 214, 140, .1) 0 1px, transparent 1px 8px), repeating-linear-gradient(-45deg, rgba(255, 214, 140, .1) 0 1px, transparent 1px 8px), linear-gradient(170deg, #d4473a, #a32b20);
+  --lacquer-ink: #fff4e2; --lacquer-line: rgba(246, 207, 128, .9); --lacquer-drop: #4f140e;
+  /* Table de jeu en laque de jade (fond des menus) : lumiere en haut, vignette, treillis des dos de cartes en filigrane. */
+  --table:
+    radial-gradient(ellipse 70% 50% at 50% -6%, rgba(255, 253, 244, .7), transparent 72%),
+    radial-gradient(ellipse 95% 90% at 50% 42%, transparent 52%, rgba(14, 58, 46, .22) 100%),
+    repeating-linear-gradient(45deg, rgba(26, 88, 70, .075) 0 1px, transparent 1px 28px),
+    repeating-linear-gradient(-45deg, rgba(26, 88, 70, .075) 0 1px, transparent 1px 28px),
+    linear-gradient(180deg, #dae5dc, #c4d5c9);
   --radius: calc(20 * var(--u));
   --font: "Nunito Variable", "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-zh: "Microsoft JhengHei", "PingFang TC", "Noto Sans CJK TC", "Noto Sans TC", "Source Han Sans TC", sans-serif;
@@ -17,30 +30,49 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #14162a; --fg: #efeaf8; --muted: #a29fb8; --card: #22253e; --line: #33375a; --edge: #070812;
+    --bg: #0e2722; --fg: #f1eadb; --muted: #aca695; --card: #1b201e; --line: rgba(232, 196, 120, .15); --edge: #040706;
     --ok: #5fcf8f; --bad: #f0705a;
-    --panel-bg: #232741; --panel-fg: #f4f0e6; --panel-muted: #aaa6c0; --panel-edge: #0b0c16; --panel-inner: #4a5078;
+    --accent-text: #e3b665;
+    --panel-bg: #171c1a; --panel-fg: #f3ede0; --panel-muted: #aaa392; --panel-edge: #040706; --panel-inner: #54472b;
     --drop: rgba(0, 0, 0, .6);
+    --btn-face: linear-gradient(180deg, #252b28, #171b19); --btn-ink: #f1eadb; --btn-line: rgba(226, 186, 104, .5); --btn-drop: #020403;
+    --table:
+      radial-gradient(ellipse 70% 50% at 50% -6%, rgba(255, 210, 140, .13), transparent 72%),
+      radial-gradient(ellipse 95% 90% at 50% 42%, transparent 48%, rgba(0, 0, 0, .55) 100%),
+      repeating-linear-gradient(45deg, rgba(232, 194, 116, .055) 0 1px, transparent 1px 28px),
+      repeating-linear-gradient(-45deg, rgba(232, 194, 116, .055) 0 1px, transparent 1px 28px),
+      linear-gradient(180deg, #133a33, #0b221e);
     --hue-l: 27%; --hue-c: 0.05; --acc-l: 82%; --acc-c: 0.1; --tint-l: 30%; --tint-c: 0.06;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #14162a; --fg: #efeaf8; --muted: #a29fb8; --card: #22253e; --line: #33375a; --edge: #070812;
+  --bg: #0e2722; --fg: #f1eadb; --muted: #aca695; --card: #1b201e; --line: rgba(232, 196, 120, .15); --edge: #040706;
   --ok: #5fcf8f; --bad: #f0705a;
-  --panel-bg: #232741; --panel-fg: #f4f0e6; --panel-muted: #aaa6c0; --panel-edge: #0b0c16; --panel-inner: #4a5078;
+  --accent-text: #e3b665;
+  --panel-bg: #171c1a; --panel-fg: #f3ede0; --panel-muted: #aaa392; --panel-edge: #040706; --panel-inner: #54472b;
   --drop: rgba(0, 0, 0, .6);
+  --btn-face: linear-gradient(180deg, #252b28, #171b19); --btn-ink: #f1eadb; --btn-line: rgba(226, 186, 104, .5); --btn-drop: #020403;
+  --table:
+    radial-gradient(ellipse 70% 50% at 50% -6%, rgba(255, 210, 140, .13), transparent 72%),
+    radial-gradient(ellipse 95% 90% at 50% 42%, transparent 48%, rgba(0, 0, 0, .55) 100%),
+    repeating-linear-gradient(45deg, rgba(232, 194, 116, .055) 0 1px, transparent 1px 28px),
+    repeating-linear-gradient(-45deg, rgba(232, 194, 116, .055) 0 1px, transparent 1px 28px),
+    linear-gradient(180deg, #133a33, #0b221e);
   --hue-l: 27%; --hue-c: 0.05; --acc-l: 82%; --acc-c: 0.1; --tint-l: 30%; --tint-c: 0.06;
 }
 :root[data-font="kai"] .hanzi { font-family: var(--font-kai); }
 
 * { box-sizing: border-box; }
 html, body {
-  margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-weight: 600;
+  margin: 0; color: var(--fg); font-family: var(--font); font-weight: 600;
   -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent;
   /* iOS : pas d'agrandissement automatique du texte en paysage, pas de menu « enregistrer l'image » a l'appui long. */
   -webkit-text-size-adjust: 100%; text-size-adjust: 100%; -webkit-touch-callout: none;
 }
-body { overscroll-behavior: none; }
+html { background: var(--bg); }
+/* La table de jade reste fixe sous les menus qui defilent ; photos et plateaux des ecrans de jeu la recouvrent. */
+body { overscroll-behavior: none; background: transparent; }
+body::before { content: ''; position: fixed; inset: 0; z-index: -2; background: var(--table); pointer-events: none; }
 button { font: inherit; color: inherit; }
 p { margin: 0; }
 
@@ -50,12 +82,31 @@ p { margin: 0; }
 }
 .topbar { display: flex; align-items: center; justify-content: space-between; height: calc(48 * var(--u)); font-size: calc(14 * var(--u)); color: var(--muted); font-weight: 800; }
 .topbar > * { min-width: calc(44 * var(--u)); }
-.topbar .title { text-align: center; font-variant-numeric: tabular-nums; }
+.topbar .title {
+  display: inline-flex; align-items: baseline; justify-content: center; gap: calc(10 * var(--u)); text-align: center; font-variant-numeric: tabular-nums;
+  color: var(--fg); font-size: calc(13 * var(--u)); font-weight: 900; letter-spacing: .12em; text-transform: uppercase;
+}
+/* Titre chinois d'un ecran (設定, 練習…), en kai, devant le titre traduit. */
+.title-zh { font-family: var(--font-kai); font-size: calc(22 * var(--u)); font-weight: 700; letter-spacing: .1em; text-transform: none; color: var(--accent-text); line-height: 1; }
 .progress { height: 3px; background: var(--line); border-radius: 2px; overflow: hidden; margin: 2px 0 calc(14 * var(--u)); }
 .progress > i { display: block; height: 100%; background: var(--fg); transition: width .3s ease; }
 
 h1 { font-size: calc(44 * var(--u)); font-weight: 900; margin: calc(28 * var(--u)) 0 0; letter-spacing: .01em; }
-h1 .hanzi { font-size: calc(50 * var(--u)); font-weight: 700; margin-right: calc(12 * var(--u)); }
+/* Logo : 日常 (kai, en colonne) dans un sceau de jade, comme l'icone de l'app (scripts/make-icons.mjs) : laque verte,
+   treillis dore, filet d'or, caracteres creme graves. */
+.logo-seal {
+  display: inline-flex; align-items: center; justify-content: center; writing-mode: vertical-rl; vertical-align: middle;
+  width: calc(66 * var(--u)); height: calc(66 * var(--u)); margin-right: calc(18 * var(--u)); border-radius: calc(13 * var(--u));
+  background:
+    radial-gradient(ellipse 90% 70% at 50% -10%, rgba(255, 241, 207, .3), transparent 70%),
+    repeating-linear-gradient(45deg, rgba(232, 194, 116, .14) 0 1px, transparent 1px 7px),
+    repeating-linear-gradient(-45deg, rgba(232, 194, 116, .14) 0 1px, transparent 1px 7px),
+    linear-gradient(180deg, #23806d, #0d3a31);
+  color: #f8ead0; font-family: var(--font-kai); font-weight: 700; font-size: calc(27 * var(--u)); line-height: 1.02; letter-spacing: -.04em;
+  outline: max(1px, calc(1.6 * var(--u))) solid rgba(226, 184, 99, .9); outline-offset: calc(-5 * var(--u));
+  box-shadow: 0 calc(3 * var(--u)) 0 rgba(4, 18, 15, .55), 0 calc(6 * var(--u)) calc(14 * var(--u)) rgba(0, 0, 0, .3);
+  text-shadow: 0 calc(1.5 * var(--u)) 0 rgba(6, 35, 29, .7);
+}
 h2 { font-size: calc(22 * var(--u)); font-weight: 800; margin: calc(8 * var(--u)) 0 calc(12 * var(--u)); }
 .subtitle { color: var(--muted); margin: calc(4 * var(--u)) 0 calc(28 * var(--u)); font-weight: 700; }
 
@@ -71,8 +122,15 @@ h2 { font-size: calc(22 * var(--u)); font-weight: 800; margin: calc(8 * var(--u)
 .stack { display: flex; flex-direction: column; gap: calc(6 * var(--u)); align-items: center; }
 .row { display: flex; align-items: center; gap: calc(10 * var(--u)); }
 .spacer { flex: 1; }
-.link { background: none; border: none; padding: calc(8 * var(--u)) calc(4 * var(--u)); color: var(--muted); cursor: pointer; font-size: calc(15 * var(--u)); font-weight: 800; }
+.link { display: inline-flex; align-items: center; gap: .45em; background: none; border: none; padding: calc(8 * var(--u)) calc(4 * var(--u)); color: var(--muted); cursor: pointer; font-size: calc(15 * var(--u)); font-weight: 800; letter-spacing: .02em; }
 .link:hover { color: var(--fg); }
+/* Petit sceau vermillon (un caractere en kai) : icone des liens du camp. */
+.link-seal {
+  display: inline-grid; place-items: center; width: 1.55em; height: 1.55em; border-radius: .2em; flex: none;
+  background: #b8322a; color: #fbe9dc; font-family: var(--font-kai); font-weight: 700; font-size: .95em; line-height: 1; text-shadow: none;
+  box-shadow: inset 0 0 0 max(1px, .09em) rgba(251, 233, 220, .75), 0 1px 2px rgba(0, 0, 0, .35); rotate: -5deg;
+}
+.link:hover .link-seal { rotate: 0deg; transition: rotate .15s; }
 .footer { display: flex; justify-content: center; gap: calc(24 * var(--u)); margin-top: auto; padding-top: calc(20 * var(--u)); }
 @media (min-width: 700px) { .app { padding-top: calc(calc(32 * var(--u)) + env(safe-area-inset-top)); } }
 

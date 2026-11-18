@@ -137,13 +137,24 @@ export function Choices({ options, correct, onAnswer }: { options: Choice[]; cor
   );
 }
 
-export function TopBar({ left, title, right }: { left?: ReactNode; title?: ReactNode; right?: ReactNode }) {
+/** Barre du haut ; `zh` : titre chinois de l'ecran (設定, 練習…), en kai devant le titre traduit. */
+export function TopBar({ left, title, zh, right }: { left?: ReactNode; title?: ReactNode; zh?: string; right?: ReactNode }) {
   return (
     <header className="topbar">
       <div>{left}</div>
-      <div className="title">{title}</div>
+      <div className="title">{zh && <span className="title-zh" lang="zh-Hant-TW">{zh}</span>}{title}</div>
       <div style={{ textAlign: 'right' }}>{right}</div>
     </header>
+  );
+}
+
+/** Titre de section : intitule traduit et mot chinois en kai (學習, 聲音…). */
+export function SectionTitle({ zh, children }: { zh?: string; children: ReactNode }) {
+  return (
+    <p className="section">
+      <span>{children}</span>
+      {zh && <span className="section-zh" lang="zh-Hant-TW">{zh}</span>}
+    </p>
   );
 }
 

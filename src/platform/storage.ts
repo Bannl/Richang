@@ -39,9 +39,31 @@ export function migrate(raw: unknown): AppState {
     run = { ...run, encounter: { ...run.encounter, replaysLeft: REPLAYS_PER_ENCOUNTER } };
   }
   const runsPlayed = r.runsPlayed ?? 0;
+  const bestDays = typeof r.bestDays === 'number' ? r.bestDays : 0;
+  // Run d'avant les journees : il devient la premiere journee (un run gagne contre l'ancien boss = journee reussie).
+  if (run && typeof (run as { day?: unknown }).day !== 'number') {
+    run = { ...run, day: 1, finals: [], seen: [], bestBefore: bestDays, dayStart: { correct: 0, wrong: 0, cards: 0 } };
+  }
+  if (run?.phase === 'won') run = { ...run, phase: 'dayEnd' };
   // Tutoriel : une progression d'avant le tutoriel (cartes, mots commences, runs) compte comme l'ayant vu.
   const tutorialDone = typeof r.tutorialDone === 'boolean' ? r.tutorialDone : unlocked.length > 0 || Object.keys(progress).length > 0 || runsPlayed > 0;
-  return { version: 1, settings, progress, days: r.days ?? {}, unlocked, run, runsPlayed, runsWon: r.runsWon ?? 0, tutorial: migrateTutorial(r.tutorial), tutorialDone };
+  return {
+    version: 1, settings, progress, days: r.days ?? {}, unlocked, run, runsPlayed, runsWon: r.runsWon ?? 0,
+    bestDays, bestWriting: typeof r.bestWriting === 'number' ? r.bestWriting : 0, drill: migrateDrill(r.drill),
+    tutorial: migrateTutorial(r.tutorial), tutorialDone,
+  };
+}
+
+/** Rencontre du mode Situation sauvegardee : gardee si elle est au format actuel, sinon abandonnee. */
+function migrateDrill(raw: unknown): AppState['drill'] {
+  if (!raw || typeof raw !== 'object') return null;
+  const d = raw as Partial<NonNullable<AppState['drill']>>;
+  if (typeof d.situation !== 'string' || !d.encounter || !Array.isArray(d.encounter.lines) || !Array.isArray(d.encounter.lines[0]?.segments)) return null;
+  return {
+    situation: d.situation, difficulty: d.difficulty ?? 'newcomer', encounter: d.encounter, hp: d.hp ?? 5,
+    status: d.status === 'done' || d.status === 'lost' ? d.status : 'battle', correct: d.correct ?? 0, wrong: d.wrong ?? 0,
+    seen: Array.isArray(d.seen) ? d.seen : [],
+  };
 }
 
 /** Tutoriel en cours sauvegarde : etape connue, et rencontre au format actuel (sinon on reprend a l'etape du trace). */

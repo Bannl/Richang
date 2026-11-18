@@ -6,6 +6,7 @@ import './styles.css';
 import './components.css';
 import './game.css';
 import './boards.css';
+import './modes.css';
 import './phone.css';
 import './tutorial.css';
 

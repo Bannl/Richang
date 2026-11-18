@@ -28,7 +28,8 @@ const dataDir = 'node_modules/hanzi-writer-data';
 const seen = new Set();
 const index = {};
 const missing = [];
-for (let t = 1; t <= 6; t++) {
+const maxTier = Math.max(7, ...words.map((w) => w.tier ?? 1)); // palier 7 toujours ecrit (import statique de src/data/hanzi.ts)
+for (let t = 1; t <= maxTier; t++) {
   const bundle = {};
   for (const w of words) {
     if (w.tier !== t) continue;

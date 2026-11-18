@@ -1,0 +1,10 @@
+{"situation":"greetings","scenes":[
+{"id":"greetings__cov-s1","topic":"Bise, câlin ou hochement de tête ?","lines":[
+{"speaker":"enemy","zh":"早安！週末快樂！","pinyin":"zǎo ān zhōu mò kuài lè","en":"Good morning! Happy weekend!","fr":"Bonjour ! Bon week-end !"},
+{"speaker":"player","zh":"週末快樂！","pinyin":"zhōu mò kuài lè","en":"Happy weekend!","fr":"Bon week-end !"},
+{"speaker":"enemy","zh":"法國人見面都會親一下嗎？","pinyin":"fà guó rén jiàn miàn dōu huì qīn yí xià ma","en":"Do French people kiss each other on the cheek when they meet?","fr":"Les Français se font la bise quand ils se voient ?"},
+{"speaker":"player","zh":"對，好朋友還會抱一下。","pinyin":"duì hǎo péng yǒu hái huì bào yí xià","en":"Yes. Close friends sometimes hug too.","fr":"Oui. Entre bons amis, on se prend aussi dans les bras."},
+{"speaker":"enemy","zh":"台灣人點頭微笑就好。","pinyin":"tái wān rén diǎn tóu wéi xiào jiù hǎo","en":"Taiwanese people just nod and smile.","fr":"Les Taïwanais, eux, se contentent d'un hochement de tête et d'un sourire."},
+{"speaker":"player","zh":"好，我也點頭微笑！","pinyin":"hǎo wǒ yě diǎn tóu wéi xiào","en":"OK, then I'll nod and smile too!","fr":"D'accord, alors moi aussi, je hoche la tête en souriant !"}],
+"keywords":["快樂","抱","點頭","微笑"]}
+]}
